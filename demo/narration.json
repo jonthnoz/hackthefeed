@@ -1,10 +1,10 @@
 [
-  { "id": "open", "text": "John built Sokka Map. It turns TikTok food videos into places on your map. He posted nineteen TikToks. His most viewed one: nine thousand views... and six likes." },
-  { "id": "question", "text": "The app works. The videos don't. So what should he actually show?" },
-  { "id": "brief", "text": "He describes his app to Angle. One sentence." },
+  { "id": "open", "text": "Say you built Splitly. It splits trip expenses between friends. Genuinely useful. But on TikTok, it's a spreadsheet. Nobody stops scrolling for a spreadsheet." },
+  { "id": "question", "text": "The app works. The video doesn't. So what should you actually show?" },
+  { "id": "brief", "text": "Describe your app to Angle. One sentence." },
   { "id": "research", "text": "Angle searches inside millions of videos with Oriane: what they show, say, and write on screen. Codex reads the frames and filters the noise." },
-  { "id": "results", "text": "One minute later: three creative directions, each backed by real videos people engaged with." },
-  { "id": "evidence", "text": "Every idea traces back to its source. This city guide, with forty-three thousand views, shows its map at second twenty-six." },
-  { "id": "storyboard", "text": "Then Angle turns it into a storyboard he can shoot tonight. You saved the food video. Now you're hungry. Where's the restaurant?" },
+  { "id": "results", "text": "About a minute later: three creative directions, each backed by real videos people engaged with." },
+  { "id": "evidence", "text": "Every idea traces back to its source. This couple's video, with a hundred and ninety thousand views, explains who pays for what, at second fifteen." },
+  { "id": "storyboard", "text": "Then Angle turns it into a storyboard you can shoot tonight. I paid dinner. You paid the taxi. Who actually owes whom?" },
   { "id": "end", "text": "Angle. Find your next video in the ones that already work." }
 ]

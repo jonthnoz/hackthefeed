@@ -1,5 +1,5 @@
 import type { CSSProperties, ReactNode } from 'react';
-import { AbsoluteFill, Audio, Easing, Img, OffthreadVideo, Sequence, continueRender, delayRender, interpolate, staticFile, useCurrentFrame } from 'remotion';
+import { AbsoluteFill, Audio, Easing, Img, Sequence, continueRender, delayRender, interpolate, staticFile, useCurrentFrame } from 'remotion';
 import { FPS, buildCaptions, totalSeconds, wordAt, type Capture, type DemoProps, type Scene } from './timeline';
 
 const C = { dark: '#14352b', deep: '#0d241d', paper: '#f6f5ef', lime: '#ddf78c', ink: '#183c30', muted: '#9fb3a6' };
@@ -56,57 +56,65 @@ function Step({ number, label }: { number: string; label: string }) {
   </div>;
 }
 
-function Phone({ src, x, rotate, delay, dim }: { src: string; x: number; rotate: number; delay: number; dim: number }) {
+const EXPENSES: [string, string, string][] = [
+  ['Airbnb, 3 nights', 'Léa', '€420.00'], ['Dinner at the port', 'Sam', '€96.50'], ['Ferry tickets', 'You', '€72.00'],
+  ['Groceries', 'Léa', '€41.20'], ['Taxi to airport', 'Sam', '€38.00'], ['Gelato', 'You', '€12.40'],
+  ['Beach chairs', 'Léa', '€30.00'], ['Fuel', 'Sam', '€64.10'], ['Museum', 'You', '€45.00'],
+];
+
+/** Illustrative mock of the example app: a perfectly useful, perfectly unfilmable expense list. */
+function SplitlyPhone({ swipe }: { swipe: number }) {
   const t = useSeconds();
-  const a = appear(t, delay, 0.9);
-  return <div style={{ position: 'absolute', left: x, top: 150, width: 330, height: 640, borderRadius: 44, overflow: 'hidden', border: '9px solid #0a0f0d', background: '#000', boxShadow: '0 40px 90px rgba(0,0,0,.45)', opacity: a, transform: `translateY(${(1 - a) * 80}px) rotate(${rotate}deg)` }}>
-    <OffthreadVideo src={staticFile(src)} muted style={{ width: '100%', height: '100%', objectFit: 'cover', filter: `grayscale(${dim}) brightness(${1 - dim * 0.45})` }} />
+  const a = appear(t, 0.5, 0.9);
+  return <div style={{ position: 'absolute', left: 1150, top: 130, width: 400, height: 800, borderRadius: 52, overflow: 'hidden', border: '10px solid #0a0f0d', background: '#fbfaf6', boxShadow: '0 40px 90px rgba(0,0,0,.45)', fontFamily: sans, color: '#1c1c1c', opacity: a * (1 - swipe), transform: `translateY(${(1 - a) * 80 - swipe * 900}px) rotate(${3 - swipe * 8}deg)` }}>
+    <div style={{ padding: '54px 30px 18px', borderBottom: '1px solid #e6e4dc' }}>
+      <div style={{ fontSize: 17, color: '#8a8a80', fontWeight: 600, letterSpacing: 1 }}>SPLITLY · GREECE TRIP</div>
+      <div style={{ fontSize: 34, fontWeight: 700, marginTop: 8 }}>You owe Léa <span style={{ color: '#c0563b' }}>€23.40</span></div>
+    </div>
+    {EXPENSES.map(([label, who, amount]) => <div key={label} style={{ display: 'flex', justifyContent: 'space-between', padding: '19px 30px', borderBottom: '1px solid #efede6', fontSize: 22 }}>
+      <span>{label}<br /><span style={{ fontSize: 16, color: '#9a9a90' }}>paid by {who}</span></span><span style={{ fontWeight: 600, fontVariantNumeric: 'tabular-nums' }}>{amount}</span>
+    </div>)}
   </div>;
 }
 
 function Open({ scene }: { scene: Scene }) {
   const t = useSeconds();
-  const posted = wordAt(scene, /nineteen/i, 4.5);
-  const views = wordAt(scene, /^nine$/i, 7.5);
-  const likes = wordAt(scene, /^six$/i, 9.5);
-  const count = Math.round(interpolate(t, [views, views + 1.1], [0, 9692], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: ease }));
-  const dim = appear(t, likes, 0.8);
+  const useful = wordAt(scene, /useful/i, 3.5);
+  const sheet = wordAt(scene, /^TikTok/i, 5);
+  const nobody = wordAt(scene, /Nobody/i, 7.5);
+  const swipe = interpolate(t, [nobody + 0.4, nobody + 1.1], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.in(Easing.cubic) });
+  const line = (at: number): CSSProperties => ({ opacity: appear(t, at - 0.1, 0.5), transform: `translateY(${(1 - appear(t, at - 0.1, 0.5)) * 20}px)` });
   return <AbsoluteFill style={{ background: `radial-gradient(circle at 75% 40%, #1d4a3b, ${C.deep} 65%)`, fontFamily: sans, color: '#fff' }}>
-    <div style={{ position: 'absolute', left: 130, top: 190, width: 900 }}>
-      <div style={{ fontSize: 24, letterSpacing: 4, color: C.lime, fontWeight: 700, opacity: appear(t, 0.2) }}>MEET JOHN · SOLO FOUNDER</div>
-      <div style={{ fontSize: 92, fontWeight: 700, lineHeight: 1.02, letterSpacing: -3, marginTop: 24, opacity: appear(t, 0.4) }}>He built<br />Sokka Map.</div>
-      <div style={{ fontSize: 40, color: C.muted, marginTop: 34, opacity: appear(t, posted - 0.1), transform: `translateY(${(1 - appear(t, posted - 0.1)) * 20}px)` }}><b style={{ color: '#fff' }}>19 TikToks</b> posted.</div>
-      <div style={{ display: 'flex', alignItems: 'baseline', gap: 36, marginTop: 30, opacity: appear(t, views - 0.1) }}>
-        <div style={{ fontSize: 120, fontWeight: 800, letterSpacing: -4, fontVariantNumeric: 'tabular-nums' }}>{count.toLocaleString('en-US')}<span style={{ fontSize: 40, fontWeight: 500, color: C.muted, letterSpacing: 0 }}> views</span></div>
-      </div>
-      <div style={{ fontSize: 120, fontWeight: 800, letterSpacing: -4, color: C.lime, lineHeight: 1, opacity: appear(t, likes - 0.05, 0.4), transform: `scale(${0.85 + 0.15 * appear(t, likes - 0.05, 0.4)})`, transformOrigin: 'left center' }}>6<span style={{ fontSize: 40, fontWeight: 500, letterSpacing: 0 }}> likes.</span></div>
+    <div style={{ position: 'absolute', left: 130, top: 220, width: 960 }}>
+      <div style={{ fontSize: 24, letterSpacing: 4, color: C.lime, fontWeight: 700, opacity: appear(t, 0.2) }}>EXAMPLE APP · TRAVEL</div>
+      <div style={{ fontSize: 96, fontWeight: 700, lineHeight: 1.02, letterSpacing: -3, marginTop: 24, opacity: appear(t, 0.4) }}>Say you built<br />Splitly.</div>
+      <div style={{ ...line(useful), fontSize: 44, color: C.muted, marginTop: 36 }}>It splits trip expenses. <b style={{ color: '#fff' }}>Genuinely useful.</b></div>
+      <div style={{ ...line(sheet), fontSize: 76, fontWeight: 800, letterSpacing: -2, lineHeight: 1.05, color: C.lime, marginTop: 40 }}>On TikTok,<br />it's a spreadsheet.</div>
     </div>
-    <Phone src="demo/sokka/7705106745051401504.mp4" x={1060} rotate={-6} delay={0.6} dim={dim} />
-    <Phone src="demo/sokka/7697274631098600736.mp4" x={1300} rotate={0} delay={0.9} dim={dim * 0.2} />
-    <Phone src="demo/sokka/7704042853609114913.mp4" x={1540} rotate={6} delay={1.2} dim={dim} />
-    <div style={{ position: 'absolute', left: 1300, top: 820, width: 330, textAlign: 'center', fontSize: 22, color: C.muted, opacity: appear(t, 1.6) }}>Real posts · @sokka_map</div>
+    <SplitlyPhone swipe={swipe} />
+    <div style={{ position: 'absolute', left: 1150, top: 470, width: 420, textAlign: 'center', fontSize: 34, fontWeight: 700, opacity: appear(t, nobody + 1.0, 0.4) }}>↑ Swiped away.</div>
   </AbsoluteFill>;
 }
 
 function Question({ scene }: { scene: Scene }) {
   const t = useSeconds();
-  const second = wordAt(scene, /videos/i, 1.2);
+  const second = wordAt(scene, /video/i, 1.2);
   const third = wordAt(scene, /^So$/i, 2.2);
   const line = (at: number): CSSProperties => ({ opacity: appear(t, at - 0.1, 0.5), transform: `translateY(${(1 - appear(t, at - 0.1, 0.5)) * 24}px)` });
   return <AbsoluteFill style={{ background: C.paper, color: C.ink, fontFamily: sans, justifyContent: 'center', paddingLeft: 180 }}>
     <div style={{ fontSize: 110, fontWeight: 700, letterSpacing: -4, lineHeight: 1.05 }}>
       <div style={line(0.2)}>The app works.</div>
-      <div style={line(second)}>The videos don't.</div>
+      <div style={line(second)}>The video doesn't.</div>
     </div>
-    <div style={{ ...line(third), fontFamily: serif, fontStyle: 'italic', fontSize: 76, marginTop: 40, color: '#4f6b5e' }}>So what should he actually show?</div>
+    <div style={{ ...line(third), fontFamily: serif, fontStyle: 'italic', fontSize: 76, marginTop: 40, color: '#4f6b5e' }}>So what should you actually show?</div>
   </AbsoluteFill>;
 }
 
 function Research({ scene, capture }: { scene: Scene; capture: Capture }) {
   const t = useSeconds();
   const end = scene.duration;
-  const time: [number, number][] = [[0, 9.9], [1.5, 11.4], [end - 1.3, 69.9], [end, 71.2]];
-  const elapsed = Math.max(0, Math.min(61, mapTime(time, t) - 10.1));
+  const time: [number, number][] = [[0, 12.1], [1.5, 13.6], [end - 1.3, 93.0], [end, 94.0]];
+  const elapsed = Math.max(0, Math.min(82, mapTime(time, t) - 12.4));
   const fast = t > 1.5 && t < end - 1.3;
   const chips = [[/show/i, 'What they show'], [/say/i, 'What they say'], [/write/i, 'What they write on screen']] as const;
   return <AbsoluteFill>
@@ -158,11 +166,11 @@ export function Demo({ scenes, live, brief, explore }: DemoProps) {
   const visuals: Record<string, ReactNode> = {
     open: <Open scene={scene('open')} />,
     question: <Question scene={scene('question')} />,
-    brief: <><CaptureView capture={brief} time={[[0, 2.5], [scene('brief').duration, 8.2]]} keys={[{ at: 0, s: 1.1, x: 960, y: 540 }, { at: 0.9, s: 2, x: 470, y: 560 }, { at: scene('brief').duration - 0.9, s: 2, x: 520, y: 580 }, { at: scene('brief').duration, s: 1, x: 960, y: 540 }]} /><Step number="01" label="John describes his app" /></>,
+    brief: <><CaptureView capture={brief} time={[[0, 2.5], [scene('brief').duration, 8.2]]} keys={[{ at: 0, s: 1.1, x: 960, y: 540 }, { at: 0.9, s: 2, x: 470, y: 560 }, { at: scene('brief').duration - 0.9, s: 2, x: 520, y: 580 }, { at: scene('brief').duration, s: 1, x: 960, y: 540 }]} /><Step number="01" label="Describe your app" /></>,
     research: <Research scene={scene('research')} capture={live} />,
     results: <><CaptureView capture={explore} time={[[0, 0.8], [scene('results').duration, 7.4]]} keys={[{ at: 0, s: 1, x: 960, y: 540 }, { at: 3.2, s: 1.3, x: 1000, y: 560 }, { at: scene('results').duration, s: 1.4, x: 1000, y: 600 }]} /><Step number="03" label="Creative directions, from real videos" /></>,
     evidence: <><CaptureView capture={explore} time={[[0, 7.4], [scene('evidence').duration, 17.0]]} keys={[{ at: 0, s: 1.4, x: 1000, y: 600 }, { at: 0.7, s: 1, x: 960, y: 540 }, { at: 1.6, s: 1.7, x: 1530, y: 440 }, { at: 4.6, s: 1.7, x: 1530, y: 440 }, { at: 5.5, s: 1.55, x: 1470, y: 620 }]} /><Step number="04" label="Every idea, traced to the source" /></>,
-    storyboard: <><CaptureView capture={explore} time={[[0, 22.2], [3.6, 26.3], [3.6001, 29.4], [6.8, 30.6], [scene('storyboard').duration, 30.6 + scene('storyboard').duration - 6.8]]} keys={[{ at: 0, s: 1, x: 960, y: 540 }, { at: 3.6, s: 1, x: 960, y: 540 }, { at: 4.1, s: 1.6, x: 760, y: 580 }, { at: 6.7, s: 1.6, x: 760, y: 580 }, { at: 7.5, s: 1.1, x: 1100, y: 600 }]} /><Step number="05" label="A storyboard he can shoot tonight" /></>,
+    storyboard: <><CaptureView capture={explore} time={[[0, 22.2], [3.6, 26.3], [3.6001, 29.4], [6.8, 30.6], [scene('storyboard').duration, 30.6 + scene('storyboard').duration - 6.8]]} keys={[{ at: 0, s: 1, x: 960, y: 540 }, { at: 3.6, s: 1, x: 960, y: 540 }, { at: 4.1, s: 1.6, x: 760, y: 580 }, { at: 6.7, s: 1.6, x: 760, y: 580 }, { at: 7.5, s: 1.1, x: 1100, y: 600 }]} /><Step number="05" label="A storyboard you can shoot tonight" /></>,
     end: <End />,
   };
   return <AbsoluteFill style={{ background: C.deep }}>

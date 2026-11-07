@@ -2,11 +2,13 @@
 // Scripted gestures and CSS animations run SLOW× slower while screenshots are taken in a loop;
 // timestamps are divided by SLOW, so playback at 1× shows real speed at a high frame rate.
 // Usage: bun run scripts/capture-journey.ts live | brief | explore <studyId>
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { chromium, type Locator } from 'playwright-core';
 
 const BASE = 'http://localhost:3000';
-const BRIEF = 'Sokka Map: share any TikTok or Instagram food video and the restaurant lands on your personal map. No more saved videos you never find again when you are hungry.';
+// The example app and the reference card to open come from demo/example.json.
+const example: { brief: string; reference: string } = JSON.parse(await readFile('demo/example.json', 'utf8'));
+const BRIEF = example.brief;
 const [journey = 'live', studyId = ''] = process.argv.slice(2);
 const SLOW = journey === 'live' ? 1 : 4;
 const directory = `public/journey/${journey}`;
@@ -107,7 +109,7 @@ if (journey === 'live' || journey === 'brief') {
   await scroll(260, 900);
   await sleep(900);
   mark('reference');
-  await click(page.getByRole('button', { name: /A city guide worth saving/ }).first(), 400);
+  await click(page.getByRole('button', { name: new RegExp(example.reference) }).first(), 400);
   await sleep(2200);
   mark('drawer');
   const thumbs = page.locator('.frame-strip button');
