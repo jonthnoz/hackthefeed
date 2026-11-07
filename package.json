@@ -1,0 +1,34 @@
+{
+  "name": "angle",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run server/index.ts",
+    "build": "vite build",
+    "check": "tsc --noEmit",
+    "test": "bun test",
+    "lint": "oxlint src server shared scripts trailer demo",
+    "trailer": "bun run scripts/render-trailer.ts"
+  },
+  "dependencies": {
+    "@remotion/bundler": "latest",
+    "@remotion/renderer": "latest",
+    "@vitejs/plugin-react": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest",
+    "vite": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "oxfmt": "latest",
+    "oxlint": "latest",
+    "playwright-core": "^1.65.0",
+    "typescript": "latest"
+  }
+}

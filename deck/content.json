@@ -1,0 +1,64 @@
+{
+  "team": "zoupi",
+  "track": "Track 01",
+  "problem": "John struggles to sell his app on TikTok because he can’t see which video angles work.",
+  "problem_context": "John is the solo founder of Sokka Map, an app that turns food videos into places on a map.",
+  "proof_number": "9,692 views.",
+  "proof_number_2": "6 likes.",
+  "proof_text": "His most-viewed of the 19 TikToks posted for Sokka Map.",
+  "proof_video": "research/oriane/sokka-media/7697274631098600736.mp4",
+  "proof_video_seconds": 1.0,
+  "solution": "Angle lets app builders turn videos that already perform into a storyboard, in about one minute.",
+  "screenshots": [
+    {
+      "caption": "Describe your app",
+      "journey": "brief",
+      "seconds": 7.6,
+      "box": [
+        160,
+        370,
+        760,
+        945
+      ]
+    },
+    {
+      "caption": "See videos that perform",
+      "journey": "explore",
+      "seconds": 6.4,
+      "box": [
+        236,
+        0,
+        1363,
+        1080
+      ]
+    },
+    {
+      "caption": "See why, frame by frame",
+      "journey": "explore",
+      "seconds": 13.6,
+      "box": [
+        1140,
+        0,
+        1920,
+        748
+      ]
+    },
+    {
+      "caption": "Shoot the storyboard",
+      "journey": "explore",
+      "seconds": 30.2,
+      "box": [
+        262,
+        360,
+        1013,
+        1080
+      ]
+    }
+  ],
+  "live_app": "10.50.0.73:3000",
+  "demo_video": "Google Drive · Angle demo",
+  "member": "John",
+  "role": "Solo founder · Team zoupi",
+  "live_app_url": "http://10.50.0.73:3000",
+  "demo_video_url": "https://drive.google.com/drive/folders/1G7SrAzAR3CIlIF5VJ3oxDM4M60S5N-lz?usp=sharing"
+}

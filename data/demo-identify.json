@@ -1,0 +1,182 @@
+{
+  "id": "demo-identify",
+  "product": "Sokka Map",
+  "tagline": "The place is in the video. The address doesn’t have to be.",
+  "brief": "Sokka can identify addresses that are not explicitly mentioned, using visual and contextual clues in a social video.",
+  "promise": "Find a place from the clues in a video",
+  "question": "How do you show the value of finding an address nobody mentioned?",
+  "createdAt": "2026-11-07T16:00:00.000Z",
+  "origin": "curated",
+  "language": "English",
+  "overview": "Treat the missing address as the beginning of a tiny investigation. Nearby references show a useful structure: a visual question, clues, a match, and a reveal. These are creative mechanisms, not direct competitor benchmarks.",
+  "searchNotes": [
+    "Mechanism-inspired direction. Direct comparable app examples were scarce.",
+    "GeoGuessr and reverse-image search are neighboring demonstrations, not Sokka competitors.",
+    "A proposed demo must verify that the address is absent from the inputs used."
+  ],
+  "references": [
+    {
+      "id": "cnt_6cad656b5445061640df43053530",
+      "title": "The moon is a location clue.",
+      "creator": "zi8gzag",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@zi8gzag/video/7694704032438340872",
+      "thumbnail": "/media/cnt_6cad656b5445061640df43053530-thumb.webp",
+      "publishedAt": "2026-10-09T16:21:38.000Z",
+      "views": 271100,
+      "likes": 10100,
+      "comments": 32,
+      "shares": 382,
+      "interactions": 10514,
+      "engagementRate": 3.8782736997417926,
+      "duration": 56,
+      "caption": "every time geoguessr players used the moon",
+      "transcript": "Some professional GeoGuessr players have started using the positions of the moon and the planets in the sky to determine where they are. Let me explain. So some countries, like the United Kingdom, have extremely dense street view. The red lines on this map represent everywhere the Google car has been. Contrast this with the African country of Botswana, where only the main roads have Google coverage. In addition to this, all the Botswana coverage was actually done in mid-2012, meaning it's been in GeoGuessr ever since GeoGuessr came out. And so people, such as the Norwegian Geoguesser Pro Havard, have studied the roads of Botswana meticulously, and realized that when the Google car drove the A2 highway in June 2012, the moon was to the northwest of the car in the sky. You can see this if you zoom in all the way, and it can actually help you distinguish this road. What's even crazier is that on the highway A35, if you zoom in just over the tree canopy to the east, you can see Venus, and it follows you along for pretty much the whole road, leading to very close guesses.",
+      "frames": [
+        {
+          "url": "/media/cnt_6cad656b5445061640df43053530-0.webp",
+          "seconds": 0,
+          "text": ""
+        },
+        {
+          "url": "/media/cnt_6cad656b5445061640df43053530-1.webp",
+          "seconds": 23.03,
+          "text": "done in mid · Search Google Maps · Central District · Google Street View · Jun 2012"
+        },
+        {
+          "url": "/media/cnt_6cad656b5445061640df43053530-2.webp",
+          "seconds": 54.03,
+          "text": "road"
+        }
+      ],
+      "relevance": "mechanism",
+      "relevanceReason": "GeoGuessr players infer a location from visual clues. Transfer the clue-to-proof sequence, not the gaming context.",
+      "format": "Explainer + visual evidence",
+      "hook": "Some GeoGuessr players use the moon to determine where they are."
+    },
+    {
+      "id": "cnt_e79aa0446642aa50a9a39776c7c3",
+      "title": "One image. The exact object, found.",
+      "creator": "tremont_home",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reel/DceWpCsgjHt/",
+      "thumbnail": "/media/cnt_e79aa0446642aa50a9a39776c7c3-thumb.webp",
+      "publishedAt": "2026-08-27T15:42:04.000Z",
+      "views": 36010,
+      "likes": 611,
+      "comments": 14,
+      "shares": 29,
+      "interactions": 654,
+      "engagementRate": 1.8161621771730074,
+      "duration": 35.988,
+      "caption": "A “sold” listing is really just the start of a rabbit hole if you know to use reverse image search. Tell your vintage loving friends!!",
+      "transcript": "My secondhand online shoppers, are you using reverse image search to its fullest extent? I wanted to include this vintage Italian-made ceramic shell in my latest newsletter, but the day before the newsletter went live, it sold out. But because I am no stranger to reverse image search, I saved the item listing image to my downloads, opened images.google.com, dragged this image in there, and I found an eBay listing for the exact same item for $23 instead of $36. And that shell went on to sell within the first 30 minutes of my newsletter being live, and that person got a better deal than the one I was originally going to link to. It never hurts to do a little reverse image search.",
+      "frames": [
+        {
+          "url": "/media/cnt_e79aa0446642aa50a9a39776c7c3-0.webp",
+          "seconds": 4.13,
+          "text": "Homenage > Home & Living > Home Decor > Wall Decor > Wall Hangings · This item is sold out. · $36.00\nVintage Bassano Italian Ceramic Clam Shell Woll Art\nGreen and White Striped Majica Coastal Seashell\nMarieCevitang ★ ★★★★ · Item details · Highlights\nHandpicked by MarleeCoVintage\nVintage from the 1960s\nMaterials: Ceramic\nWidth: 8 inches\nHeight: 8 inches · Depth: 2.5 inches · with rich green painted stripes, thie 3D piece · Report this item to Etsy · Learn more about this item · Be the first to review this item · Did you know? · MOOE"
+        },
+        {
+          "url": "/media/cnt_e79aa0446642aa50a9a39776c7c3-1.webp",
+          "seconds": 18.9,
+          "text": "Google · Search for images · ↓ · Saves · images.google.co · m · NOIECO"
+        },
+        {
+          "url": "/media/cnt_e79aa0446642aa50a9a39776c7c3-2.webp",
+          "seconds": 33.83,
+          "text": "36 · ECO"
+        }
+      ],
+      "relevance": "mechanism",
+      "relevanceReason": "A reference image becomes a matching item through reverse image search. It is product identification, not place identification.",
+      "format": "UGC + search demonstration",
+      "hook": "Are you using reverse image search to its fullest extent?"
+    },
+    {
+      "id": "cnt_e4187482e35d3f40840ec91df00d",
+      "title": "Turn a visual question into a reveal.",
+      "creator": "newslitproject",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reel/Dc3w-rnis8u/",
+      "thumbnail": "/media/cnt_e4187482e35d3f40840ec91df00d-thumb.webp",
+      "publishedAt": "2026-09-04T16:01:06.000Z",
+      "views": 404076,
+      "likes": 30621,
+      "comments": 219,
+      "shares": 1274,
+      "interactions": 32114,
+      "engagementRate": 7.94751482394401,
+      "duration": 155.014,
+      "caption": "Is that painting real or AI-generated? This week's Two Truths and AI is a toughie. Steps you can take to assess each piece of art include examining proportions, looking closely at text and also doing a reverse image search. So ... how'd you do? Let us know in the comments! #2TruthsAndAI #AILiteracy #MediaLiteracy #PaintingsOfInstagram",
+      "transcript": "Can you separate a real painting from a computer generated one? Let's find out. This is Two Truths and AI. Number one. Number two. Number three. Number three. This one was tough. So let's think it through. AI generated images can sometimes get the proportions wrong. Could that be why this boy's head looks a little too large for his body? Or was that the artist's choice? We also know that image generators can struggle with creating realistic text. They can sometimes mush together letters, mix different font styles, or even invent characters. The cat painting has a signature on it that looks authentic. But while text can be a useful clue, it's not a guarantee that something is or isn't AI. Now, let's zoom in on the horse painting. We can see lots of detail in the brush strokes, which makes me think that it's legit. But notice how both the man's legs are behind the horse? Is that an AI tool making a mistake? A great way to tell if an image is AI generated is by doing a reverse image search. There are several reverse image search tools out there. But today I'm going to use one called TinEye. What we'll do is save or screenshot the image, head to TinEye.com, upload it, and carefully look through the matches. Okay, now for the actual answer. The boy with the book? That's a real painting. It was titled J. Ellis Bonham and was painted in 1825 by William Bunnell. And from my search, I learned that it's currently held at the Art Institute of Chicago. The cat painting? Yeah, that's also real. This piece is called Winter Cat on a Cushion and was painted in 1909. As for the horse painting, TinEye could not find a horse painting. single matching results. Now if you do a reverse image search and you don't get any results, it doesn't automatically mean that it is AI generated. But in this case it's pretty telling. For a genuine piece of art you would expect it to be paired with basic details like the title, the artist, the year it was made. And if you can't seem to find any of that information be skeptical or at the very least file it away as unconfirmed. But I can tell you for a fact that this one is AI because we pulled it from Midjourney's Explorer page. Did you get it right this week? Let us know in the comments and stay tuned for the next episode of Two Truths in AI.",
+      "frames": [],
+      "relevance": "mechanism",
+      "relevanceReason": "The viewer is invited to inspect images before a reveal. This supplies a curiosity structure, not proof about Sokka’s competitors.",
+      "format": "Visual quiz + explanation",
+      "hook": "Can you separate a real painting from a computer-generated one?"
+    }
+  ],
+  "angles": [
+    {
+      "id": "clue-reveal",
+      "title": "Make the viewer investigate.",
+      "label": "CLUE → REVEAL",
+      "description": "Show a place with no address, invite a guess, then reveal a verified match.",
+      "whyItFits": "The gap between a beautiful place and an unknown address makes Sokka’s capability visible.",
+      "evidence": "GeoGuessr explains how clues reveal a position. The visual quiz holds the answer until viewers inspect the image.",
+      "referenceIds": [
+        "cnt_6cad656b5445061640df43053530",
+        "cnt_e4187482e35d3f40840ec91df00d"
+      ],
+      "suggestedHook": "No name. No address. Can we still find this place?",
+      "visualDirection": "A video freeze-frame, subtle highlights on real clues, then the matching place and address."
+    },
+    {
+      "id": "image-result",
+      "title": "Keep the proof in frame.",
+      "label": "BEFORE → MATCH",
+      "description": "Place the original image and the found result next to each other so the viewer can judge the match.",
+      "whyItFits": "An AI claim is less useful than seeing why the result is the same place.",
+      "evidence": "The secondhand-search creator uses an image to retrieve the exact item. The transfer is the visible matching sequence.",
+      "referenceIds": [
+        "cnt_e79aa0446642aa50a9a39776c7c3",
+        "cnt_6cad656b5445061640df43053530"
+      ],
+      "suggestedHook": "This video never gives you the address. Watch this.",
+      "visualDirection": "Source on the left, found place on the right. Reveal matching details before the map pin."
+    }
+  ],
+  "storyboard": {
+    "title": "No address. Still found.",
+    "premise": "A short visual mystery with an inspectable product reveal.",
+    "hook": "No name. No address. Can we still find this place?",
+    "scenes": [
+      {
+        "time": "00–04s",
+        "visual": "An appealing place in a video. Show that the visible caption contains no address.",
+        "voiceover": "You want to go here. There’s just one problem."
+      },
+      {
+        "time": "04–08s",
+        "visual": "Pause on real contextual details. Keep the question unresolved.",
+        "voiceover": "Nobody tells you where it is."
+      },
+      {
+        "time": "08–18s",
+        "visual": "Send the video to Sokka. Show the actual matched place beside the original.",
+        "voiceover": "Sokka uses the clues to find the place."
+      },
+      {
+        "time": "18–25s",
+        "visual": "Reveal the verified address and save it to the map.",
+        "voiceover": "From “where is that?” to “let’s go.”"
+      }
+    ],
+    "callToAction": "Find the place behind the video.",
+    "sourceIds": [
+      "cnt_6cad656b5445061640df43053530",
+      "cnt_e79aa0446642aa50a9a39776c7c3"
+    ]
+  }
+}

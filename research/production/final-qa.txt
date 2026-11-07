@@ -1,0 +1,33 @@
+Angle final verification, 2026-11-07
+
+App
+- Actual fresh Oriane + Codex CLI study completed. Original proof remains live-smoke-result.json.
+- Replaying its exact brief returns cached:true without fresh paid search.
+- All three examples and the persisted live study opened in the browser.
+- Home and study have no horizontal overflow at 1440px; all displayed images loaded.
+- Relevance filter reduced Sokka source library to its two direct references.
+- Source drawer switched from opening frame to 26-second map proof and exposed the actual transcript.
+- Storyboard edit survived reload. Restore original worked. Export displayed success.
+- Clipboard was unavailable in the automated browser. The app displayed its export fallback; clipboard access depends on browser permission.
+- Missing study now returns friendly HTTP404. Cached references with unclassified format display an explicit fallback, without inventing a format. WPS evidence frames are chronological.
+- Final tsc, oxlint, production build and Bun tests passed. 11 tests, 231 assertions.
+
+Video
+- Final MP4 has H.264 video, 1920x1080, 30fps, AAC stereo at 48kHz, exact duration90.000seconds, 35,997,709bytes.
+- Whole submission MP4 decoded without errors.
+- Browser reported duration90, readyState4, errornull. Playback started at49seconds and advanced to66.75seconds without error.
+- Eight final encoded scenes visually inspected through video-contact-sheet.png; representative full-resolution scene stills inspected separately.
+- Narration signal checked before muxing: mean -17.8dB, maximum -1.3dB. This is a signal check, not a subjective listening review.
+- 31 timed English subtitles, positive durations, no overlaps, none outside90seconds. Subtitles visible in final encoded frames; SRT companion included.
+- No development placeholders in final export. Real application screens and actual source frames used.
+
+Deck
+- Three native editable PPTX slides and three-page PDF companion.
+- Team zoupi, John, Solo founder. Actual screenshots and source images.
+- Independent full-slide visual inspection and coordinator montage inspection passed. QA files retained in deck-preview/.
+- Localhost explicitly labeled local prototype. Nothing uploaded.
+
+Principles applied
+- Prove It Works: checked actual browser behavior, raw source records, and encoded deliverables.
+- Type System Discipline: shared schemas parse API, cached and model outputs.
+- Model the Domain: references, studies, directions, storyboards and research jobs have explicit shared shapes.

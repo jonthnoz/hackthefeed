@@ -1,0 +1,90 @@
+{
+  "searchCalls": 15,
+  "assetCreations": 6,
+  "returnedRows": 90,
+  "uniqueContentIds": 76,
+  "rateChecks": 90,
+  "rateMismatches": 0,
+  "nonOverlappingAnchoredPages": true,
+  "hybridObservableConstraintsPassed": true,
+  "hybridCaptionLanguageNotExposedInDefaultProjection": true,
+  "controlledThresholdSameFirstPage": true,
+  "detailedSampleSize": 6,
+  "detailedVideosWithEarlyFrames": 4,
+  "detailedVideosWithTranscript": 4,
+  "detailedFirstChunksConfinedToThreeSeconds": 0,
+  "details": [
+    {
+      "id": "cnt_4c2eaff6a5de128426577775304a",
+      "handle": "lesfrenchiestravel",
+      "frameCount": 7,
+      "firstFrameSeconds": 2,
+      "earlyFrameCount": 1,
+      "hasTranscript": true,
+      "firstChunkEndSeconds": 5.52,
+      "captionLanguage": "en",
+      "transcriptLanguage": "en",
+      "firstChunkConfinedToThreeSeconds": false
+    },
+    {
+      "id": "cnt_300f3c68e0e49c73d9f0d36a165a",
+      "handle": "ziggodome",
+      "frameCount": 8,
+      "firstFrameSeconds": 0,
+      "earlyFrameCount": 4,
+      "hasTranscript": false,
+      "firstChunkEndSeconds": null,
+      "captionLanguage": "nl",
+      "transcriptLanguage": null,
+      "firstChunkConfinedToThreeSeconds": false
+    },
+    {
+      "id": "cnt_b7d44a918baafc73c3d2b5d5a2e1",
+      "handle": ".doanii",
+      "frameCount": 101,
+      "firstFrameSeconds": 0,
+      "earlyFrameCount": 6,
+      "hasTranscript": true,
+      "firstChunkEndSeconds": 7.12,
+      "captionLanguage": null,
+      "transcriptLanguage": "ja",
+      "firstChunkConfinedToThreeSeconds": false
+    },
+    {
+      "id": "cnt_3d10d4ae4a9f2e673459becca9fe",
+      "handle": "hobonichitecho_official",
+      "frameCount": 7,
+      "firstFrameSeconds": 0,
+      "earlyFrameCount": 5,
+      "hasTranscript": false,
+      "firstChunkEndSeconds": null,
+      "captionLanguage": "ja",
+      "transcriptLanguage": "id",
+      "firstChunkConfinedToThreeSeconds": false
+    },
+    {
+      "id": "cnt_345fc11e78885cd4f4c8473756be",
+      "handle": "precious_contentcreator4",
+      "frameCount": 53,
+      "firstFrameSeconds": 4.03,
+      "earlyFrameCount": 0,
+      "hasTranscript": true,
+      "firstChunkEndSeconds": 5.215,
+      "captionLanguage": "en",
+      "transcriptLanguage": "en",
+      "firstChunkConfinedToThreeSeconds": false
+    },
+    {
+      "id": "cnt_fe669ff4f9677d96bb1236ad3ed4",
+      "handle": "david.and.rebecca",
+      "frameCount": 155,
+      "firstFrameSeconds": 5.5,
+      "earlyFrameCount": 0,
+      "hasTranscript": true,
+      "firstChunkEndSeconds": 3.9,
+      "captionLanguage": "en",
+      "transcriptLanguage": "en",
+      "firstChunkConfinedToThreeSeconds": false
+    }
+  ]
+}

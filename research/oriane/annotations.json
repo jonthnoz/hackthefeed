@@ -1,0 +1,134 @@
+{
+  "scope": "Single-reviewer exploratory annotation. Top six per query, not a random or representative sample. Thumbnails establish visible components, not complete video format.",
+  "style": [
+    {
+      "experiment": "T05-vision-ugc",
+      "compatible": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "uncertain": [
+        1
+      ],
+      "incompatible": [
+        6
+      ],
+      "notes": [
+        "2: face camera plus app on phone",
+        "3: face camera plus app overlay",
+        "4: face camera plus app logo",
+        "5: casual selfie",
+        "1: designed promotional cover; video not established by thumbnail",
+        "6: podcast interview, not casual app testimonial"
+      ]
+    },
+    {
+      "experiment": "T06-vision-motion",
+      "candidate": [
+        5
+      ],
+      "uncertain": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "notes": [
+        "Five thumbnails/captions concern making graphics or editing, not clean examples of app motion-design ads.",
+        "5: Ziggo Dome graphic app promotion. Indexed frames at 0, 4.64 and 17 s inspected; first is black, later frames show UI/typography and closing logo.",
+        "Static thumbnails do not validate motion quality or a whole-video label. Retrieval gate remains inconclusive for pure motion design."
+      ]
+    },
+    {
+      "experiment": "T07-vision-anime",
+      "containsAnime": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "mixedPresenter": [
+        1,
+        5
+      ],
+      "notes": [
+        "All six thumbnails contain anime imagery.",
+        "1 and 5 also prominently show a presenter. These results are not six pure anime productions or six app advertisements."
+      ]
+    }
+  ],
+  "travelRelevance": [
+    {
+      "position": 1,
+      "label": "adjacent",
+      "reason": "Paris trip planner, one map instead of many tabs."
+    },
+    {
+      "position": 2,
+      "label": "adjacent",
+      "reason": "Restaurant guide avoids tourist traps; same discovery domain."
+    },
+    {
+      "position": 3,
+      "label": "irrelevant",
+      "reason": "Coffee personality joke; no defensible saved-place app transfer."
+    },
+    {
+      "position": 4,
+      "label": "adjacent",
+      "reason": "Local discovery app launch; different city and event-based angle."
+    },
+    {
+      "position": 5,
+      "label": "mechanism",
+      "reason": "Travel mistake/cost hook; no saved-place function established."
+    },
+    {
+      "position": 6,
+      "label": "direct",
+      "reason": "Trip Builder saves travel posts, locates places and creates itinerary."
+    }
+  ],
+  "secondDomainRelevance": [
+    {
+      "position": 1,
+      "label": "adjacent",
+      "reason": "Oral-B companion app visualizes brushing habits/progress/goals."
+    },
+    {
+      "position": 2,
+      "label": "adjacent",
+      "reason": "Workout planning website; related need, not mobile app competitor."
+    },
+    {
+      "position": 3,
+      "label": "mechanism",
+      "reason": "Driving-theory app illustrates targeted practice and progress."
+    },
+    {
+      "position": 4,
+      "label": "mechanism",
+      "reason": "Podcast explains AI companion; interview rather than app creative."
+    },
+    {
+      "position": 5,
+      "label": "adjacent",
+      "reason": "Mood tracker feature demonstrated in a journaling app."
+    },
+    {
+      "position": 6,
+      "label": "irrelevant",
+      "reason": "Skincare partnership within routine discussion, no app demonstrated."
+    }
+  ],
+  "limitations": [
+    "The second-domain asset mixes habits, workouts and language learning; this is a smoke test of broader retrieval, not a controlled cross-domain precision evaluation.",
+    "No independent label agreement evaluation.",
+    "No automated classifier or LLM expansion was implemented or evaluated."
+  ]
+}

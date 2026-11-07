@@ -1,0 +1,10 @@
+[
+  {"id":"opening","start":0,"duration":8,"voiceover":"You built the app. But how do you make people care?","title":"You built the app."},
+  {"id":"introduce","start":8,"duration":10,"voiceover":"Meet Angle. A creative research partner for app builders who would rather build than spend hours studying the feed.","title":"Find your next creative direction."},
+  {"id":"search","start":18,"duration":12,"voiceover":"Start with your app and the promise you want to show. Angle searches with Oriane, through what videos show, say, and write on screen.","title":"Search inside the video."},
+  {"id":"directions","start":30,"duration":13,"voiceover":"It looks beyond direct competitors, to nearby problems and useful demonstrations. Then it filters the noise and brings back references with real interaction signals.","title":"Useful patterns. Real references."},
+  {"id":"evidence","start":43,"duration":13,"voiceover":"Open a direction and see the evidence. The hook. The product moment. The exact frame. Every interpretation stays connected to its source.","title":"See why it fits."},
+  {"id":"storyboard","start":56,"duration":12,"voiceover":"For Sokka, show a simple story: too many saved videos, one real plan. Angle turns that direction into a storyboard you can shoot.","title":"An idea you can actually shoot."},
+  {"id":"switch","start":68,"duration":12,"voiceover":"Change the promise, and the research changes. Finding a missing address leads to clues, visual search, and a reveal. Different value. Different creative direction.","title":"Different promise. Different angle."},
+  {"id":"closing","start":80,"duration":10,"voiceover":"From video evidence to your next idea. Angle. Find your angle. Then make it yours.","title":"Find your angle."}
+]

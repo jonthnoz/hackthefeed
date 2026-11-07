@@ -1,0 +1,31 @@
+ANGLE DECK / FINAL EXPORT
+
+Build: node scripts/build-deck.mjs --wait 1800
+
+Editable PPTX: /Users/macos/git/oriane/output/submission/angle-deck.pptx
+
+PDF companion: /Users/macos/git/oriane/output/submission/angle-deck.pdf
+
+PDF uses three rendered slide images because the artifact-tool presentation API supports PNG/JPEG/WebP/layout, not PDF. PPTX remains native editable text/shapes plus individual real images.
+
+Retained scratch: /var/folders/q4/n7pk_1493vvdn5b4365s99sw0000gn/T/codex-presentations/01a1b629-8106-77c2-9682-09283d65c046/angle-deck
+
+Renders + montage: /var/folders/q4/n7pk_1493vvdn5b4365s99sw0000gn/T/codex-presentations/01a1b629-8106-77c2-9682-09283d65c046/angle-deck/tmp/final/preview
+
+Team: zoupi; John — Solo founder.
+
+Four actual Angle app screenshots embedded; paths, dimensions and SHA-256 hashes recorded in source-notes.txt.
+
+Companion video: angle-demo.mp4 is complete in output/submission; verified by the coordinator. This builder references it without changing video files.
+
+QA: all three slides rendered and montage saved. Full-size visual review and PPTX archive/font checks are recorded separately in scratch qa/visual-qa.txt after inspection.
+
+Sources: real Sokka public video frames, local qualitative Sokka research, user instructions, real Angle screenshots, data/submission.json. No invented statistics or team identity.
+
+Ownership: only scripts/build-deck.mjs, research/production/deck-notes.txt, presentation scratch, final angle-deck.pptx/pdf were written. No app/frontend/backend/trailer/package edits. No uploads.
+
+FINAL VISUAL QA: PASS. All three final renders inspected at full size; three-slide contact sheet reviewed. Native PPTX verified (3 slides, 55 text runs, 6 separate screenshot/source image objects, Arial + Georgia). PDF verified as 3 pages at 16:9. Local hyperlink targets verified. Builder syntax/lint pass. QA ledger: /var/folders/q4/n7pk_1493vvdn5b4365s99sw0000gn/T/codex-presentations/01a1b629-8106-77c2-9682-09283d65c046/angle-deck/tmp/final/qa/visual-qa.txt
+
+Submission companion video: complete and verified; deck and PDF are complete. No screenshot dependencies remain.
+
+Temporary presentation workspace moved to Trash after copying renders and QA records into research/production/deck-preview/.

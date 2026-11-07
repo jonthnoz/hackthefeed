@@ -1,0 +1,67 @@
+{
+  "scope": "One independent text-based assessment; initial balanced comparison only; not representative precision.",
+  "summary": [
+    {
+      "subject": "saved-places",
+      "strategy": "A",
+      "uniqueCandidates": 12,
+      "counts": {
+        "irrelevant": 6,
+        "adjacent": 5,
+        "direct": 1
+      }
+    },
+    {
+      "subject": "saved-places",
+      "strategy": "B",
+      "uniqueCandidates": 11,
+      "counts": {
+        "irrelevant": 10,
+        "uncertain": 1
+      }
+    },
+    {
+      "subject": "identify-place",
+      "strategy": "A",
+      "uniqueCandidates": 12,
+      "counts": {
+        "mechanism": 3,
+        "adjacent": 2,
+        "irrelevant": 5,
+        "uncertain": 1,
+        "direct": 1
+      }
+    },
+    {
+      "subject": "identify-place",
+      "strategy": "B",
+      "uniqueCandidates": 11,
+      "counts": {
+        "irrelevant": 10,
+        "uncertain": 1
+      }
+    },
+    {
+      "subject": "flashcards",
+      "strategy": "A",
+      "uniqueCandidates": 12,
+      "counts": {
+        "irrelevant": 5,
+        "adjacent": 2,
+        "direct": 4,
+        "uncertain": 1
+      }
+    },
+    {
+      "subject": "flashcards",
+      "strategy": "B",
+      "uniqueCandidates": 12,
+      "counts": {
+        "irrelevant": 7,
+        "adjacent": 3,
+        "uncertain": 1,
+        "direct": 1
+      }
+    }
+  ]
+}

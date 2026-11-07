@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.cache/
+.audit/
+output/
+public/trailer/
+research/production/pdf-context/
+public/journey/
+public/demo/
+.DS_Store

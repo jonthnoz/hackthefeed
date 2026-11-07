@@ -1,0 +1,47 @@
+[
+  {
+    "id": "saved-places",
+    "text": "A person demonstrating a smartphone travel app: saving restaurant and travel videos to places on a map, collecting favorite locations and organizing a trip.",
+    "response": {
+      "data": {
+        "id": "ast_8l2i3VlhYafNDeBQXSt3rNI2S2kf"
+      },
+      "metadata": {
+        "requestId": "req_GfKvMsU3Qx60Hehdzcf6ssctRwBu",
+        "executionTime": 119,
+        "timestamp": 1794055552730
+      }
+    },
+    "assetId": "ast_8l2i3VlhYafNDeBQXSt3rNI2S2kf"
+  },
+  {
+    "id": "identify-place",
+    "text": "A person identifies an unknown place from an image or video: visual clues, reverse image search, Google Lens or geolocation reveal the exact location on a map.",
+    "response": {
+      "data": {
+        "id": "ast_gm7m1kVoymS3Y0VU0kd5nIKEYJLO"
+      },
+      "metadata": {
+        "requestId": "req_NkCGbIlS69bS7M4oXOfbe8rGCwmv",
+        "executionTime": 68,
+        "timestamp": 1794055552912
+      }
+    },
+    "assetId": "ast_gm7m1kVoymS3Y0VU0kd5nIKEYJLO"
+  },
+  {
+    "id": "flashcards",
+    "text": "A student demonstrates a mobile flashcard app, turns study notes into questions, practices active recall and tracks learning progress before an exam.",
+    "response": {
+      "data": {
+        "id": "ast_t9Oob3HNGN94vvftT6Jg7PLTSvKk"
+      },
+      "metadata": {
+        "requestId": "req_V9kE0eCxLGYLJd3CueHrXTMYAdO7",
+        "executionTime": 140,
+        "timestamp": 1794055553342
+      }
+    },
+    "assetId": "ast_t9Oob3HNGN94vvftT6Jg7PLTSvKk"
+  }
+]

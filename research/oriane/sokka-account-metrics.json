@@ -1,0 +1,46 @@
+{
+  "source": "Influencers.club via Firecrawl Alexandria",
+  "scope": "Five selected publications; snapshot counts, no shares field; likes/view is not total engagement",
+  "selected": [
+    {
+      "id": "7705106745051401504",
+      "url": "https://www.tiktok.com/@sokka_map/video/7705106745051401504?lang=en",
+      "views": 729,
+      "likes": 47,
+      "comments": 0,
+      "likesPerViewPercent": 6.447
+    },
+    {
+      "id": "7704775856211758368",
+      "url": "https://www.tiktok.com/@sokka_map/video/7704775856211758368?lang=en",
+      "views": 758,
+      "likes": 42,
+      "comments": 0,
+      "likesPerViewPercent": 5.541
+    },
+    {
+      "id": "7704042853609114913",
+      "url": "https://www.tiktok.com/@sokka_map/video/7704042853609114913?lang=en",
+      "views": 736,
+      "likes": 14,
+      "comments": 0,
+      "likesPerViewPercent": 1.902
+    },
+    {
+      "id": "7697287517472640289",
+      "url": "https://www.tiktok.com/@sokka_map/video/7697287517472640289?lang=en",
+      "views": 814,
+      "likes": 17,
+      "comments": 0,
+      "likesPerViewPercent": 2.088
+    },
+    {
+      "id": "7697274631098600736",
+      "url": "https://www.tiktok.com/@sokka_map/video/7697274631098600736?lang=en",
+      "views": 9692,
+      "likes": 6,
+      "comments": 0,
+      "likesPerViewPercent": 0.062
+    }
+  ]
+}

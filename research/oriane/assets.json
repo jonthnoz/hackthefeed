@@ -1,0 +1,72 @@
+[
+  {
+    "name": "travel",
+    "prompt": "A mobile travel app demonstration on a smartphone: save a restaurant or travel place found in a social media video to a personal map, organize saved places and plan where to go.",
+    "raw": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"data\":{\"id\":\"ast_eiegDH3QLluVJ4KfFrk74tBCfW9r\"},\"metadata\":{\"requestId\":\"req_fdQexNqf3A1r2Qvbz03lSOPWcGcc\",\"executionTime\":244,\"timestamp\":1794051055861}}"
+        }
+      ],
+      "isError": false
+    },
+    "assetId": "ast_eiegDH3QLluVJ4KfFrk74tBCfW9r"
+  },
+  {
+    "name": "ugc",
+    "prompt": "UGC style mobile app advertisement: a person talking directly to the camera, filmed casually at home with a smartphone, showing or explaining a mobile application.",
+    "raw": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"data\":{\"id\":\"ast_pKnMgmbpE7Dmhp3Jfw7OqFM9i45l\"},\"metadata\":{\"requestId\":\"req_heimukikVQQDS6exWW0Za9M4TfWi\",\"executionTime\":85,\"timestamp\":1794051056059}}"
+        }
+      ],
+      "isError": false
+    },
+    "assetId": "ast_pKnMgmbpE7Dmhp3Jfw7OqFM9i45l"
+  },
+  {
+    "name": "motion",
+    "prompt": "Motion design mobile app advertisement: animated smartphone interface, moving UI cards, kinetic typography, clean graphic shapes and transitions.",
+    "raw": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"data\":{\"id\":\"ast_uF9juwkAOeNetVSgdS0RjqfQzVX3\"},\"metadata\":{\"requestId\":\"req_6qb7Zsx6kDXRk5z2iEpO0DTDxZBc\",\"executionTime\":68,\"timestamp\":1794051056405}}"
+        }
+      ],
+      "isError": false
+    },
+    "assetId": "ast_uF9juwkAOeNetVSgdS0RjqfQzVX3"
+  },
+  {
+    "name": "anime",
+    "prompt": "anime style",
+    "raw": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"data\":{\"id\":\"ast_kAmP51M9f1LZc1KSEZbdgQsUC2mX\"},\"metadata\":{\"requestId\":\"req_O6TfHbOk0S4Me5GJxK0ezvpka0c0\",\"executionTime\":66,\"timestamp\":1794051056579}}"
+        }
+      ],
+      "isError": false
+    },
+    "assetId": "ast_kAmP51M9f1LZc1KSEZbdgQsUC2mX"
+  },
+  {
+    "name": "fitness",
+    "prompt": "A smartphone app demonstration for building daily habits, tracking workouts or learning a language, showing progress and making an overwhelming task organized and easy.",
+    "raw": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"data\":{\"id\":\"ast_Bz58XvHSeZQYHktvWPxgLjTwptXE\"},\"metadata\":{\"requestId\":\"req_bPO1PKJYrEtVLQSXmAWNkxFDYAjk\",\"executionTime\":63,\"timestamp\":1794051056753}}"
+        }
+      ],
+      "isError": false
+    },
+    "assetId": "ast_Bz58XvHSeZQYHktvWPxgLjTwptXE"
+  }
+]

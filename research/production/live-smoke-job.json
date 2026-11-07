@@ -1,0 +1,13 @@
+{
+  "input": {
+    "brief": "Sokka Map is a mobile app that saves places from TikTok and Instagram videos onto a personal map. It helps travelers actually use their saved restaurant and cafe recommendations.",
+    "focus": "Turn saved places into a real dinner plan",
+    "refresh": false
+  },
+  "job": {
+    "id": "f4f02130-4360-4bb1-91c5-050e2d349922",
+    "status": "running",
+    "stage": "Understanding your app",
+    "detail": "Finding the user problem and nearby value propositions."
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "comparisonCalls": 12,
+  "comparisonReturnedRows": 72,
+  "comparisonUniqueContentIds": 59,
+  "totalNewSearchCalls": 17,
+  "totalNewAssets": 3,
+  "errorResponses": 0,
+  "repetitionsPerSubjectAndStrategy": 1,
+  "observableMetadataFiltersPassed": true,
+  "captionLanguageCheckedOnlyOnDetailedSubset": true,
+  "balance": [
+    {
+      "subject": "saved-places",
+      "strategy": "A",
+      "calls": 2,
+      "returned": 12,
+      "unique": 12
+    },
+    {
+      "subject": "saved-places",
+      "strategy": "B",
+      "calls": 2,
+      "returned": 12,
+      "unique": 11
+    },
+    {
+      "subject": "identify-place",
+      "strategy": "A",
+      "calls": 2,
+      "returned": 12,
+      "unique": 12
+    },
+    {
+      "subject": "identify-place",
+      "strategy": "B",
+      "calls": 2,
+      "returned": 12,
+      "unique": 11
+    },
+    {
+      "subject": "flashcards",
+      "strategy": "A",
+      "calls": 2,
+      "returned": 12,
+      "unique": 12
+    },
+    {
+      "subject": "flashcards",
+      "strategy": "B",
+      "calls": 2,
+      "returned": 12,
+      "unique": 12
+    }
+  ],
+  "detailedVideos": [
+    {
+      "id": "cnt_8d8a072b69a716cd9353697a2328",
+      "handle": "inbetweenpics",
+      "platform": "tiktok",
+      "platformId": "7692828170608774414",
+      "views": 20800,
+      "interactions": 859,
+      "firstFrameSeconds": 0,
+      "frameCount": 49,
+      "firstChunk": {
+        "startSeconds": 0,
+        "endSeconds": 4.96,
+        "text": "Most travelers ruin their first day in Barcelona like this. They land tired, hungry, pick the first"
+      }
+    },
+    {
+      "id": "cnt_3458461413635e9923e187a5fc14",
+      "handle": "ccx.study",
+      "platform": "tiktok",
+      "platformId": "7691163513296866580",
+      "views": 1500000,
+      "interactions": 181353,
+      "firstFrameSeconds": 0,
+      "frameCount": 37,
+      "firstChunk": {
+        "startSeconds": 0,
+        "endSeconds": 7,
+        "text": "I am stressed out!"
+      }
+    },
+    {
+      "id": "cnt_d8ca2e7ba98b29edaa48aa2ba2ef",
+      "handle": "degrasya77",
+      "platform": "tiktok",
+      "platformId": "7676403440951545109",
+      "views": 127700,
+      "interactions": 942,
+      "firstFrameSeconds": 1.23,
+      "frameCount": 79,
+      "firstChunk": {
+        "startSeconds": 0,
+        "endSeconds": 3.76,
+        "text": "I've been studying for hours but I still don't get this concept."
+      }
+    },
+    {
+      "id": "cnt_dee49e599b87456c4807c369b5f9",
+      "handle": "sivanstravels",
+      "platform": "tiktok",
+      "platformId": "7685571765103250702",
+      "views": 245300,
+      "interactions": 28855,
+      "firstFrameSeconds": 2.6,
+      "frameCount": 143,
+      "firstChunk": {
+        "startSeconds": 0.082,
+        "endSeconds": 2.422,
+        "text": "Here's how I would spend three days on your first trip to Mexico City."
+      }
+    },
+    {
+      "id": "cnt_12049a492e6e4c8b4100abc3be83",
+      "handle": "gma",
+      "platform": "tiktok",
+      "platformId": "7676465993446722830",
+      "views": 2200000,
+      "interactions": 123177,
+      "firstFrameSeconds": 11.63,
+      "frameCount": 51,
+      "firstChunk": {
+        "startSeconds": 0.021,
+        "endSeconds": 8.441,
+        "text": "The two sisters were excited for a Vegas getaway, but when they pulled into their hotel, they knew something was wrong and that excitement turned to anxiety and a lot more."
+      }
+    },
+    {
+      "id": "cnt_ecbeb808a918249ae95062e251e1",
+      "handle": "googlegemini",
+      "platform": "tiktok",
+      "platformId": "7676162365683027213",
+      "views": 97800000,
+      "interactions": 85013,
+      "firstFrameSeconds": 5.43,
+      "frameCount": 18,
+      "firstChunk": {
+        "startSeconds": 0.034,
+        "endSeconds": 2.394,
+        "text": "If you got the study scaries about next semester,"
+      }
+    },
+    {
+      "id": "cnt_6cad656b5445061640df43053530",
+      "handle": "zi8gzag",
+      "platform": "tiktok",
+      "platformId": "7694704032438340872",
+      "views": 271100,
+      "interactions": 10514,
+      "firstFrameSeconds": 0,
+      "frameCount": 27,
+      "firstChunk": {
+        "startSeconds": 0,
+        "endSeconds": 6.16,
+        "text": "Some professional GeoGuessr players have started using the positions of the moon and the planets in the sky to determine where they are."
+      }
+    },
+    {
+      "id": "cnt_e79aa0446642aa50a9a39776c7c3",
+      "handle": "tremont_home",
+      "platform": "instagram",
+      "platformId": "DceWpCsgjHt",
+      "views": 36010,
+      "interactions": 654,
+      "firstFrameSeconds": 4.13,
+      "frameCount": 14,
+      "firstChunk": {
+        "startSeconds": 0.006,
+        "endSeconds": 1.526,
+        "text": "My secondhand online shoppers,"
+      }
+    },
+    {
+      "id": "cnt_199efb33944c3dbefa55799dfb6d",
+      "handle": "isabellacarrr",
+      "platform": "instagram",
+      "platformId": "DcZDQILTXTu",
+      "views": 94580,
+      "interactions": 4011,
+      "firstFrameSeconds": 1.97,
+      "frameCount": 77,
+      "firstChunk": {
+        "startSeconds": 0.013,
+        "endSeconds": 4.173,
+        "text": "I plan my psychotically long walks for tools that I use to make sure that they are the"
+      }
+    }
+  ],
+  "cohort": {
+    "returned": 20,
+    "totalCount": 49,
+    "exhaustive": false
+  },
+  "limitations": [
+    "Single exploratory trial. No statistical superiority claim.",
+    "Relevance labels are interpretations, separate from metadata checks.",
+    "Follow-up retrieval is outside the balanced comparison."
+  ]
+}

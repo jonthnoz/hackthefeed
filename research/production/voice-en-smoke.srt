@@ -1,0 +1,8 @@
+1
+00:00:00,050 --> 00:00:01,137
+You built the app.
+
+2
+00:00:01,137 --> 00:00:03,150
+Now find the right angle to show it.
+
