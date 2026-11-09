@@ -1,0 +1,4 @@
+{
+  "selectedOnly": true,
+  "reason": "Judge the complete union selected by any arm, including every legacy constrained selection, because all quality and ordering metrics use selected lists. Unselected pools remain captured, but classifier accuracy and corpus recall are not measured. This deterministic policy is fixed before any held-out judge labels and does not change the rubric, metric denominators or promotion gate."
+}

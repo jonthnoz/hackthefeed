@@ -1,0 +1,103 @@
+{
+  "id": "analysis-evidence-transfer-1-B",
+  "scenario": "analysis-evidence-transfer",
+  "split": "heldout",
+  "variant": "B",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "38e160a6d433217068bd3d845ef4fe849cb2c1181e0b296546c575b5f76b547a",
+  "output": {
+    "overview": "Build the video around manually entered prices and renewal dates, reminders, and marking a subscription cancelled after cancelling with its provider. Only one supplied reference directly supports this tracking workflow.",
+    "searchNotes": [
+      "Stated capabilities: manual entry of subscription prices and renewal dates, reminders, and manually marking a subscription cancelled after provider cancellation. Bank linking and automatic cancellation are explicitly excluded.",
+      "The outdated roadmap contradicts the user clarification and is excluded from all creative claims. The supplied full-spec URL was not loaded or read; project coverage is incomplete.",
+      "The plan’s renewal calendar is an unconfirmed interface assumption. Use proposed price-and-date rows without implying a calendar feature.",
+      "Plausible situation: someone wants to review an upcoming renewal and decide whether to keep it. This explains the need without establishing savings, automatic decisions or cancellation services.",
+      "Question: What reminder timing and delivery method does the app support? Until confirmed, show a generic reminder without a channel or lead-time claim.",
+      "Evidence consists of supplied captions, transcripts and frame descriptions. No images were attached, and full videos were not reviewed. The frames at 4s and 7s do not establish opening hooks or whole-video compliance.",
+      "Only track-1 directly supports the proposed direction. Supplied engagement counts do not establish why either video performed as it did.",
+      "All proposed concepts use typography and illustrated interface graphics only: no humans, hands, body parts, photorealistic people or logos."
+    ],
+    "qualifications": [
+      {
+        "id": "cancel-1",
+        "relevance": "irrelevant",
+        "reason": "The reference promotes bank linking and service-led cancellation, both explicitly excluded from this app. Shared subscription terminology does not make its demonstrated workflow transferable.",
+        "format": "",
+        "hook": "Supplied caption: “Cancel subscriptions in one tap.” Exclude this claim; no opening duration is established.",
+        "title": "Automatic cancellation service"
+      },
+      {
+        "id": "track-1",
+        "relevance": "direct",
+        "reason": "Listing subscription prices and renewal dates directly matches manual tracking. Reviewing what to keep supplies a useful decision context, although the calendar interface is not confirmed for this app.",
+        "format": "",
+        "hook": "Supplied caption: “Renewal checklist.” It is a reference title, not a verified opening or exact three-second quote.",
+        "title": "Renewal checklist"
+      }
+    ],
+    "angles": [
+      {
+        "id": "angle-1",
+        "title": "See the Next Date",
+        "label": "Manual tracking and reminders",
+        "description": "Enter one example subscription’s price and renewal date, then show a generic reminder for that entry.",
+        "whyItFits": "Makes the stated workflow concrete with minimal interface assumptions. The reference supplies the price-and-date tracking idea; reminders come from the brief.",
+        "evidence": "track-1’s transcript says the speaker lists subscription prices and renewal dates in a calendar to decide what to keep. Its supplied 4s frame description reads “Renewal calendar”; no image was attached.",
+        "referenceIds": [
+          "track-1"
+        ],
+        "suggestedHook": "What renews next—and what does it cost?",
+        "visualDirection": "Animate a logo-free, illustrated phone UI with an example price field and renewal-date field. Reveal a generic reminder card. Use only graphics and text, with no people or body parts; interface styling is proposed."
+      },
+      {
+        "id": "angle-2",
+        "title": "Keep the Record Current",
+        "label": "Review and manual status update",
+        "description": "Follow an entered subscription from renewal review to a manual cancelled status, explicitly placing provider cancellation before that update.",
+        "whyItFits": "Connects the reference’s decision about what to keep with the brief’s supported recordkeeping action. It clearly separates provider cancellation from updating the tracker.",
+        "evidence": "track-1’s transcript explicitly mentions deciding what to keep after listing prices and renewal dates. It does not show cancellation or a cancelled status; those proposed steps are grounded in the brief.",
+        "referenceIds": [
+          "track-1"
+        ],
+        "suggestedHook": "Cancelled with the provider? Mark it cancelled here.",
+        "visualDirection": "Use logo-free text cards and an illustrated subscription row. Show “After cancelling with the provider” before a graphic cursor marks the entry cancelled. No provider interface, humans, hands or body parts."
+      }
+    ],
+    "storyboard": {
+      "title": "See Renewals Coming",
+      "premise": "A 24-second graphic demonstration of manual tracking, reminders and accurate cancellation records. All UI styling is a proposed presentation.",
+      "hook": "What renews next—and what does it cost?",
+      "scenes": [
+        {
+          "time": "0–5s",
+          "visual": "Typography poses the hook beside a logo-free illustrated phone. An example subscription row shows a price and renewal date. Graphics only; no people or body parts.",
+          "voiceover": "What renews next—and what does it cost?"
+        },
+        {
+          "time": "5–11s",
+          "visual": "Example price and renewal-date fields fill through text animation. Label the values “Example.” No hands, people or logos.",
+          "voiceover": "Enter each subscription’s price and renewal date yourself."
+        },
+        {
+          "time": "11–17s",
+          "visual": "A generic reminder card appears beside the same entry, without specifying delivery method or timing. Use only logo-free graphics.",
+          "voiceover": "Get reminders, then decide what you want to keep."
+        },
+        {
+          "time": "17–24s",
+          "visual": "Text reads “After cancelling with the provider.” A graphic cursor marks the tracker entry cancelled. End card: “Enter your first subscription.” No people, body parts or logos.",
+          "voiceover": "After cancelling with the provider, mark it cancelled here. Start with your first subscription."
+        }
+      ],
+      "callToAction": "Enter your first subscription’s price and renewal date.",
+      "sourceIds": [
+        "track-1"
+      ]
+    }
+  },
+  "flags": []
+}

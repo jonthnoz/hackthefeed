@@ -1,0 +1,3644 @@
+{
+  "promotion": {
+    "status": "pending",
+    "judges": [
+      {
+        "judge": "codex",
+        "complete": false,
+        "screenMeanGain": 3,
+        "heldoutMeanGain": null,
+        "passes": false
+      },
+      {
+        "judge": "claude",
+        "complete": false,
+        "screenMeanGain": 2,
+        "heldoutMeanGain": null,
+        "passes": false
+      }
+    ],
+    "individualRegressions": []
+  },
+  "pending": [
+    "heldout evidence"
+  ],
+  "details": [
+    {
+      "split": "screen",
+      "perJudge": [
+        {
+          "judge": "codex",
+          "scenarios": [
+            {
+              "scenario": "sokka-places",
+              "arms": {
+                "A": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 3,
+                  "closeUsefulAt6": 0.5,
+                  "usefulAt6": 0.5,
+                  "direct": 0,
+                  "adjacent": 4,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "irrelevant"
+                },
+                "B": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 4,
+                  "closeUsefulAt6": 0.6666666666666666,
+                  "usefulAt6": 1,
+                  "direct": 3,
+                  "adjacent": 1,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 4,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "mechanism"
+                },
+                "C-small": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 6,
+                  "closeUsefulAt6": 1,
+                  "usefulAt6": 1,
+                  "direct": 4,
+                  "adjacent": 2,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "direct"
+                },
+                "C": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 6,
+                  "closeUsefulAt6": 1,
+                  "usefulAt6": 1,
+                  "direct": 6,
+                  "adjacent": 0,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.3333333333333333,
+                  "top1SourceDiagnostic": "direct"
+                },
+                "D": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 6,
+                  "closeUsefulAt6": 1,
+                  "usefulAt6": 1,
+                  "direct": 6,
+                  "adjacent": 0,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.3333333333333333,
+                  "top1SourceDiagnostic": "direct"
+                },
+                "O": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 6,
+                  "closeUsefulAt6": 1,
+                  "usefulAt6": 1,
+                  "direct": 6,
+                  "adjacent": 0,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.3333333333333333,
+                  "top1SourceDiagnostic": "direct"
+                }
+              },
+              "differences": [
+                {
+                  "from": "A",
+                  "to": "B",
+                  "factor": "query",
+                  "closeUsefulDelta": 1,
+                  "usefulAt6Delta": 0.5
+                },
+                {
+                  "from": "B",
+                  "to": "C-small",
+                  "factor": "qualification",
+                  "closeUsefulDelta": 2,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C-small",
+                  "to": "C",
+                  "factor": "pool",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C",
+                  "to": "D",
+                  "factor": "adaptive",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C",
+                  "to": "O",
+                  "factor": "order-diagnostic",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "A",
+                  "to": "D",
+                  "factor": "combined",
+                  "closeUsefulDelta": 3,
+                  "usefulAt6Delta": 0.5
+                }
+              ]
+            },
+            {
+              "scenario": "reader-voice",
+              "arms": {
+                "A": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0.16666666666666666,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 1,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "mechanism"
+                },
+                "B": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 3,
+                  "closeUsefulAt6": 0.5,
+                  "usefulAt6": 0.6666666666666666,
+                  "direct": 0,
+                  "adjacent": 3,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.5,
+                  "top1SourceDiagnostic": "mechanism"
+                },
+                "C-small": {
+                  "selectedCount": 3,
+                  "evaluatedSlots": 3,
+                  "missingSlots": 3,
+                  "closeUsefulCount": 2,
+                  "closeUsefulAt6": 0.3333333333333333,
+                  "usefulAt6": 0.5,
+                  "direct": 0,
+                  "adjacent": 2,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.6666666666666666,
+                  "top1SourceDiagnostic": "adjacent"
+                },
+                "C": {
+                  "selectedCount": 3,
+                  "evaluatedSlots": 3,
+                  "missingSlots": 3,
+                  "closeUsefulCount": 2,
+                  "closeUsefulAt6": 0.3333333333333333,
+                  "usefulAt6": 0.5,
+                  "direct": 0,
+                  "adjacent": 2,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.6666666666666666,
+                  "top1SourceDiagnostic": "adjacent"
+                },
+                "D": {
+                  "selectedCount": 3,
+                  "evaluatedSlots": 3,
+                  "missingSlots": 3,
+                  "closeUsefulCount": 2,
+                  "closeUsefulAt6": 0.3333333333333333,
+                  "usefulAt6": 0.5,
+                  "direct": 0,
+                  "adjacent": 2,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.6666666666666666,
+                  "top1SourceDiagnostic": "adjacent"
+                },
+                "O": {
+                  "selectedCount": 3,
+                  "evaluatedSlots": 3,
+                  "missingSlots": 3,
+                  "closeUsefulCount": 2,
+                  "closeUsefulAt6": 0.3333333333333333,
+                  "usefulAt6": 0.5,
+                  "direct": 0,
+                  "adjacent": 2,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.6666666666666666,
+                  "top1SourceDiagnostic": "mechanism"
+                }
+              },
+              "differences": [
+                {
+                  "from": "A",
+                  "to": "B",
+                  "factor": "query",
+                  "closeUsefulDelta": 3,
+                  "usefulAt6Delta": 0.5
+                },
+                {
+                  "from": "B",
+                  "to": "C-small",
+                  "factor": "qualification",
+                  "closeUsefulDelta": -1,
+                  "usefulAt6Delta": -0.16666666666666663
+                },
+                {
+                  "from": "C-small",
+                  "to": "C",
+                  "factor": "pool",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C",
+                  "to": "D",
+                  "factor": "adaptive",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C",
+                  "to": "O",
+                  "factor": "order-diagnostic",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "A",
+                  "to": "D",
+                  "factor": "combined",
+                  "closeUsefulDelta": 2,
+                  "usefulAt6Delta": 0.33333333333333337
+                }
+              ]
+            },
+            {
+              "scenario": "splitly-expenses",
+              "arms": {
+                "A": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0.3333333333333333,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "irrelevant"
+                },
+                "B": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0.16666666666666666,
+                  "direct": 0,
+                  "adjacent": 2,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 1,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "mechanism"
+                },
+                "C-small": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 2,
+                  "closeUsefulAt6": 0.3333333333333333,
+                  "usefulAt6": 0.5,
+                  "direct": 2,
+                  "adjacent": 3,
+                  "unknown": 1,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "direct"
+                },
+                "C": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 4,
+                  "closeUsefulAt6": 0.6666666666666666,
+                  "usefulAt6": 0.6666666666666666,
+                  "direct": 4,
+                  "adjacent": 2,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 3,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "direct"
+                },
+                "D": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 4,
+                  "closeUsefulAt6": 0.6666666666666666,
+                  "usefulAt6": 0.6666666666666666,
+                  "direct": 4,
+                  "adjacent": 2,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 3,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "direct"
+                },
+                "O": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 4,
+                  "closeUsefulAt6": 0.6666666666666666,
+                  "usefulAt6": 0.6666666666666666,
+                  "direct": 4,
+                  "adjacent": 2,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 3,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "adjacent"
+                }
+              },
+              "differences": [
+                {
+                  "from": "A",
+                  "to": "B",
+                  "factor": "query",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": -0.16666666666666666
+                },
+                {
+                  "from": "B",
+                  "to": "C-small",
+                  "factor": "qualification",
+                  "closeUsefulDelta": 2,
+                  "usefulAt6Delta": 0.33333333333333337
+                },
+                {
+                  "from": "C-small",
+                  "to": "C",
+                  "factor": "pool",
+                  "closeUsefulDelta": 2,
+                  "usefulAt6Delta": 0.16666666666666663
+                },
+                {
+                  "from": "C",
+                  "to": "D",
+                  "factor": "adaptive",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C",
+                  "to": "O",
+                  "factor": "order-diagnostic",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "A",
+                  "to": "D",
+                  "factor": "combined",
+                  "closeUsefulDelta": 4,
+                  "usefulAt6Delta": 0.3333333333333333
+                }
+              ]
+            }
+          ],
+          "armMeans": {
+            "A": {
+              "closeUsefulAt6": 0.16666666666666666,
+              "usefulAt6": 0.3333333333333333
+            },
+            "B": {
+              "closeUsefulAt6": 0.38888888888888884,
+              "usefulAt6": 0.611111111111111
+            },
+            "C-small": {
+              "closeUsefulAt6": 0.5555555555555555,
+              "usefulAt6": 0.6666666666666666
+            },
+            "C": {
+              "closeUsefulAt6": 0.6666666666666666,
+              "usefulAt6": 0.7222222222222222
+            },
+            "D": {
+              "closeUsefulAt6": 0.6666666666666666,
+              "usefulAt6": 0.7222222222222222
+            },
+            "O": {
+              "closeUsefulAt6": 0.6666666666666666,
+              "usefulAt6": 0.7222222222222222
+            }
+          },
+          "regressions": [
+            {
+              "scenario": "reader-voice",
+              "from": "B",
+              "to": "C-small",
+              "factor": "qualification",
+              "closeUsefulDelta": -1,
+              "usefulAt6Delta": -0.16666666666666663
+            }
+          ]
+        },
+        {
+          "judge": "claude",
+          "scenarios": [
+            {
+              "scenario": "sokka-places",
+              "arms": {
+                "A": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 3,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 0,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "irrelevant"
+                },
+                "B": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 1,
+                  "closeUsefulAt6": 0.16666666666666666,
+                  "usefulAt6": 0.16666666666666666,
+                  "direct": 1,
+                  "adjacent": 2,
+                  "unknown": 4,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 1,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "irrelevant"
+                },
+                "C-small": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 2,
+                  "closeUsefulAt6": 0.3333333333333333,
+                  "usefulAt6": 0.3333333333333333,
+                  "direct": 2,
+                  "adjacent": 3,
+                  "unknown": 3,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 1,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "adjacent"
+                },
+                "C": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 3,
+                  "closeUsefulAt6": 0.5,
+                  "usefulAt6": 0.5,
+                  "direct": 3,
+                  "adjacent": 3,
+                  "unknown": 3,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 1,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.3333333333333333,
+                  "top1SourceDiagnostic": "adjacent"
+                },
+                "D": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 3,
+                  "closeUsefulAt6": 0.5,
+                  "usefulAt6": 0.5,
+                  "direct": 3,
+                  "adjacent": 3,
+                  "unknown": 3,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 1,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.3333333333333333,
+                  "top1SourceDiagnostic": "adjacent"
+                },
+                "O": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 3,
+                  "closeUsefulAt6": 0.5,
+                  "usefulAt6": 0.5,
+                  "direct": 3,
+                  "adjacent": 3,
+                  "unknown": 3,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 1,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.3333333333333333,
+                  "top1SourceDiagnostic": "adjacent"
+                }
+              },
+              "differences": [
+                {
+                  "from": "A",
+                  "to": "B",
+                  "factor": "query",
+                  "closeUsefulDelta": 1,
+                  "usefulAt6Delta": 0.16666666666666666
+                },
+                {
+                  "from": "B",
+                  "to": "C-small",
+                  "factor": "qualification",
+                  "closeUsefulDelta": 1,
+                  "usefulAt6Delta": 0.16666666666666666
+                },
+                {
+                  "from": "C-small",
+                  "to": "C",
+                  "factor": "pool",
+                  "closeUsefulDelta": 1,
+                  "usefulAt6Delta": 0.16666666666666669
+                },
+                {
+                  "from": "C",
+                  "to": "D",
+                  "factor": "adaptive",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C",
+                  "to": "O",
+                  "factor": "order-diagnostic",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "A",
+                  "to": "D",
+                  "factor": "combined",
+                  "closeUsefulDelta": 3,
+                  "usefulAt6Delta": 0.5
+                }
+              ]
+            },
+            {
+              "scenario": "reader-voice",
+              "arms": {
+                "A": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 1,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 0,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "mechanism"
+                },
+                "B": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 4,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 0,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.5,
+                  "top1SourceDiagnostic": "mechanism"
+                },
+                "C-small": {
+                  "selectedCount": 3,
+                  "evaluatedSlots": 3,
+                  "missingSlots": 3,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 2,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 0,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.6666666666666666,
+                  "top1SourceDiagnostic": "mechanism"
+                },
+                "C": {
+                  "selectedCount": 3,
+                  "evaluatedSlots": 3,
+                  "missingSlots": 3,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 2,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 0,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.6666666666666666,
+                  "top1SourceDiagnostic": "mechanism"
+                },
+                "D": {
+                  "selectedCount": 3,
+                  "evaluatedSlots": 3,
+                  "missingSlots": 3,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 2,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 0,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.6666666666666666,
+                  "top1SourceDiagnostic": "mechanism"
+                },
+                "O": {
+                  "selectedCount": 3,
+                  "evaluatedSlots": 3,
+                  "missingSlots": 3,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 2,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 0,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.6666666666666666,
+                  "top1SourceDiagnostic": "irrelevant"
+                }
+              },
+              "differences": [
+                {
+                  "from": "A",
+                  "to": "B",
+                  "factor": "query",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "B",
+                  "to": "C-small",
+                  "factor": "qualification",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C-small",
+                  "to": "C",
+                  "factor": "pool",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C",
+                  "to": "D",
+                  "factor": "adaptive",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C",
+                  "to": "O",
+                  "factor": "order-diagnostic",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "A",
+                  "to": "D",
+                  "factor": "combined",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                }
+              ]
+            },
+            {
+              "scenario": "splitly-expenses",
+              "arms": {
+                "A": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 1,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 0,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "irrelevant"
+                },
+                "B": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 0,
+                  "closeUsefulAt6": 0,
+                  "usefulAt6": 0,
+                  "direct": 0,
+                  "adjacent": 0,
+                  "unknown": 0,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 0,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "irrelevant"
+                },
+                "C-small": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 1,
+                  "closeUsefulAt6": 0.16666666666666666,
+                  "usefulAt6": 0.16666666666666666,
+                  "direct": 1,
+                  "adjacent": 1,
+                  "unknown": 2,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 1,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "direct"
+                },
+                "C": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 3,
+                  "closeUsefulAt6": 0.5,
+                  "usefulAt6": 0.5,
+                  "direct": 3,
+                  "adjacent": 1,
+                  "unknown": 1,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "direct"
+                },
+                "D": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 3,
+                  "closeUsefulAt6": 0.5,
+                  "usefulAt6": 0.5,
+                  "direct": 3,
+                  "adjacent": 1,
+                  "unknown": 1,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "direct"
+                },
+                "O": {
+                  "selectedCount": 6,
+                  "evaluatedSlots": 6,
+                  "missingSlots": 0,
+                  "closeUsefulCount": 3,
+                  "closeUsefulAt6": 0.5,
+                  "usefulAt6": 0.5,
+                  "direct": 3,
+                  "adjacent": 1,
+                  "unknown": 1,
+                  "constraintViolations": 0,
+                  "distinctUsefulMechanisms": 2,
+                  "duplicateCount": 0,
+                  "totalDuplicateCount": 0,
+                  "maxCreatorShare": 0.16666666666666666,
+                  "top1SourceDiagnostic": "irrelevant"
+                }
+              },
+              "differences": [
+                {
+                  "from": "A",
+                  "to": "B",
+                  "factor": "query",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "B",
+                  "to": "C-small",
+                  "factor": "qualification",
+                  "closeUsefulDelta": 1,
+                  "usefulAt6Delta": 0.16666666666666666
+                },
+                {
+                  "from": "C-small",
+                  "to": "C",
+                  "factor": "pool",
+                  "closeUsefulDelta": 2,
+                  "usefulAt6Delta": 0.33333333333333337
+                },
+                {
+                  "from": "C",
+                  "to": "D",
+                  "factor": "adaptive",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "C",
+                  "to": "O",
+                  "factor": "order-diagnostic",
+                  "closeUsefulDelta": 0,
+                  "usefulAt6Delta": 0
+                },
+                {
+                  "from": "A",
+                  "to": "D",
+                  "factor": "combined",
+                  "closeUsefulDelta": 3,
+                  "usefulAt6Delta": 0.5
+                }
+              ]
+            }
+          ],
+          "armMeans": {
+            "A": {
+              "closeUsefulAt6": 0,
+              "usefulAt6": 0
+            },
+            "B": {
+              "closeUsefulAt6": 0.05555555555555555,
+              "usefulAt6": 0.05555555555555555
+            },
+            "C-small": {
+              "closeUsefulAt6": 0.16666666666666666,
+              "usefulAt6": 0.16666666666666666
+            },
+            "C": {
+              "closeUsefulAt6": 0.3333333333333333,
+              "usefulAt6": 0.3333333333333333
+            },
+            "D": {
+              "closeUsefulAt6": 0.3333333333333333,
+              "usefulAt6": 0.3333333333333333
+            },
+            "O": {
+              "closeUsefulAt6": 0.3333333333333333,
+              "usefulAt6": 0.3333333333333333
+            }
+          },
+          "regressions": []
+        }
+      ],
+      "disagreements": [
+        {
+          "sourceId": "s_050f0ac09053c237546c",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_050f0ac09053c237546c",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Autonomously processing an entire saved-post history is not established.",
+              "Scheduling, automatic itinerary planning, availability checks and bookings are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript describes places buried among 6,000 saved posts becoming categories, mapped places and a tracker. This directly addresses recovering disorganized social discoveries."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_050f0ac09053c237546c",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Source agent books flights/reservations and checks availability; booking is unsupported",
+              "Agent proactively plans activities from schedule; automatic itinerary generation unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Transcript: saved places 'end up getting buried in my saved posts'; agent 'organized everything into categories, mapped out my saved places'. Also 'made the booking', which is unsupported."
+          }
+        },
+        {
+          "sourceId": "s_083eb9ae35b6da0efd2c",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_083eb9ae35b6da0efd2c",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The caption connects saved shopping spots with avoiding endless searching; the transcript explicitly asks viewers to save the store's reel on GobiMaps."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_083eb9ae35b6da0efd2c",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "On-screen 'Directions' button could imply live navigation, which is unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Caption: 'Good thing I saved my shopping spots on GobiMaps... just open your saved places and get going'. Transcript: 'Go save this reel on Gobi Maps'. On-screen place card shows 'Save'."
+          }
+        },
+        {
+          "sourceId": "s_164607ddfc53132e7112",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "useful",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_164607ddfc53132e7112",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "tutorial",
+            "unsupportedCapabilityIssues": [
+              "Surveillance-camera layers, camera metadata and route settings are not established Sokka capabilities."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript gives an explicit tap-by-tap tutorial: open the app, enable a layer, zoom and select a map marker. That map-interface walkthrough is transferable."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_164607ddfc53132e7112",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "tutorial",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Step-by-step walkthrough of a MapQuest surveillance-camera layer ('click the Layers button... turn that on'). It's a map app, but nothing about saving places or collections."
+          }
+        },
+        {
+          "sourceId": "s_20d4e87de65977233034",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_20d4e87de65977233034",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Menu recommendations, venue-information generation and conversational restaurant advice are not established capabilities."
+            ],
+            "constraints": "fits",
+            "evidence": "The caption explicitly contrasts searching through saved reels with importing a reel and retrieving its place in Saved Places. The transcript additionally promotes unsupported recommendations."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_20d4e87de65977233034",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Menu recommendations and 'Ask Gobi' AI Q&A aren't among the supported capabilities"
+            ],
+            "constraints": "fits",
+            "evidence": "Caption: 'Saw it on Instagram. Saved it on Gobi... No more \"where did I see this place?\"... find the place whenever you want — right in your Saved Places.'"
+          }
+        },
+        {
+          "sourceId": "s_296e6717bf4b0f0d200e",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_296e6717bf4b0f0d200e",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "social-proof",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript assembles negative cafe reviews and comments. It provides no saving, organization or retrieval workflow, and no concrete useful reference for that task."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_296e6717bf4b0f0d200e",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Celebrity cafe review gossip built from comment screenshots. No saving or organizing of places."
+          }
+        },
+        {
+          "sourceId": "s_4d279fe9d3d42d486d04",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_4d279fe9d3d42d486d04",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "tutorial",
+            "unsupportedCapabilityIssues": [
+              "Restaurant reservations, ride booking and cashback rewards are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript walks through tapping Dine Out, choosing a restaurant and visiting it for date night. Choosing a destination is neighboring work, but saved-place recovery is absent."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_4d279fe9d3d42d486d04",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "demonstration",
+            "unsupportedCapabilityIssues": [
+              "Reservations and ride booking are unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Uber Eats dine-out demo: 'discover, reserve, and even book your ride all in one place'. Only the app-walkthrough format transfers; saving and collections are absent."
+          }
+        },
+        {
+          "sourceId": "s_4fd74e4239b8437c6a7e",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_4fd74e4239b8437c6a7e",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "tutorial",
+            "unsupportedCapabilityIssues": [
+              "Restaurant reservations, ride booking, discounts and cashback rewards are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript connects an app-tab walkthrough to selecting and visiting a specific restaurant. This concretely references deciding where to go, without demonstrating recovery of social saves."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_4fd74e4239b8437c6a7e",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "demonstration",
+            "unsupportedCapabilityIssues": [
+              "Reservations, ride booking, and cash-back rewards are unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Same Uber Eats dine-out script: 'discover, reserve, and even book your ride'. No saved-place collections shown."
+          }
+        },
+        {
+          "sourceId": "s_554fb25cf2b43ea45d47",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_554fb25cf2b43ea45d47",
+            "proximity": "adjacent",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The text evaluates a named Madrid restaurant through price, service and dishes, a neighboring destination-selection task. It supplies no concrete saving or organizational reference."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_554fb25cf2b43ea45d47",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Portuguese Michelin restaurant review (Smoked Room, Madrid). No saving or map features."
+          }
+        },
+        {
+          "sourceId": "s_599b7767e06bf4615a5a",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_599b7767e06bf4615a5a",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript organizes named Newcastle recommendations into breakfast, lunch and dinner; on-screen text includes a cafe profile and address. This is a concrete categorized place-guide reference."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_599b7767e06bf4615a5a",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "'What I ate in a day Newcastle' food vlog. Shares the broad topic of places but has no saving or recovery task."
+          }
+        },
+        {
+          "sourceId": "s_5bf8acce527c0c9e5820",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_5bf8acce527c0c9e5820",
+            "proximity": "adjacent",
+            "useful": "uncertain",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript visits a newly found cafe; on-screen text includes Discovery, Coffee Fix and 'I need a coffee.' Truncation leaves the app's discovery interaction unclear."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_5bf8acce527c0c9e5820",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Musician day-in-life with an app tag (#wanderboat). On-screen shows a map and categories ('Discovery', 'Coffee Fix'), but no saving or collections are described."
+          }
+        },
+        {
+          "sourceId": "s_6883543e8d03016e1563",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_6883543e8d03016e1563",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The text recommends Lopez Coffeeshop, lists food and visit details, and includes a named Google Maps listing. It concretely connects a social recommendation with a locatable venue."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_6883543e8d03016e1563",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "French brunch cafe review in Oran. A Google Maps pin appears briefly, but nothing is saved or organized."
+          }
+        },
+        {
+          "sourceId": "s_6ca15019c1718ca22481",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_6ca15019c1718ca22481",
+            "proximity": "adjacent",
+            "useful": "no",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Route construction, itinerary generation and advice about optimal visiting times are not established capabilities."
+            ],
+            "constraints": "fits",
+            "evidence": "The caption addresses choosing Madeira destinations, timing and sensible routes. Its solution concerns itinerary planning; supplied text does not demonstrate recovering or organizing saved places."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_6ca15019c1718ca22481",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "unknown",
+            "unsupportedCapabilityIssues": [
+              "Caption focuses on route planning, which is close to unsupported itinerary generation"
+            ],
+            "constraints": "fits",
+            "evidence": "Transcript is just '.'. Caption (truncated) is about avoiding crowds in Madeira and connecting places into routes. Nothing about saving places."
+          }
+        },
+        {
+          "sourceId": "s_834d190e5bc77e05f994",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_834d190e5bc77e05f994",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "On-screen dialogue starts with a coffee shop found on Instagram, followed by Springdale/map text; the caption identifies Canyon Coffee. This connects social discovery to a concrete destination."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_834d190e5bc77e05f994",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "On-screen skit: 'Let's fly to Utah for this coffee shop I found on instagram!' with a map zoom ('Springdale', '9,000 km'). Discovery-to-map device, but no saving."
+          }
+        },
+        {
+          "sourceId": "s_8a4d4e3465e03fc4f185",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_8a4d4e3465e03fc4f185",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "comparison",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The text compares alleged Samsung charging performance and colors. It contains no place-saving task or concrete useful mechanism for organizing social discoveries."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_8a4d4e3465e03fc4f185",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Galaxy S27 Ultra leak news. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_8b6f9829930fcfe8818b",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_8b6f9829930fcfe8818b",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [
+              "Matching users with other people who want to visit is not established."
+            ],
+            "constraints": "fits",
+            "evidence": "After a detailed bar recommendation, the transcript says users can save Fives directly from this video. The venue story ends in the supported social-discovery saving action."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_8b6f9829930fcfe8818b",
+            "proximity": "adjacent",
+            "useful": "uncertain",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [
+              "Matching users with other people who want to go isn't supported"
+            ],
+            "constraints": "fits",
+            "evidence": "Mostly a bar review. It closes with a CTA: 'you can save fives on the grid directly from this video, and we'll show you other people who want to go with you.'"
+          }
+        },
+        {
+          "sourceId": "s_8c055d06b9cd7e432ecd",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_8c055d06b9cd7e432ecd",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "NFC-card interactions and collecting business reviews are not established capabilities."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript contrasts lengthy searching with tapping a phone on a card to open the exact review page. The concrete friction-to-single-action demonstration is transferable."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_8c055d06b9cd7e432ecd",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Russian ad for NFC review cards for businesses on Yandex Maps. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_8cc4942660d182fee55d",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_8cc4942660d182fee55d",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The caption names Hildesheim, supplies specific reasons to visit and explicitly says 'Add Hildesheim to your saved places.' This is a concrete destination recommendation with a saving CTA."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_8cc4942660d182fee55d",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Tourism scenery of Hildesheim. 'Add Hildesheim to your saved places' is only a caption tag. This is the generic travel scenery the brief excludes."
+          }
+        },
+        {
+          "sourceId": "s_905443121801658018e2",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_905443121801658018e2",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "demonstration",
+            "unsupportedCapabilityIssues": [
+              "Property listings and retrieving venue ratings or reviews are not established capabilities."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript moves from a property listing to its town, named nearby bars and their reviews. This supplies a concrete location-drilldown demonstration, although the primary task is property evaluation."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_905443121801658018e2",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Cheap French house listing plus local bar reviews. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_a34b5613f6a32d87a816",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_a34b5613f6a32d87a816",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Automatic itinerary generation, dietary filtering, walkability planning and calendar access are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The opening explicitly identifies hundreds of Instagram-saved places never revisited, then names outings selected from them. The lost-saves problem directly matches, despite unsupported automated planning."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_a34b5613f6a32d87a816",
+            "proximity": "adjacent",
+            "useful": "uncertain",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "The AI agent plans a whole day from saves; automatic itinerary generation unsupported",
+              "Calendar checking and show finding are unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Hook: 'If you have hundreds of saved places on Instagram, but never look at them again'. The payoff, though, is an AI-planned day: 'Ruby... planned the whole day'."
+          }
+        },
+        {
+          "sourceId": "s_a6860fd025e6908b419d",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_a6860fd025e6908b419d",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [
+              "Sharing map collections with other users is not established."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript describes compiling TikTok and friend recommendations into categorized coffee-shop, store and restaurant lists, including a Google Maps list. This directly references organizing discovered places."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_a6860fd025e6908b419d",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Transcript: 'I made a list with all of my favorite coffee shops stores and restaurants... I also created a list on google map'. Caption: spots 'from TikTok or friend's recommendations'."
+          }
+        },
+        {
+          "sourceId": "s_b39d4a16cee1b30a94b7",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_b39d4a16cee1b30a94b7",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [
+              "Providing an externally curated ranked recommendation database or distributing lists is not established."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript introduces a themed New York restaurant list, details one entry and offers the complete top-ten list on Grid. This concretely references a named collection of visit candidates."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_b39d4a16cee1b30a94b7",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Top-10 martinis-with-fries list. CTA: 'I'll send you the list on the grid'. Mostly a restaurant profile; saving isn't demonstrated."
+          }
+        },
+        {
+          "sourceId": "s_b4092a647696eac059bf",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "useful",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_b4092a647696eac059bf",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Experience bookings, available-date checks and packaged tour fulfillment are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript contrasts making place lists and overplanning with choosing a specific Seoul afternoon experience. The planning-versus-exploring narrative is concrete, but its booking solution is unsupported."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_b4092a647696eac059bf",
+            "proximity": "adjacent",
+            "useful": "no",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Core message is booking tours ('don't just save places... book'), which is unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Opens with 'I make a list of places I want to visit', but resolves with booking a tour on Naver Maps. That contradicts what this product does."
+          }
+        },
+        {
+          "sourceId": "s_c0d66e58a5bb574edc9c",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_c0d66e58a5bb574edc9c",
+            "proximity": "mechanism",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [
+              "AI app building and local event or deal feeds are not established capabilities."
+            ],
+            "constraints": "fits",
+            "evidence": "The caption tells a failed-app revival story involving data management; on-screen text lists events and deals. The revival device is observable, but offers no concrete saved-place reference."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_c0d66e58a5bb574edc9c",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Vibe-coding demo reviving an events/deals app. No transcript, and nothing about saving places."
+          }
+        },
+        {
+          "sourceId": "s_c5723ec29f9c88d215cd",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_c5723ec29f9c88d215cd",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The caption names The View Restaurant, lists reasons it belongs on a bucket list and provides its location. On-screen text also identifies the venue, giving a concrete save-worthy recommendation."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_c5723ec29f9c88d215cd",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Monument Valley restaurant view, i.e. generic scenic travel content. The brief excludes this."
+          }
+        },
+        {
+          "sourceId": "s_cf196365ac1d51535166",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_cf196365ac1d51535166",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript offers a saveable Cologne weekend guide with named beauty, dining and shopping places; on-screen text includes a map and notes. This concretely references a themed place collection."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_cf196365ac1d51535166",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Cologne spots guide ('speichert euch das Video ab'). On-screen shows a map with pins and 'Notiz hinzufügen', which suggests a saved map list, but evidence is partial."
+          }
+        },
+        {
+          "sourceId": "s_dda2d92fb00088f4d9f0",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_dda2d92fb00088f4d9f0",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Following friends, sharing discoveries and collaborative planning are not established capabilities."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript turns fifteen shopping finds scattered across reels into a personal map so nothing gets lost in Instagram saves. This directly matches the organization and retrieval problem."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_dda2d92fb00088f4d9f0",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Following friends and planning shopping days together aren't listed capabilities"
+            ],
+            "constraints": "fits",
+            "evidence": "Transcript: 'suddenly 15 places. Now I keep all these finds on my own Gobi map, so nothing gets lost in my Instagram saves.' Caption: 'create your own map... save all the places'."
+          }
+        },
+        {
+          "sourceId": "s_eb678117052700efa1f8",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_eb678117052700efa1f8",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [
+              "Local deal discovery and exclusive member discounts are not established capabilities."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript gives a specific bar recommendation, then explicitly says to save Ten Degrees by importing this video. That is the supported social-post-to-saved-place action."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_eb678117052700efa1f8",
+            "proximity": "adjacent",
+            "useful": "uncertain",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [
+              "Member discounts and deals aren't supported",
+              "Matching with other users isn't supported"
+            ],
+            "constraints": "fits",
+            "evidence": "Wine bar profile ending in 'you can save 10 degrees on the grid by importing this video' plus deals and discounts. The save action appears only as a CTA."
+          }
+        },
+        {
+          "sourceId": "s_eb6ab5c2d6daf3cb1e2b",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_eb6ab5c2d6daf3cb1e2b",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [
+              "Showing other people who want to visit is not established."
+            ],
+            "constraints": "fits",
+            "evidence": "The restaurant story ends with saving Sirrah directly from the video by importing it into Grid. The subsequent social-matching claim exceeds Sokka's supplied capabilities."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_eb6ab5c2d6daf3cb1e2b",
+            "proximity": "adjacent",
+            "useful": "uncertain",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [
+              "Showing 'people who want to go with you' isn't supported"
+            ],
+            "constraints": "fits",
+            "evidence": "Restaurant profile ending in 'you can save Syrah directly from this video by importing it on the grid'. The save action appears only as a CTA."
+          }
+        },
+        {
+          "sourceId": "s_fe215c0da09e763faf35",
+          "briefId": "b_41736a7747df15ab9c64",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_fe215c0da09e763faf35",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The supplied text enumerates and tastes chocolate-cake varieties. A cafe brand alone does not establish a place-recovery task or useful organizational reference."
+          },
+          "right": {
+            "briefId": "b_41736a7747df15ab9c64",
+            "sourceId": "s_fe215c0da09e763faf35",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Twosome Place chocolate cake review. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_0253bad49fc41f041522",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_0253bad49fc41f041522",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [
+              "Business revenue, profit and venue-management functionality are not established."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript explicitly presents group-rental revenues, monthly expenses and a bottom-line profit of $13,515. The itemized figures-to-total breakdown is a concrete financial-clarity reference."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_0253bad49fc41f041522",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Retreat venue business financials (revenue/expenses). Not about group expense splitting."
+          }
+        },
+        {
+          "sourceId": "s_0a862b54472e8bb45c3f",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_0a862b54472e8bb45c3f",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "demonstration",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript records clothing-store interactions about sizes, stock and purchases. It contains no shared expense allocation, outstanding balance or useful financial explanation."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_0a862b54472e8bb45c3f",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Clothing store customer orders POV. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_107dec38472088dee00a",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_107dec38472088dee00a",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "On-screen text describes losing a bet and meeting a follower while wearing towels. The travel setting supplies no shared-cost task or useful balances reference."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_107dec38472088dee00a",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Lost-bet ice cream in towels POV. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_15f04ea9c6cc0b5b17a5",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_15f04ea9c6cc0b5b17a5",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The text describes fundraising to purchase shelter land and exceeding the target. It does not explain expense allocation, interpersonal debts or a concrete shared-cost workflow."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_15f04ea9c6cc0b5b17a5",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Dog shelter fundraising news. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_1dcc3cb516e0c21010a4",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_1dcc3cb516e0c21010a4",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript is a wedding-related comedy sketch about a fictional service. The isolated phrase 'shared expenses' does not establish tracking or explaining shared balances."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_1dcc3cb516e0c21010a4",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Comedy skit; 'shared expenses' is only a punchline. No expense tracking."
+          }
+        },
+        {
+          "sourceId": "s_1dd29af0dba61cfc7462",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_1dd29af0dba61cfc7462",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript describes a group evening in Paros and individual menu prices. It never allocates costs or tracks debts; a shared holiday alone is insufficient."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_1dd29af0dba61cfc7462",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Paros night-out travel vlog with prices mentioned. No splitting or balances."
+          }
+        },
+        {
+          "sourceId": "s_295421dae2413c399b8c",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_295421dae2413c399b8c",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The trip narrative promotes earning credit-card rewards on eligible purchases. It supplies no shared-cost breakdown, member balances or sufficiently concrete transferable financial display."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_295421dae2413c399b8c",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Credit card points travel ad. Personal finance, not group balances."
+          }
+        },
+        {
+          "sourceId": "s_328a5a991f512b0dc455",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_328a5a991f512b0dc455",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The story makes an unexpectedly expensive first-shoe outing tangible through an emergency clothing purchase and an on-screen ¥31,350 receipt. This is a concrete surprise-cost reveal."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_328a5a991f512b0dc455",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Japanese baby first-shoes story with a receipt. Not shared expenses."
+          }
+        },
+        {
+          "sourceId": "s_3ba4c066aea2bba3bfeb",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_3ba4c066aea2bba3bfeb",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The supplied text concerns friends decorating cups during a trip. It provides no monetary allocation, outstanding balance or useful cost-tracking mechanism."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_3ba4c066aea2bba3bfeb",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Vietnamese friends making a decorated cup. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_3f61f360d697b9b4699b",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "proximity",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_3f61f360d697b9b4699b",
+            "proximity": "unknown",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [
+              "AI-generated interactive interfaces and credit-card repayment projections are not established capabilities."
+            ],
+            "constraints": "fits",
+            "evidence": "The caption mentions 'a bill splitter,' but the truncated transcript never reaches that example. The detailed supplied demonstrations concern other tasks, leaving the relevant functionality unverified."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_3f61f360d697b9b4699b",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Listicle of ChatGPT interactive UIs. Caption mentions 'A bill splitter', but the visible transcript doesn't show it (truncated)."
+          }
+        },
+        {
+          "sourceId": "s_4657d1bcf85fc5b6d535",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "proximity",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_4657d1bcf85fc5b6d535",
+            "proximity": "adjacent",
+            "useful": "no",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [
+              "Accepting or processing payments through wallets, bank accounts or cryptocurrency is unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript lists payment channels to prevent excuses for not paying. Collecting money neighbors debt settlement, but the entire reference depends on payment processing rather than tracking balances."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_4657d1bcf85fc5b6d535",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [
+              "Source is about accepting payments, i.e. payment processing, which is unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Comedy rant about accepting every payment method; Splitwise is only named in a list. No balance tracking."
+          }
+        },
+        {
+          "sourceId": "s_60eced62e7187d968cd5",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "useful",
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_60eced62e7187d968cd5",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "On-screen budget labels change from £12 to £4 after an £8 room purchase; the transcript separately explains a £162 obligation. The running tally concretely makes spending understandable."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_60eced62e7187d968cd5",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Running on-screen 'BUDGET: £12.00' → '£4.00' counter in a travel vlog. A transferable running-balance overlay, but it's a personal budget."
+          }
+        },
+        {
+          "sourceId": "s_721d90fc711988874f24",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_721d90fc711988874f24",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript reviews dishes at Chunky Dragon. Dining with others is not evidence of splitting costs, tracking expenses or explaining outstanding debts."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_721d90fc711988874f24",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Mexico City restaurant review. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_7786c618f01888dad330",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "proximity",
+            "useful"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_7786c618f01888dad330",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The source itemizes tuxedo, Uber and bachelor-trip costs and totals them at $1,574.26. Personal trip-cost accounting is a concrete neighbor to entering shared trip expenses."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_7786c618f01888dad330",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Itemized personal groomsman costs with on-screen amounts ('$192.09', total '$1,574.26'). Itemized-cost reveal device, but no group balances."
+          }
+        },
+        {
+          "sourceId": "s_7860d71679d8a5346cd6",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_7860d71679d8a5346cd6",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "QR-code money collection, bank linking and receiving transfers are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "A dialogue about difficulty saving leads into a digital-piggy-bank demonstration with scanning and visible amount choices. The concrete problem-to-interface demonstration is transferable, while its payment functions are unsupported."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_7860d71679d8a5346cd6",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [
+              "QR money transfer to a linked bank account is unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Digital piggy bank ad with a QR transfer to a bank account. Not shared expense tracking."
+          }
+        },
+        {
+          "sourceId": "s_7b651f053b413cd621c5",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "proximity",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_7b651f053b413cd621c5",
+            "proximity": "direct",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [
+              "Bookings, personalized travel recommendations, weather updates, chat and voting are not established capabilities."
+            ],
+            "constraints": "fits",
+            "evidence": "The caption explicitly claims managing trip expenses with friends, but supplied interface text shows trip planning and budget fields rather than expense entries or who owes whom."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_7b651f053b413cd621c5",
+            "proximity": "adjacent",
+            "useful": "uncertain",
+            "mechanism": "demonstration",
+            "unsupportedCapabilityIssues": [
+              "Booking, itinerary, and weather features are outside this product"
+            ],
+            "constraints": "fits",
+            "evidence": "Caption lists 'manage trip expenses effortlessly' among many features. The transcript is garbled filler, and on-screen shows trip planning, not expenses."
+          }
+        },
+        {
+          "sourceId": "s_7db4387cfa969d05670e",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_7db4387cfa969d05670e",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Importing existing payment transactions, sending payment requests and transferring settlement money in-app are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "Repeated 'how much do I owe you' questions lead into naming a trip group and splitting a meal evenly. This directly demonstrates shared-expense clarity, alongside unsupported payment integration."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_7db4387cfa969d05670e",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Settling inside the app ('Pay me!', 'Slide to request') implies money transfer, which is unsupported",
+              "Splitting a card transaction implies bank/card linking"
+            ],
+            "constraints": "fits",
+            "evidence": "Skit hook 'how much I owe you ah?' is chaos resolved by creating a group 'JB Day Trip' and splitting to see 'who owes what'. The settlement step happens via in-app payment."
+          }
+        },
+        {
+          "sourceId": "s_97b5a85e93adacbe5de2",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_97b5a85e93adacbe5de2",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The narrator checks an Ibiza Splitwise group and finds €4,000 owed to them, joking that reimbursement is profit. The explicit outstanding group balance directly matches the brief."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_97b5a85e93adacbe5de2",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Transcript (German): after a week in Ibiza 'habe gerade mal in unsere Splitwise-Gruppe geguckt und da steht, ich bekomme noch 4000 Euro'. A comedic hook built on a group balance."
+          }
+        },
+        {
+          "sourceId": "s_a638912d755057a2aa29",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_a638912d755057a2aa29",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The text lists family-hotel amenities, location benefits and booking discounts. Group occupancy and affordability do not demonstrate allocating costs or tracking debts."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_a638912d755057a2aa29",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Fukuoka family hotel promo. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_abc38a5d3915f138936a",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_abc38a5d3915f138936a",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The source describes three travel teams completing city-walk and food challenges. Their separation into teams concerns activities, with no shared-cost or debt-accounting evidence."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_abc38a5d3915f138936a",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Thai Macao travel variety show. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_af504954fa724475dd59",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "proximity"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_af504954fa724475dd59",
+            "proximity": "adjacent",
+            "useful": "no",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The couple explains allocating purchases to whoever wants them and explicitly avoids calculating who owes whom. This is neighboring cost-allocation advice, but supplies no useful tracking demonstration."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_af504954fa724475dd59",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Marriage rules list arguing against tracking: 'We don't sit there calculating who paid last time, who owes whom'. Shared topic only, and the stance runs opposite to the product."
+          }
+        },
+        {
+          "sourceId": "s_ba2ebd3e7de4b3941d8f",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_ba2ebd3e7de4b3941d8f",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "On-screen text describes a lost bet and an embarrassing follower encounter while wearing towels. It contains no expense entries, balances or useful shared-cost mechanism."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_ba2ebd3e7de4b3941d8f",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Duplicate ice-cream-in-towels POV. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_cbb2629b98c362f3d421",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_cbb2629b98c362f3d421",
+            "proximity": "direct",
+            "useful": "yes",
+            "mechanism": "comparison",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The conversation compares recording every vacation expense with ignoring tiny coffee-versus-muffin differences, explicitly discussing fair accommodation splits and forgotten entries. This directly addresses group cost tracking."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_cbb2629b98c362f3d421",
+            "proximity": "adjacent",
+            "useful": "uncertain",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Podcast debate: 'How do you think costs should be split on vacation? ... if you're using Splitwise, then use it militantly.' Talking-head opinion, no product demonstration."
+          }
+        },
+        {
+          "sourceId": "s_d241964cbd12f08ef092",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_d241964cbd12f08ef092",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript enumerates dishes at a Shanghai restaurant. It provides no costs allocated between people, debt balances or useful expense-tracking demonstration."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_d241964cbd12f08ef092",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Shanghai restaurant food review. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_e081eb337e5b9c5b837d",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "proximity",
+            "useful"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_e081eb337e5b9c5b837d",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The caption separates park and travel expenses, assigns amounts to each and gives a $653.99 grand total. This personal trip ledger is a concrete neighboring accounting reference."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_e081eb337e5b9c5b837d",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Itemized solo trip cost breakdown with on-screen prices ('$89.50', 'GRAND TOTAL: $653.99'). A transferable itemized-expense reveal, but no group balances."
+          }
+        },
+        {
+          "sourceId": "s_f5c786e88c430b38ba1f",
+          "briefId": "b_b87649b5818a92a37827",
+          "changed": [
+            "useful"
+          ],
+          "left": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_f5c786e88c430b38ba1f",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "On-screen spending amounts move from −25,800 to −175,800 won as a group meal unfolds and the payer is questioned. The spending-counter and payer reveal are concrete observable devices."
+          },
+          "right": {
+            "briefId": "b_b87649b5818a92a37827",
+            "sourceId": "s_f5c786e88c430b38ba1f",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Korean skit about secretly using sister's card to treat friends, with on-screen spend counters ('소비 금액 -175,800원'). Covers 'who paid' tension and amount overlays, but there's no splitting."
+          }
+        },
+        {
+          "sourceId": "s_00be04ba07e688ccb1da",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_00be04ba07e688ccb1da",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "tutorial",
+            "unsupportedCapabilityIssues": [
+              "AI-writing detection, cliché highlighting and rewriting or humanizing text are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript explains pasting text, scanning it and inspecting specific highlighted patterns; on-screen text also offers URL loading. This is a concrete text-input-to-result walkthrough, not document narration."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_00be04ba07e688ccb1da",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "demonstration",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Paste-text tool demo: 'You just paste your text in and then it scans your writing'. A text-in tool walkthrough, but no audio or reading aloud."
+          }
+        },
+        {
+          "sourceId": "s_1153ce0121818e333b1b",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_1153ce0121818e333b1b",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "demonstration",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The caption identifies an iPhone unboxing, and on-screen text lists setup languages. No evidence connects that selector to narration voices, imported documents or reading text aloud."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_1153ce0121818e333b1b",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "iPhone unboxing ASMR. A language list appears on setup screen only."
+          }
+        },
+        {
+          "sourceId": "s_15030494cc3e6f8a5aa2",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_15030494cc3e6f8a5aa2",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "comparison",
+            "unsupportedCapabilityIssues": [
+              "Availability of the named Siri, TikTok, Alexa or other branded voices is not established."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript pairs recognizable voice samples with actor identities and explicitly demonstrates typing 'yeah' for TikTok text-to-speech pronunciation. Short-text voicing concretely neighbors document narration."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_15030494cc3e6f8a5aa2",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Compilation of the people behind famous voices, including 'I'm the TikTok text-to-speech voice'. A voice-recognition hook; no document reading."
+          }
+        },
+        {
+          "sourceId": "s_2f520239089de2125e19",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_2f520239089de2125e19",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript is a satirical privacy monologue about leaked messages. Mentioning a diary being read aloud does not demonstrate text-to-speech or a useful document-listening reference."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_2f520239089de2125e19",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Satirical skit about data leaks. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_3f9db2323724cea6fd23",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_3f9db2323724cea6fd23",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "tutorial",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript explains prompting ChatGPT to depict its imagined appearance. The supplied prompt-entry steps concern image generation, with no useful document-audio reference."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_3f9db2323724cea6fd23",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Armenian ChatGPT image-prompt trend. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_6ca634534863d5798f99",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_6ca634534863d5798f99",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript recounts a bar controversy using article details and comments. It provides commentary rather than an existing document being read through text-to-speech."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_6ca634534863d5798f99",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [
+              "Creator paraphrases and summarizes the article; summarization is unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Creator narrates a Boston Globe article and reads quoted comments over on-screen text ('Let me show you some of the comments'). Human narration, not TTS."
+          }
+        },
+        {
+          "sourceId": "s_6d7f2fa67c2cf0075143",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_6d7f2fa67c2cf0075143",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The source reports on organ sales and personal hardship. Supplied text contains no document import, text-to-speech interaction or concrete useful listening mechanism."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_6d7f2fa67c2cf0075143",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "News report on organ selling in Afghanistan. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_726ff821b129d291d716",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_726ff821b129d291d716",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "comparison",
+            "unsupportedCapabilityIssues": [
+              "Automated article interpretation or summarization is unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript contrasts a headline with the article's explanation in political commentary. A person reading a headline does not establish document text-to-speech or a useful listening demonstration."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_726ff821b129d291d716",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Political commentary on not reading an article. Reading comes up only as a theme; no listening task."
+          }
+        },
+        {
+          "sourceId": "s_7ebad5beb0cfe2623209",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_7ebad5beb0cfe2623209",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "problem-solution",
+            "unsupportedCapabilityIssues": [
+              "Physical printing, live message monitoring and autonomous coding are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The narrator wants less phone use, builds a printer and demonstrates real messages becoming paper output. This is a concrete alternative-output demonstration, although its output is print rather than speech."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_7ebad5beb0cfe2623209",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "demonstration",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Build demo: 'a tiny printer that prints out text so you don't have to look at your phone'. Shows an alternative-output-for-text device, but it's print, not audio."
+          }
+        },
+        {
+          "sourceId": "s_873d7319c01556e23624",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_873d7319c01556e23624",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The caption credits TTS, but the transcript is humorous sports commentary. It shows no existing-document workflow, pronunciation selection or other concrete useful reader reference."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_873d7319c01556e23624",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Caption: 'The only Ai used is TTS (Text to speech)' for comedic NFL commentary. Shows a TTS voice over footage, but not document reading."
+          }
+        },
+        {
+          "sourceId": "s_89497c223fb7099815dc",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_89497c223fb7099815dc",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The text promotes headphone models and call clarity. Listening hardware and general mobility alone do not establish a document-narration task or useful presentation reference."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_89497c223fb7099815dc",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Anker earbuds ad about call clarity. The on-the-go listening overlap is lifestyle context only."
+          }
+        },
+        {
+          "sourceId": "s_991b0b84e1839b10485b",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_991b0b84e1839b10485b",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript narrates a solo shopping day and clothing choices. It contains no document listening, text-to-speech or concrete useful voice demonstration."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_991b0b84e1839b10485b",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Solo shopping vlog. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_9c3156905c984a30df0e",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_9c3156905c984a30df0e",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "comparison",
+            "unsupportedCapabilityIssues": [
+              "Availability of the named commercial, assistant and TikTok voices is not established."
+            ],
+            "constraints": "fits",
+            "evidence": "The text alternates recognizable voice clips with named actors and includes the instruction to type 'yeah' and invoke text-to-speech. This concretely references short-text narration and pronunciation."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_9c3156905c984a30df0e",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "'The People Behind Famous Voices' compilation, including the TikTok TTS voice PSA. A voice-identity hook; no document reading."
+          }
+        },
+        {
+          "sourceId": "s_b18f0a3ca2dd9f94022e",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_b18f0a3ca2dd9f94022e",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [
+              "Speech-to-text transcription is unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The prank uses voice-message exchanges; on-screen text includes transcriptions and asks whether transcription was useful. This is speech-to-text evidence, not reading existing documents aloud."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_b18f0a3ca2dd9f94022e",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Brazilian WhatsApp voice-message prank. On-screen shows voice-note transcription (speech-to-text), the reverse of document TTS."
+          }
+        },
+        {
+          "sourceId": "s_b429ae07d7cf4fc21ed6",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_b429ae07d7cf4fc21ed6",
+            "proximity": "mechanism",
+            "useful": "yes",
+            "mechanism": "tutorial",
+            "unsupportedCapabilityIssues": [
+              "Generating videos from photos and prompts is unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript previews a prank result, explains the photo-and-prompt generation steps, then returns to the reaction. That result-first walkthrough is an observable transferable device, despite unrelated functionality."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_b429ae07d7cf4fc21ed6",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "AI-generated prank video on mom. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_b78d6019175f92cd1aad",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "proximity"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_b78d6019175f92cd1aad",
+            "proximity": "unknown",
+            "useful": "uncertain",
+            "mechanism": "unknown",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The sports caption states that TTS was used, but transcript, on-screen text and frame text are empty. There is insufficient evidence of a useful narration device or document workflow."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_b78d6019175f92cd1aad",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "unknown",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Transcript and on-screen text are empty. Caption only says 'The only Ai used is TTS' for edited NFL audio, so evidence is sparse."
+          }
+        },
+        {
+          "sourceId": "s_bb8cd79ced769357ee68",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_bb8cd79ced769357ee68",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [
+              "Generating story summaries or explanations is unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript recounts fictional hospital events, and on-screen text calls it a story explanation. There is no evidence of importing or faithfully narrating an existing document."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_bb8cd79ced769357ee68",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Japanese drama recap narration. No evidence of TTS or documents."
+          }
+        },
+        {
+          "sourceId": "s_bdd28ae2be8d8b692933",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_bdd28ae2be8d8b692933",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "comparison",
+            "unsupportedCapabilityIssues": [
+              "Availability of the named branded voices is not established."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript presents familiar voice samples, identifies their performers and explains typing 'yeah' for TikTok text-to-speech. This supplies a concrete neighboring voice-and-pronunciation reference."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_bdd28ae2be8d8b692933",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "'The Women Behind Famous Voices' compilation including the TikTok TTS voice and Siri. A voice-identity hook only."
+          }
+        },
+        {
+          "sourceId": "s_c15a0307adeadd4a171d",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_c15a0307adeadd4a171d",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [
+              "Autonomous computer control, content creation, coding and 3D generation are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The source enumerates claimed autonomous AI tasks and generated 3D examples. It supplies no document listening or concrete useful narration demonstration."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_c15a0307adeadd4a171d",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Hebrew GPT-6 hype video. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_c3be6b01d5e71d157780",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_c3be6b01d5e71d157780",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "comparison",
+            "unsupportedCapabilityIssues": [
+              "Automated article interpretation or summarization is unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript compares an article headline with its explanation while making a political argument. It does not demonstrate text-to-speech, imported text or listening while doing another task."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_c3be6b01d5e71d157780",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Duplicate political commentary about an unread article. No listening task."
+          }
+        },
+        {
+          "sourceId": "s_cd519dcb95371f2bb793",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_cd519dcb95371f2bb793",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "tutorial",
+            "unsupportedCapabilityIssues": [
+              "Translating narration or documents into another language is unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript explains house-cleaning steps, while on-screen text includes Chinese and Spanish captions. Chores and bilingual captions alone do not establish document listening or supported language-selector behavior."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_cd519dcb95371f2bb793",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [
+              "Spanish translated subtitles would imply translation, which is unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Chinese home cleaning vlog with Spanish subtitle translation. Unrelated to document TTS."
+          }
+        },
+        {
+          "sourceId": "s_d2a4437c36c9aba1ed76",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_d2a4437c36c9aba1ed76",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The caption and transcript document an elderly newspaper deliverer's physical route. Delivering newspapers is not consuming document text through narration, and no useful reader mechanism is supplied."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_d2a4437c36c9aba1ed76",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "88-year-old newspaper deliverer story. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_d4aa02c8d02723cb4c77",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "proximity",
+            "useful",
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_d4aa02c8d02723cb4c77",
+            "proximity": "adjacent",
+            "useful": "yes",
+            "mechanism": "comparison",
+            "unsupportedCapabilityIssues": [
+              "Availability of the named Siri, TikTok, Alexa or other branded voices is not established."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript pairs familiar voices with named performers and gives a typed-word text-to-speech example for 'yeah.' That is concrete neighboring evidence for narration voice and pronunciation."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_d4aa02c8d02723cb4c77",
+            "proximity": "mechanism",
+            "useful": "uncertain",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "'The People Behind Famous AI voices' compilation (TikTok TTS, Siri, Alexa). A voice-identity hook; no documents."
+          }
+        },
+        {
+          "sourceId": "s_d8e99256b2dec4561ea8",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism",
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_d8e99256b2dec4561ea8",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "story",
+            "unsupportedCapabilityIssues": [
+              "Translation, bilingual text generation and language learning are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The source profiles a bookstore offering Arabic and bilingual books to reconnect readers with languages and heritage. It supplies no audio-reading workflow; its translation and learning uses exceed the brief."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_d8e99256b2dec4561ea8",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [
+              "Bilingual/translated books and language reconnection imply translation and language learning, which are unsupported"
+            ],
+            "constraints": "fits",
+            "evidence": "Arabic bookstore profile: 'livre qui est traduit en Amazirt', 'apprenants qui cherchent des livres bilingues'. Not TTS."
+          }
+        },
+        {
+          "sourceId": "s_ef22604f890f6001f6fb",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_ef22604f890f6001f6fb",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "comparison",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The transcript compares foldable-phone batteries, cameras, processors and availability. It contains no document narration or concrete useful voice-selection reference."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_ef22604f890f6001f6fb",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Xiaomi foldable phone news. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_f08e4eecd2f58acb2506",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "mechanism"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_f08e4eecd2f58acb2506",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "comparison",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "The source unboxes a Mac Studio, compares its size with a Mac Mini and discusses a frozen computer. No document-listening functionality or useful narration mechanism is evidenced."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_f08e4eecd2f58acb2506",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "other",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Mac Studio unboxing. Unrelated."
+          }
+        },
+        {
+          "sourceId": "s_fd9d94828dd91625e3dc",
+          "briefId": "b_ef9c9c98545a5b65d405",
+          "changed": [
+            "unsupportedCapabilityIssues"
+          ],
+          "left": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_fd9d94828dd91625e3dc",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [
+              "Speech coaching and articulation training are unsupported."
+            ],
+            "constraints": "fits",
+            "evidence": "The transcript gives three articulation habits, including personally reading aloud with a pencil in one's mouth. This trains the speaker rather than providing text-to-speech access to documents."
+          },
+          "right": {
+            "briefId": "b_ef9c9c98545a5b65d405",
+            "sourceId": "s_fd9d94828dd91625e3dc",
+            "proximity": "irrelevant",
+            "useful": "no",
+            "mechanism": "list",
+            "unsupportedCapabilityIssues": [],
+            "constraints": "fits",
+            "evidence": "Communication habits advice ('read aloud books for at least 45 minutes'). Here a human reads aloud for speech practice; there's no TTS listening."
+          }
+        }
+      ],
+      "richChecks": []
+    }
+  ],
+  "counts": {
+    "search": 13,
+    "asset": 6,
+    "full": 0,
+    "plan": 7,
+    "qualification": 3,
+    "judge": 2
+  },
+  "calls": [
+    {
+      "id": "a51aeda8c4ead0bae36c3f2291b3bf7c3ed70d5c94affdaadc9b0f07f4e903c2",
+      "kind": "qualification",
+      "status": "success",
+      "elapsedMs": 50077
+    },
+    {
+      "id": "5a43cfc18a46436c1e5e326f5b7bd1bc0b585685ad3b8083f51691af39cf7df3",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 279
+    },
+    {
+      "id": "1c27c6766081ee996ecd6ec15e1655498b64a78f9edaf3e269b8b9d37da07076",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 219
+    },
+    {
+      "id": "0bf084fac759890ad64f4dee6294ea2384375abe18173b2073c94fa92450ca8f",
+      "kind": "plan",
+      "status": "success",
+      "elapsedMs": 22317
+    },
+    {
+      "id": "337abd82c175751221a02079df2971171abcecc59f26a2bcb9717054406e5647",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 1866
+    },
+    {
+      "id": "23c6b5a1fedad86839e4de25a3cdf3c17efcf92e8db582b0e40957117758ba54",
+      "kind": "judge",
+      "status": "success",
+      "elapsedMs": 383955
+    },
+    {
+      "id": "ba3eddc91eeb26d0d79f12d5197dc61ebf496e0d9c4392f7db32121300afe253",
+      "kind": "plan",
+      "status": "success",
+      "elapsedMs": 15238
+    },
+    {
+      "id": "0237cb46a7f0b1abc10d4aaa6f6ef18e4b4de127170c69602c7284606e65b851",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 1741
+    },
+    {
+      "id": "bfec3288b6c7bfe6f1307cd43d0fe1f423606ed4f195c48b9381cc572a0fc577",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 1982
+    },
+    {
+      "id": "087791fd429858304a1493876edbb14a4c2f789689a603f0f78446d684f4a652",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 430
+    },
+    {
+      "id": "f55381ae18c39661d113eb2f4cc6e465fd7f1aa3e1643dae50bab541c99ea02c",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 344
+    },
+    {
+      "id": "92f6090b5f5f60aa33f67b3ed3d9c9d6dab0650ec16c0ce4d67f35eb63f4b38b",
+      "kind": "plan",
+      "status": "failed",
+      "elapsedMs": 92
+    },
+    {
+      "id": "254798d5bdcfbf5fe03129fb4a560e91f2f4268a0f7ba69b106f0314f9a86480",
+      "kind": "asset",
+      "status": "success",
+      "elapsedMs": 580
+    },
+    {
+      "id": "3528160bb014f139e9ba57bf4cf2a376c1b333fa18eca0ca7e4e134a176d93b6",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 408
+    },
+    {
+      "id": "93f17262a730dbb453e4318b8bf7a651357df4ceaf7528b7bbe172ee1d6c4837",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 270
+    },
+    {
+      "id": "39cb0447c7b881b8d03ab244d22c9e83afd130bb8e554361d3362edcb3ab1e34",
+      "kind": "plan",
+      "status": "success",
+      "elapsedMs": 23241
+    },
+    {
+      "id": "d37f2d21d9d68f424ae907a8982b893c50639cc98da374a158f11da48b0a272d",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 1667
+    },
+    {
+      "id": "73b261f1b036811ade87c9aa3766dce7fc511c499915ac40df28ad53391ab076",
+      "kind": "plan",
+      "status": "success",
+      "elapsedMs": 11295
+    },
+    {
+      "id": "f7910129b65374e3327354c4f692137bb59498c40dfcdefd66bd9377d23f61aa",
+      "kind": "plan",
+      "status": "success",
+      "elapsedMs": 77877
+    },
+    {
+      "id": "289ea9f86bb61f807d1923368c6641cd525a945be4226ba9a86f33e29cb134da",
+      "kind": "qualification",
+      "status": "success",
+      "elapsedMs": 41070
+    },
+    {
+      "id": "e75b4d7d978b1cf4d6d04647750a2bd4be3121f38825d738f58d2c3b097fac95",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 2834
+    },
+    {
+      "id": "f273689419b6919606cb92f76acbd2eb1ed920c8af296d9b9b26d03c3e872640",
+      "kind": "asset",
+      "status": "success",
+      "elapsedMs": 433
+    },
+    {
+      "id": "aa4746b57166edd1682da5258d4523b0b54b6975ec1f9e62c6559b263b8eab75",
+      "kind": "qualification",
+      "status": "success",
+      "elapsedMs": 82353
+    },
+    {
+      "id": "6d3981c72929fad8aef7868fb641277cbdce0a573bfdad69e18d208b77ee1842",
+      "kind": "asset",
+      "status": "success",
+      "elapsedMs": 460
+    },
+    {
+      "id": "6ec5fb53c8a0d91ed880206cae758c7baac86d1f54b49fec6a9f700963305e14",
+      "kind": "asset",
+      "status": "success",
+      "elapsedMs": 502
+    },
+    {
+      "id": "39b0ed120532d85e90cd0a6c1ba0e7898af17554b155a6d574dc33bebdab3304",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 300
+    },
+    {
+      "id": "ec48f688ed0fe20f740975b24ef14176fb65bbb161bd597357031129b5d73160",
+      "kind": "plan",
+      "status": "success",
+      "elapsedMs": 23927
+    },
+    {
+      "id": "ef95c855a263a0ff00f41c0589ccbc297a8dd819d4bb3ebc86b86774ee92d8e1",
+      "kind": "asset",
+      "status": "success",
+      "elapsedMs": 222
+    },
+    {
+      "id": "ac505db334ec981466f9433407242e9ece0ac0b3519d20b214a865779e9193d4",
+      "kind": "asset",
+      "status": "success",
+      "elapsedMs": 170
+    },
+    {
+      "id": "b3478013a73ff719abab49955dc33bc1d2576d2cf336177293a6fb52bf3120ff",
+      "kind": "judge",
+      "status": "success",
+      "elapsedMs": 176449
+    },
+    {
+      "id": "184414d2fd3e5d302910ba5b9115e298de2ea2a97703cade6d012bb2f42413d4",
+      "kind": "search",
+      "status": "success",
+      "elapsedMs": 2247
+    }
+  ],
+  "limitations": [
+    "Single captured trial per scenario; paired ablations only, no statistical or corpus-recall claim.",
+    "B/C-small isolates qualification, C-small/C pool size, C/D adaptive expansion. Top-12 prefixes stand in for top-6 responses.",
+    "Missing slots score zero with fixed denominator six. Duplicate platform identities count once. A may select more than six; selectedCount preserves that.",
+    "Text and indexed frame metadata do not prove whole-video constraints; image review is separate.",
+    "Initial labels are primary; rich subset changes remain separate and never silently replace them.",
+    "Top-1 source proximity is diagnostic only. Actual generated approach count, grounding, distinctness and closest-approach-first remain pending separate postproduction review.",
+    "Source and plan fidelity differ; plan capability fidelity is not measured by source labels.",
+    "Claude opus exact effective version is unknown. Started/failed calls consume the shared ceiling of eight judge calls. Planner budget correction and any authorized retry are recorded in the main run ledger."
+  ]
+}

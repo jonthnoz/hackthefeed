@@ -1,0 +1,11 @@
+# Context disambiguation, screening amendment
+
+The first screening capture found useful social-place-saving apps, but document listening still returned celebrity/TikTok voice compilations. The short phrase `text to speech` was ambiguous and absolute engagement favored a different use of it. The nearby article-reader search returned no rows. No held-out result has been opened.
+
+Test a second literal group identifying the intended input object, product category or confidently known tools. Require one task phrase AND one context phrase across caption or transcript. This is a general query rule, not a reader-specific keyword list. Context anchors are generated from the original briefs and existing task terms without showing rejected sources, judge rubrics or scores.
+
+For the three screening cases, preserve the first run's task terms, visual descriptions and nearby terms. Generate only the context arrays in one additional model call, then replay completed captures and request only missing contextual searches/qualifications. Save all results in a new run. This isolates the added context filter more closely than regenerating whole plans. Held-out plans must generate the full final contract organically in the normal one-call planner.
+
+The original run, captures and independent labels remain intact. The second run inherits its completed non-judge calls, including the failed sandbox preflight. Total planner ceiling becomes 14: twelve original paired plans, one failed preflight and one three-case context-generation batch. Search ceiling stays 36, assets 16, full requests 6, qualifications 18, judges 8 across both runs. Judge allocations are two first-screen, two revised-screen, two held-out, and two optional richer held-out checks. Synchronize ancestor judge records before revised judging so accounting remains cumulative.
+
+Primary gates stay unchanged. Report each case, both judges, unknowns and regressions. The final candidate additionally fixes a locally reproduced reservation bug by deduplicating executions before allocating baseline/targeted inspection slots. Its constrained behavior has regression coverage; the first screening cases are unconstrained. Source hashes freeze the actual final implementation before held-out retrieval.

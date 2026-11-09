@@ -1,0 +1,12 @@
+{
+  "id": "e642b68f83c9ae56b9afb9d62dce61bb41a5ff89a82999159949e06fe22143f9",
+  "scope": "subscription-reminders/old",
+  "kind": "asset",
+  "request": {
+    "text": "Person checks a subscription receipt, types its price and renewal date into a phone, then later sees a renewal reminder before the calendar reaches that date. Proposed presentation; interface unspecified."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:35:25.040Z",
+  "response": "ast_XkAqxxgY8Nr7zd1g0tOzzVZCTT0V",
+  "elapsedMs": 456
+}

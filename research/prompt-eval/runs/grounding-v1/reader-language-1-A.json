@@ -1,0 +1,28 @@
+{
+  "id": "reader-language-1-A",
+  "scenario": "reader-language",
+  "split": "screen",
+  "variant": "A",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "9116b42463dc23a841f11b6d7ae9338ff83c470ff88567c02e6c5da1bf33fb4b",
+  "output": {
+    "product": "Document-to-audio reader",
+    "tagline": "Your documents, read aloud.",
+    "promise": "Listen to your documents in your chosen language.",
+    "question": "When does reading long documents become inconvenient, and does listening help users get through them?",
+    "visualQuery": "Person scrolling through a long document on a phone, rubbing tired eyes, then putting on headphones; person listening through earbuds while walking or folding laundry.",
+    "terms": [
+      "document to speech",
+      "read documents aloud",
+      "multilingual text to speech",
+      "PDF audio reader",
+      "Word document text to speech",
+      "listen to ebooks"
+    ]
+  },
+  "flags": []
+}

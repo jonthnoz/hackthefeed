@@ -1,0 +1,519 @@
+{
+  "judge": "claude",
+  "config": {
+    "provider": "claude",
+    "model": "opus",
+    "effort": "high",
+    "timeoutMs": 480000
+  },
+  "unionHash": "b3cdd1b243b044082ad90a9a1321869c60ece9007ce965f34023ee1eca03f037",
+  "labels": [
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_05a46cbafdb54cb00146",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Core effect is AI-generated sunlight/shadows ('画像を生成'), i.e. new generated image content",
+        "Harmonize/Gaussian blur compositing and text placement are not supported edits"
+      ],
+      "constraints": "unknown",
+      "evidence": "Photoshop tutorial puts a cut-out product package on a colored background ('色背景に商品画像を配置'), then adds generated dappled-light shadows. The cutout-on-color step is close to the product's edits; the main payoff relies on generative features the product doesn't have. Text can't confirm whether people appear."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_20f3734968b7ab9a73c4",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Ad for a cafe ceramics date ('Cita 2 personas Ceramica en Overeal Cafe'). No photo editing or product listing task."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_23ba2f0ee390d9d0a981",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Phone camera settings for cinematic video ('Make your phone look CINEMATIC in 5 easy steps', Blackmagic app, Apple Log). This is about video capture settings, not editing a product photo's background."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_354f56542bd3508c8e3b",
+      "proximity": "mechanism",
+      "useful": "no",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [
+        "Creating a crushed can mockup changes how the physical product looks and adds design details"
+      ],
+      "constraints": "unknown",
+      "evidence": "Photoshop mockup tutorial with DON'T/DO on-screen labels ('Press Ctrl+T Free Transform'). It makes a crushed can mockup, not a cleaned-up listing photo. The transcript is noise."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_3ff8bcf82a02c3d84a4e",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Animation, beat sync, zoom and pixel-stretch effects are not supported",
+        "The product exports a still photo, not a video"
+      ],
+      "constraints": "unknown",
+      "evidence": "CapCut head-bop animation tutorial that includes 'go to Remove BG and select Auto Removal'. Background removal is a shared step, but the task is animating images to music, not cleaning up a listing photo."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_571a5e5c3cfffeab878f",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "'how i created this music carousel' in a design app. Scrapbook carousel; no product photo cleanup. The transcript is only 'Thank you.'"
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_594cbe4d93069f89738f",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Action store new-arrivals roundup (vacuum, LED mirrors, mugs, with prices). Shows retail products, not photo editing."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_5b13d57daecf3fc994ad",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "Portrait mode, f-stop and filters happen at capture time; the product doesn't edit these"
+      ],
+      "constraints": "unknown",
+      "evidence": "'普通に撮ると' vs 'プロは5ステップでこう撮る' numbered steps for shooting cafe items, ending with '⑤少し明るさを…上げて'. Brightness overlaps, but this is about taking the photo, not editing an existing one or removing the background."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_6dab88d9b3b8c8d65535",
+      "proximity": "mechanism",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "Changing object details ('Change the subject's hat color') and removing objects via layers/AI are unsupported and would misrepresent the product"
+      ],
+      "constraints": "unknown",
+      "evidence": "Envato Layers splits stock images into editable elements to 'move, resize or transform the details'. This is stock-image editing with generative changes, not product listing cleanup."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_75f6fcf2d5f0a1143ea2",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "'updating my iPhone for fall' with Widgetsmith widgets. Home screen customization, unrelated to product photos."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_7b011243cebc5690290d",
+      "proximity": "direct",
+      "useful": "uncertain",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Photoroom 'Product Staging' generates a described background, not a solid color",
+        "AI Product Beautifier, Flat Lay and Video Generator are not supported"
+      ],
+      "constraints": "unknown",
+      "evidence": "Coworker skit about editing new shoe photos to post them, using 'product staging tool… describe the background you want'. Same listing-photo task, but the background is generated. The skit format implies on-camera actors, which conflicts with the no-people constraint, but text can't confirm faces."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_8a7b4200b0895b21c752",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Explainer on a laser mosquito defence device (lidar, laser). Unrelated to photo editing."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_8b73d8cd8e7bd12667ac",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "AI generation and animation of branded visuals are unsupported"
+      ],
+      "constraints": "unknown",
+      "evidence": "Higgsfield steps to 'Turn your logo into branded content visuals' and 'Animate image'. Generating logo visuals is not cleaning up a product photo."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_92026226c0a770b42cf0",
+      "proximity": "mechanism",
+      "useful": "no",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Compositing screenshots, shadows, perspective transforms and spatial-scene video are unsupported"
+      ],
+      "constraints": "unknown",
+      "evidence": "Photoroom 3D player edit; the transcript says 'We can skip background removal for this one', then layers Spotify screenshots between fingers. A creative composite, not a product listing photo. It uses a photo of the creator."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_9cac61abed93bf71a418",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Huawei Pura 90s Pro Max phone review (price, camera, screen). No photo editing task."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_a6e82ff09d1f5493d3aa",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "'Rip my brown rad ceramics mug' meme over song lyrics. Not about photo editing."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_c332899b1b5977da2706",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Turning still product images into motion video is unsupported",
+        "AI Backgrounds, AI Fashion Models and Studio Shot tools are unsupported"
+      ],
+      "constraints": "unknown",
+      "evidence": "Caption: teaching how to turn still product images into video with a phone (Photoroom). On-screen shows 'AI Backgrounds', 'Create a video'. Neighbors product-photo editing, but there's no transcript and the shown output is video."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_cbf94b35b21c713edca0",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "It 'generate[s] a new one' (AI background) rather than a solid color",
+        "Shopify import and dropping straight into a listing imply automatic listing integration"
+      ],
+      "constraints": "unknown",
+      "evidence": "'This is the product photo I took on my phone and this is the one I actually use for a listing… It removes the background', with BEFORE/AFTER on screen and 'Same product, same photo'. Strong before-after reference for background removal on a real listing photo; a solid-color background would need to replace the generated one."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_cceba27f70edfac38600",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Still-to-video conversion, AI Backgrounds, AI Fashion Models and Ghost Mannequin are unsupported"
+      ],
+      "constraints": "unknown",
+      "evidence": "Caption: turn still product images into video with Photoroom. On-screen shows app menus ('AI Backgrounds', 'Ghost Mannequin'). The transcript is only song lyrics, so the actual edit steps are unclear."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_d37de8eb360e345cff34",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "social-proof",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Recommends a laser-engraving supplier for personalized products. Changes physical products; no photo editing."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_13332572f03c9d01cdc5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Autonomous robot, moisture sensor and auto light-seeking imply automatic care the product can't do"
+      ],
+      "constraints": "unknown",
+      "evidence": "Sprout rover chases sunlight and pings when thirsty ('A sensor in the planter'). Not about diagnosing leaf damage. On-screen 'BUILDING WITH GOOGLE GEMINI' names a brand; text can't confirm a logo is shown."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_2321d1d9555931bae4c5",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Contrasts old lower leaves dropping slowly (natural) with new/upper leaves or many at once ('不調のサイン'). Gives likely causes ('夜の窓辺の冷えや水のやりすぎが多い') and suggests reviewing placement and watering. Hedged reading of visible leaf symptoms."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_43d14b781858b35377e8",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Confident named diagnoses of tomato pathogens resemble expert/guaranteed diagnosis",
+        "Field crop, not a houseplant"
+      ],
+      "constraints": "unknown",
+      "evidence": "Agronomist walks through visible tomato leaf symptoms (velvety brown spots = fulvia, fine yellow stippling = spider mite, concentric rings = alternaria). The symptom-to-cause list could transfer, but it's crop diagnosis stated definitively."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_892611f1db60b452a1d1",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Home garlic spray remedy goes beyond the product, which offers no treatment or cure"
+      ],
+      "constraints": "unknown",
+      "evidence": "Black spots, dry tips and yellow zones are 'muchas veces… relacionadas con problemas de hongos', hedged. Ends with advice to review 'el riego, la ventilación'. Good hedged reference for symptoms to possible causes; skip the remedy portion."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_9b7628e8d8e3d7c1073f",
+      "proximity": "mechanism",
+      "useful": "no",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "Neem cleaning recipe suggests treatment and pest prevention"
+      ],
+      "constraints": "violates",
+      "evidence": "Leaf-cleaning recipe ('passer de ça à ça'). This is maintenance, not damage investigation. On-screen text shows product label branding ('MARY TYLOR NATURALS… NEEM OIL'), suggesting a visible brand logo."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_ad1085689ae6da1782c5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Houseplant collection showcase (begonias, anthurium). It only briefly mentions one begonia 'just got sick'; no damage investigation."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_c254063d15e9588cb455",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Messy-home meme ('auch unser Haus sieht oft so aus'). No transcript and no plant content."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_dca0cd8495530507c2f5",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Claims the AI can 'identifier une maladie', i.e. definitive diagnosis",
+        "Voice messages and planting-time advice are not supported"
+      ],
+      "constraints": "unknown",
+      "evidence": "FarmerChat: farmers 'prendre une photo' and the AI helps identify crop disease. The photo-to-cause flow is a neighbor, but it's a founder story about farming with definitive identification. Possible Microsoft/Gates branding in on-screen text."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_ddab48614523bd5cf7a7",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "POCO F9 Ultra phone hands-on (battery, display). Unrelated to plants."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_e4baa6825bb93f02cb62",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Xiaomi 14 Ultra vs S24 Ultra camera comparison. Unrelated to plant damage."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_e9cf91e18dac57be83f2",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Links stuffy damp soil to root rot and '葉が黄色くなることもあります', then advises checking the soil before watering ('乾いているか確認'). This connects a visible leaf symptom to a watering cause, which fits watering-date records. Hedged wording."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_3237da8dc475583ebcdb",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Auto-categorization, usage tracking and the 'how much I would save' toggle go beyond the product",
+        "No renewal reminders shown"
+      ],
+      "constraints": "fits",
+      "evidence": "'apparently I was paying almost $200/month in subscriptions', then lists each price (ClassPass $58.64, Netflix $10.40…) entered in plain English into a self-built tracker with yearly cost. Good reference for manual price entry and the reveal of the total."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_5c7638d45425762bf08c",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Monimo ad: earn jelly rewards for daily check-ins and challenges. Not subscription tracking."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_6b09ecf38ef4b49403b5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "unknown",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "No caption; the transcript is fragmentary family chatter and on-screen text is 'Phone'. Nothing about subscriptions."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_76d6c6e22baa3e8a0104",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "News on a GTA 6 price error in the PlayStation Store. It mentions subscription prices only in passing; no tracking or renewals."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_835aceb887e21dbba016",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "Negotiating subscriptions and claimed savings ('plus de 500 euros') are unsupported",
+        "The product does not perform cancellation"
+      ],
+      "constraints": "fits",
+      "evidence": "Magalie cancels unused video/game subscriptions, counting clicks ('six clics'), until 'Votre abonnement a été résilié'. This is the provider-side cancellation the user would do before marking it cancelled in the app."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_84fe81d9cfb521d46554",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Medical mission story about a child's jaw surgery. Unrelated."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_98ac7ad6a801a1a38ea9",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Nickelback Australian tour ticket prices run-through. No subscriptions or renewals."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_9a326490a5aacf6bc6d6",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Recommends apps that connect financial accounts and cancel for you (bank linking, automatic cancellation)"
+      ],
+      "constraints": "fits",
+      "evidence": "Tips for finding forgotten recurring charges (credit card statements, iPhone Settings > Subscriptions, Google Play), then cancelling. A clear neighbor to building the list, but it endorses Rocket Money and account-linking."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_9e63cc9eb1090c124b00",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Framed as building an app with Emergent; don't imply the product is user-built"
+      ],
+      "constraints": "fits",
+      "evidence": "'Now I can add my subscriptions and it even shows how much each one costs per year… it also reminds me two days before a free trial turns into a payment. So luckily I could cancel a few things.' Manual entry plus a pre-renewal reminder leading to a decision."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_b14604a3070342eb0a2e",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Comedian's ten-year time-capsule package story. Unrelated to subscriptions."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_b73f97a0f3f9c71c00da",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Core flow uses the Plaid connector to pull credit card transactions (bank linking)",
+        "Automatic recurring-subscription detection is unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "A subscription tracker built with Replit + Plaid that 'connected to my credit cards, pulled two years of history'. It does mention uploading statements as an alternative. A tracking neighbor, but its central claim is bank linking."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_dd84d6253b93d3005126",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Comedic pile-up of notifications ('Cadê você?', 'Precisamos de você no set em 20 minutos', 'o gás tá aqui pra cortar'). The stacking-notification device could transfer to renewal reminders; there is no subscription content."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_df72d2cd4596657bdfc1",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "NYC Marathon bib pickup POV. Unrelated to subscription tracking."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_c6ca4b8266c23129c53e",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "This is a personal evening-routine vlog: a kale Caesar salad recipe, client calls, feeding the cats, and watching Dancing with the Stars (#eveningroutine, #apartmentlife). Nothing in it covers photo editing, removing backgrounds, picking a solid color, adjusting brightness, or product listing photos. The format is a day-in-the-life narrative, which doesn't carry over to this brief. The text alone can't confirm or rule out visible faces or people."
+    }
+  ],
+  "repair": {
+    "failedCallId": "ceb5f959d86eb4cfbf30bacd140e1ac07f1e0573181a1bb3e58071c3125d3c7a",
+    "retainedValidLabels": 44,
+    "repairedLabels": 1
+  }
+}

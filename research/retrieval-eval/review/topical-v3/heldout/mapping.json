@@ -1,0 +1,839 @@
+{
+  "version": 1,
+  "runDirectory": "/Users/macos/git/oriane/research/retrieval-eval/runs/topical-v3",
+  "split": "heldout",
+  "fingerprint": "460ee5bbcbd51fbc080d910ad7c124ae0d319d394db31f9bcf5f4968ac6def82",
+  "scenarios": [
+    {
+      "scenario": "plant-diagnosis",
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "arms": [
+        {
+          "id": "A",
+          "plan": "old",
+          "poolIds": [
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_0d6fb4f99924fd697c9956605822",
+            "cnt_4ec8ad222bba2709aa7618900686",
+            "cnt_b81ceccf4abf5b89579caa7bdff5",
+            "cnt_1ebd5bdd8ff0dec923388a176185",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_b81ceccf4abf5b89579caa7bdff5",
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_9bd92c72d91a2c42a2d491ce6303",
+            "cnt_905de5d6830159dd26b67967cbac"
+          ],
+          "selectedIds": [
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_0d6fb4f99924fd697c9956605822",
+            "cnt_4ec8ad222bba2709aa7618900686",
+            "cnt_b81ceccf4abf5b89579caa7bdff5",
+            "cnt_1ebd5bdd8ff0dec923388a176185",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_9bd92c72d91a2c42a2d491ce6303",
+            "cnt_905de5d6830159dd26b67967cbac"
+          ]
+        },
+        {
+          "id": "B",
+          "plan": "new",
+          "poolIds": [
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_0d6fb4f99924fd697c9956605822",
+            "cnt_4df5ff62e0391664497317abfbfb",
+            "cnt_4ec8ad222bba2709aa7618900686",
+            "cnt_1ebd5bdd8ff0dec923388a176185",
+            "cnt_e495752c2d0d0b2504042d8d4d85"
+          ],
+          "selectedIds": [
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_0d6fb4f99924fd697c9956605822",
+            "cnt_4df5ff62e0391664497317abfbfb",
+            "cnt_4ec8ad222bba2709aa7618900686",
+            "cnt_1ebd5bdd8ff0dec923388a176185",
+            "cnt_e495752c2d0d0b2504042d8d4d85"
+          ]
+        },
+        {
+          "id": "C-small",
+          "plan": "new",
+          "poolIds": [
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_0d6fb4f99924fd697c9956605822",
+            "cnt_4df5ff62e0391664497317abfbfb",
+            "cnt_4ec8ad222bba2709aa7618900686",
+            "cnt_1ebd5bdd8ff0dec923388a176185",
+            "cnt_e495752c2d0d0b2504042d8d4d85"
+          ],
+          "selectedIds": [
+            "cnt_e495752c2d0d0b2504042d8d4d85",
+            "cnt_1ebd5bdd8ff0dec923388a176185",
+            "cnt_4df5ff62e0391664497317abfbfb",
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c"
+          ]
+        },
+        {
+          "id": "C",
+          "plan": "new",
+          "poolIds": [
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_0d6fb4f99924fd697c9956605822",
+            "cnt_4df5ff62e0391664497317abfbfb",
+            "cnt_4ec8ad222bba2709aa7618900686",
+            "cnt_1ebd5bdd8ff0dec923388a176185",
+            "cnt_bce2fcef499e6cd9e40752d11de7",
+            "cnt_9bd92c72d91a2c42a2d491ce6303",
+            "cnt_e495752c2d0d0b2504042d8d4d85",
+            "cnt_4b22507de78cccd65f0db893426b",
+            "cnt_470b5261916ac14487b4fcf3696e",
+            "cnt_3587155242747825285ddb7c2c8f",
+            "cnt_e4c82e38d402c339df4d83760b3f"
+          ],
+          "selectedIds": [
+            "cnt_e495752c2d0d0b2504042d8d4d85",
+            "cnt_bce2fcef499e6cd9e40752d11de7",
+            "cnt_4df5ff62e0391664497317abfbfb",
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_1ebd5bdd8ff0dec923388a176185"
+          ]
+        },
+        {
+          "id": "D",
+          "plan": "new",
+          "poolIds": [
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_0d6fb4f99924fd697c9956605822",
+            "cnt_4df5ff62e0391664497317abfbfb",
+            "cnt_4ec8ad222bba2709aa7618900686",
+            "cnt_1ebd5bdd8ff0dec923388a176185",
+            "cnt_bce2fcef499e6cd9e40752d11de7",
+            "cnt_9bd92c72d91a2c42a2d491ce6303",
+            "cnt_e495752c2d0d0b2504042d8d4d85",
+            "cnt_4b22507de78cccd65f0db893426b",
+            "cnt_470b5261916ac14487b4fcf3696e",
+            "cnt_3587155242747825285ddb7c2c8f",
+            "cnt_4ec8ad222bba2709aa7618900686",
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_0d6fb4f99924fd697c9956605822",
+            "cnt_e495752c2d0d0b2504042d8d4d85",
+            "cnt_4b22507de78cccd65f0db893426b",
+            "cnt_bce2fcef499e6cd9e40752d11de7",
+            "cnt_e4c82e38d402c339df4d83760b3f",
+            "cnt_1ebd5bdd8ff0dec923388a176185"
+          ],
+          "selectedIds": [
+            "cnt_e495752c2d0d0b2504042d8d4d85",
+            "cnt_bce2fcef499e6cd9e40752d11de7",
+            "cnt_4df5ff62e0391664497317abfbfb",
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_1ebd5bdd8ff0dec923388a176185"
+          ]
+        },
+        {
+          "id": "O",
+          "plan": "new",
+          "poolIds": [
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_0d6fb4f99924fd697c9956605822",
+            "cnt_4df5ff62e0391664497317abfbfb",
+            "cnt_4ec8ad222bba2709aa7618900686",
+            "cnt_1ebd5bdd8ff0dec923388a176185",
+            "cnt_bce2fcef499e6cd9e40752d11de7",
+            "cnt_9bd92c72d91a2c42a2d491ce6303",
+            "cnt_e495752c2d0d0b2504042d8d4d85",
+            "cnt_4b22507de78cccd65f0db893426b",
+            "cnt_470b5261916ac14487b4fcf3696e",
+            "cnt_3587155242747825285ddb7c2c8f",
+            "cnt_e4c82e38d402c339df4d83760b3f"
+          ],
+          "selectedIds": [
+            "cnt_4895c4b0f711064615f78be80ff2",
+            "cnt_c2f50c321bff549e4ef5e8c4e60c",
+            "cnt_4df5ff62e0391664497317abfbfb",
+            "cnt_1ebd5bdd8ff0dec923388a176185",
+            "cnt_bce2fcef499e6cd9e40752d11de7",
+            "cnt_e495752c2d0d0b2504042d8d4d85"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "cnt_4895c4b0f711064615f78be80ff2",
+          "sourceId": "s_dca0cd8495530507c2f5",
+          "creator": "instagram/theimpactstory",
+          "identity": "instagram/DeW9ftdsMIp"
+        },
+        {
+          "id": "cnt_0d6fb4f99924fd697c9956605822",
+          "sourceId": "s_c254063d15e9588cb455",
+          "creator": "instagram/my.blue.door",
+          "identity": "instagram/DdRe_XhMNbV"
+        },
+        {
+          "id": "cnt_4ec8ad222bba2709aa7618900686",
+          "sourceId": "s_ad1085689ae6da1782c5",
+          "creator": "instagram/georgiaolive",
+          "identity": "instagram/DcOt_wVMKBa"
+        },
+        {
+          "id": "cnt_b81ceccf4abf5b89579caa7bdff5",
+          "sourceId": "s_e9cf91e18dac57be83f2",
+          "creator": "instagram/hyponex_japan",
+          "identity": "instagram/Db-sHTaDW-2"
+        },
+        {
+          "id": "cnt_1ebd5bdd8ff0dec923388a176185",
+          "sourceId": "s_2321d1d9555931bae4c5",
+          "creator": "instagram/hyponex_japan",
+          "identity": "instagram/DeCAruagbEK"
+        },
+        {
+          "id": "cnt_c2f50c321bff549e4ef5e8c4e60c",
+          "sourceId": "s_892611f1db60b452a1d1",
+          "creator": "tiktok/jardineriaurbano",
+          "identity": "tiktok/7682566431027858708"
+        },
+        {
+          "id": "cnt_9bd92c72d91a2c42a2d491ce6303",
+          "sourceId": "s_ddab48614523bd5cf7a7",
+          "creator": "tiktok/techindubai",
+          "identity": "tiktok/7687209880771366164"
+        },
+        {
+          "id": "cnt_905de5d6830159dd26b67967cbac",
+          "sourceId": "s_e4baa6825bb93f02cb62",
+          "creator": "tiktok/kardan.zx",
+          "identity": "tiktok/7681739848251641109"
+        },
+        {
+          "id": "cnt_e495752c2d0d0b2504042d8d4d85",
+          "sourceId": "s_9b7628e8d8e3d7c1073f",
+          "creator": "tiktok/laura_pigeon",
+          "identity": "tiktok/7673474423621668114"
+        },
+        {
+          "id": "cnt_bce2fcef499e6cd9e40752d11de7",
+          "sourceId": "s_13332572f03c9d01cdc5",
+          "creator": "instagram/googlefordevs",
+          "identity": "instagram/DfDWQrkiQuA"
+        },
+        {
+          "id": "cnt_4df5ff62e0391664497317abfbfb",
+          "sourceId": "s_43d14b781858b35377e8",
+          "creator": "tiktok/johanserratos17",
+          "identity": "tiktok/7698835334431313173"
+        }
+      ]
+    },
+    {
+      "scenario": "subscription-reminders",
+      "briefId": "b_e76802221cc9c6096cb9",
+      "arms": [
+        {
+          "id": "A",
+          "plan": "old",
+          "poolIds": [
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_6596f20c36aeb94fd3061613ff70",
+            "cnt_90d0c20e718a2fc0c3aac0a04553",
+            "cnt_6f70176bc23bfb98ea44258fd468",
+            "cnt_57375c4af00ca4ef650a167c88a8",
+            "cnt_ead36e300fbe595bfc05dcf946e0"
+          ],
+          "selectedIds": [
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_6596f20c36aeb94fd3061613ff70",
+            "cnt_90d0c20e718a2fc0c3aac0a04553",
+            "cnt_6f70176bc23bfb98ea44258fd468",
+            "cnt_57375c4af00ca4ef650a167c88a8",
+            "cnt_ead36e300fbe595bfc05dcf946e0"
+          ]
+        },
+        {
+          "id": "B",
+          "plan": "new",
+          "poolIds": [
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_c8a43bbf7abade16a4bc04c8bae9",
+            "cnt_dbe1d1c2ae6873a6623a17abcd03",
+            "cnt_7b0b14e942a5c1108f3b9947cae1",
+            "cnt_e1fd867c15857bfcde196cb7a0c5",
+            "cnt_f625948661da5f2bfe0b4564dc4b",
+            "cnt_506703ee4f4c041601d21aea80f1",
+            "cnt_6fa440790aff87b0158e6095b6cf",
+            "cnt_d73c6ec160e0841f4af1ffa6574b",
+            "cnt_7f2d32a6e15530b5b32f8a207a48"
+          ],
+          "selectedIds": [
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_506703ee4f4c041601d21aea80f1",
+            "cnt_c8a43bbf7abade16a4bc04c8bae9",
+            "cnt_6fa440790aff87b0158e6095b6cf",
+            "cnt_dbe1d1c2ae6873a6623a17abcd03",
+            "cnt_d73c6ec160e0841f4af1ffa6574b"
+          ]
+        },
+        {
+          "id": "C-small",
+          "plan": "new",
+          "poolIds": [
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_c8a43bbf7abade16a4bc04c8bae9",
+            "cnt_dbe1d1c2ae6873a6623a17abcd03",
+            "cnt_7b0b14e942a5c1108f3b9947cae1",
+            "cnt_e1fd867c15857bfcde196cb7a0c5",
+            "cnt_f625948661da5f2bfe0b4564dc4b",
+            "cnt_506703ee4f4c041601d21aea80f1",
+            "cnt_6fa440790aff87b0158e6095b6cf",
+            "cnt_d73c6ec160e0841f4af1ffa6574b",
+            "cnt_7f2d32a6e15530b5b32f8a207a48"
+          ],
+          "selectedIds": [
+            "cnt_506703ee4f4c041601d21aea80f1",
+            "cnt_6fa440790aff87b0158e6095b6cf",
+            "cnt_d73c6ec160e0841f4af1ffa6574b",
+            "cnt_7f2d32a6e15530b5b32f8a207a48",
+            "cnt_093c44f61515771dbec200d3a5b2"
+          ]
+        },
+        {
+          "id": "C",
+          "plan": "new",
+          "poolIds": [
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_c8a43bbf7abade16a4bc04c8bae9",
+            "cnt_dbe1d1c2ae6873a6623a17abcd03",
+            "cnt_7b0b14e942a5c1108f3b9947cae1",
+            "cnt_e1fd867c15857bfcde196cb7a0c5",
+            "cnt_f625948661da5f2bfe0b4564dc4b",
+            "cnt_4fccec22e89304fe5a17afefc7c3",
+            "cnt_e47c7f1b5946d684eee5eb8eb118",
+            "cnt_8d5bef665113519d8dbc9d6b481b",
+            "cnt_d67541a772cbd263051b20d08005",
+            "cnt_58e56af2542f9055f4380efb6ee8",
+            "cnt_4daa7711b4e601bb87e057dcb825",
+            "cnt_506703ee4f4c041601d21aea80f1",
+            "cnt_6fa440790aff87b0158e6095b6cf",
+            "cnt_d73c6ec160e0841f4af1ffa6574b",
+            "cnt_7f2d32a6e15530b5b32f8a207a48"
+          ],
+          "selectedIds": [
+            "cnt_506703ee4f4c041601d21aea80f1",
+            "cnt_6fa440790aff87b0158e6095b6cf",
+            "cnt_d73c6ec160e0841f4af1ffa6574b",
+            "cnt_7f2d32a6e15530b5b32f8a207a48",
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_58e56af2542f9055f4380efb6ee8"
+          ]
+        },
+        {
+          "id": "D",
+          "plan": "new",
+          "poolIds": [
+            "cnt_506703ee4f4c041601d21aea80f1",
+            "cnt_6fa440790aff87b0158e6095b6cf",
+            "cnt_d73c6ec160e0841f4af1ffa6574b",
+            "cnt_7f2d32a6e15530b5b32f8a207a48",
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_c8a43bbf7abade16a4bc04c8bae9",
+            "cnt_dbe1d1c2ae6873a6623a17abcd03",
+            "cnt_7b0b14e942a5c1108f3b9947cae1",
+            "cnt_e1fd867c15857bfcde196cb7a0c5",
+            "cnt_f625948661da5f2bfe0b4564dc4b",
+            "cnt_4fccec22e89304fe5a17afefc7c3",
+            "cnt_e47c7f1b5946d684eee5eb8eb118",
+            "cnt_8d5bef665113519d8dbc9d6b481b",
+            "cnt_d67541a772cbd263051b20d08005",
+            "cnt_58e56af2542f9055f4380efb6ee8",
+            "cnt_4daa7711b4e601bb87e057dcb825"
+          ],
+          "selectedIds": [
+            "cnt_506703ee4f4c041601d21aea80f1",
+            "cnt_6fa440790aff87b0158e6095b6cf",
+            "cnt_d73c6ec160e0841f4af1ffa6574b",
+            "cnt_7f2d32a6e15530b5b32f8a207a48",
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_58e56af2542f9055f4380efb6ee8"
+          ]
+        },
+        {
+          "id": "O",
+          "plan": "new",
+          "poolIds": [
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_c8a43bbf7abade16a4bc04c8bae9",
+            "cnt_dbe1d1c2ae6873a6623a17abcd03",
+            "cnt_7b0b14e942a5c1108f3b9947cae1",
+            "cnt_e1fd867c15857bfcde196cb7a0c5",
+            "cnt_f625948661da5f2bfe0b4564dc4b",
+            "cnt_4fccec22e89304fe5a17afefc7c3",
+            "cnt_e47c7f1b5946d684eee5eb8eb118",
+            "cnt_8d5bef665113519d8dbc9d6b481b",
+            "cnt_d67541a772cbd263051b20d08005",
+            "cnt_58e56af2542f9055f4380efb6ee8",
+            "cnt_4daa7711b4e601bb87e057dcb825",
+            "cnt_506703ee4f4c041601d21aea80f1",
+            "cnt_6fa440790aff87b0158e6095b6cf",
+            "cnt_d73c6ec160e0841f4af1ffa6574b",
+            "cnt_7f2d32a6e15530b5b32f8a207a48"
+          ],
+          "selectedIds": [
+            "cnt_093c44f61515771dbec200d3a5b2",
+            "cnt_58e56af2542f9055f4380efb6ee8",
+            "cnt_506703ee4f4c041601d21aea80f1",
+            "cnt_6fa440790aff87b0158e6095b6cf",
+            "cnt_d73c6ec160e0841f4af1ffa6574b",
+            "cnt_7f2d32a6e15530b5b32f8a207a48"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "cnt_093c44f61515771dbec200d3a5b2",
+          "sourceId": "s_835aceb887e21dbba016",
+          "creator": "instagram/m6magofficiel",
+          "identity": "instagram/Dc-opXJDOh1"
+        },
+        {
+          "id": "cnt_6596f20c36aeb94fd3061613ff70",
+          "sourceId": "s_df72d2cd4596657bdfc1",
+          "creator": "instagram/ferfloresoficial",
+          "identity": "instagram/DfGArbJPlJe"
+        },
+        {
+          "id": "cnt_90d0c20e718a2fc0c3aac0a04553",
+          "sourceId": "s_6b09ecf38ef4b49403b5",
+          "creator": "tiktok/niffer_cosmetics",
+          "identity": "tiktok/7674005862079384853"
+        },
+        {
+          "id": "cnt_6f70176bc23bfb98ea44258fd468",
+          "sourceId": "s_5c7638d45425762bf08c",
+          "creator": "tiktok/zangzi.n0",
+          "identity": "tiktok/7684212941184339221"
+        },
+        {
+          "id": "cnt_57375c4af00ca4ef650a167c88a8",
+          "sourceId": "s_b14604a3070342eb0a2e",
+          "creator": "instagram/strongstrong",
+          "identity": "instagram/DezKHh3jNT_"
+        },
+        {
+          "id": "cnt_ead36e300fbe595bfc05dcf946e0",
+          "sourceId": "s_84fe81d9cfb521d46554",
+          "creator": "instagram/kids.salvation",
+          "identity": "instagram/DdT-uGvKee-"
+        },
+        {
+          "id": "cnt_506703ee4f4c041601d21aea80f1",
+          "sourceId": "s_9e63cc9eb1090c124b00",
+          "creator": "tiktok/moddy.a.m",
+          "identity": "tiktok/7695762654312418582"
+        },
+        {
+          "id": "cnt_6fa440790aff87b0158e6095b6cf",
+          "sourceId": "s_9a326490a5aacf6bc6d6",
+          "creator": "instagram/richontech",
+          "identity": "instagram/DekBVxllPWQ"
+        },
+        {
+          "id": "cnt_d73c6ec160e0841f4af1ffa6574b",
+          "sourceId": "s_b73f97a0f3f9c71c00da",
+          "creator": "instagram/viktoria.semaan",
+          "identity": "instagram/DejFY2jKBst"
+        },
+        {
+          "id": "cnt_7f2d32a6e15530b5b32f8a207a48",
+          "sourceId": "s_3237da8dc475583ebcdb",
+          "creator": "instagram/lillian__chiu",
+          "identity": "instagram/Ddm6fRDPQ4b"
+        },
+        {
+          "id": "cnt_c8a43bbf7abade16a4bc04c8bae9",
+          "sourceId": "s_76d6c6e22baa3e8a0104",
+          "creator": "tiktok/elsamjiro",
+          "identity": "tiktok/7675910161407479058"
+        },
+        {
+          "id": "cnt_dbe1d1c2ae6873a6623a17abcd03",
+          "sourceId": "s_98ac7ad6a801a1a38ea9",
+          "creator": "tiktok/breakingthroughpoddy",
+          "identity": "tiktok/7695737239153708296"
+        },
+        {
+          "id": "cnt_58e56af2542f9055f4380efb6ee8",
+          "sourceId": "s_dd84d6253b93d3005126",
+          "creator": "instagram/evelyncastrooficial",
+          "identity": "instagram/DdolPGeigUL"
+        }
+      ]
+    },
+    {
+      "scenario": "product-photo",
+      "briefId": "b_90d20de70751575aad0a",
+      "arms": [
+        {
+          "id": "A",
+          "plan": "old",
+          "poolIds": [
+            "cnt_9fa042c4d4557357817f5869c3ca",
+            "cnt_55ce0f8af89778952a8ff94600c9",
+            "cnt_9fdb63148a14cbf556fa2b128399",
+            "cnt_c373f3d255562767da116fac36cf",
+            "cnt_8b0761be2229e209c048f6c07a0e",
+            "cnt_8d5d76c839a3ab33802b29df99d1",
+            "cnt_05cbcc02bd883fb29de64a28f0bd",
+            "cnt_f67a5d1737ba470ae11787415265",
+            "cnt_8d5d76c839a3ab33802b29df99d1",
+            "cnt_e51683304f2285893968d146c43b"
+          ],
+          "selectedIds": [
+            "cnt_9fa042c4d4557357817f5869c3ca",
+            "cnt_55ce0f8af89778952a8ff94600c9",
+            "cnt_9fdb63148a14cbf556fa2b128399",
+            "cnt_c373f3d255562767da116fac36cf",
+            "cnt_8b0761be2229e209c048f6c07a0e",
+            "cnt_8d5d76c839a3ab33802b29df99d1",
+            "cnt_05cbcc02bd883fb29de64a28f0bd",
+            "cnt_f67a5d1737ba470ae11787415265",
+            "cnt_e51683304f2285893968d146c43b"
+          ]
+        },
+        {
+          "id": "B",
+          "plan": "new",
+          "poolIds": [
+            "cnt_87ac5bdf90f43d6013d20569efb6",
+            "cnt_27ac0d1c441d5f9690d4af223961",
+            "cnt_9c4e5dd819f6c02bbb89729b53be",
+            "cnt_0b9b898df2e4a4312a0f932f2e7d",
+            "cnt_d5dfd59940f14d9dfd49518461fd",
+            "cnt_d69b6174ed591115e4bd9fd34995",
+            "cnt_616f61c5ed119fef61f3547aa977",
+            "cnt_af15ee332daf2908242f016a5ea2",
+            "cnt_6eb5aacf9145ba8d788a3e532d1c",
+            "cnt_0ddb36998611271cb42e4e3a01c6",
+            "cnt_4643427ce655660987bb07b9c123",
+            "cnt_3b4ff6b1000d46cca8aa15bcac9a",
+            "cnt_05cbcc02bd883fb29de64a28f0bd",
+            "cnt_f7370a4e7971849a2de91142f3c4",
+            "cnt_1f2683db8b80cb33522aa3bede17"
+          ],
+          "selectedIds": [
+            "cnt_87ac5bdf90f43d6013d20569efb6",
+            "cnt_616f61c5ed119fef61f3547aa977",
+            "cnt_27ac0d1c441d5f9690d4af223961",
+            "cnt_af15ee332daf2908242f016a5ea2",
+            "cnt_9c4e5dd819f6c02bbb89729b53be",
+            "cnt_6eb5aacf9145ba8d788a3e532d1c",
+            "cnt_05cbcc02bd883fb29de64a28f0bd",
+            "cnt_f7370a4e7971849a2de91142f3c4",
+            "cnt_1f2683db8b80cb33522aa3bede17"
+          ]
+        },
+        {
+          "id": "C-small",
+          "plan": "new",
+          "poolIds": [
+            "cnt_87ac5bdf90f43d6013d20569efb6",
+            "cnt_27ac0d1c441d5f9690d4af223961",
+            "cnt_9c4e5dd819f6c02bbb89729b53be",
+            "cnt_0b9b898df2e4a4312a0f932f2e7d",
+            "cnt_d5dfd59940f14d9dfd49518461fd",
+            "cnt_d69b6174ed591115e4bd9fd34995",
+            "cnt_616f61c5ed119fef61f3547aa977",
+            "cnt_af15ee332daf2908242f016a5ea2",
+            "cnt_6eb5aacf9145ba8d788a3e532d1c",
+            "cnt_0ddb36998611271cb42e4e3a01c6",
+            "cnt_4643427ce655660987bb07b9c123",
+            "cnt_3b4ff6b1000d46cca8aa15bcac9a",
+            "cnt_05cbcc02bd883fb29de64a28f0bd",
+            "cnt_f7370a4e7971849a2de91142f3c4",
+            "cnt_1f2683db8b80cb33522aa3bede17"
+          ],
+          "selectedIds": [
+            "cnt_f7370a4e7971849a2de91142f3c4",
+            "cnt_87ac5bdf90f43d6013d20569efb6",
+            "cnt_616f61c5ed119fef61f3547aa977",
+            "cnt_af15ee332daf2908242f016a5ea2",
+            "cnt_4643427ce655660987bb07b9c123",
+            "cnt_3b4ff6b1000d46cca8aa15bcac9a"
+          ]
+        },
+        {
+          "id": "C",
+          "plan": "new",
+          "poolIds": [
+            "cnt_87ac5bdf90f43d6013d20569efb6",
+            "cnt_27ac0d1c441d5f9690d4af223961",
+            "cnt_9c4e5dd819f6c02bbb89729b53be",
+            "cnt_0b9b898df2e4a4312a0f932f2e7d",
+            "cnt_d5dfd59940f14d9dfd49518461fd",
+            "cnt_d69b6174ed591115e4bd9fd34995",
+            "cnt_8d5d76c839a3ab33802b29df99d1",
+            "cnt_0d5e689884e95371b30e6a9bdc58",
+            "cnt_c373f3d255562767da116fac36cf",
+            "cnt_32a1448814f30ca5903e0a84d2a8",
+            "cnt_4b46a74ac6d0c2b2c0eb5d64ca96",
+            "cnt_577614fbb10700be66117828dc01",
+            "cnt_616f61c5ed119fef61f3547aa977",
+            "cnt_af15ee332daf2908242f016a5ea2",
+            "cnt_6eb5aacf9145ba8d788a3e532d1c",
+            "cnt_0ddb36998611271cb42e4e3a01c6",
+            "cnt_4643427ce655660987bb07b9c123",
+            "cnt_3b4ff6b1000d46cca8aa15bcac9a",
+            "cnt_9d5cd7c79478cb8a6bfbe98e0fcf",
+            "cnt_faf15d500bffd620e6272c50ab13",
+            "cnt_4d7b7b5320808de3380e52213ff5",
+            "cnt_f703a2b2a561399683dd4988a0b9",
+            "cnt_49e0c2f41f86380d21e95aaac4e3",
+            "cnt_794b8b088b5999d41b3e05024520",
+            "cnt_05cbcc02bd883fb29de64a28f0bd",
+            "cnt_f7370a4e7971849a2de91142f3c4",
+            "cnt_1f2683db8b80cb33522aa3bede17",
+            "cnt_077274d0cb09a1d1e5ee1086560a",
+            "cnt_f7724998831c275525d4d2a0407e",
+            "cnt_f6ffa2346c093b1b789586cad1f3",
+            "cnt_bfb11e70a800e9407439caca73bb"
+          ],
+          "selectedIds": [
+            "cnt_f7370a4e7971849a2de91142f3c4",
+            "cnt_49e0c2f41f86380d21e95aaac4e3",
+            "cnt_794b8b088b5999d41b3e05024520",
+            "cnt_87ac5bdf90f43d6013d20569efb6",
+            "cnt_616f61c5ed119fef61f3547aa977",
+            "cnt_af15ee332daf2908242f016a5ea2"
+          ]
+        },
+        {
+          "id": "D",
+          "plan": "new",
+          "poolIds": [
+            "cnt_616f61c5ed119fef61f3547aa977",
+            "cnt_af15ee332daf2908242f016a5ea2",
+            "cnt_6eb5aacf9145ba8d788a3e532d1c",
+            "cnt_0ddb36998611271cb42e4e3a01c6",
+            "cnt_4643427ce655660987bb07b9c123",
+            "cnt_3b4ff6b1000d46cca8aa15bcac9a",
+            "cnt_9d5cd7c79478cb8a6bfbe98e0fcf",
+            "cnt_faf15d500bffd620e6272c50ab13",
+            "cnt_4d7b7b5320808de3380e52213ff5",
+            "cnt_f703a2b2a561399683dd4988a0b9",
+            "cnt_49e0c2f41f86380d21e95aaac4e3",
+            "cnt_794b8b088b5999d41b3e05024520",
+            "cnt_87ac5bdf90f43d6013d20569efb6",
+            "cnt_27ac0d1c441d5f9690d4af223961",
+            "cnt_9c4e5dd819f6c02bbb89729b53be",
+            "cnt_0b9b898df2e4a4312a0f932f2e7d",
+            "cnt_d5dfd59940f14d9dfd49518461fd",
+            "cnt_d69b6174ed591115e4bd9fd34995",
+            "cnt_8d5d76c839a3ab33802b29df99d1",
+            "cnt_0d5e689884e95371b30e6a9bdc58",
+            "cnt_c373f3d255562767da116fac36cf",
+            "cnt_32a1448814f30ca5903e0a84d2a8",
+            "cnt_4b46a74ac6d0c2b2c0eb5d64ca96",
+            "cnt_577614fbb10700be66117828dc01",
+            "cnt_05cbcc02bd883fb29de64a28f0bd",
+            "cnt_27ac0d1c441d5f9690d4af223961",
+            "cnt_f7370a4e7971849a2de91142f3c4",
+            "cnt_1f2683db8b80cb33522aa3bede17",
+            "cnt_077274d0cb09a1d1e5ee1086560a",
+            "cnt_f7724998831c275525d4d2a0407e",
+            "cnt_f6ffa2346c093b1b789586cad1f3",
+            "cnt_bfb11e70a800e9407439caca73bb"
+          ],
+          "selectedIds": [
+            "cnt_f7370a4e7971849a2de91142f3c4",
+            "cnt_49e0c2f41f86380d21e95aaac4e3",
+            "cnt_794b8b088b5999d41b3e05024520",
+            "cnt_87ac5bdf90f43d6013d20569efb6",
+            "cnt_616f61c5ed119fef61f3547aa977",
+            "cnt_af15ee332daf2908242f016a5ea2"
+          ]
+        },
+        {
+          "id": "O",
+          "plan": "new",
+          "poolIds": [
+            "cnt_87ac5bdf90f43d6013d20569efb6",
+            "cnt_27ac0d1c441d5f9690d4af223961",
+            "cnt_9c4e5dd819f6c02bbb89729b53be",
+            "cnt_0b9b898df2e4a4312a0f932f2e7d",
+            "cnt_d5dfd59940f14d9dfd49518461fd",
+            "cnt_d69b6174ed591115e4bd9fd34995",
+            "cnt_8d5d76c839a3ab33802b29df99d1",
+            "cnt_0d5e689884e95371b30e6a9bdc58",
+            "cnt_c373f3d255562767da116fac36cf",
+            "cnt_32a1448814f30ca5903e0a84d2a8",
+            "cnt_4b46a74ac6d0c2b2c0eb5d64ca96",
+            "cnt_577614fbb10700be66117828dc01",
+            "cnt_616f61c5ed119fef61f3547aa977",
+            "cnt_af15ee332daf2908242f016a5ea2",
+            "cnt_6eb5aacf9145ba8d788a3e532d1c",
+            "cnt_0ddb36998611271cb42e4e3a01c6",
+            "cnt_4643427ce655660987bb07b9c123",
+            "cnt_3b4ff6b1000d46cca8aa15bcac9a",
+            "cnt_9d5cd7c79478cb8a6bfbe98e0fcf",
+            "cnt_faf15d500bffd620e6272c50ab13",
+            "cnt_4d7b7b5320808de3380e52213ff5",
+            "cnt_f703a2b2a561399683dd4988a0b9",
+            "cnt_49e0c2f41f86380d21e95aaac4e3",
+            "cnt_794b8b088b5999d41b3e05024520",
+            "cnt_05cbcc02bd883fb29de64a28f0bd",
+            "cnt_f7370a4e7971849a2de91142f3c4",
+            "cnt_1f2683db8b80cb33522aa3bede17",
+            "cnt_077274d0cb09a1d1e5ee1086560a",
+            "cnt_f7724998831c275525d4d2a0407e",
+            "cnt_f6ffa2346c093b1b789586cad1f3",
+            "cnt_bfb11e70a800e9407439caca73bb"
+          ],
+          "selectedIds": [
+            "cnt_87ac5bdf90f43d6013d20569efb6",
+            "cnt_616f61c5ed119fef61f3547aa977",
+            "cnt_af15ee332daf2908242f016a5ea2",
+            "cnt_49e0c2f41f86380d21e95aaac4e3",
+            "cnt_794b8b088b5999d41b3e05024520",
+            "cnt_f7370a4e7971849a2de91142f3c4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "cnt_9fa042c4d4557357817f5869c3ca",
+          "sourceId": "s_c6ca4b8266c23129c53e",
+          "creator": "tiktok/alejandra_n_h",
+          "identity": "tiktok/7686715788681563422"
+        },
+        {
+          "id": "cnt_55ce0f8af89778952a8ff94600c9",
+          "sourceId": "s_23ba2f0ee390d9d0a981",
+          "creator": "instagram/cj.filmed.it",
+          "identity": "instagram/Ddg0UcdAkAm"
+        },
+        {
+          "id": "cnt_9fdb63148a14cbf556fa2b128399",
+          "sourceId": "s_20f3734968b7ab9a73c4",
+          "creator": "instagram/overealcafe",
+          "identity": "instagram/DefnLFSxKSz"
+        },
+        {
+          "id": "cnt_c373f3d255562767da116fac36cf",
+          "sourceId": "s_a6e82ff09d1f5493d3aa",
+          "creator": "tiktok/yungkombucha420",
+          "identity": "tiktok/7690647764266470687"
+        },
+        {
+          "id": "cnt_8b0761be2229e209c048f6c07a0e",
+          "sourceId": "s_6dab88d9b3b8c8d65535",
+          "creator": "tiktok/envato",
+          "identity": "tiktok/7694574027196599572"
+        },
+        {
+          "id": "cnt_8d5d76c839a3ab33802b29df99d1",
+          "sourceId": "s_d37de8eb360e345cff34",
+          "creator": "tiktok/crisnay_recomienda",
+          "identity": "tiktok/7676893659576536341"
+        },
+        {
+          "id": "cnt_05cbcc02bd883fb29de64a28f0bd",
+          "sourceId": "s_594cbe4d93069f89738f",
+          "creator": "tiktok/actionbonplan",
+          "identity": "tiktok/7686433515675634977"
+        },
+        {
+          "id": "cnt_f67a5d1737ba470ae11787415265",
+          "sourceId": "s_75f6fcf2d5f0a1143ea2",
+          "creator": "instagram/caitlinmariedasilva",
+          "identity": "instagram/Dd19N7bhkBA"
+        },
+        {
+          "id": "cnt_e51683304f2285893968d146c43b",
+          "sourceId": "s_9cac61abed93bf71a418",
+          "creator": "instagram/h.imadtech",
+          "identity": "instagram/DdMU266o8mX"
+        },
+        {
+          "id": "cnt_616f61c5ed119fef61f3547aa977",
+          "sourceId": "s_92026226c0a770b42cf0",
+          "creator": "instagram/stevenwommack",
+          "identity": "instagram/Db5_SBSshKi"
+        },
+        {
+          "id": "cnt_af15ee332daf2908242f016a5ea2",
+          "sourceId": "s_cceba27f70edfac38600",
+          "creator": "instagram/spk3241_",
+          "identity": "instagram/DdV8KvXzb6R"
+        },
+        {
+          "id": "cnt_6eb5aacf9145ba8d788a3e532d1c",
+          "sourceId": "s_8a7b4200b0895b21c752",
+          "creator": "instagram/interestingengineering",
+          "identity": "instagram/Db4yIa4FLbr"
+        },
+        {
+          "id": "cnt_4643427ce655660987bb07b9c123",
+          "sourceId": "s_c332899b1b5977da2706",
+          "creator": "tiktok/spk3241",
+          "identity": "tiktok/7699100386317094164"
+        },
+        {
+          "id": "cnt_3b4ff6b1000d46cca8aa15bcac9a",
+          "sourceId": "s_3ff8bcf82a02c3d84a4e",
+          "creator": "tiktok/hamproject016",
+          "identity": "tiktok/7695049746691509525"
+        },
+        {
+          "id": "cnt_49e0c2f41f86380d21e95aaac4e3",
+          "sourceId": "s_cbf94b35b21c713edca0",
+          "creator": "instagram/gokceercan",
+          "identity": "instagram/Dehmt0eR6FS"
+        },
+        {
+          "id": "cnt_794b8b088b5999d41b3e05024520",
+          "sourceId": "s_7b011243cebc5690290d",
+          "creator": "tiktok/lorenazoe13",
+          "identity": "tiktok/7680312685006818591"
+        },
+        {
+          "id": "cnt_87ac5bdf90f43d6013d20569efb6",
+          "sourceId": "s_05a46cbafdb54cb00146",
+          "creator": "instagram/adobecreativecloudjp",
+          "identity": "instagram/DdrBy7jDXYY"
+        },
+        {
+          "id": "cnt_27ac0d1c441d5f9690d4af223961",
+          "sourceId": "s_8b73d8cd8e7bd12667ac",
+          "creator": "tiktok/graphstorm",
+          "identity": "tiktok/7676492352625708310"
+        },
+        {
+          "id": "cnt_9c4e5dd819f6c02bbb89729b53be",
+          "sourceId": "s_354f56542bd3508c8e3b",
+          "creator": "tiktok/bigsmileediting",
+          "identity": "tiktok/7695762681197858056"
+        },
+        {
+          "id": "cnt_f7370a4e7971849a2de91142f3c4",
+          "sourceId": "s_5b13d57daecf3fc994ad",
+          "creator": "instagram/ryuto_iphone",
+          "identity": "instagram/DdqhWulMWr4"
+        },
+        {
+          "id": "cnt_1f2683db8b80cb33522aa3bede17",
+          "sourceId": "s_571a5e5c3cfffeab878f",
+          "creator": "instagram/moonsol.design",
+          "identity": "instagram/Ddlg5vgIeTv"
+        }
+      ]
+    }
+  ]
+}

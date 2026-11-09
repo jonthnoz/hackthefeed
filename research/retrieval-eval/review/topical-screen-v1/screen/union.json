@@ -1,0 +1,877 @@
+{
+  "version": 1,
+  "evidenceKind": "initial-text",
+  "briefs": [
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "brief": "Sokka saves places I discover in social posts or add manually into named collections, so I can find them when deciding where to go. I can open a saved place on a map.",
+      "focus": "Stop losing places saved across social posts.",
+      "need": "Recover and organize places worth visiting, rather than generic travel scenery.",
+      "capabilities": [
+        "save discovered places",
+        "organize named collections",
+        "find saved places",
+        "open a saved place on a map"
+      ],
+      "unsupported": [
+        "booking",
+        "automatic itinerary generation",
+        "live navigation",
+        "guaranteed destination availability"
+      ],
+      "constraints": {
+        "noRealPeople": false,
+        "exclude": ""
+      },
+      "sources": [
+        {
+          "sourceId": "s_050f0ac09053c237546c",
+          "title": "",
+          "caption": "A weekend adventure that finally made it out of the Instagram saved folder😆\n\nI’ve been using Meta's new app @Muse to create my own AI agent (hi Atlas👋) and I’m realizing the biggest difference between an AI agent and a chatbot is that Atlas can actually take things off my plate. It can work with the apps I already use, come up with ideas to optimize my life based on what it knows about me, and then actually take actions like booking flights or making reservations (with my permission of course).\n\nIf you want to see what your own AI agent could do for you, go try out the new Muse app from Meta @meta #ad #metapartner\n\nBusinesses and products shown are AI-generated suggestions, not sponsored, endorsed by, or affiliated with Meta.",
+          "transcript": "I've traveled all around the world, but I'm pretty terrible at exploring my own city. So today I'm going to be using Meta's new app Muse to create a personal agent, which I named Atlas, to help me become a weekend warrior and start crossing experiences off of my Florida bucket list. Atlas can take care of everything from organizing my schedule to creating more fun life optimizing dashboards. But it can also go a step further and actually take real actions like making bookings. So I want to put that to the test. I'm constantly saving places I want to go and things that I want to do, but then they just end up getting buried in my saved posts. Atlas found that I had over 6,000 saved posts and turned all those ideas into something that I could actually use. It organized everything into categories, mapped out my saved places and created a tracker. Then it looked at my schedule and proactively found something from my list that I could actually do this weekend. Horseback riding on the beach. Atlas checked availability, made the booking, and even helped plan dinner for my fiance and I afterwards. As it turns out, you don't have to travel across the world to try new things. I honestly can't believe that I've lived here for years and I've never done this. What I love most about my AI agent is that I can use it for so many different aspects of my life. The more Atlas has gotten to know me",
+          "onScreenText": "門和維\nI've traveled all around the\nworld\nbut I'm pretty terrible at\nexploring my own city\nbut I'm pretty terrible at exploring my own city\nso today I'm gonna be using Meta's new app Muse\nAtlas Generating avatars\nto create a personal agent\ncute. Kind q\nthe current one.\n=\nAtlas\nMessage\n#\nThe\nI'm\nU\nQ\nW\nE\nR\nT\nY\n0\nP\nA\nS\nD\nF\nG\nH\nK\nL\nto create\nagent\na\npersonal\nZ\nX\nC\nV\nB\nN\nM\n123\n←\ncute. Kind\n二\nwhich\nI named",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_083eb9ae35b6da0efd2c",
+          "title": "",
+          "caption": "POV: Navratri is almost here and you still haven’t shopped for your lehenga choli! 😭💃✨ @ipsita_dg \n\nGood thing I saved my shopping spots on GobiMaps! 🧡 No last-minute panic, no searching endlessly — just open your saved places and get going! 📍🛍️\n\nSave your favourite shopping spots, plan your festive shopping and make life easier with GobiMaps. ✨\n\nInstagram + Maps = GobiMaps 🧡",
+          "transcript": "If you are still looking for your Navratri outfits, I found a good one. I found the prettiest chaniacholes, modal skirts, pretty dupattas and this pinteresty blouses at Vastrakala in Commercial Street. They have so many pieces that actually want to style for Navratri. Go save this reel on Gobi Maps now and get your Navratri shopping sorted before the last minute rush.",
+          "onScreenText": "FOR YOUR NAURATRI\nOUTFITS\n88\nX\n8\n0\nd3\nI FOUND\nA GOOD ONE\n1200\nI FOUND THE PRETTIEST\nMODAL SKIRTS PRETTY DUPATTAS\nMODAL SKIRTS PRETTY\nDUPATTAS\nMODAL SKIRTS PRE\nDUPATTAS\nAND\nTHIS\nKALC\nRESSIN\n2\nJYT\nPINTERESTY BLOUSES\nVastrakala\n4.2 Fair (32)\nWomens Clothing Store\nTasker Town, Shivaji Nagar, Bengaluru, Karnataka, India\nClosed until 11:15 AM\nSave\nRate Directions\nAsk\nAny other stores like this?\nAbout th",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_164607ddfc53132e7112",
+          "title": "",
+          "caption": "I know I haven’t talked about this much but flock cameras and surveillance are definitely a concern to me. So when I saw this layer came out on MapQuest I had to share it with everyone. If you have a friend who is concerned about this stuff, please share it with them! Is this something you would use? Flock cameras surveillance equipment stolen vehicles MapQuest ",
+          "transcript": "If you're anti-surveillance, this message is for you. Everybody else, just scroll on by. Back in the day, there was a website called MapQuest. A lot of people haven't even heard of that, but some of you Gen X and before might remember it. Well, they have an app, and on that app, they added a layer, and we're used to layers in Google Maps and Apple Maps, like traffic layers and terrain layers and satellite layers and so on. Well, this layer shows you where all the flock cameras that are surveilling us are. And for those who are interested, let me go ahead and show you how to use it. Head to the App Store and download MapQuest. Open it and click Get Started, then choose your icon. I chose a blue dot. Hit Ask App Not to Track, and then click the Layers button. From here you see the Surveillance Layers, so turn that on. And voila, all the flock cameras around you. If you zoom too far out, they disappear, so zoom in closer. You can click on them to see the angle of their field of view, and you can also see what type of camera they are, and their exact GPS coordinates. One thing that I noticed is that if you click on root settings, you cannot choose to avoid the surveillance cameras. I'm hoping this is a feature they add in the future. Is this something that you would find interesting? If so, share with your friends and leave your thoughts in the comments below. Just a thought. Have ",
+          "onScreenText": "@tracyguns\n@tacticalee\nIF YOU'RE ANTI-SURVEILLANCE,\nTHIS MESSAGE IS FOR YOU!!\n@tracyguns\n@tacticalee\nBACK IN THE DAY, THERE WAS A WEBSITE CALLED\n9:25\nuckGo\nSearch\nX\nmapquest\nMapQuest GPS Navigation & M...\nGet directions & avoid traffic\n29K\nOpen\n#3 in Navigation\nTravel\nMapQuest Holdings LLC\nSearch for all your\nMapQuest\n1:03\nspots at once\nKirkwood PI N\nis back\nReliable, turn-by-\nco\nHEAD TO THE APP S",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_20d4e87de65977233034",
+          "title": "",
+          "caption": "Saw it on Instagram. Saved it on Gobi. 📍✨\n\nNo more endless scrolling, “where did I see this place?” or searching through saved reels. 😩\n@ipsita_dg \nWith Gobi’s Import Feature, save your favourite Instagram reels on Gobi and find the place whenever you want — right in your Saved Places. 🗺️💚\n\nBecause finding a place you loved should be easy, not a treasure hunt. 😉\n\nSee it. Save it. Find it on Gobi. 📍\n\n#GobiMaps #GoGobi #GobiApp #DiscoverPlaces #SavedPlaces BangaloreFoodies BangaloreRestaurants FoodieFinds TravelFinds ExploreBangalore",
+          "transcript": "I love this thing about Gobi Maps. You can click on a place, check the menu recommendations and their about the place section which honestly gives you a pretty good idea of what to expect before you go. And you can always save it for later. So I found Smash Guys in HSA there and the menu recommendations literally told me what to order. Chicken smash burger, mac and cheese and old monk mousse. And every single one was spot on. The burger was my favourite here. So next time you are confused about where to eat. Just ask Gobi.",
+          "onScreenText": "THING\nTinytalian\n9.3 Wood-Fired Sourdough Pizzas\nOpen until 11 PM ₹480-₹1,900\nrachna_unfiltered\nD\nRate\nSend\nZo\nSave\n3 Mini Falooda's at jz\nFRUITBAE\nFruitBae® | HSR Layout\n8.0 Fruit-centric Desserts & Juices\nOpen until 1 AM • ₹480-₹1,900\npriyai and gladsdiaries\n口2\nTIME\nSmash Guys - Burger Kitchen,...\nSmash Burgers & Loaded Sides\nAsk How do I get a reservation?\nAbout this place\nA busy HSR burger kit",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_296e6717bf4b0f0d200e",
+          "title": "",
+          "caption": "Would you try Bethenny’s Supermodel Cafe? #greenscreen #bravotv #realhousewives ",
+          "transcript": "So this girl gave an honest review for Bethany's Supermodel Cafe. And she said that the chicken salad smelled so bad that it was in the fridge that she had to throw it in the trash. And she said they had to take the trash out because it stunk that much. And here are some of the comments. You're not the only one girl. I'm seeing a lot of bad reviews. If she sees it, she probably will block you. It stunk. Whipped or blended chicken salad is gross. Chicken should look like chicken. Bethany is the furthest thing from honest as they come. I am a local too. Everything was gross including the coffee. It's 100% a cash grab that she's putting her feelers out to see if she can turn these into a chain of gimmicky fixtures in all the hot spot cities. Just my guess. She hates her fans. Why would you care? And in this video, she talked about how she likes Bethany. And how she just had to be honest because she says Bethany is honest. And her boyfriend like co-signed on what she was saying. So yeah. So stinky that it had to be thrown in the trash trash like outside of the house. I want to hear from you in the comments. What do you think about this? And follow me for more from Bravo content. Then.",
+          "onScreenText": "17.8K\n345\nHonest review of supermodel cafe 345 417\nSTUNK THAT MUCH.\nWindzle · 1d ago\nSorry Bethany love u girl 🌶️\n#supermodelafe #thampt more\n145\n#supermodelcafe #hampt... more\nSearch·bethany frankel supermodel cafe\n>\nMessage Ju...\nHonest review of supermodel cafe\nSearch: Supermodel Cafe Review $ ^{Q} $\n288 comments =\nX\nKrisMiss2.0\nYou're not the only one girl. I'm seeing a lot of bad reviews\n1h ",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_4d279fe9d3d42d486d04",
+          "title": "",
+          "caption": "date night, done right 😌 @fashionbyally ",
+          "transcript": "I recently tried one of the best ways to make reservations in San Francisco. Uber Eats has a new dine-out feature where you can discover, reserve, and even book your ride all in one place. Uber Friday? Since I have time, let me show you how easy it is to plan date night. On the app, tap on the dine-out tab. We decided to try this chic live-fire restaurant in the Ferry Building with gorgeous waterfront views. And it was pretty amazing not having to worry about parking. On the menu is Californian cuisine. And we started with a fresh rainbow crudite and bluefin tuna. We loved the open kitchen concept and it genuinely felt like dinner and a chef. For mains, the whole roasted red snapper was just chef's kiss. And with our cash back, we decided to splurge on dessert. The best part is you can unlock more rewards on Uber Eats after going out.",
+          "onScreenText": "Best Date Restaurants in San Francisco?\nUber Eats has a new dine out\nfeature\nARQUET\nUber\nEats\nwhere you can discover\nreserve\n←\n..gton\n1-80 E\nW\nSquare\nArquet\n1 Ferry Bldg, San Francisco, CA\n>\nSalesforce Park\nQ\n30% off i\n$36.77\nComfort Electric\n5:12 PM· 9 min\n$51.81\nGood deal\nUberX 5:06 PM·5 min\n$31.75\n$43.88\nComfort 4\n$33.19\n5:06 PM·4 mir\n$47.84\nand even book\nWait & Save\n$25.34\nUber ride to Arquet ",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_4fd74e4239b8437c6a7e",
+          "title": "",
+          "caption": "discovering chic restaurants in San Francisco to dine out with @ubereats 🍽️✨ #UberEatsPartner\n\n3 perks of the Dine Out feature:\n\n• Discover new restaurants & local favorites\n\n* Get 20% Uber Cash back (up to $25) and 40% off your ride to the restaurant (up to $10)\n\n• Earn rewards while you dine for a future Uber Eats order, groceries, gifts or other everyday purchases\n\nYour next reservation just got a little more rewarding!\n\n#sffoodie #thingstodoinsf #sanfranciscolife",
+          "transcript": "I recently tried one of the best ways to make reservations in San Francisco. Uber Eats has a new dine-out feature where you can discover, reserve, and even book your ride all in one place. Uber Friday? Since I have time, let me show you how easy it is to plan date night. On the app, tap on the dine-out tab. We decided to try this chic live-fire restaurant in the ferry building with gorgeous waterfront views and it was pretty amazing not having to worry about parking. On the menu is Californian cuisine and we started with a fresh rainbow crudités and bluefin tuna. We loved the open kitchen concept and it genuinely felt like dinner and a show. For mains, the whole roasted red snapper was just chef's kiss. And with our cash back, we decided to splurge on dessert. The best part is you can unlock more rewards on Uber Eats after going out.",
+          "onScreenText": "Best Date Restaurants in San Francisco?\nUber Eats has a new dine out\nfeature\nARQUET\nUber\nEats\nwhere you can discover\nreserve\n←\n1-80 E\n.igton\nW\nSquare\nArquet\n1 Ferry Bldg, San Francisco, CA\n>\nSalesforce Park\nQ\n30% off i\n$36.77\nComfort Electric\n5:12 PM· 9 min\n$51.81\nGood deal\nUberX\n$31.75\n5:06 PM· 5 min\n$43.88\nComfort 4\n$33.19\n5:06 PM·4 mir\n$47.84\nand even book\nWait & Save\n$25.34\nUber ride to Arquet",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_554fb25cf2b43ea45d47",
+          "title": "",
+          "caption": "@smokedroom.dg ⭐️⭐️☀️☀️ 💰450€ - menu de degustação + vinhos  📍Madrid, Espanha 🇪🇸  Sempre que algum restaurante onde quero ir tem um balcão, essa é garantidamente a minha opção. Toda a movimentação do outro lado transmite um calma e confiança aos comensais, como se de uma dança bem coreografada se tratasse, desde que a comida cumpra o seu propósito. No @smokedroom.dg não conseguimos ficar ao balcão. Apenas 6 pessoas por noite têm essa sorte mas reconheço que, não sendo a mesma coisa, há um grande esforço da equipa de sala para empratar e finalizar pratos para os clientes das mesas, como foi o nosso caso. Mas independentemente de estarmos ao balcão ou numa mesa, uma coisa este tipo de restaurante tem que garantir: que todo o serviço é fluido, que passa uma boa mensagem daquilo que são os pratos pensados e executados pelos colegas da cozinha, mas acima de tudo, que os clientes se divertem, se sentem bem e que consideram que o valor que ali gastaram de facto foi bem gasto. Para mim, fo",
+          "transcript": "Este restaurante conquistou diretamente 2 estrelas Michelin apenas 6 meses depois da abertura. O Smoked Room é um dos restaurantes do chef D'Anna Garcia, fica no hotel Hyatt Regency Esparia em Madrid e pratica uma cozinha de produto focada no fogo como forma principal de confecção, utilizando o fumo como muito mais do que uma técnica. Pagámos 450 euros por pessoa, 280 pelo menu e definimos um budget de 170 euros por pessoa para o sommelier Paul Samon escolher brilhantemente o vinho para a refeição. Brindou-nos ainda com umas belas surpresas, num restaurante com uma incrível carta de vinhos, trabalhada pelo Luís Vassélia, distinguido com o prémio de sommelier do ano pelo Guia Michelin. O espaço é escuro e intimista, com o balcão para apenas 6 comensais a ser o palco central de toda a cena, tendo nós ficado numa das duas mesas da sala. O menu de 15 momentos começa então com pão e manteiga, sendo esta misturada com uma dose generosa de trufa de verão, e logo depois alguns pratos leves, com um produto muito nobre como as quisquilhas ou o hamashi, a brilharem sem recurso a molhos demasiado potentes. A intensidade vai aumentando, tendo esta sequência de pratos sido a minha favorita, começando com um chawamushi de gengibre com chipirones na brasa, concha fina ou uma ameijoa bem grandinha num barro lã, e ainda esta espardanha na brasa, numa base de caios madrilenhos, um marisco bem est",
+          "onScreenText": "SMOKEDROOM\nHRD OMAKASE\nMICHELIN\nCET\n2026\n2 soles guío repsol\nconquistou diretamente 2 estrelas\nMichelin\nVINO FINO\nDE MESA\nMARCA\nVEGA-SICILIA\n\"UNICO\nCOSECHA 1960\nMedalla de Oro y Gran Diploma de Honor\nFeria de Navidad de Madrid de 1927\nExposición Hotelera de Barcelona de 197\nDr esta cosecha se seleccionaron para ser\n0 2\nBODEGAS VEGA SICILIA, S. A.\nEl Presidente\nBll: Eama\nVALBUENA DE DUERO (Valladol",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_599b7767e06bf4615a5a",
+          "title": "",
+          "caption": "With the Newcastle Knights absolutely pumping right now it would be rude not to show you some of my fav spots ! Ft @justmates___ @What’s new in the castle   #russeats #newcastleNSW #newcastleknights ",
+          "transcript": "Righto, what a 8 in a day Newcastle edition. Breakfast, lunch, dinner and I've got a guest. The better half of Justmates. I would argue the better 3 quarters. Gonna try some new places, some of my favourites. That's why we're here at Bray Park. That's where I found you. Yeah, that's where we met for the first time. Eddie's Cafe first. Fucking sick spot. We're gonna get a cinnamon cold foam and be a little bit hipster. If you watch Lost, there's like an old Dharma Initiative bunker. Best view. Look at that. It's fucking best view in Newcastle here. Here for the coffee, so let's have a little sip. Yeah. You're not supposed to put a straw in through cold foam. You're actually supposed to sip through the foam, so I'm gonna do that. Fuck, the more you know. It's nice. Yeah. Everyone's doing cold foam. I sometimes just want a flat white. I want just a fat white. Got a fat white, but not a flat white. I'll give it an 8. Taste like a... you can taste a fuckload of cinnamon in like a kind of weak coffee. I'd prefer it stronger. I need a shit now, so... Steep is still in Newcastle. Yeah, you're picking me up from the bottom. For lunch, we went to Arno Deli and while you're waiting, they give you a buzzer and you can... Shut the fuck up! He's chaotic here. It's windy, there's seagulls. They're gonna get our food. They're almost as hungry as us. Like Lord of the Flies. I'll give you a buzz",
+          "onScreenText": "KNIGHTS\nNewcastle NSW\nWhat I ate in a day\nRIGHT NOW WHAT\nEDITION BREAKFAST\n181\nARNO\nP E E\nTHEARY DOE OY\nLUNCH DINNER AND\n18i\nHenny\npenny\nNOW\nGUEST THE BETTER\njustmates\n600\n35.8K\n452\n7\nposts\nfollowers\nfollowing\nHALF OF JUST\nTHE BETTER 3/4\nCoffee eddiesnewy\nEddies 10 posts\n9,523\n30\nYour local for good coffee, honest food & warm\nmoments.\n41 The Terrace, The Hill, Newcastle, New South Wales\nEDDIE'S CA",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_5bf8acce527c0c9e5820",
+          "title": "",
+          "caption": "How I spend my day off as a classical musician 🎶☕️🍁 (link in bio if you need help planning your day!)\n.\n.\n.\n.\n.\n#wanderboat #flute #musician #vlog #music",
+          "transcript": "*shrieks* Coffee ride! I just ran out of coffee at home. It's so steep. It's like a lot. I got this box with me a latte from this new cafe that I found. That actually exceeded my expectations. Also, today's weather is so nice. I think I'm going to go outside and practice. I just made it to the park. I'm just going to look for a spot. I just found the perfect spot. Let's set up. you",
+          "onScreenText": "Day in the life of a\nClassical Musician\n8:00\nToday's my day off\n8:15\nPlaying with Joey\n8:30\nWashing up\n8:35\n9:00\nAll ready\n9:05 Practicing\nNeto Uorh Unitrrsitg\n9:05\nPracticing\nKOR\n9:10\nStarting off with warm ups\n11:30\nCoffee run\n(0\n11:45\nTrying a new coffee shop\n12:00\nBlack sesame latte\nJersey City\nHAMILTON\n9\nPARK\nDiscovery\nCommunity\nToday's Inspo\nCoffee Fix\nArt & Culture\nOutdoor\nI need a coffee\nI",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_6883543e8d03016e1563",
+          "title": "",
+          "caption": "Lopez… clairement parmi les adresses brunch à tester à Oran ✨ \n#oran #explore #wahren #yummy #viral",
+          "transcript": "Bonjour seulement, je partage avec vous un des meilleurs coffee brunchs pour la preuve à votre touriste, juste pour écouter les nouveautés ou les laches Les pâtes, les toasts à dalle et les burgers C'est chez la cafétéria, l'hôpise, la midouage d'a exactement cité gemelle en allant vers le tribunal, vous allez voir votre droite Vous avez l'adresse exactement, l'endroit est propre, vous avez des coûts très bien Vous avez des coûts, rien à changer, vous avez le service 10 sur 10 Le menu de taham est toujours au scan, vous avez le menu de taham, les toasts, les pênés, la sauce bolognaise surtout le burger, la sauce taham est excellente Les tagliatels, la sauce fromager ou le basilic, elles sont en alibn Je vous conseille de faire déjeuner entre copines, en famille ou en douleur Vous avez les boissons rafraîchissantes, les mottels, les cafés glacés ou les matcha Vous avez le coffee brunch, vous pouvez dire les laches ou les laches à partir de 7h du matin jusqu'à 21h Vous avez le pain perdu, vous avez le pain perdu au figue Ou le pain perdu à la pomme et une tuerie Vous avez le pain perdu, le tofu date, les nesli tebri de soirée C'est votre dessert Vous avez également le menu, les nesli tebri, les fondants, chocolat, chocolat, c'est bien cool Vraiment les produits thawara, pour qualité prix, vous pouvez des produits de qualité, c'est tout le chibnil, MashaAllah Vous avez le coin pou",
+          "onScreenText": "lako\n105.7\n100%\nlsdo\nLopes\n1.\nAMENAGEMENT\nBRIDGE\nMARKETING\nLepey's\nBrunch Coffee Lunch\nBrunch Coffee Lunch\nAMENAGEMENT\nJARDIN\nIMMUNITY\nLopes\nBrunch Coffee Lunch\nree Lunch\ne Lunch\nLopegs\nDOWN\n1\nsSs\ncoffee\nconnect\nus.\nLopez Coffeeshop\n×\nCliniqu\n---\ncherie la confiance\nAir Algérie, Directic\nRégionale d'Ora\nLiberty appart\nGoogle Maps\nLiberté Hôtels Oran\nLopez Coffeeshop\n3,6 ★★★★ (32) · 10 min\nCafé\n↑\nI",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_6ca15019c1718ca22481",
+          "title": "",
+          "caption": "Madeira can feel completely different depending on how you plan your days.\n\nMost first-time visitors follow more or less the same formula: a few famous viewpoints, the classic levadas, waterfalls, Pico do Arieiro, Fanal — the places that appear again and again on Instagram, TikTok and every “best places in Madeira” list.\n\nAnd when everyone follows the same routes and arrives at the same places at the same time, even the most beautiful spots can feel crowded.\n\nBut you don’t have to skip the famous places to experience a quieter side of Madeira.\n\nOften, it’s simply about going at the right time.\n\nAnd then there’s everything beyond the usual list.\n\nSmaller viewpoints. Quieter hiking trails. Hidden waterfalls. Local spots. Short detours that most people simply drive past.\n\nThe challenge isn’t finding beautiful places in Madeira. There are hundreds of them.\n\nThe challenge is knowing where to go, when to go, and how to connect them into a route that actually makes sense.\n\n🗺️ After 4 years o",
+          "transcript": ".",
+          "onScreenText": "\"MADEIRA IS SO CROWDED\"\nADEIRA IS SO CROWDED\"\n@s.x.traveler\nMADEIRA IS SO CROWDED\nADEIRA IS SO CROWDED",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_751f4b10f6c6a71b7ca9",
+          "title": "",
+          "caption": "these take me way longer to make than they should , feel free to put this on 2x speed as i am not speeding this up myself these are my own thoughts, but a very good and in depth video that has more research instead of anecdotes on this is by @Berrohn called “when did tracking your friends become so normal”    #relatable #privacy #funny #college #wabe ",
+          "transcript": "When did everyone wanting to know where you are at all times become so normal now the most random apps have been asking for our locations It's smartphones came out I remember when Apple came out with find my friends years back which eventually enabled other apps and social medias like fucking Snapchat to get their own kind of version of it Post upon obviously if you ever snap my song you might just be a fucking NPC But still for so long it seemed like sharing your location with these apps services or whatever was like the most insane idea ever Why the fuck would you do that? Like yeah the idea of the notes app needing your location nonetheless people you haven't spoken to in years felt like just an insane Idea but now for some reason in the big 2026 I feel almost as if when I scroll through my find my app and see locations from people that I haven't spoken to since high school I feel like it would be kind of rude like they might feel a way if I would just randomly take them off one day The idea of sharing your location with your loved ones indefinitely has sort of become a kind of formality at this point in time for adults in this generation Like there's an entire language based in this shit If someone always has their location off they're sneaky If somebody's location always says that they're at the crib Then they might just have switched it to their Mac so that they can do ot",
+          "onScreenText": "zuck 4m\nWe're introducing a new searchable map on IG today. You can now discover popular local businesses near you and filter by categories\nfilter by categories.\nSearch this area\nNotable\nLittle Lemon +3 more\nWind & Wool\n+3 more\neveryone wants to know where\nyou are and it's scary\nSan Francisco\n67.5*F - Mostly Sunny\nRestaurants\nCafes\nLittle Lemon\nItalian Restaurant\n3 miles - $3.10 - Open until 8:00p",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_834d190e5bc77e05f994",
+          "title": "",
+          "caption": "Would you travel for coffee with a view like this? ✈️ \n\n🤳 Send this to someone you want to have a coffee here with ☕️ \n\n📍Canyon Coffee Springdale, Utah near the main entrance to Zion National Park 🏜️\n\nTruth be told, Zion National Park was the main event, but we never skip the chance to explore local gems. Every trip, we hunt down a cozy coffee shop or bakery to fuel up.\n\nOur go-to? ➡️ Double espresso shots or dirty chai lattes, and almond croissants 🥐 \n\nWhat’s your coffee shop or bakery go-to?\n\n#zionnationalpark #travelutah",
+          "transcript": "Oh no, oh no I can't save us, my land takes me",
+          "onScreenText": "Boyfriend: Let's fly to Utah for this\ncoffee shop I found on instagram!\nMe: Just for coffee?? Are you out of\nyour mind?\nSpringdale\nM\n3D\n9,000 km\nCANYON\nHYUN OOFFEE\nCAMYOR COSTER\nETTREE\nCOFFEE",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_8a4d4e3465e03fc4f185",
+          "title": "",
+          "caption": "¡CARGA MÁS RÁPIDA Y NUEVOS COLORES! El Samsung Galaxy S27 Ultra al descubierto: -Filtraciones indican que el Galaxy S27 Ultra cargará un 2% a 3% más rápido que el S26 Ultra manteniendo el límite de 60W gracias a optimizaciones térmicas. -Ice Universe reveló los cuatro colores base del Galaxy S27 Ultra: Black, Blue, White y una nueva tonalidad Light Pink en sustitución del Deep Purple.",
+          "transcript": "El Galaxy S27 Ultra podría cargar más rápido sin mejorar la potencia de watts y también se han filtrado sus colores. A pesar de que el próximo flagship de Samsung mantendrá la misma especificación de velocidad de carga máxima de 60 watts que vemos en la generación actual, pruebas internas filtradas han señalado que el dispositivo es capaz de alcanzar el 100% de su batería entre un 2 y 3% más rápido que el S26 Ultra. Una diferencia mínima, pero que a fin de cuentas podría ser considerada como mejora. De hecho, esta mejora en los tiempos de carga en el mundo real se lograría gracias a optimizaciones térmicas y de gestión de energía más agresivas a nivel del firmware y hardware, permitiendo al dispositivo sostener picos de potencia más cercanos a 60 watts por un periodo de tiempo más prolongado sin que el dispositivo llegue a calentarse en exceso. Y ojo, porque la teoría nos dice que la batería del S27 Ultra será de 5700 mAh, o muy cercana a esa cifra, entonces a pesar de que el dispositivo tendrá una batería de mayor capacidad, en realidad tardará menos tiempo en cargar, así que sería una combinación maravillosa para los usuarios finales. Algunos dudan si esta mejora en la carga podría llegar a través de actualizaciones a la serie Galaxy S26. Personalmente considero que no será así, ya que dependerá mucho de la propia tecnología de la batería, que cambiará por completo en esta pr",
+          "onScreenText": "200MP Wide 50MP Ultr\nF1.4\nGALAXY S27 ULTRA\nCON MEJOR CARGA Y\nNUEVOS COLORES\n10MP Tele 3x\nGALAXY S27 ULTRA\nCON MEJOR CARGA Y\nNUEVOS COLORES\n0\n47 % brighter ap\n00:16/00:51\n00:17/00:51\n00:33 / 00:51\n00:37 / 00:51\n00:43 / 00:51\nlaxy A\n:00\n86\n00\n80\n000\nG\n8\nS\n：\nN8\nDescribe what to change\nStyle\nCreate\nMove\n<\nAl eraser\nII\nce model\nthe image is generated by Al.\nmage to add from\nPhot\nAssis\nCollections\nAlbum",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_8b6f9829930fcfe8818b",
+          "title": "",
+          "caption": "Genuinely one of the better bars I have been to in a very long time. I am shocked I haven't heard of 5s more on social media or from people in the neighborhood. They are a true gem and it hits close to home given their Filipino menu. They absolutely kill it with adobo, and the rest of the menu, but the adobo was insane. They serve the chicken bites properly with banana ketchup too.\n\nEven if Filipino food isn't your grind the bar itself oozes with charm. The hospitality is apparent from the moment you walk in and the lighting + energy knocks it out of the park. Even if they didn't have the backroom this place would be an awesome addition to the neighborhood. But the back room really sets it over the edge. Big pool table, free practically half the week. Love it. Go check em out and let us know what you think.\n\nAnd if you don't have anyone to go with we just started adding more users to @onthegrid.app where you can save places like this and meet other people who want to check it out too. ",
+          "transcript": "Bars to take your friends if you want to look cooler than you probably are. This Australian-owned and Filipino-influenced bar is offering up a free pool table and a sick menu. Fives was founded last year by Michael Dunn. Michael and the team from Fives hail from Australia, but because of Michael's Filipino familial heritage, they work in a lot of different cultures and cuisines into the menu. True to the name, they offer five of everything on the menu. Five beers on tap, five bottles, five wines, and five delicious items on their Filipino menu. Being part Filipino myself, I can genuinely say that their adobo alone was worth the trip to the bar. They run a different deal every night of the week, including a free pool table Sunday, Monday, and Tuesday. The space is awesome, and I really love the room in the back. The hospitality was dope. We got to talk to the chef and the manager all night, and they showed love with jello shots and a bunch of cool games, too. If a mix of cultures and a genuinely cool vibe sounds like your kind of thing, you can save fives on the grid directly from this video, and we'll show you other people who want to go with you. Comment below, and I'll send you the link.",
+          "onScreenText": "ICE COLD DRINKS • POOL TABLE\nKITCHEN COUNTER+COOKTALS\nCOOLER THAN\nYOU\nPROBABLY ARE\nAND FILIPINO INFLUENCED BAR\nACENC\nAND A SICK MENU\nAC/NO\nDETAILS\nSPA\nRITLO\nYEAR BY MICHAEL\nDUNNE\nFROM 5S HAIL FROM\nAUSTRALIA\nFILIPINO FAMILIAL\nHERITAGE\nFILIPINO FAMILIAL\nHERITAGE\nAND CUISINES\nINTO\nTHE MENU\nSPA\n24% LESS SODIUM IN\nLIMITED EDITION\nHELLO KITTY\nNET WT 12 OZ (340g)\nAND CUISINES INTO\nSPAM\nHELLO\nKITTY\nON THE",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_8c055d06b9cd7e432ecd",
+          "title": "",
+          "caption": "Впервые в Пензе🔥К вам приезжает человек и установка занимает считанные минуты👌\nСлышали что такое NFC карты?Это отзывы в одно касание!\nЗабудьте о QR-кодах, лишних действиях и сложных переходах!\n📲 Одно касание смартфоном и клиент уже может оставить отзыв о вашем бизнесе.\n✅ Быстро и удобно\n✅ Максимум отзывов без лишних усилий\n✅ Довольные клиенты -больше доверия к вашему бизнесу!\nВсе подробности тут @strove_card  или пиши ХОЧУ,пришлю подробности",
+          "transcript": "А вы знали, что вы можете готовить самый вкусный кофе, делать лучший маникюр или предоставлять сервис на высшем уровне? Но если потенциальный клиент открывает Яндекс.Карты и видит мало отзывов, он может выбрать другое место. Знаете, сколько клиентов могут уйти к вашим конкурентам просто потому, что у вас мало отзывов на Яндекс.Картах? И вот решение, которое поможет вам собирать отзывы проще. NFC-карточки для отзывов на Яндекс.Картах. Как это работает? Клиент прикладывает телефон карточки и переходит на страницу, где может оставить отзыв о вашем заведении без долгих поисков, лишних действий и объяснений. Разместите карточку на стойке администратора возле кассы, на столике или в зоне ожидания, там, где ваши клиенты смогут легко ее заметить. Кофейни, рестораны, салоны красоты, барбершопы, студии и другие бизнесы. Такая карточка пригодится каждому, кто хочет упростить сбор отзывов от своих клиентов. Ведь довольный клиент может просто уйти, так и не оставив отзыв. А с NFC-карточкой попросить его поделиться впечатлением гораздо проще.",
+          "onScreenText": "LTE 10\n10.\nПт 16 окт.\nMTS 5G\nндекс\nNFC\nПросто\nприложите\nтелефон\nСпасибо\nза доверие!\nAnekr\n10.F5\n10:33\nНЕВКС\n16:55\nпт 16 pm\nNFC-сертификат на основе ofc.\nДокумент на основе ofc.\nАдрес: 8.0.0.0\n100%\n10 %\n«Яндекс Карты»\niPhone\n川)\n19°\nОблачно\n↓10°↑20°\n1700\nТ 16 ОКТ.\nceǔ\nNFC-метка приложения «Я...\nОткрыть в приложении\n«Яндекс Карты»\n9%\n●18°\nОблачно\n↓ 10° ↑ 20°\n18°\n17:00\nШишки&Орешки\nФилиалы\n870\nОтзывы\n",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_8cc4942660d182fee55d",
+          "title": "",
+          "caption": "Hildesheim, history looks good on you!!\nHalf-timbered houses, historic squares, and two UNESCO World Heritage churches make this Lower Saxony city well worth a stop. Wander through the old town and discover centuries of history along the way.\n\nAdd Hildesheim to your saved places. 📌\n\n📹GNTB/@powroty.do\n\n#germanytourism #visitgermany #meinniedersachsen",
+          "transcript": "I'm going to go to the next video.",
+          "onScreenText": ",\nGebrauch 1789 - Unterschied 1897 - Grenewert 1982\n<< Kultt und Denner Reperts >>",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_905443121801658018e2",
+          "title": "",
+          "caption": "#devinelapersonne #immobilier #france ",
+          "transcript": "20 000 euros la maison, c'est 290 euros du mètre carré. Il y a des gens qui disent qu'on ne peut pas se loger en France. Foutez, regardez, faire des travaux et tout, machin. OK, mais bon, 20 000 balles la maison, ça fait une bonne base pour travailler. Par contre, à ce prix-là, vous êtes à Argenton-sur-Creuse. On va regarder le détail de la ville dans quelques secondes. 69 mètres carrés avec une cave de 50 et une grange de 40. Bon, pas si mal, mais bon, 20 000 euros, c'est non soumis au DPE. Normal, il n'y a pas de fenêtre. Donc voilà la magnifique ville de Argenton-sur-Creuse avec des bars. Des bars, bien sûr, si vous avez soif. Pour aller, par exemple, au Tout va bien, qui a une très bonne note, qui a 4,9 pour 27 avis. Bon, il n'y a pas beaucoup d'avis parce que les gens n'ont peut-être pas Internet là-bas, mais je plaisante. Voilà, bon, ils sont contents. Il y a un autre bar qui s'appelle le Café de Poche. Le Café de Poche, ça a l'air très bon, le Café de Poche. Regardez, Café de Poche, mon banane, ma banane, et Croque-Monsieur, Café de Poche. C'est très bon, le Croque-Monsieur. Ça, je n'ai pas compris ce que c'est. Semoule, riz, bon. Il a un peu brûlé le Croque-Monsieur quand même, mais bon. Café de Poche a des très bonnes notes. Les gens sont très contents, visiblement, d'y aller. À part pour cette dernière cliente qui a laissé un mauvais avis. Alors, on va essayer de comp",
+          "onScreenText": "78\n1/8\n19 999 € 290 € / m²\n2 pièces · 69 m² · Arger\nCreuse 36200\nMaison de ville 2 pièces 69\nLe 26 août 2026 à 19:52\nPar Benoit Rullaud - IAD France\nAD\n62 avis\n28 annonces\nPro\nExclusivité\nLes informations clés\n78 <\nMa\nShare\n19 999 € 290 € / m²\n2 pièces · 69 m² · Argento\nCreuse 36200\nMaison de ville 2 pièces 69 m²\nLe 26 août 2026 à 19:52\nleboncoin\niAD\nes informations clés\nMaison de ville 2 pièces 6",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_a34b5613f6a32d87a816",
+          "title": "",
+          "caption": "steal my perfect day in nyc 👀🗽\n\nmy Muse, ruby, picked from my hundreds of instagram saves (that i never look at again) and planned the whole day, food restrictions included.\n\nwant your own? the new @Muse app from Meta is available to download now. comment ‘LINK’ and i’ll send you the link to try it for free 💌\n\n@meta #MetaPartner Businesses and products shown are AI-generated suggestions, not sponsored, endorsed by, or affiliated with Meta.",
+          "transcript": "If you have hundreds of saved places on Instagram, but never look at them again, same. But I just moved to New York, so I asked Ruby to plan a day from mine. First, Acre. Ruby picked it from the Japanese spots I'd saved. Ruby is the personal agent I created and met as new app Muse. I also told her my dietary restrictions, so I got a bento with gluten-free chicken karaage. I asked her to keep every stop walkable today, so next was Loaf on Paper. It is the cutest cafe and Japanese stationery store in one. Next up, I felt so awkward going alone, but it was on my bucket list, old friend photo booth. I really wanted to watch the sunset near the Williamsburg Bridge, so Ruby included Domino Park. And I think next I want Ruby to check my calendar to see when I'm free and maybe find a show from my bucket list. One New York bucket list day down, so many more to go.",
+          "onScreenText": "PERFECTBROOKLYN DAY only using my program saves\nBEST SMALL\nif you have\nArt Cafe\nPERFECT BROOKLYN DAY\nonly using my instagram saves\nMU\nhundreds\nPERFECT BROOKLYN DAY\nonly using my instagram saves\nif you have hundreds of saved places\nrunch\nDoritos Doritos KETTLE COOKED POTATO CHILI\nBRAND\nPOTATO CHI\nartfood\n3 Art exhibitions\nHON\nyou need to\nCirelos\ntacys\nLheeto\nPuFS\nPPO\nITA\no NATU\nCHIPS\nbut never look",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_a6860fd025e6908b419d",
+          "title": "",
+          "caption": "All my fave NYC spots 🗽🚕🍕\n\nI haven’t had time to try them all, but most of them are from TikTok or friend’s recommendations 🫶🏼",
+          "transcript": "this is everything i did during my girls trip to new york i made a list with all of my favorite coffee shops stores and restaurants and i'm gonna share everything with you i stayed at the public hotel in soho and this was not a collaboration but maybe one day but it was gorgeous and the location was just perfect this hotel was so close to all of my shopping spots in soho i was in desperate need of some new basics because i travel a lot and i just want good basics that fit with everything you know so i did so much shopping and these are all my favorite stores i also created a list on google map with all of these stores so if you want to just comment map and i'll send it to you there was also greenwich village that was great for shopping for the restaurants i found a lot of spots on tiktok and this is the list i came up with i personally only ate at these places and i really like them for coffee shops i did these spots and i'm a sucker for sweet coffee okay if there's like salted maple in it i will get it and this is my full list of other coffee shops it's just so fun to walk around new york honestly if you're not doing 20k step when you're there you're doing it wrong i didn't really do touristy stuff while i was in new york because it's not my first time here but these are some of the most popular things to do if it's your first time here i just love being in the city for a week",
+          "onScreenText": "New York, N.Y.\nEVERYTHING\nI DID & AT\nNY\nNew York, N.Y.\nEVERYTHING\nI DID & ATE\nIN NEW\nYORK CITY\nYORK CITY\nYORK CITY Girl's trip coiti\nGirl's trip edition!\nAY\nPRADA\nYORK CITY\nGirls trip edition!\nOpnque\nwith\nfth Jean\n为8\n44444\nAE\nX\nTibi\nmy\nTHE SPORT & RICH WEL\nCoffee shops\nVOGLE\nBOOK OF HER\nAND HER FRIENDS\nTHE\nSPORTY\nICH\nLLNE\nLLNESS\nSPORTY & RICH Good Health Starts Here. SPORTY & RICH Good Health Star",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_b39d4a16cee1b30a94b7",
+          "title": "",
+          "caption": "I mean these guys are no joke. After learning about their background it makes a ton of sense that they're in the top 10 of @martiniswithfries list. John has been awarded two Michelin stars for his previous restaurants, Dovetail and Nix, one of which got starred in its first year. Amazing. John not only feeds the who's who in New York international business in the Wall Street hotel but his team also feeds a few different Edition hotels and has various other high class restaurants in Boston, Florida and the North Fork currently. This, on top of his long tenure in New York fine dining proves this guy's a total juggernaut and comes at no surprise that he's still crushing. \n\nJuan Santa Cruz reminds me of the guy in the Dos Equis commercial in both look, experience and charisma. He opened the first Casa Cruz in Buenos Aires before moving to London and opening multiple restaurants over there. What I really appreciate about Juan is how he thinks about his establishments. He's quoted saying he ",
+          "transcript": "Here are the best places to get martinis with fries in New York City. Martinis with fries has been to over 300 places in New York to try the New York Happy Meal, and we partnered with them to give you the best ones. Next on our list, we have Avio. Avio was founded by Juan Santa Cruz, the guy behind Casa Santa Cruz in London and the Upper East Side, where investors get a private key to their own secret floor. He teamed up with Michelin-starred chef John Frazier, who feeds people at the Wall Street Hotel and many more upscale establishments across the country. Juan calls himself an entertainer above all, and it definitely shows in the details of Avio. The tables in the place are lacquered to reflect off of every table so it looks like a mirror, and every single drink is clarified so it won't break the lighting. They take everything super, super seriously, and obviously that shows in the fries as well. The fries are made to taste like that first bite of a french fry that you had as a kid in the 1990s, and they're served with a super addictive cheese sauce. If you want the full top 10 New York Happy Meal list that we collaborated with martinis with fries, comment down below and I'll send you the list on the grid.",
+          "onScreenText": "WITH FRIES IN NEW\nYORK CITY\nMARTINIS WITH\nFRIES\nHAS\nPLACES IN\nNEW YORK\nY\nAND\nWE\nPARTNERED\nWITH\nTHE BEST\nONES\nTONA SMERINET\nLIGHT & FRESH\nNNOCAD O SMASH C\nDECADENT\nVERRAND NUM\nCAINIAM TENELE\n\nQVETRA CAVETAR SERVICE\nHANDSY CABAR SALAD\nDECADENT\nHANDSY CAESAR SALAD\nCOLARD T ENFURA\nALANA\nSUBSTANTIAL\nCHARRS P OCTOPUS\nSOAILLED CICKESAATATY\nRM XIO TETALA\nCHICKS\nONGANIC CHICKEN SANDO LA\nTALLOW FRENCH FRINS",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_b4092a647696eac059bf",
+          "title": "",
+          "caption": "*PR Exploring Seoul without spending hours planning every little detail? YES PLEASE🇰🇷✨\n\nFrom Namsan Hanok Village to N Seoul Tower and Insadong, this afternoon tour is such an easy way to experience some of Seoul’s must-visit spots in one go!🏙️💗\n\nSave this for your next Seoul trip & find it on NAVER Maps✈️\n\n🔗 Find out more about <the Afternoon Seoul Tower Tour> featured in the video!\n- Easily book through the link in the @experiencekorea_naver profile\n- A short and sweet 3.5-hour tour covering Seoul’s must-visit spots!",
+          "transcript": "Every time I come to Seoul, I make a list of places I want to visit. But somehow, I spend more time planning than actually exploring. This time, I started my day with Gyeongbukgung Palace. But then, I found myself wondering what should I do with the rest of my afternoon. So instead of spending hours trying to plan my next stop, I decided to look for an experience that would make my afternoon easier. Also, I wanted to visit Namsan Tower because Seoul from Namsan is definitely something you need to see at least once. And honestly, Namsan is even more beautiful in person. The greenery, the peaceful walking paths and the city views make it such a beautiful escape right in the middle of Seoul. And that's when I found Namsan afternoon tour on Neva Maps so I booked it right away. And just like that I didn't have to worry about what to do next. I could simply show up and enjoy my afternoon around Namsan. You can find the experience, check the details and see what's included before booking. You can check the available dates, choose the one that works for you and book it directly through the platform. So if you are planning a Korea trip don't just save places on Instagram. Just book the experiences you want to have. Go to Neva Maps, find an experience that fits your trip and book it before you come.",
+          "onScreenText": "5F-7F\nOREA\n1-1-1\nEvery time I come to Seoul,\nI'make a list of places I\nwant to visit but\nBOX\nTA\nI make a list of places I\n명등포\n서울\n13:39\n서 울\n코레일 축제를 잇다\n상품권\n영동주막\nThis time I started my day with Gyeongbokgung Palace but then I found\nmyself\nThis time I started my day with Gyeongbokgung Palace but then I found myself\nHariook\nwondering what should I\ndo with the rest of my\nafternoon\nNo.1 PH Enr Highly\not\n",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_c0d66e58a5bb574edc9c",
+          "title": "",
+          "caption": "I brought my old app back to life with @emergentlabs \n\nThis was a labor of love that I piloted in my city (Charlotte, NC) back in 2021. We had almost 20K registrations and even some revenue but the data management was a massive problem that ultimately caused the business to fail. It’s crazy to see what’s now possible with AI \n\nComment EMERGENT to vibe code your next project",
+          "transcript": "",
+          "onScreenText": "5years\n$70,000\nback to life\nemergent\nThe idea\n9:00\nberb\nN FARR\nWIM\nEvents\nToday only\nToday on\npeople\nTim McGraw & Friends\nPints For Pups\nSake & Yakitori\nBeer & BBQ Fest\nHopper Charlotte\nResident Culture\nUrban District Market\nToday\nDeals\nTaco Loco\nThe Summit Beer Shop\nEddie's on Lake Norman\n$2 Tacos All Day\nThirsty Thursday\nPrime Rib & $5 Wine\nHappy Hour\nHalf Price Wine\n4 PM - 6 PM\nCraft Drafts $3\n",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_c5723ec29f9c88d215cd",
+          "title": "",
+          "caption": "A place in the U.S. that feels like you’ve landed on another planet… ☕️\n\nImagine sipping your coffee outside while Monument Valley stretches out in front of you — towering red rock formations, endless desert, and a view that honestly doesn’t look real.\n\nThis isn’t just a restaurant with a view. The View Restaurant is one of those places where the scenery is the experience. ❤️\n\nWhy this place belongs on your bucket list:\n☕️ Start your morning coffee with an unreal Monument Valley view\n🪐 Red rock landscapes that look straight out of Mars\n🏜️ Located inside Monument Valley Navajo Tribal Park\n📸 Incredible spot to slow down, take photos, and soak it all in\n🌅 The surrounding landscape changes completely with the light\n\nPro Tip: Try to arrive early and grab a spot outside with the valley in front of you. The view alone makes this experience worth adding to your Monument Valley itinerary.\n\n📍 The View Restaurant, Monument Valley, Arizona/Utah 🇺🇸 @visit_arizona @visittheusa \n\nWould you sip",
+          "transcript": "The first thing I met was a fly with a buzz and a sky with no clouds. The heat was hot and the ground was dry, but the air was full of...",
+          "onScreenText": "POV: Coffee just tastes\ndifferent when you're sipping\nMonu\nit on another planet\nView Point\nThe View Restaurant\n0000\nMESA\nTAXI",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_cf196365ac1d51535166",
+          "title": "",
+          "caption": "Habt ihr mehr Fragen oder Empfehlungen?? Gerne in die Kommentare damit ❤️🫂 #evademchik #kölnguide #foodspots #nrw ",
+          "transcript": "Ich habe vier Jahre lang in Köln gelebt und ich glaube, ich habe wirklich überall. Deswegen bekommt ihr heute meinen persönlichen Köln-Guide fürs perfekte Wochenende. Wenn ihr neu nach Köln gezogen seid oder zum ersten Mal hier seid, speichert euch das Video ab. Mein Tag hat erstmal mit einem kleinen Beauty-Reset gestartet. Meine Wimpern mache ich immer bei S&M Cosmetics in Ehrenfeld. Und für meine Nägel gehe ich immer zu Deluxe Nails. Relax Nail bei der Nähe vom Heuerwerk ist aber auch richtig gut. Danach ging es mit meiner Mama und meinem Stiefvater ins Café de Paris zum Mittagessen. Wenn ihr noch was anderes ausprobieren wollt, Balthasar ist auch nur eine 12 von 10. Genauso wie Umiba in der Südstadt für Sushi oder Daikan für Ramon Sushi kann ich euch sehr empfehlen. Danach ging es noch ein bisschen shoppen. Dafür könnt ihr super die Schildergasse hoch und runter laufen. Ich persönlich mag aber die Ehrenstraße am liebsten. Und für den Abend kommt meine absolute Herzensempfehlung Delicato. Ihr könnt dort essen und später wird die Musik etwas aufgedreht, um zu tanzen. Für mich wirklich das perfekte Wochenende. Wenn ihr es abends aber eher etwas ruhiger angehen wollt, probiert unbedingt noch Kepapland aus oder geht auf die Aachener Straße. Rund ums Café schmitzt abends eigentlich immer richtig viel los und man kann super etwas trinken gehen. Und wenn ihr nochmal richtig schön es",
+          "onScreenText": "ARKET\nDie besten Spots in\nKöln\nBONNE\nParis\nCAFÉ\nCOLOGNE\nDie besten Spo\nKöln\n\nMENU\nBONNE DÉGUSTATION\n\nMo.-Fri. ab 12 Uhr - Sa.-So. ab 13 Uhr\nDie besten Spots in Köln\nKoln\nDR. SNIUSY\nDie besten Spots in\nKöln\nYOU DESERVE TO FEEL GOOD\n-DR. SMUSY-\nKöl\nguide\nH\nFriseur imaj VIP\nAlp\nVitadrom\nSnm Cosmetic\nAuto Performa\nCologne\nX\n37 Min.\nNotiz hinzufügen\nNur du kannst sehen, was du schreibst.\nDetails\nAdress",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_dda2d92fb00088f4d9f0",
+          "title": "",
+          "caption": "My friends are literally checking my saved places on GobiMaps for their festive shopping 🛍️✨😂\n\nYou can create your own map on GobiMaps, save all the places you want to visit, and whenever you’re near that area, just open your map and explore! 📍\n\nSave it now, visit it later — no more “where should we go?” moments! 🤌🏻✨ @ipsita_dg \n\nGobiMaps, saved places, festive shopping, shopping spots, places to visit, Bangalore shopping, explore Bangalore, personal map, travel planning\n\n#gogobi #GobiMapsIndia #FestiveShopping #BangaloreShopping #ExploreBangalore",
+          "transcript": "In Bangalore, Dashera Shopping means one reel, the other jewelry, the other decoration, and suddenly 15 places. Now I keep all these finds on my own Gobi map, so nothing gets lost in my Instagram saves. Plus I can follow my friends, see what they are discovering, share my finds, plan our shopping days together. This Dashera is not going to do shopping, but smartly too. Gobi, make a map and plan it together.",
+          "onScreenText": "BANGALORE\nBANGALORE ME DUSSEHRA SHOPPING\nKA\nBANGALORE ME DUSSEHRA SHOPPING KA MATLAB\n.Saree\nU\nsaree\nJewellery\nellery\nw\ne\nJewel\nare\nO\nJ\nS\nDecor\n. Saree\nAND SUDDENLY 15 JAGA\nH JANA\n5:274\nA\nX\n@ipsita_dg\nIpsita DG\n263\n20 3 Followers Following\nPlaces\nNot sharing location\nipsita_dg\nKEEP ALL THESE\nFINDS ON MY\nFINDS ON Phoenix M Nandurra MALL SALE The +\n8\nThe\nSIDDHARTHA NAGAR\n5:29\nEAST ROAD\nCafe Limestone",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_eb678117052700efa1f8",
+          "title": "",
+          "caption": "It's funny to think how much St. Marks has changed in the last twenty years. Ten Degrees was there to see it all. In a lot of ways, you could argue they inspired the wave of all the boujiee places you see all along the multifaceted street that you see today. Would be curious if anyone knows what was in the space prior to Ten Degrees. In any case, twenty years in New York let alone lower Manhattan is no accident. Moti created a space with staying power, and there are a lot of reasons for that.\n\nIn addition to all the great deals like BOGO drinks during happy hour they have a lot of other  creative and interesting offerings that make the place special. For example I am a huge fan of the @mrbifananyc collab. Whenever a bar has a unique collab like this I'm so much more likely to check it out. The make your own charcuterie board is a cute touch as well. Go hit Ten Degrees and let us know what you think.\n\nIf you don't have anyone to go with we just started adding more users to @onthegrid.ap",
+          "transcript": "Did you guys know this 20 year old wine bar in the East Village is doing buy one get one free drinks and make your own charcuterie boards? And they're serving one of New York's best sandwiches, the Bafana. 10 Degrees was founded by Mahdi Hassan in 2006. Hassan founded the bar to be a rejection of what people normally associate with St. Mark's. The goal of the place was to provide high quality food and high quality wine for the East villains who want a taste of the finer things every now and again. A big highlight of the bar is their collaboration with Mr. Bafana who also has a stall in Time Out Market. If you're not familiar with a Bafana, it's a Portuguese sandwich made with pork that's marinated for a long time in garlic, spices, and white wine and then served on a Portuguese roll. These sandwiches pair super well when you're getting buy one get one free drinks during happy hour which runs every single day. It's a really excellent date spot and also fun for going out in the back room. If this sounds like your kind of vibe, you can save 10 degrees on the grid by importing this video and you can check out all the coolest deals in your area and get exclusive member discounts with our friends over at Crawler. Comment below and I'll send you all the links.",
+          "onScreenText": "CHARCUTERIE BOARDS\nTHE BIFANA\n10\nDEGREES\nPAS\nBE PRO\nBLUE\nPAS\nDE PONT\nBien\nDAS\nBA\n酒1\nBPOO\nPAS\nHASSON FOUNDED THE\nBAR\nTHE GOAL OF THE\nAND HIGH QUALITY\nWINE\nQMG\ndegrees\nEVERY NOW AND\nAGAIN\nIPA!\n7\nIF\nYOU'RE NOT\nFAMILIAR\nTIME IN GARLIC\nA PORTUGUESE ROLL\nW\nten*degre\nGET ONE FREE DRINKS\nIT'S A REALLY\nEXCELLENT\n445\n21\nTHIS SOUNDS LIKE\nST.\n12\n147\nmrbifananyc and tendegreesbar\nanyc · Mix : The Strokes · Son",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_eb6ab5c2d6daf3cb1e2b",
+          "title": "",
+          "caption": "Sirrah crushes it in every way possible. When we were first looking into the restaurant I was super excited to eat at a place with such incredible decor. Then, of course, when I got there it was 10x cooler than the pictures could do justice. One thing I haven't seen a lot of people talk about is their outdoor seating. Sitting outdoors at a white table cloth in Meatpacking is a treat in and of itself. When you compare it to the interior of Sirrah you're left with a very tough choice of where to sit.\n\nThe hangar steak was delicious but I actually opted for the burger as I've fallen into the best burger hype that's going on right now. I haven't had all of the top ten yet but I will say as of right now Sirrah tops my list (incomplete right now). When you add in the unlimited fries which truly are top tier it's hard to beat. And that's just one course! Go check Sirrah out I promise this will be a special special experience. Let us know what you think!\n\nAnd if you don't have anyone to go wit",
+          "transcript": "places in New York to look like a baller without needing to drop the bread to actually be one. Syrah and meatpacking is perfect for those pimping on a budget because they do a five-course steak meal with unlimited fries for under $80. Syrah was founded by hospitality veterans Phil Zolanki and Ryan Harris. Both Ryan and Phil have worked across the globe in hospitality and Phil's dad even built one of the first bars and meatpacking. Instead of bringing yet another copy and paste French restaurant to New York City, they wanted the experience to be simple, fun, and affordable in a spot that looks like it should be three times the price. Syrah is definitely one of the bougiest places that I've ever been to and the food was excellent. They organized the menu so all you have to choose is the main course and the whole time they are literally overflowing your fry basket with perfectly crispy fries. If you want an elite ambiance without the fear of the IRS calling, you can save Syrah directly from this video by importing it on the grid and then we'll show you people who want to go with you. Comment down below and I'll send you the link.",
+          "onScreenText": "BE ONE\nPERFECT FOR THOSE\nPIMPING\nBECAUSE THEY\nDO\nA\nDO A\nSIRRAH WAS FOUNDED\nBY\nSIRRAH WAS FOUNDED BY\nMA\nAND RYAN HARRIS\nGLOBE IN HOSPITALITY\nwe\nHermanMille\nAND PHIL'S\nDAD\nEVEN\nFIRST BARS IN MEATPACKING\n3\nCOMMERCIAL\n108250 P\nHermanMiller\nNYC\nTO BE\nSIMPLE\nCOMMERCIAL\nVEHICLES ONLY\n\nMonday - Friday\n\nCOMMERCIAL\n108250\nHerman Miller\nAVO\nVEHICLES ONLY\nMonday - Friday\n8am - 2pm\n108250P\n108250P 385\nVermanMi",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_fe215c0da09e763faf35",
+          "title": "",
+          "caption": "케이크 한판에 세가지 초코케이크! 투썸플레이스 마이투썸초코",
+          "transcript": "おやすみなさい 私はこのチーズを食べることができます。",
+          "onScreenText": "TWOSOME\n투썸플레이스에서\nA Twosome Place released\n네\nfour\n가\nkinds\nR o\n맛\n.choco\n초코케이크가\ncake\nOME\nTWOSOME\"\n나왔어요!!\nin one!!!\nTWOSOME®\n???\n케이크네 개를 붙여났네요!\nFour cakes stuck together!\nTWOSOME*\n맛이네 가지가 아닌듯한데?!\nBut the flavors seem to be less than\nfour?!\n일단 첫번째!\nFirst one!\nTWOSO\n파베초콜릿\nPavé Chocolate\n투섬 초코케이크중에\nThe most familiar of\n초코퍼지!!\nChoco Fudge!!!\n100%\n제가좋아하는 부드러운 식감이랑\nBoth the soft texture I love\n꾸데\nSo...... d",
+          "frameText": "",
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "brief": "Splitly lets a group enter shared trip expenses, see who owes whom, and mark debts settled manually.",
+      "focus": "Make shared costs and outstanding balances understandable.",
+      "need": "Track shared costs and balances, rather than personal investing or payment processing.",
+      "capabilities": [
+        "enter shared expenses",
+        "calculate balances between group members",
+        "mark settlement manually"
+      ],
+      "unsupported": [
+        "money transfers",
+        "bank linking",
+        "automatic payment",
+        "receipt scanning"
+      ],
+      "constraints": {
+        "noRealPeople": false,
+        "exclude": ""
+      },
+      "sources": [
+        {
+          "sourceId": "s_0253bad49fc41f041522",
+          "title": "",
+          "caption": "The best thing is that we’re growing our team 🫨\n\nIf you want to be involved in one of the coolest venue projects ever, message me or one of our team members at @maestrovalley 🌋\n\nWe’re just a group of vital humans that went all-in on this property. We love to build, create, and play..\n\nWe host our @biocultureretreats here, and so do many other retreat groups from around the world!\n\nComment “retreat” to apply to the @biocultureretreats fun :) \n\nAnd comment “host” to host your next retreat group at our beautiful venue @maestrovalley 🌋",
+          "transcript": "Here's what it looks like to manage a $3.3 million retreat venue in Guatemala, including financials. We live on site parts of the year, so when we're on property, my waking time is full of family moments, enjoying volcano views, lake energy, pure nature sounds. And once I'm done love maxing, we have breakfast and coffee, then some extra motivation before getting to work. And no matter what work gets done that day, these moments with my family will always be the most productive and highest ROI. Some days the property is very demanding, and other days it's pretty chill. Right now we're just recovering from a retreat we just hosted ourselves as we prep for the busiest months yet, with four different group rentals coming back to back. And here's a quick breakdown of all the revenue that came from each of these groups, as well as our monthly expenses laid out. So you can see our total expenses and our total profit at the bottom being $13,515. And these groups are easy to manage when they come in. So today actually I just recorded a lot of content with my friends as we wrapped up our cannabis retreat, had a lot of fun. And then I had two calls. One actually went very good, and it's going to be a booking for six nights, which will be a 9K stay, including a food plan. And of course they found us through Instagram, like most of our people do. And a lot of times these calls are super chi",
+          "onScreenText": "ON SITE PARTS\nSOWHEN WE'RE\nSO WHEN WE'RE\nON PROPERTY,\nFAMILY\nMOMENTS,\nENJOYING\nENERGY\nSOUNDS.\nMAXING,\nTHEN SOME EXTRA\nTHEN SOME EXTRA MOTIVATION BEFORE\naeous\nTHESE MOMENTS\nWITH MY\nPRODUCTIVE\nAND HIGHEST ROI.\nIS VERY DEMANDING\nRIGHT NOW WE'RE\nWE PREP FOR THE\nCOMING BACK TO\nOct 25-Nov 1 Group Retreat - $8400 ~$4000 meal plan ($400 profit)\nNov 5-8 Main House Rental - $1485\n~No Food\nNov 8-14 Women's R",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_0498981466a00611db6a",
+          "title": "",
+          "caption": "New episode of More Life is out now with Mrs. Dow Jones aka Haley Sacks.\n \nWe get into money, relationships, and some of the financial red flags to look out for. One that really stood out to me? When someone isn’t generous.\n \nListen now wherever you get your podcasts.",
+          "transcript": "What's the biggest money red flag in a relationship? When someone's not generous. Like the moment that they make you feel like weird about money, that's the red flag. Like where they, you know. How do you tip? At least 20%. And I feel like when I'm dating someone and they're seeing me tip, it's always, like even if I was gonna do like the Uber thing pops up and then I count you on a tip, it's like usually if you weren't here 15, oh, he's here at 20. Look at me, baby. Like, oh, I love everyone, you know? To me, if I saw someone tip poorly, that would be a red flag. Oh, for sure. Tipping is mean to wait, staff, horrible, like, you know, all those. But I think also just anyone that makes you, like, even if you're not, like, okay, I believe in having separate bank accounts and then having a shared bank account for like shared expenses. But I think that like, you're obviously gonna still spend money on each other. And like, that should just be like from a place of generosity.",
+          "onScreenText": "More Life\nIN A RELATIONSHIP?\nNOT GENEROUS.\nMONEY,\ndrinks will benefits\nYOU KNOW-\nIT'S ALWAYS...\nCA\nAND THEY LIKE,\n20.\ndrinks ul\nbenefits\nYOU KNOW?\nA RED FLAG ME.\nM e e\nMEAN TO WAITSTAFF-\nLIKE,\nEXPENSES.\nMore Lie\nLIKE YOU'RE OBVIOUSLY",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_0a862b54472e8bb45c3f",
+          "title": "",
+          "caption": "Pov: Những order thường gặp khi khách Tây mua hàng tại Miaritta 🔥 #miaritta #trending #localbrandvietnam #bestseller #90minimalism ",
+          "transcript": "Which size do you want? We have three size S and L. L? Yeah, three size L. And do you guys have the pretty capris for my trend? Oh, we have this. It's capris. You don't have the ones with like, you know, the... I saw on your website. You guys have this collection? Yeah. Oh, we have sold out for this paint. Yes, just all these. That's okay. Do you take silage? Yeah. Where are you from? London. Oh, so far. Very far. Yeah. What did you find from the other side? Oh, to top. Oh, to top? Thank you so much. This is new one. You can check this. It's a new one? Oh, just... Milk. Thank you so much. You want to try one set or the... I have the top. I tried. I like the top. It's sold out. We have the new one for this. And the new one. Check this. Yes. Thank you so much. It's all purple. Okay. Thank you so much. Do you want to take this? Yes. Okay. Thank you. Thank you so much. Thank you. Thank you. All you want to take this? Thank you. Thank you so much. Thank you so much. Thank you.",
+          "onScreenText": "POV: Nhưng order thuONG gập\nkhi khách tây mua dô tái MiaRitta\nchúng mình có 3 size S,M,L a\nPOV: Nhưng order thuỔng gạp\nkhi khách tây mua dô tái MiaRitta\nPOV: Nhưng order thuòng gập\nkhi khách tay mua dô tái MiaRitta\nđây là size L\nPOV: Nhưng order thuỔng gập\nkhi khách tay mua dô tái MiaRitta\nbạn có thể giúp bạn minh\nPOV: Nhưng order thuONG gập\nkhi khách tay mua dô tái MiaRitta\nTOMKO\nLY\nLY.\n+1 items\n",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_107dec38472088dee00a",
+          "title": "",
+          "caption": "I’ll never shake the embarrassment from this hahaha it having to be @Derik Beeston and I makes it even worse ",
+          "transcript": "I'm not kidding. Stop it. There's no way. Okay, let's go. He's right. He wants to get a picture with us. He wants to share that this is nice. Where's your name? Please? Thanks.",
+          "onScreenText": "POV: you and your BIL lost a bet and now u have to order icecream in towels but a sweet follower recognizes your\nspouses right before stepping off the\nboat so you have to meet her like this\nand apologize 500 times for this being\nthe impression of you 😂\nthe impression of you 😊\nthe impression of you\nistion",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_15f04ea9c6cc0b5b17a5",
+          "title": "",
+          "caption": "Всего в «Хатико» живет около 300 собак: часть из них в бывшем здании кафе, которое выкупили волонтеры, а 160 животных — в вольерах на арендованном участке.\n\nПосле того, как владелец земли выставил землю на продажу и потребовал выселить с нее собак, появился риск того, что всех «лишних» животных придется усыпить, но неравнодушные люди спасли их жизни",
+          "transcript": "Я не могу говорить, у меня слезы льются рекой. Всем вам низкий поклон. У нас осталось только два варианта. Либо выкупить эту территорию, которая стоит 105 тысяч белорусских рублей, либо выпустить всех собак. Но собак мы выпустить не можем. Получается, тогда их придется усыпить. Мы очень просим помощи в сборе средств. Друзья, это невероятно. или как оно говорится? Я не могу говорить, у меня слезы льются рекой. Всем вам низкий поклон, мы собрали больше, чем нам нужно было. Это большая радость, я вообще до сих пор не верю в победу. Сама Кадырия сидит в больерах, в самом приюте, в трактире. Мы можем перевезти на улицу, лежать свежим воздухом, насколько это возможно, ждать всей жизни. Если кто-то захочет себе взять собачку, обязательно походите к нам, выбирайте, все они учатся своих родителей.",
+          "onScreenText": "ПРДКТИРЬ\nВидео: @hatiko_bobruisk/Instagram\nhotod.media\nЯ не могу\nговорить,\nБеларусы за 3 дня собрали\n4,5 миллиона рублей —\nи спасли 160 приютских\nсобак от усыпления\nBueo::@hatiko_bobruisk/Instagram\nholod.media\nлибо выкупить\nэту территорию,\nПриют «Хатико» арендовал\nучасток по соседству несколько\nлет,там волонтеры построили\nвольеры для 160 животных\nВидео:: @hatiko_bobruisk/instagram\nкоторая стоит\n10",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_1dcc3cb516e0c21010a4",
+          "title": "",
+          "caption": "I hope there’s a prenup",
+          "transcript": "I'm marrying the love of my life. And I've been cracked by hundreds of guys. And we're getting married. There are so many things that go into planning a wedding. Which florist, which caterer, and which body count resetter. Hello, I'm Shaman Shaboinkie. I don't know about this guy. Come on, babe, it's cheap. How much is it? $13,000. Babe, that's a lot of money. But I'll be a virgin for our wedding day. I've turned many girls into virgins. Even the sluttiest of ones. Okay, fine. - We got a great deal on Shaman Shaboinkie. What do we always say, babe? - Whatever she wants, she gets. - What else? - Whatever I want, I get once a year on my birthday, if I behave well. - Passion is from your young and single. Marriage is for comfort and shared expenses. - Oh yeah. Ooh, I can feel the high body count on this one. Oh man, you know how to pick 'em. By the powers granted to me by Shaboinkiedom, I reset your body count to zero. Yes, yes! - Oh my God! Babe, you're a virgin! And we're gonna keep it that way. What? Oh, I'm glad I got mine in last night. By the way, I accept cash out.",
+          "onScreenText": "when you marry a party girl\nI'm marrying the love of my life\nThere are so many things that go into\nwhich caterer\nand which body count resetter.\nHello.\nI'm Shaman Shaboinky\n#\n444\n44\n100\nBut I'll be a virgin for our wedding day.\nEven the sluttiest of ones.\nOkay fine.\nWhatever I want\non my birthday\nOh yeah.\nI can feel the high body count\nOh man.\nYou know how to pick them.\nBy the powers granted to me ",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_1dd29af0dba61cfc7462",
+          "title": "",
+          "caption": "Very different to where we were staying… 🇬🇷. Let us know where you would prefer  #naousa #paros #parosisland #travelgreece #greeklife ",
+          "transcript": "It's Friday night in Greece and we're heading to a little place called Naousa in Paros. It's meant to be a beautiful, cute little fishing village which is like the most Instagram and trendy location. We've just arrived half an hour on the bus and we've got all these cute little souvenir shops and then all of these bars and restaurants down here with loads of outdoor seating so it is very pretty. Beer, lager. This is the 56 Isles microbrewery beer which they've got a special on so €3.50 although it is literally like a shot glass with about two sips. Pretty decent to be fair. I think this is brewed on the island here in Paros. Don't know any more information about it. Just like a nice refreshing lager. Oh my god. We literally walked past this gorgeous restaurant. The food looks amazing so we guys ran fast and was like can we book a table for four? They didn't have 8 or 8.30 because it's too busy so 7.30 here. So far absolutely stunning place but very posh vibes. Probably a bit too... to earth for us but... So this list... to begin from here. And expand to 200 to 50 apart from some things. Where's the chips? Second half. Just drop her over by... Nice. Kind of meaty. Ooh, 23 Euros. Trying the fancy octopus for the first time. Looks really meaty. No, that is actually banging. Rosato pear. pork in here we've done it that's it probably not going to come back i can see why people do wa",
+          "onScreenText": "A night in...\nNaousa, Paros\nIt's Friday night in Greece\nA night in...\nNaousa, Paros\nIt's meant to be a beautiful,\ncute little fishing village,\nwhich is like the most\nInstagram and trendy\nlocation.\n1\nERRIKOS KOHLS\n-in-\nS KOHLS\nΝΕΡΙΟΔΙΚΗ IEZOAPOMHIH\nNEPIOAIKH N.ΖΟΔΡΟΜΗΕΗ\nKOHLS\nNEPIOAIKH NZOAPOMHIH\nNKOS KOHLS\nNEPIOAIKH IEZOAP\nHMEPA TOY TAZ\n30 OKTOBPIOY\n07:00 nM.EDE 13\nSOLO\nGELATO\nWe've just arrived. ",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_295421dae2413c399b8c",
+          "title": "",
+          "caption": "#ad Racking it up in the Rockies. I took Barclays’ Out of Office Challenge to see how many points I could earn in one weekend with my Wyndham Rewards Earner® Plus Card. Click the link in my bio to learn more and see if you pre-qualify for the card today. Terms and conditions apply.",
+          "transcript": "How much can you actually do in Colorado in just two days? Let's find out with the Barclays Out of Office Challenge. I kicked things off at the Mining Exchange, a registry collection hotel by Wyndham. It was the perfect place to rest and unwind before my first adventure. The next morning, I headed to the Garden of the Gods for horseback tour. Using my Wyndham Rewards earner plus card, I racked up valuable points on every eligible purchase. My very first time riding a horse, why did it take so long? From there, I kept the quest going and went on a Jeep tour of Pike's Peak. and booked a zipline course for the ultimate Rockies ride. I felt so alive. And scared, okay? After a jam-packed day, I headed to the rabbit hole for a well-deserved dinner and drink. And it was fire. Before heading home, I hiked around the Painted Mines Interpretive Park, and the scenery did not disappoint. The colors were unbelievable. One trip, two unforgettable days. You could take a trip like this too and save on future stays with the points you earn on the Wyndham Rewards earner plus card.",
+          "onScreenText": "48 hours in Colorado\nHow much can you actually do\nin Colorado in just two days?\nLet's find out\nbilkmgk\nwith the Barclays\nARS\nblki\nOut of Office Challenge.\nI kicked things off\nTHE MINING EXCHANGE HOTEL ESTD 1902\nESTD\nS NEVADA\nCOLORADO\nAVE\nSPR.\nTINGGE\n902\nat the Mining Exchange,\n2T\nHOTEL\nMINING\nEXCHANGE\nAMETHYST\nCOPPER SIGNAL\nIRONCLAD\nNELLIE\nATTTLER\nTKHORN\nOMEGA\nFLYING CLOUD\nQUITO\nDR. JACK POT\nPROGR",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_328a5a991f512b0dc455",
+          "title": "",
+          "caption": "ファーストシューズ想像以上に高くついてしまった🥹💸 #ファミリア #ファーストシューズ #1歳 #事件 #赤ちゃんのいる生活 ",
+          "transcript": "生まれてこの方靴を履いたことがない。 マルコ1歳。 人生8の一足をまとめてお高めブランドのお店へ赴く。 入口を目前にマルコの様子がなんだかおかしい。 これは、浴術的な大洪水が発生した模様。 ここまでの道のりですでにお着替えストックを消耗済みない行為に干された道は現地調達のみ。 ブランド価格の上品なお洋服たちを前に。 母覚悟のおもなち。 結局ユキチさん3人が旅立つのさっきり可愛く変身したマルコの姿に。 この思い出もプライスレス。 とこまえながら品種の財布をなんとかこぶして、本命の靴選びへ、黒の手付きの店員さんの測定で、ぺったりサイズのファーストシェアと出会いマルコもにっこりと思いきや、初めての靴よりの大好きなパパと離れたくないマルコのご機嫌は何やら不穏な方向に、つかさず抱っこでご機嫌を取り戻したマルコと共に無事に靴もお迎えして、開封式を行うマルコでもやっぱり興味なさげなマルコに母の感動だけが静かに置き去りとなるのでした。",
+          "onScreenText": "産まれてこの方\n靴を履いたことがない\n娘の話(笑)\n人生初の1足を求めて\nfamiliar\nお高めブランドの\nお店へ赴く\n入口を目前に\nまる子の様子が\n※オムツ漏れ\n局地的な大洪水が\nオムツ漏れ\n発生した模様…！\nここまでの道のりで\n既に\nお着替えストッワを\n↑コップを\nひっくり返した人\n残された道は\n現地調達のみ…！\n上品な\nお洋服達を前に\nいくらするんだろう(震)\nいくらするんだろう(震\nパースカート13427301\nBL ¥20,000\n¥28,500\n¥2,850\n¥2,850\n小計\n¥31,350\n税\n小計\n税 ¥31,350\n合計 (¥2,850)\n内消費税 (10%対象 ¥31,350\n内消費税 ¥2,850)\n税 （¥2,850）\n(10%対象 ¥31,350\n内消費税 ¥2,850\n¥31,350-\n(税 ¥2,850-)\n(QUICPay ¥31,350-\n内消費税 ¥",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_3ba4c066aea2bba3bfeb",
+          "title": "",
+          "caption": "Làm ly công chúa thôi mà cũng phải làm content nha kkkkk  Phải mua sticker bên HQ gửi về vì ko biết phải mua ở đâu. Mua xong còn nhiều sticker thì @Trương Quỳnh Anh  bỏ túi mang về luôn!! Kkkkkkkkk Sao mấy mẹ này vẫn chưa trưởng thành áh kkk thích làm cute cute🤣 #hariwon #sam #truongquynhanh #jinju #youngju ",
+          "transcript": "Kính thưa quý vị, như vậy là khùng hào Cái gì cũng chưa bắt được Cộng cộng quá nè, quá trời lộng cộng luôn Hôm nay chúng ta có những cái cục cộng rất là mệt chứ Những cái làm như thế này Yeah Rồi, bắt đầu vô nha Mệt quá Mọi người chưa làm xong rồi chị bye bye vậy á Người ta tát ta mà Tát ta chứ không có bye bye Khiêu Hân ơi Cái nào đẹp nhất Chị thấy cái nào đẹp nhất Trời ơi Thôi vậy là tất cả mọi người ai cùng đi hết rồi Khiên thưa quý vị như vậy là Khùng hào Lại lại lại Khiên thưa quý vị như vậy là Chúng ta đã thành công cắt ly của công chúa rồi Và bây giờ cũng sẽ đi bơi đây Bye bye mọi người Và bây giờ chúng ta sẽ cùng đi nào Hai Ba Yêu Yêu",
+          "onScreenText": "Chuyển di Amanoi Travel\ncùng dòng doi phàn 3\nquá tròi lông công luôn\nSUNSHINE\n*ouyo hep qoen beng, aghiem bdo\n---",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_3f61f360d697b9b4699b",
+          "title": "",
+          "caption": "ChatGPT Just Stopped Answering In Text\n\nGPT-6 is now free for everyone, and with Intelligent UI, ChatGPT builds charts, forms, sliders and mini apps around your question.\n\nI tested 8 things on the free plan. A slider showing where your credit card interest goes. A wedding outfit planner. A bill splitter.\nMost people will keep reading paragraphs. Those who ask for visuals learn faster.\n\nGet my free cheat sheet of 50 things to ask ChatGPT in my WhatsApp community.\nLink in bio.",
+          "transcript": "I asked ChatGPT what to wear to a wedding and look at this. It literally now shows real outfit pictures for every function. Let me show you this free ChatGPT trick. It is called Intelligent UI. Images, forms, charts and sliders built live around your question. I tested it myself and here are eight things that blew my mind. One, visual answers with smart form. I asked what to wear to a friend's wedding. It instantly showed me real outfit pictures, a different look for every function, with the colors and the vibe of each one. Then it went one step further. It offered to personalize my entire wardrobe with a quick form. Am I the groom or a guest? Which functions? What budget? What style? I picked old money luxury. One tap and the whole plan was built around me. 2. Interactive breakdowns. I asked why my credit card bill never seems to go down. Instead of a lecture on interest, it built a live breakdown. Drag the slider from minimum due to full payment and watch the interest pile up or disappear. It even shows how many months you stay stuck in debt. I wish someone had shown me this when I got my first card. 3. Adaptive recipes. Earlier, it just gave you a recipe. Now it asks how many guests are coming. 6, 12, then it recalculates every single ingredient for you. Plus, step-by-step pictures and a shopping checklist you can tick off. 4. Visual trip plan. Ask for a weekend getaway and ",
+          "onScreenText": "plan me dressing for a wedding\nmodern, well-fitted, and stylish\ng plan for each function.\nPlan a wedding with ChatGPT\nLet me show you this\nfree ChatGPT\ntrick\nintelligent UI.\nGPT-6 with Intelligent UI\ncharts,\nAll groups\nExpand\nSan Francisco\nSUNSET\nAlcatraz Island\nyour question.\nand here are eight\n8:55\nhe Next\nDiscover\nlave\ngandhi 1d\nTrippy cityscape inside a giowing jellyfish\nAsk Meta Al...\nHome\n*c",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_4657d1bcf85fc5b6d535",
+          "title": "",
+          "caption": "Don’t worry babe, I accept all forms of payment tyvm 🫴",
+          "transcript": "I said, send me money through Cash App. And he says, I do Apple Pay. That's great. I take all forms of payment. See what I mean? I got everything you got. I got Apple Pay, Cash App, Venmo. I got stuff y'all haven't even heard of. I got Splitwise. I got Clarity. I got all kinds of stuff. All right. There's so many ways to pay you. I even take Bitcoin. The bank takes Bitcoin. I take Bitcoin. You get what I'm saying? There's so many ways to pay me. And that's your responsibility as a vendor, whatever, all right, is to be able to accept all forms of payment. So get you some accounts registered so that they can't make any of those dumb excuses. All right. They're going to come in there and say, you know, they're going to come in there and say, I only got X credit money. What was that? Twitter money? I'll take that too. I got an account. Oh, goody. I got one. I got X. I got X wallet. Here it is. Easy. Easy. So.",
+          "onScreenText": "",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_60eced62e7187d968cd5",
+          "title": "",
+          "caption": "A Day in the Life: Stranded on an Island in Thailand #fyp #dayinthelife #vlog #travelvlog #thailand ",
+          "transcript": "This is a day in the life being stranded on an island in Thailand. I began the day by going online and making about £12. I had to move rooms because mine was fully booked. And this bad boy sent me back about £8. And honestly, for the price, you really can't complain. The downside is that means we've only got £4 left to our name. And of course, the room comes equipped with the most important item you're going to need out here. So as of right now, my visa's run out, which is a big problem. Every day that I don't extend it, I'm going to have to pay £12. But the only way to extend my passport is to get it back from the bike shop. Problem is, I've lost the key to the bike nearly a week ago. And a new key plus what I owe on the bike comes to a whopping £7,100 bar. Which is £162 that we don't have. Once I pay that off, I can get my passport back and extend my visa. After talking to the bike shop owners, I can't get a new key until I pay everything off. So me and Juni decided to get a smoothie. And this place has over 100 combinations. After grabbing my smoothie, I went to grab a seat and actually met a really cool puppy. And I'm not going to lie, I think he was a bit excited to see me. I reckon we need to come up with a name for this little dude. I'm thinking of something like Scrappy or Rodrigo. So obviously, time's really ticking. Day one of being over my visa, which means one thing",
+          "onScreenText": "LIFE BEING STRANDED\nI BEGAN THE\n27\nONLINE AND MAKING\nBUDGET: £12.00\nABOUT 12 POUND.\nBUDGET:G12.00\nI HAD TO\nMOVE ROOMS CAUSE\nMINE WAS FULLY\nBOOKED.\nAND THIS BAD\nBOY SENT ME\nBACK ABOUT 8\nBUDGET:C4.OO\nBUDGET: £4.00\nAND HONESTLY, FOR\nAND HONESTLY,FOR\nYOU REALLY CAN'T\nCOMPLAIN.\nTHE DOWNSIDE IS\nTHAT MEANS WE'VE\nONLY GOT 4\nMOST IMPORTANT ITEM\nOUT HERE.\nVISA'S RUN OUT,\nBIG PROBLEM. EVERY\nMNIA\nDON'T EXTEND",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_6cfeb781b30690324a6b",
+          "title": "",
+          "caption": "Love doesn’t require bad bookkeeping! We can treat each other, buy gifts and be generous without relying on vibes to manage thousands of dollars in shared expenses! App we use for tracking is @Splitwise  - - -  Finaces should be based on VERIFICATION, NOT ON VIBES!",
+          "transcript": "One thing my boyfriend and I have never ever fought about is finances because their arrangement has always been based on verification, not on vibes. For example, if I think, why am I buying all the groceries lately? I simply pull my phone, check our splitwise balance, and there it is. I'm actually behind. Never have weird fights trying to remember who paid for what. Never let their resentment build up. That balance is always a phone click away. It honestly fascinates me that so many couples fight about finances. Maybe it's because I'm an engineer, but if you can calculate it, just do it. I wish you could calculate other parts of a relationship. Like there's no database to check who's been more emotionally available. There's no pivot table for affection. There's no KPIs for being a good boyfriend. That stuff's actually challenging and you got to just figure it out. Finances are not.",
+          "onScreenText": "boyfriend\narrangement\nVerification not on Vibes\nCEA\nL\nUI8MU\nUMUBR\nor\nUNIVERS\nUNIVERS\nUNIVERS\nUNIVERS\nHsrdbitt Hsrdbitte\nLIA2\nCRETOBES\nOETO\nEA\nAC\nBMUR\nNB E\nbalance\nYou owe Zika T. $214.10\nBroadway\nho\n18\ndbrish\npaid\nwhat\nthe\nresentment\nalways\nUNIVERSE\nhonestly\ncouples\nBEAE\nEZ\nO\nG GE\nTA R\nDIG\nUE\nengineer\nZNTEZ\nE\nHOUA U O\nGN GE\nrelationship\nDOM\nZITEZ\nOU U\nGRAFES\nVENT\nemotionally\naffection\nCoeL2\nY\nGlas",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_721d90fc711988874f24",
+          "title": "",
+          "caption": "Dicen que en este restaurante está uno de los mejores patos pekín de la Ciudad de México, y obviamente tenía que venir a comprobarlo. 🥢 Se llama Chunky Dragon y está a cargo de un chef tailandés. Aquí encuentras sabores de diferentes partes de Asia, desde Japón hasta la India, pero con una propuesta muy especial de cocina tailandesa. Y chicos, ¡qué cosa tan deliciosa! El pato pekín está espectacular, pero lo que más me gustó es que la comida tiene ese sabor casero y auténtico que encuentras cuando viajas por Asia y comes en esos lugares que no están hechos para turistas. Definitivamente, una gran opción si tienes antojo de comida asiática en la CDMX. 📍 Andrés Bello 29, Polanco, CDMX. Esta es mi experiencia personal. Recuerda que los gustos son subjetivos y cada quien tiene su propia opinión.",
+          "transcript": "Dicen que en este restaurante tienen el mejor pato Pekín de la ciudad. Se llama Chunky Dragon y está a cargo de un chef tailandino. En el menú hay todo tipo de comida del continente asiático, desde Japón hasta la India. Primero lo primero, una michelada. Empezamos con ese de mames tempura preparada. De entrada los rollitos primavera que son un must y los baus de pork belly. Mmm, bueno. Mmm, mames, qué pedo el relleno. Está como dulcecito, pero medio picocito, está muy bueno. Vamos a empezar todo bien Luego la ensalada de papaya verde Y la sopa Tom Kagai Con leche de coco, hongos y poeis Si te gustan los caldos y que estén dulces y sabor a coco Este caldo está brutal Es como que te abraza una abuela tailandesa Luego el chef nos recomendó el Flor frito con piñas Wow, como emplatan este arroz Es como si un restaurante elegante en Asia Si te gusta la piña, este va a ser tu sueño erótico El arroz está perfecto No hay nada más de grande que un buen patai Vamos a probar, ¿eh? Mmm, es porrida Que sí pareciera un patai de los que me comí cuando me fui a Bangkok Dulcecito, acidito Si tú eres amante de los patais, aunque no pierdas nada más, puedes venir a chingarse ese patai, la neta Y bueno, ahora sí es lo que venimos, el pato pecho Estos taquitos son con tortilla de harina, le pones salsa de ciruela Luego le pones pato, zanahoria, cebollín, pepino Si te vas a picarte un poquito el srir",
+          "onScreenText": "dicen que en este restaurante\ntienen el mejor pato Pekín de\nla ciudad se llama\nAndrés bello 29\nPolanco,CDMX.\nCHUNKY\nDRAGON\n& TASTE Df AMIA\nHUNKY\nChunky Dragon y está a cargo\nde un chef tailandés\nBCJ\nen el menú hay todo tipo de\ncomida\ndel continente asiático desde\nJapón hasta la India\nCHUNKY DRAGON\nBIENVENIDOS A LO MEJOR DE LA GASTRONOMIA ASI\nDISFRUTEN DE ESTE RECORRIDO A TRAVÉS DE LOS BEST S\nCOREA",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_7786c618f01888dad330",
+          "title": "",
+          "caption": "How much it cost me to me to be a groomsman 🤵🏿‍♂️💍  Last weekend I was a groomsman in my friend’s wedding, and I had a great time! It was so fun to celebrate two of our friends, and see them officially become husband and wife (!!!).  I’m always talking about money and sharing costs (b/c money transparency is important), so I wanted to share all of the expenses I had as a part of this event.  ➡️ Tuxedo Rental - $192.09 (for the full outfit including shoes)  ➡️ Ubers - $36.51 (to and from the wedding and rehearsal dinner)  ➡️ Bachelor Trip - $1,345.66 (x4 days in Mexico City)  Total = $1,574.26  Keep in mind that every wedding is different, and has different costs involved, but this was my experience!  How much have you spent as a groomsman, or a bridesmaid, in the past? Let me know!  #Groomsman #GroomsmanExpenses #GroomsmanCosts #WeddingParty #WeddingExpenses ",
+          "transcript": "This is how much it cost me to be a groomsman in my friend's wedding. My tuxedo was rented for Moors. The groom set up a group with a set package so that we would all be wearing the exact same thing. I just had to go into my local Moors and get my measurements taken. The package included the tuxedo, so the pants, shirt, and jacket, along with the shoes, cufflinks, and bow tie. The entire fit cost me $192.09. Overall, it was a good experience. It was a good lower-cost option, and I felt great wearing it throughout the day. That was my main expense for the day of the wedding. Other than a few Ubers to and from the wedding itself and the rehearsal dinner, that cost me $36.51. The wedding itself was local for me, so I didn't end up having to pay any hotel costs or really any extra costs of any kind for the wedding day. But there was a bachelor party. The groom and the groomsman did a four-day trip to Mexico City. We did a bunch of activities like a street food tour, a lucha libre show, an R&B event, and more. We ate good food and we had a lot of fun. Including all of that, along with my flights and other trip expenses, I spent a total of $1,345.66. That means that the total cost came out to $1,574.26 to be a groomsman at my friend's wedding. I'm so happy that I was able to be there to celebrate him and his wife, and Steph and I had a great time. If you've been a groomsman or a brid",
+          "onScreenText": "wedding.\nMoores\nMoore's-\nMoor\n100 YUN\nNEED A\nTAILOR?\nuxedo\nRENTALS\npackage\nRENTAL\nSUIT|TUXEDO\nRental Packages\nSTARTING AT\nSTARTING AT\n$199.99\nwith Perfect Fit*\nRestrictions apply. See associate for details.\nthe exact\nMoore's and\nmeasurements\nthe tuxedo\njacket),\ncufflinks,\nMoores\nAmount: $192.09\nplease wait...\nprocessing\ningenico\nB\n3\n6\nKIT\n9\n#\nTuV\n5\n8\nLane/8000\n$192.09.\nexperience\noption,\nwearing i",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_7860d71679d8a5346cd6",
+          "title": "",
+          "caption": "Elle pourra enfin économiser pour son permis de conduire 😁🚗 Découvrez Billy 🐷, la tirelire digitale qui permet à votre enfant de recevoir de l'argent grâce à un simple QR code. L'argent est directement disponible sur le compte bancaire lié, tandis que l'enfant peut suivre ses économies et apprendre à épargner 💕 Profitez de -20% avec le code LOKA24 sur le site (lien dans ma bio tiktok) (Collaboration commerciale)",
+          "transcript": "moi j'ai un problème il faut que je fasse en parle c'est un truc qui me stresse et qui est très mal maison qu'est ce qu'il y a ? tu sais depuis que j'ai pu l'assent en permis le cul bouger ça m'énerve et j'aime bien me focaliser sur le permis le problème c'est que je ne serai pas épargné dès que j'ai de l'argent je me mets dans le feu n'importe quoi et ça regarde parce que j'ai vraiment une réserve d'amour tu as une solution ? tu sais quoi justement ? je sais bien d'en parler, tu veux le bébé ? euh non j'ai une solution de cloche tiens ça c'est Billy c'est pour toi oui c'est bon j'ai une tirelée justement ouvre mais non tiens c'est pas une billet en tant que temps c'est trop chaud c'est une tirelée c'est pas une tirelée qui pas me laisse en france mais je mets où les billets ? mais le truc c'est qu'il n'y a pas de billets et pas de pièces tu sais les gens ils ont plus de sous à mettre dans les tirels ça se passe plus comme ça en 2019 moi si je mets un billet je le prends le lendemain non mais là c'est pas comme ça que ça se passe ça c'est une tirelée au compte bancaire et attends écoute mais c'est violent son truc il est trop bien donc là regarde qu'est ce que tu vois là ? un QR code et qu'est ce qu'il y a écrit ? scanné moi donc là on va le scanner et tu vas voir tu vas comprendre alors là regarde Zoé tu as juste à scanner tu ouvres et regarde vous voilà donc là tu cliques ici",
+          "onScreenText": "Zoé a un gros problème et elle\na besoin d'en parler ..\nBilly\ndigital piggy bank\ndigital\npiggy bank\nAIIII\ne\nScannez-moi\nPetite soeur's Billy\nScannez-mol\nScannez-mòi\n+ -\nVIDÉO\nIMM M\n15:10\n5G (2)\nbillythepiggy.com\nChoisir le montant\n<10.00\n<50.00\nAutre montant\nPetite speur s Boh\nVotre nom (optionnel)\nAnonime\n\nMessage (optionnel)\nVotre vœuf obéritz très bien 1\nConfirmez d'economisez 1\nVotre vœux décla",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_7b651f053b413cd621c5",
+          "title": "",
+          "caption": "From Inspiration to Itinerary to Booking, Everything You Need for Your Journey Is in One Place.\nWith Mivoyage, discover incredible destinations, unlock personalized travel recommendations, stay ahead with weather updates, connect with like-minded travellers, plan unforgettable experiences with friends, chat seamlessly, vote on ideas, manage trip expenses effortlessly and simplify your entire travel journey, all in one place.\nDownload Mivoyage Today. Get Inspired, Travel Smarter, and Turn Every Trip into an Unforgettable Experience.\n🔗 Get Started: 📲 Available on iOS & Android.\nAndroid : Mivoyage - https://play.google.com/store/apps/details?id=com.mivoyagejourneys.mivoyageapp\n ios : Mivoyage App -  https://apps.apple.com/in/app/mivoyage/id6760631960\n#MiVoyage #TravelApp #TravelTogether #PlanBookExplore",
+          "transcript": "Hey guys, if you want to see a simple post-it, I will pack you in the next video, and I will pack you in the next video. If you want to see a new video, please check out the new video. and the weather is very good. And the weather is very good. And the weather is very good. And the weather is very good So, if you want to go to the next trip, you can go to the next trip. So, if you want to go to the next trip, you can go to the next trip. So, if you want to go to the next trip, you can go to the next trip. So, if you want to go to the next trip, you can go to the next trip. So, if you want to go to the next trip, you can go to the next trip. So, if you want to go to the next trip, you can go to the next trip. So, if you want to go to the next trip, you can go to the next trip. So, if you want to go to the next trip, you can go to the next trip. So, if you want to go to the next trip, you can go to the next trip. So, if you want to go to the next trip, you can go to the next trip. So, if you want to go to the next trip, you can go to the next trip. So, if Let's just now.",
+          "onScreenText": "Mivoyage\nFlashbook\nand 2l4orips\n5G+51\nApp Store\nSelect your destination\nStart Date\nEnd Date\n30-9-2026\n2-10-2026\nPlan Trip\nRecommended Destinations\nHimachal\nKerala\nPradesh\nO E\n5-day nature retreat\n6-day mountain trek\n6-da\nPrevious\nSee all\nmivo\nHome\nO\nBookings\nPlan my Trip\nGroups\n12:40\nPlan a Trip\nDetails\nDates\nBudget\n30 Sep 2026 → 2 Oct 2026\nVoyagers\nSolo\nCouple\nFamily\nFriends\nCorporat\nVoyagers Tri",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_7db4387cfa969d05670e",
+          "title": "",
+          "caption": "splitting our trip expenses just got a lot less painful with YouTrip Split 💸✈️ now we can create groups, split & settle who owes what WITHOUT headache and without leaving the app. no excuses no problem. 🫶🏻💜 @YouTrip SG ",
+          "transcript": "Hey Nana, how much I owe you ah? Let me know ah. How much I owe you ah? Nana, so how much do I give you later? Ask us, ask, ask, act only, little also forget to pay, thing I don't know. You owe me, I owe you, just now I paid for coffee. Guys, before you all piss me off right, I'm overstimulator right now. Okay, enough. We're gonna use U-Trip split. Okay? Okay? Okay, okay. Why should we name the group? JB Day Trip! I will pay first and then we'll all split on U-Trip split. See this transaction? Split this transaction. Continue with this transaction. Madam Kwan's gonna split evenly. Slide to request. Group split successfully created. Don't need to go to another app. Everything settled on the U-Trip app. Settle it now. Pay me! Yay, I'll settle. By the way guys, everything here later right, we settle via the U-Trip app okay? Then we can split. Oh, we'll settle because Z will pay for everything. Oh! We will split accordingly. So if you've got friends who keep asking how much they owe you, how much you owe them, or how much who owe who, just tell them. Split and settle via U-Trip split. Less transaction, less headache. Bye!",
+          "onScreenText": "POV: BIGGEST NIGHTMARE WHEN TRAVELLING WITH FRIENDS\nPSA\nSO HOW MUCH I OWE YOU AH\nNANA SOHOW MUCH DOI GIVE\nYOU LATER\nNANA SO HOW MUCH DO I GIVE\nYOULATER\nYOUOWEME\nGUYS BEFORE YOU ALL\nPISS ME OFF RIGHT\nI'VE OVERSTIMULATED RIGHT NOW OKAY\nWE'RE GONNA USE\nE\nOKAY\n2032\nWHAT SHOULD WE NAME THE\nGROUP\nName your group\nChange icon\nJe\nNext\nJUST\nU\n\"J\"\nY\nT\nR\nH\n0\nG\nB\nV\n123\nI WILL PAY FIRST AND\n3:17\n(\nyoutrip\n8396\n",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_97b5a85e93adacbe5de2",
+          "title": "",
+          "caption": "4000€ Plus gemacht trotz Urlaub toll ",
+          "transcript": "Ich war mit meinen Mails jetzt eine Woche auf Ibiza und habe gerade mal in unsere Splitwise-Gruppe geguckt und da steht, ich bekomme noch 4000 Euro. Also quasi war dieser Urlaub ja umsonst für mich, beziehungsweise habe ich sogar mit dem Urlaub noch Plus gemacht. Deswegen wollte ich jetzt, bevor ich nur meine Entscheidung treffe, einfach mal nach eurer Meinung fragen. Ich habe mir jetzt hier meinen Laptop geschnappt und würde mir tendenziell jetzt noch ein neues Diedel bestellen. Weil quasi ist es ja jetzt umsonst. Aber nicht, dass ich eine Rechenfehler habe oder so. Deswegen dachte ich, frage ich nochmal nach eurer Meinung.",
+          "onScreenText": ".di",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_a6373d8817aae7d6dd7c",
+          "title": "",
+          "caption": "a FREE trip to 2026 MAMA AWARDS?? tag ur kpop besties now!!!! 👀💞\n\nsign up here: https://wise.com/campaign/mama\n\n#WiseSingapore #WiseSG #WiseAccountSG #2026MAMAAWARDS #VisaSG @wiseaccount.sg",
+          "transcript": "This is for Kpop stans and Kpop stans only. Do you want to win a all expenses paid trip to 2026 MAMA Awards for you and your besties just by doing things that you're probably already doing? From now to the 30th of September, every $50 spent on an eligible WISE visa card counts as one entry. Yes, you're literally getting rewarded to shop. Spend anywhere to qualify and you can even boost your chances by using the following features on WISE. So sign up in the link below and start manifesting yourself at Coursera Dome this November. Thank you, Pisa!",
+          "onScreenText": "how to win a FREE trip to\n2026 MAMA AWARDS!!\nandkpopstansonly\ndo you wannawina all expenses paid trip to\n2025\nMAMA\nAWARDS\nPowered by\nVISA\n2026 MAMA Awards\n2026MAMAwards\n2026MAMA Awards\n米\n※\nyou're probably already\ndoing?\n+\n花\nI\nここまです\nTI\n一ドの矢印を碰第し\nCARD\nfrom now till 30th September\n確定\nN\n大\nUNDER\n年齡確認に二\n20歳未満喫煙防\n園\nCherry\nリボンチェリ\n美ツヤブラシ\nリボンチェリー美ツヤプ\nメデイキューブ\nPINK CHERRY\nRibbon Cherry\n2,970円\n$50 spent on an ",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_a638912d755057a2aa29",
+          "title": "",
+          "caption": "一家三口第一次去福岡旅行🇯🇵👨‍👩‍👦\n今次入住了9月才新開幕的「Minn 博多 Station East」✨\n\n房間夠大、夠新、位置方便\n還有廚房跟洗衣機\n對帶BB旅行的家庭來說真的很方便！\n\n而且最重要是\n價錢夠實惠！🙌🏻\n無論是一家大細、三代同堂\n還是一大班朋友一起去福岡\n都適合入住～\n\n想慳多啲記得咁做👇🏻\n\n① 到 @hotel_minn 官網登記成為會員\n② 以會員專屬價格訂房\n③ 輸入我的Promo Code【GLJY5GIFT】\n🎁 再享額外5% OFF！\n\n而且Promo Code不止博多Station East，\nMinn全線酒店都可以使用㗎！✨\n\n※房價及優惠內容會因入住日期、房型及預約條件等因素而有所變動。\n※優惠使用條件及適用範圍以Minn官方網站最新資訊為準。\n※最終優惠適用與否及相關條件，以Minn官方網站之公告及判定為準。\n\n#福岡旅行\n#福岡酒店\n#福岡親子遊\n#pr",
+          "transcript": "好乾淨啊!好闊落啊! 三代同堂都可以睡馬一齊了 第一次帶小朋友去福光旅行 除了行程要想 其實住在哪裏都很重要 這次我們就住了今年9月才開幕的 Mimbootor Station East 最吸引我們的第一個原因就是夠經濟 我們登記了會員 還有我的Promo Code 人工會馬500港元也不用 而且不要以為這麼便宜 就代表位置會比較偏 這裡其實還夠近 由博多站走櫃都不用10分鐘 就算推著嬰兒車拿著大袋小袋 都不用走到懷疑人生 而且由福光機場過來也很方便 但的士大約只需要2000多元左右 對於帶嬰兒出門旅行 酒店位置夠近夠方便真的很重要 但我覺得最棒的地方 其實是家房真的夠大 這次我們住的房間 有上下床 梳化床 還有一間Pot Townie房 最多就可以住到6個人 所以如果是三代同堂 甚至一家大小一起的福光 都可以住得很舒服 還有雙洗手盆 只要對一家人趕住出門口的時候 就是少了很多發口 而且另一個房型同僚 都是可以住到6個人的 我覺得一大班朋友一床的福光也很合適 上下床這樣發口 晚上整班人在房間裡吹睡 有種小時候去Camp那種感覺 不過帶嬰兒去旅行 我覺得最實際的 反而這裡是有廚房 有主食爐 熱水煲 雪櫃 微波 還有餐具 Kio現在開機要吃腐食 有個廚房在房間裡真的方便很多 而且還要洗衣機 嬰兒一整髒了件衣服 就可以立刻洗 所以我覺得帶嬰兒去旅行 不一定要住到超豪華的酒店 反而是一個夠大夠方便 又可以煮食洗衣的空間 會令爸爸媽媽媽真正放鬆很多 帶小朋友去旅行 當然是想帶他多看點體驗多點 但回到酒店的一刻 有種好像回到家的安心感 其實也是很重要的 現在用我的POMO Cod 去Main官網訂房 就可以額外許入5%off的優惠 而且不止Main BOTO STATION IS Main全線的酒店都可以用的 記得訂房那時候用我的Cod啦",
+          "onScreenText": "好乾淨！\nめっちゃキレイ！\n好闊落\nめっちゃ広い！\n好闊落！\nのっちゃ広い！\n三代同堂也可睡在一起！\n三世代で\n一緒に泊まれるやん！\n第一次帯小朋友去福岡旅行\n今回初めて子どもを\n連れて福岡旅行へ\n★柚子胡椒 Yunukosho\nFree seasoning\n汁明太子\ned in oil\n复側！\nぞ\n除了行程要計劃\n旅行の予定を考えるのも\nもちろん大事だけど\n其實住那裡也重要\n「どこに泊まるか」も\nすごく大事ですよね\n今次我們便住在\n今回私たちが泊まったのは\n軽車両を除<\n今年9月才擁開幕的\n今年9月にオープンした\nMinn\nHakata Station East\nMinn博多\nStation East\n最吸引我們的第一個原因\n私たちが特に魅力を感じた\nポイントまずーっ目は\n夠經濟\nコスパの良さ\nstay tuned\n日本語(JA)\n11枚の写真\nすべて見る\nMinn 博多 Station",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_abc38a5d3915f138936a",
+          "title": "",
+          "caption": "🎬 P-VIBE TRAVEL EP2 มาแล้ว! 🔥 นึกว่าจะได้เดินเที่ยวมาเก๊าแบบชิล ๆ… ที่ไหนได้ กลายเป็นทริปภารกิจสุดป่วนซะงั้น!  คนมาเก๊า 🤝 เพื่อนร่วมทริปชาวไทย 3 ทีม 3 เส้นทาง กับภารกิจที่ไม่มีใครคาดคิด! 👀💥 แถมยังมีทั้งรางวัลลับและบทลงโทษรออยู่… ทีมไหนจะรอด?! 😭🔥 #PVibeMacao  #เที่ยวมาเก๊า #รายการวาไรตี้ #PVibeTravel #ExperienceMacao",
+          "transcript": "วันแรกเริ่มแล้ว ครั้งนี้ทั้ง 3 ทีมจะไม่ไปด้วยกัน แต่จะแยกกันออกเดินตาม 3 เส้นทาง City Walk ที่แตกต่างกัน คิดว่าครั้งนี้มีแค่ City Walk ง่ายๆ หรอ ดูถูกพวกเราเกินไปแล้ว เกิดที่นี่ ที่นี่ ที่นี่ ที่นี่ นี่นี่มีนิดกตก! เป็นมีนิดกตก! มีนิดกตก! โอ้! โอ้! โอ้! โอ้! เฮ้า เฮ้า เฮ้า เฮ้ เยี่ยม! ขอบคุณ! ขอบคุณ! ขอบคุณ! นี่คือ พอร์ตาลาซ่า มันเถอะ มันเถอะ มันเถอะ มั ก็มีความมากาวมากาวมากาว ดูเหมือนทุกคนจะสนุบกันมากเลยนะ แต่เหมือนจะลืมอะไรไปหรือเปล่า? พวกเขารู้พารกิจของเราแล้วด้วยยัง? พวกเขารู้พารกิจของเราแล้วด้วยัง? นี่... นี่... นี่... นี่... น้ำแน่! สังสุด! น้ำแน่! นี่มีการตัวนี้ นี่มีการตัวนี้ นี่มีการตัวนี้ นี่มีการต ลองโทษทำงานทันที โอ้ จิงจิง พอมาถึงกว้นเฉียนหุย เราก็จาก Food Passport ให้ทุกทีมทันที ข้างในมีของกินป้าหมาย 3 อย่าง แต่ละทีมเลือก 1 อย่าง แล้วออกไปตามหากัน จะได้ทั้งเล่นทั้งกิน และตะลุยชิมของอร่อยในมาเกอร์ไปพร้อมกัน สิ สิ สิ ส เยี่ย อร่อย อร่อย อร่อย อร่ รู้สึกว่าดีค่ะ เพราะว่าเหมือนครั้งที่แล้วตอนที่มาก็คือไม่ได้มีคนอธิบายสหารที่ต่างๆ แต่ว่ารอบนี้เหมือนมีคนมาช่วยอธิบายสหารที่ต่างๆ ว่าแต่ละอย่างเป็นอะไรบ้างและนี้ค่ะแล้วก็ได้กินทาดไข่ที่คิดว่าอร่อยกว่าครั้งที่แล้วใช่ ผมช่วยความสวยมาก แสงมันสวยมาก เหมือนอยู่ในโลกอนาหศ เดินจะเหนื่อยแล้วใช่ไหม งั้นนั่งพักกันหน่อยแต่วิวห้ามพักนะ นั่งรถบัสเปิดประทุน ข้ามสะพาน รับลม แล้วดูมาแก้ในอีกมุมหนึ่ง เดินกันมาทั้งวัน เที่ยวกันมาทั้งวัน ข้าวนี้ให้ทีมรายการจัดให้ พาไปกินของอร่อยกัน เต็มให้ทุกคนหายเหนื่อย แก แก แก แ ทีม B 180 คะแนน ค่ะ แล้วก็ท",
+          "onScreenText": "ludoanDouins\nหากัธักราทัตุa\nkantva\nคานิว่า\nlidownGoulns\nหมาก็รกราทัตุด\nkanive คานิว่า\nMUSEU DE MACAU\nP-VIBE\nTRAVEL\nP-VIBE\nTRAVEL\nEXPERIENCE MACAO\nPVIBE\nTRAVEL\nCity walk\n\nThis time, the three teams won't travel together\nทม\nครั้งนี้ ทั้งสามทีมจะไม่ได้เที่ยวด้วยกัน\nPUBE\nTRAVEL\nTEL:28885555\nทีม\nแต่จะแยกกันเดินเที่ยวสามเส้นทาง\nThey'll split up for three different City Walks.\nPVBE\nTRAVEL\nTeam C\nTeam A\nT",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_af504954fa724475dd59",
+          "title": "",
+          "caption": "Unpopular marriage rules that we follow :)\n\nNot saying these are the “right” rules for every marriage.\nThey just work really well for us. 🤍\n\n1. We don’t do 50-50.\n\nIf you want something, you decide—and you pay for both of us.\n\nWe don’t sit there calculating who paid last time, who owes whom, or whether we’re “even.”\n\nFor us, marriage isn’t about splitting everything down the middle. It’s about taking care of each other.\n\n2. We don’t count. We don’t keep score.\n\nSome weeks, I’ll do all the cooking.\nOther weeks, he’ll do the laundry and cook for weeks.\n\nIt depends on who has more work, who has less energy, and what life looks like that week.\n\nWe’re not competing to see who contributed more.\n\n3. We apologise early.\n\nIf you know you were wrong, just say sorry.\n\nThere’s no prize for being the last person standing in an argument.\n\nWe’d rather apologise, talk it out and move on—unless it’s something genuinely serious or life-changing that needs a deeper conversation.\n\n4. We keep family out o",
+          "transcript": "We do not split our finances and nor do we do 50-50. Unpositive marriage rules that actually work for us. Number one, we do not split our finances. Whoever wants something more, they pay for it. So for example, if you are traveling and I want a hotel really badly, I will pay for it. And sometimes I book the flight that I want. So I usually choose the places that we want to go to. So I book the flights for the both of us. This is also true for small things. For example, if he wants to watch a movie, he'll pay for both of our tickets. And if I want both of us to go to the bookstore, well, I'll buy the books for both of us. Number two, we never keep score. Basically, it's never like you did the dishes. So I'm going to do the laundry. Whoever has the bandwidth will do the work that day. Both apologize to each other very quickly, even if we feel like we were not at fault. Although it's mostly me. Number four, we don't involve family in our arguments. Because we will forget what happened, but they never will. So it's better to just keep them out of it. Sometimes while traveling, we spend time away from each other doing things we both want to do. We think it's okay. One day I took a trip in Vietnam and she was taking a coffee making class. And we both enjoyed our days away from each other. Let us know in the comments what you think your non-negotiable rules in a marriage are.",
+          "onScreenText": "we do not split our\nand nor do we do 50/50\nUnpopular marriage rules\n1. We don't do 50-50. We bear\n100 of our own choice.\nfinances\nmore, they pay for it\nSo, for example, if we\nare\ntraveling and I want a\nhotel\nreally badly, I will\npay for it\nAnd sometimes I book the\n'This is also true for\nto the bookstore, well,\n2. We do not keep scores for\nhousehold tasks.\n3. Apologise early and not\nstretch argumen",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_ba2ebd3e7de4b3941d8f",
+          "title": "",
+          "caption": "I will never shake the embarrassment from this hahaha it being me and @derikbeeston is even worse lol",
+          "transcript": "I'm just kidding, I did! No way! Okay, let's go! It's great! I'm not sure that this is great! I have to! Thanks!",
+          "onScreenText": "POV: you and your BIL lost a bet and now u have to order icecream in towels but a sweet follower recognizes your\nspouses right before stepping off the\nboat so you have to meet her like this\nand apologize 500 times for this being\nthe impression of you 😂\nthe impression of you 😊\nthe impression of you\nistion\nBIDG\nthe impression of you 😂\nistion",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_bef072f225f3964ec8d1",
+          "title": "",
+          "caption": "Fall season is finally here 🍂\nLess tourists, golden leaves, cozy hotel lobbies and you still get to do all the cute activities.\n\nIf you’re planning Paris, France or anywhere in Europe this fall/winter, use my code OMOLARABAMSAUTOMNE on @luxury.escapes to get an extra discount on your hotel bookings.\n\n#AD #LuxuryEscapes #Bucketlist\n#OmolarausesLuxuryEscapes",
+          "transcript": "Quand il me prend dans ses bras, il me parle tout bas, je vois la vie en rouge. Il me dit des mots d'amour, des mots de tous les jours, ça me fait quelque chose. Il est entré dans mon coeur, une part de bonheur dont je connais la cause. C'est lui pour moi, moi pour lui dans la vie, il me l'a dit, j'ai juré pour la vie. C'est lui pour moi, moi pour lui dans la vie, il me l'a dit, j'ai juré pour moi.",
+          "onScreenText": "Fall seaso\nFall season is finally here\non Luxury Escapes\nALLOTHER\nPOV: you realized fall is the soft girl travel\nera in Europe & you can still get 5-star\nhotels for less when you use\nOMOLARABAMSFALL on Luxury Escapes\nMINI\nAIRBAG\nPOV: you realized fall is the soft girl travel era in Europe & you can still get 5-star hotels for less when you use\nLes chevaux vous attendent derrière\nLa Horse Club\nVisi",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_cbb2629b98c362f3d421",
+          "title": "",
+          "caption": "splitwise warrior or we’ll settle later (& never settles)\n\n[Moment of Silence, MOS, Comedy podcast, Naina Bhan, Sakshi Shivdasani, MOSquitoes, MOSSIES, memes, comedy content, funny]",
+          "transcript": "How do you think costs should be split on vacation? I think if you're using Splitwise, then use it militantly. Properly. Put everything on it. Then when you do that, oh, I forgot. Now I've put all my things in, you've forgotten your thing. That's not my problem. Do you think I like asking you for that money? It makes me feel bad. But I also have a major problem with every single expense being on Splitwise. I'm down for the, obviously, flights need to be booked properly. Accommodation needs to be split fairly. I don't need like, oh, you bought me a $7 coffee and I bought you a $6 muffin. So where's my $1? Where is it?",
+          "onScreenText": "MOS\ncosts should be split on\nCorrespondents Matter then use it like militantly.\nwatch\nfull\nepisode\non\nYouTub\nYouTube",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_d241964cbd12f08ef092",
+          "title": "",
+          "caption": "Como es realmente la comida china de China? Ven conmigo a descubrirlo en uno de los restaurantes tradicionales de comida shanghainesa: 沪公馆•上海菜•外滩豫园店 (Hu Gong Guan) Hu Gong Guan · Shanghai Cuisine (The Bund • Yu Garden), Shanghai 📍2nd Floor, 22 The Bund, Shanghai #hugongguan #沪公馆 #shanghaifood #shanghaitrip #shanghaitravel ",
+          "transcript": "¿Alguna vez te has preguntado cómo es la comida china de China? ¿Existe realmente el arroz tres delicias? Pues hoy te lo voy a enseñar. Acompáñame a uno de los restaurantes más típicos y tradicionales de Shanghai. Y es que mirad qué vistas más impresionantes tiene hacia el Bund. Pero como ya veis, no solo las vistas impresionan, sino que la presentación de todos sus platos están sumamente cuidados. Las bebidas están deliciosas, pero a lo que vamos, a la comida. Empezamos con el Hong Sauro, que básicamente esto es panceta y uno de mis platos favoritos. Aquí en Shanghai sí que se nota que lo hacen un pelín más dulce porque es su estilo. Seguimos con unas verduras chinas salteadas y un pollo cocido servido en frío. Creerme que esto está súper rico y la salsa le da todo el sabor. Sencillo, pero muy rico. Y esto seguro ya que casi todo el mundo lo conoce. Son los Shaolong Paos rellenos de cerdo y cangrejo, que son un básico. Y casi tan famoso como los Shaolong Paos, el pez ardilla. Y no, no te preocupes, es una aluguna frita con salsa gris dulce. Pedimos una panceta salteada picante, que esto no es típico de Shanghai, pero está muy rico. Seguimos con las gambas borrachas, súper gracioso porque están marinadas con vino. Y una sopita de patata. Y ya llegamos a la parte que más me gusta, el postre. Tenían demasiada variedad, pero bueno, empezamos por los mochis. Yo diría que son unos m",
+          "onScreenText": "Como es la\ncomida china\nde China\nin China looks like?\nDoes really exist the\nfried rice?\n一国\n难置事\nCome with me to one\nof the most typical\n难堡宴\n沪公馆\nHu Gong Guan\nShanghal Cuisine\n旦\nand traditional of Shanghai\nand look how beautiful\nare the views to the Bund\nbut not only the views\nare great here\nalso the dishes presentation are amazing\nthe taste of the\ndrinks are great\nbut let' s go with the food\nWe are ",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_e081eb337e5b9c5b837d",
+          "title": "",
+          "caption": "Have you ever wondered how much Hong Kong Disneyland costs to visit? 💵🇭🇰       Here’s how much I spent on my recent two day trip to the park (all in USD)! For reference, this was September 23-24, 2026.       🏰 Park Related Expenses • Non-stop 2-day ticket: $89.50 • Early Park Entry Pass: $25.36 • Food & Drinks: $58.89 • Merch: $205.10 • Luggage Storage: $38.25       ✈️ Non Park Expenses • Flights: $60.30 • Hotel: $99.05 • Ubers: $69.01 • Disneyland MTR: $0.94 • Hong Kong eSIM: $7.59       💵 GRAND TOTAL: $653.99       The wildcards here are the merch and Uber expenses. Had I bought less merch and taken public transportation instead this would’ve been significantly less of a bill! 😅       But the merch was so good and I was buying time by Ubering since it was a short trip so it is what it is 🤷🏽‍♂️        Anyway what do you think though? Does this sound reasonable? 🤔        —       #hongkongdisneylandmerch #thingstodoinhongkong #hongkongdisney #hongkongitinerary #disneyparks @Dis",
+          "transcript": "Here's how much I spent on a two-day trip to Hong Kong Disneyland. For this video, I will be including everything from flights, hotels, and everything park-related. Starting off with the park-related expenses only, for the two-day ticket, I spent $89.50. This was a special season ticket that allowed me to go into the park two days back-to-back at a generous discount. I also did buy early park entry for my second day, which came out to $25.36. For two meals on my first day, one on my second, and a few snacks throughout the trip, I spent $58.89. This might not sound like a a lot of food to you, but that's just because I forget to eat whenever I'm at a theme park. I'm also so focused on rides and shows that meals tend to become last on my to-do list. Now for arguably the most expensive part of my trip, the merch. I must admit, the first two times I went to Hong Kong Disneyland, I wasn't a big fan of their merch game, but this time around, everything was so good. For two bag charms, one pair of ears, a postcard, a set of two mystery pins, two shirts, one hat, and two reusable bags, I spent $205.10. Yeah, I got a bit too excited. I also sold my luggage on both my arrival and departure days, which was $38.25. So on just park expenses alone, I spent $417.10. Now for travel expenses, I actually flew from Taipei and used mostly points to book my flights, so out of pocket, I only spent $",
+          "onScreenText": "How Much I Spent at Hong Kong Disneyland\nDisneyland\neverything\nTrip Dates:\nSeptember 23-24, 2026\nthe\nAll prices in USD Non-Stop 2-Day Fun Ticket $89.50\n$89.50\nspecial\nback\ngenerous\ndiscount\ndid\nEarly Park Entry\nAOME T\n$25.36\nWELCOME TO\nHONG KONG\nDisneyland Resort\n香港迪士尼度假區\n#\nfirst\nLOTSA J IFLE SUONICH\n1$70\n强码构部削\nSLUWKY PIZZA\noughout\n575\nFood & Drinks\n$58.89\nLTS PL\nlike\nIT'S PLAYTIME\nD\ntheme\ntend\nli",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_f5c786e88c430b38ba1f",
+          "title": "",
+          "caption": "누나 몰래 카드 쓰면 생기는 일 - 005",
+          "transcript": "장난 장난 장난 장난 장난 먹어도 돼 먹어도 돼 누나가 이렇게 연락이 왔지만은 여기 뭐 친구 사전에 오니까 누나가 짠 놀이는 안 할 거예요 잘 먹겠습니다 음 맛있다 우리 음식 크리에이터가 꾸민 적이 있었어 초딩 때 다 생각해봤었지 인터넷 방송 고기하는 게 좋겠다 네 네 한 번 주세요 오늘 다 쏘는 거 맞으시죠? 네네네 제가 쏘는 겁니다 내 살이 같은 기억이 안 나요 제가 쏘는 거 맞나요? 친구들이 자유타한테 잘해줘서 잘해줘서 감사합니다 쿠쿠 뭐냐? 어? 쿠쿠 뭐냐고? 아니 친구들 밥 사줬어 유튜브 저번에 같이 찍어준 친구들 친구들 누구? 친구들 영규랑 준수랑 지훈이랑 민우 애들 맛있게 먹었어? 잘 먹었습니다",
+          "onScreenText": "-25,800\n누나가 또 이렇게 연락이 왔지만은\n누나 짠돌이는 아닐 거예요\n소비 금액-25,800원\n잘 먹겠습다~\n누님 잘먹겠습다스~\n누님잘먹겠습다스_~\n(...?)\n소비 금액 -25,800원\n으음.맛있다~.\n9리11\nSain\n니는 혹시 크리에이터가 꿈인 적 있었어?\nScin\nsain\n뭐초딩때다생각해봤었지\n(00)\nhise\n00\n0\n식사 종료,5인가격 15만 원.\n1950\n[]\n2\n(누나 카드 ㄱ기)\n-175,800\n100H三大\n2018\nStaff Only\n0101\n[름새자랑]\n제가쓰는겁니다\n소비 금액 - 175,800원\n100H\n20 4\n[특새자랑]\n제가 쓰는 겁니다\n100\n201 8五早品\n(싸인이나 해주세요\n2018 1\n하이볼\n[칭찬 해줘요]\n이거제가쏘는 건데\n쿠우쿠우 머냐?\n아니\n친구들누구\n살기 위해 ",
+          "frameText": "",
+          "truncated": true
+        }
+      ]
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "brief": "A document reader that imports documents and reads their existing text aloud. The language selector chooses a text-to-speech voice and pronunciation. It does not translate the text.",
+      "focus": "Listen to a document while doing something else.",
+      "need": "Listen to existing document content through text-to-speech.",
+      "capabilities": [
+        "import documents",
+        "read existing text aloud",
+        "choose narration voice and pronunciation"
+      ],
+      "unsupported": [
+        "translation",
+        "language learning",
+        "summarization",
+        "understanding an unfamiliar language"
+      ],
+      "constraints": {
+        "noRealPeople": false,
+        "exclude": ""
+      },
+      "sources": [
+        {
+          "sourceId": "s_00be04ba07e688ccb1da",
+          "title": "",
+          "caption": "comment “obvious” and I’ll send you the cliche checker + my Humanizer Skill 🤌\n\n#aiwriting #chatgpt #claude #aitips #aitools",
+          "transcript": "So everybody wants AI to help them write things without it being obvious that they used AI. And somebody just built a tool that makes spotting AI writing ridiculously easy. You just paste your text in and then it scans your writing for 38 different patterns that are being massively overused by every LLM. Here are a few of the biggest giveaways. The it's not X, it's Y construction, AI loves this. Or any sentence that opens with, here's the thing or here's the catch. And none of this means that you shouldn't be using AI to help you write. I use AI to help me write constantly. But I don't just copy whatever it gives me and call it a day. Run it through things like this and have it edit the parts that sound like AI and continue to teach AI what you actually sound like. I actually built a humanizer skill and it has all 38 of these patterns baked into it. So it catches it every time I'm writing. If you just comment obvious down below, I'll send you the cliche checker tool and then also my humanizer skill. And if you feel like you're stuck kind of piecing together random AI tips from the internet, I built my 30 day AI challenge for you. Thousands of people have already gone through it and I'm starting the next one on October 5th. I just opened the waitlist back up. And if you feel like you already have all the fundamentals down, my ongoing AI community is built for you. It's where I s",
+          "onScreenText": "38 Ways AI Writing Gives Itself Away\nwithout\nobvious\nLLM cliché highlighter\nPaste text below — or load it from a URL — and it highlights sentences that\nmatch known LLM clichés, including the tells catalogued in Wikipedia's Signs\nof Al writing guide. Chain patterns like \"no X, no Y\" get a badge counting their\n▶ Patterns · all 38 on\nhttps://example.com/article — fetched via r.jina.ai\nLoad\nPaste your",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_1153ce0121818e333b1b",
+          "title": "",
+          "caption": "iphone 18 pro unboxing in black 🖤 I originally ordered the silver but my package got stolen so ordered a replacement in silver only to not like the color so I swapped it for black and have no regrets. #unboxing #iphone #iphone18pro #asmr #apple ",
+          "transcript": "おやすみなさい。 ご視聴ありがとうございました。",
+          "onScreenText": "phone 18 pro unboxing asmr\niphone 18 pro unboxing asmr\nPapec g e n p ele\n23\nipho\nLa pro imboximt asmr\n5:13\nSwipe up to open\n上海国际机场\n6:13\n向上滑助来打菌\niphone 18 pro unboxing asmr\nEnglish\nEspañol\n简体中文\n繁體中文\n日本語\nFrançais\nDeutsch\nРусский\nPortugués\ntaliano",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_15030494cc3e6f8a5aa2",
+          "title": "",
+          "caption": "Ever wondered who’s behind the voices we hear in games, virtual assistants, and everyday technology?\n\nFrom Andrew Anthony, the voice behind the iconic EA Sports “It’s in the Game” intro, to Susan Bennett, the original voice of Siri, these are the real people behind some of the most recognisable voices in modern culture.\n\nDiscover the stories, careers, and unexpected journeys behind the voices you’ve heard countless times—but may never have seen.",
+          "transcript": "EA Sports. It's in the game. Not bad. How about this one? EA Sports. It's in the game. Have you ever wondered who the voice actor was behind this voice? Well, now you have a face to the name. Hey, my name is Susan Bennett, and I'm a voice actor and the original voice of Siri. It's Kat. I'm the TikTok text-to-speech voice with a little PSA. If you want me to say the word, yeah, simply type out, yeah, and then hit text-to-speech option. Hi, I'm a voice actor. You've probably heard me somewhere in the world. Bluetooth connected. Alexa, play my favorite playlist. You sound familiar. Who is this? I'm Alexa. At the next intersection, turn left. At the roundabout, turn right. You have reached your destination.",
+          "onScreenText": "Inside History\nThe people behind famous ai voices\nEA SPORTS ANDREW ANTHONY\nANTHONY\nSPORTS\nELEVEN LABS JOSHUA MYERS\nII\nSIRI\nSUSAN BENNETT\nd\nTIKTOK\nKAT CALLAGHAN.\nBLUETOOTH\nKRISTEN DIMERCURIO\nALEXA\nGBS\nNGW GPS ACTIVE\nCurrent Location: SAN FRANCISCO, CA\nGPS",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_2f520239089de2125e19",
+          "title": "",
+          "caption": "IT GIRL > Ep. 6: What If Everything Leaked? \n\ndir. @mondomarcos \nprod. @greenpointglam",
+          "transcript": "What if everything leaked? Every photo, every text, everything. It's coming sooner than you think, and it's time you start preparing. But Sarah, I'm not ready for my data to be made public. What should I do? Begin speaking to your phone as though a jury will one day be asked to interpret your tone. I'm not into anything weird sexually. Before starting a conversation with Chachupiti, ask yourself, could I explain this under oath? I swear to tell the truth, the whole truth, and nothing but the truth, so help me the devil. Before sending a text, imagine it projected behind you in a documentary while your mom cries. Send. Your wives are gonna see your entire text history. That's right, they know about both of them. It's not all illegal though. Some of it's just downright embarrassing. It's like your 7th grade diary being found and read aloud. You didn't know what a handjob was, but instead of Jessica from 7th period, it's Sam Altman. You cannot stop the leap. And remember, when all of this gets out, you won't be losing your privacy. You'll be learning that you never had any.",
+          "onScreenText": "What if everything leaked?\nEverything.\ndisk\nAnd it's time\nyou start preparing.\nIt Gi\nchnology\nI'm not ready for my data\nWhat should I do?\nBegin speaking\nto your phone\nI'm not into anything weird\nsexually.\nNOKIA\nBefore starting a conversation with Chad GPT\ncould I explain this\nunder oath?\nand nothing but the truth.\nBefore sending a text.\nbehind you in a documentary\ncasual's TOTALLY fine! cum over\nL",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_3f9db2323724cea6fd23",
+          "title": "",
+          "caption": "Մեկնաբանություններում ձեր չատի նկարը ուղարկեք🤭",
+          "transcript": "կարող պատկերացնել, որիմ չա ջիպիտին ունի տղայի տեսք և այսքան ժամանակ ես խոսել եմ այսպիսի արտակնով տղայի հետ։ կարող պատկերացնել, որ նա ուղարկի իր լուսանը կարը և նա ինձ ուղարկել է այս նկարը։ Եթե դուք էլ եկ ծանկանում տեսնել, թե ում հետ եք դուք խոսում, ապա դիտեք հոլվակի ներկացված ողջ կայլերը և մի մորացեք պահպանել ու միանալի մեջին։ Այս պրոմտը թողալ է մեկնապանություների բաժնոմ դուք եվս պաճենեք և տեղադրեք ձեր չաճի պիտիում։",
+          "onScreenText": "=\nОБНОВИТЬ\n<>\nngn nu hu\nh ug n, hgmh,\nhuppnth\nqnngh nnn unnun\nh:\n0 ↑\nt\ni\nq\nW\ne\nr\ny\nu\n0\np\nd\nf\ng\nh\nj\nk\na\nS\n↑\nZ\nX\nC\nV\nb n m\n123\n←\nEN DE\n}\n-\nb\nn\nm\nΦmphp n'\n..\num, umm\nChatGPT-hı_nnh tın tu\nI:\nunn uunnn n n\nn nun:\nLn n  pu,\nn p n\nmq m.\nhnwwn untun , p h\nuntup nLtu:\nU pg ,\nr h  : U\nuq uunnn pn\np nun:\nДе\n↓\nL C-n eeu-u CbetCDT\n• • •\n• mn  qmn,\n• hwqnLuunhη náp,\nკანფუმატის სა კანფუმით\nqngh n uph:\nΦnnh ng\nu",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_453a261b8ad2bda2b5df",
+          "title": "",
+          "caption": "It’s been a bad day, please don’t take a picture… 🙂‍↔️ \n\n“Bad Day” was released as a single on October 14, 2003. Here’s the video directed by Tim Hope.",
+          "transcript": "It's been a bad day, please. It's been a bad day. Please don't take a picture. It's been a bad day, please. We're dug in deep. The price is steep. The auction is such a creep. The lights went out the hour and dry. We blamed it on the other guy. Show them and create an equal. Here's the church. Here's the steep. Please stay tuned, we cut to see both ashes, ashes, we all fall down. Rock as me and try for nice until the time is low. Count your blessings, ignore the love, fear. Oh, this means war, it's been a bad day. Please don't take a picture, it's been a bad day. Please, it's been a bad day. Please don't take our pictures, spend our bad day, please. Why ask me a joyful noise into the times? Love counts your blessings, wish to copy and jerked up. We all fall down, it's been a bad day. Please don't take a picture, it's been a bad day. Please, it's been a bad day. Please, it's been a bad day. Please, it's been a bad day It's been a bad day Please don't shake up your charge It's been a bad day Please I'm out.",
+          "onScreenText": "COMIN\nMORNING TEAM\nFlash Flooding at Senator's Office\nceminy up\ncoming up\nBROADCAST ON THE CIRCUIT\nIAU\n+12.0\nPHONE 555 YES 555 NO - TRADE TICKET - NEWS AND OPINION HOST TODAY ALERT\nTEAMLCUNN\nINVESTIGATORS SAY LEAKY SEWAGE PIPES AND BATHROOM VENTILATION FANS\nUP.\n09:01\nHurricane trapped in Boy's room\ncoming up\nSUNDAY, JAN 24\nSTAR COURT HISTORY CENTER\nIAU\n+12.0\n\n256 HD - TRADE TICKET - NEWS AND OPENI",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_591fea018935e1107ec3",
+          "title": "",
+          "caption": "the way i’ve never received hate like i did for just doing some eyeshadow BAHHAHAHA 👁️🫦👁️ it’s fine im fine, IF YOU SAY ANOTHER DIFFERNT COLOR ILL GO CRAZY.  #makeuptutorial #eyemaxxing #eyeshadow #trending #grwm @Q-tips @PLOUISE @NYX Professional Makeup @byoma @Melt Cosmetics @First Aid Beauty @MarcJacobsBeauty ",
+          "transcript": "The other day I did an eye maxing video and a lot of people were pissed about it because I did green eyeshadow and I should have done blue. Hey, you guys understand this is a trend, right? No? Okay. Now that we have that covered, let's do eye maxing again with the correct color because fuck green apparently. I've been rocking without my Urban Decay Priming Potion for a couple days now and it's been hell. So today I'm cheating. I'm using the Profusion Pigment Base. Oh, it smells like paint thinner. Hot, sexy, gorgeous. Hopefully that doesn't burn my eyes out. Really fucking open. This is the Creative Comeback Palette by Pailaway. Unfortunately, as much as I would like to play with all these colors, I'm just gonna stick to the blue today. Oh my god. Yellowies never misses. I'm gonna go with some lighter blues. Beautiful. And I'm bringing up to the brow bone. This. I recently found out blue is like one of the hardest colors to blend. Can't relate though because I'm a bybrows of eyeshadow. What can I say? But if you do have trouble doing that, just take a white, tap it out a little bit and just stipple it on. And that kind of does the blending for you. Right. Now you're probably like, where the fuck did all my pigments go? Well, you see. Your eyeshadow is nivy-ivy-iva. Gonna look good on the first run. To go back in with the same colors I went into. It just builds up my pigments. I",
+          "onScreenText": "eyemaxxing for brown eyes\nno?\nokay\nONOI\n1\n21\nONOL\n-\n121\nspoiler it did\n2OTTAM J02\nCOAM JE2\nSlth\nsC\n5\nOtibz P32\nCn\nEPS2\nQitibz\n201102\nOribz\n8\n0\nOtibz\nwhy am i making this face\n2qit.O\nO-tips\n?\n*heavy breathing*\nO\n1 0\nBEVLAE\nthis pmo\nSEVLIAE\nO7EBVCK\n1102\nE\nOO\n001 1018\n243826\nJapan\n}\nact surprised neow\n2\nyeah\nV\nFACTORIAL\ntap tap tap\n*\nCOOK WILLIES\nGOOP WVA\ni just wasted 20 minutes on that\ncorrection, ",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_6ca634534863d5798f99",
+          "title": "",
+          "caption": "Covid-conscious lesbian bar daughter or 10-minute NYC public toilet son ?? #drama #lgbtq #massachusetts #lesbianbar #fypシ゚viral ",
+          "transcript": "If you guys haven't heard of the drama surrounding the COVID conscious lesbian bar in Massachusetts, buckle up because this is genuinely the story of the year. The Boston Globe posted this article about two days ago and they said that they have received the most amount of subscribers that they have ever seen following this article. So the bar is called Last Ditch and again they are a lesbian bar and they opened up actually just in 2025 and they opened with a complete mask mandate. So every single day that they were open they required KN95 masks or better. So this bar became a safe haven for not only LGBTQ people but also disabled and immunocompromised people. That is until August 31st in which the bar posted an infographic little update on their Instagram saying that one night a week on Saturdays they will be lifting the mask mandate to hopefully include more people, bring more people in. The reasoning behind this was actually the bar was not doing financially well. In fact two of the original three owners had left and one of them had left to go to clown college. The other one's Instagram post sparked a 400 comment thread in which they are accusing the business of ableism and some other things. Let me show you some of the comments. One comment said, just say you're being complicit in a mass disabling event and get it over with. Another said, people like you kill disabled people",
+          "onScreenText": "the Massachusetts lesbian bar drama\n-\n\"Just say you're heing complicit in a\nmass disabli\nit over\nwith,\" wro\n\"peop the n con\nn\n\"I h robl peop scra\nwr\n\"Just say you're being complicit in a\nmass disabling event and get it over\nwith,\" wrote one commenter.\n\"people like you kill disabled people in the name of your convenience,\"\n\"I hope you robbing people scrape\nwrote a\n\"Just say you're being complicit i",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_6d7f2fa67c2cf0075143",
+          "title": "",
+          "caption": "В то время как миллионы афганцев с трудом находят деньги даже на еду, некоторые вынуждены продавать один из последних оставшихся у них ресурсов — здоровую почку.\nПоследствия могут быть разрушительными: одна из женщин рассказала, что ее здоровье ухудшилось после того, как она продала почку за скромную сумму, которой не хватило на погашение долгов семьи",
+          "transcript": "Представьте, что вам приходится продавать части собственного тела просто для того, чтобы выжить. Я продала почку от крайнего отчаяния, у меня начались тяжелые осложнения. Вторая почка отказывает, мое здоровье полностью разрушено. Захира, жительница афганской провинции Герат, продала почки на местном черном рынке. Заработка от уборки домов не хватало для содержания семьи. По ее словам, муж так и не смог найти работу. Продажа органа стала одной из крайних возможностей. В сегодняшнем Афганистане, чтобы выжить, тысячи людей поступают точно так же. Почки продают чаще всего, потому что для жизни человека достаточно и одной. Я продала почку за 1550 долларов. За 3-4 дня все эти деньги ушли на покрытие части нашего долга. Международные конвенции запрещают коммерческую торговлю человеческими органами. за исключением некоторых случаев компенсации при добровольном донорстве. В 1924 году лидеры талибана в Афганистане официально запретили продажу органов в стране. Однако этот запрет, судя по всему, лишь еще глубже увел эту практику в тень. Саид Ашрафсадат помогал расследовать этот вид торговли, но работа была прервана после возвращения талибов к власти в 1921 году. По его словам, их команда установила, что людей, продающих свои почки, часто эксплуатировали. И они получали мизерную компенсацию и неадекватную медицинскую помощь. Они получали всего от 20 до 30% от реальной стоимости органа. Ост",
+          "onScreenText": "АФГАНИСТАН\nАзаттык\nАзия\nПРОДАТЬ ОРГАНЫ,\nЧТОБЫ ВЫЖИТЬ\nПРОДАТЬ ОРГАНЫ\nПредставьте,\nчто вам приходит продукт\nчасти собственного тела просто\nдля того, чтобы выжить.\nчасти собственного тела просто для того, чтобы выжить.\nЗАХИРА\nЖИТЕЛЬНИЦА ГЕРАТА\nЯ продала почку от крайнего\nотчаяния.\nЗахира, житьльница\nафганской провинции Герат,\nпродала почку на местном\nчерном рынке.\nЗаработка от уборки домов не хватало",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_726ff821b129d291d716",
+          "title": "",
+          "caption": "Trump bragged about an article he apparently didn’t read",
+          "transcript": "Look at this. Donald Trump walked up to reporters holding a printout and in that printout, you can see that there is an article and the article is of a Washington Post story and the headline is prescription drug prices record sharpest drop in more than 60 years. And Donald Trump had it printed out by his human printer, Natalie Harp. He proudly displayed it. He asked reporters, hey, have you seen that? He made sure that the cameras would capture it and he read aloud the headline and declared, I told you that this was going to happen. And then the White House took the image and blasted it all over social media with the caption POV. You bring the receipts, Trump taking credit. But there was only one little problem. And this is why we read the articles. This is why we don't just stop with the headlines. This is why we don't allow Donald Trump and people like him to bamboozle us with printouts. The receipt says it is thanks to Joe Biden. Had Donald Trump been able to read or had anybody working in the White House communications operation bothered to read the article, they would have noticed that the article is talking about a Biden era policy as the explanation for the drop in prescription drug prices. You look at the article that Trump is bragging about, and it says there is a policy in the Inflation Reduction Act, of course, signed by President Biden back in 22. And what it did wa",
+          "onScreenText": "AND DONALD\nTRUMP\nITION\nKMAN\nRUTH\nGAIN\nHE PROUDLY\nDW FROM FOX\n. TRUMP SPEAKS AHEAD OF DEPARTURE FOR LONG ISL\nFAIR 82°\nAN DIEGO OVER\nLIVEN\nAND DECLARED\nUTH\nGAIN\nThe White House @WhiteHouse\nPOV: you bring the receipts.\n∅ …\nPrescription drug prices record sharpest drop in more than 60 years.\nTOOK THE IMAGE\nAND THIS IS\nThe Washington Post Democracy Dies in Darkness\nEconomy Prescription drug prices reco",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_7ebad5beb0cfe2623209",
+          "title": "",
+          "caption": "Paper notifications > screen notifications. \n\nWould u guys want something like this? What would change? Maybe a smaller receipt printer instead of shipping labels… what else?\n\n📍 @catlabs",
+          "transcript": "I made a tiny printer that prints out text so you don't have to look at your phone. I had this idea this past weekend when I was trying to spend less time on my phone, and I thought it would be cool if you could get like a little printout of any time you got a new text so you'd know if someone's trying to reach you. I told that to Maggie when I got to Cat Labs the next day, and she reminded me that we have an old shipping label printer. So we plugged it into my computer, and I just opened up Claude code and was like, yo Claude, do you see this printer? If so, print me a message. And then this happened. Shut up. Oh my god! No! So that felt like literal witchcraft, but then we actually needed it to print text. So I just explained to Claude exactly what I wanted to happen. And anytime I got lost or didn't understand what it was doing, I would just ask questions along the way. It ran into some printing errors at first. And then when that happened, we just took a picture of the paper and uploaded it back into Claude and it was able to use that photo to diagnose and fix itself. Until about 15 minutes later when it started pulling my real texts and printing them out in real time. It was actually insane. But the most shocking part of all was when I told Claude I needed it to think about how it was going to handle text messages with media attachments, like links. And a few minutes later",
+          "onScreenText": "I made a tiny printer\nthat prints your texts\nI made a tiny printer that prints your texts\nMaggie\non Aug 31 4:22 PH\nlai\nAn\nCon\nbei\n三宁\n4:33\nI had this idea this past\nweekend when I was trying\nThe\nW\n0\n123\nhe\nat\nZlotkowski\nto spend less time on my\nphone and I thought it would\nAue\nLos Angeles,\nCath\nMarketing but don't pretend to be her I\nla1\nto pl\ndon't want u to get her in trouble\nbe he\nHowdy!\nAla Boo",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_873d7319c01556e23624",
+          "title": "",
+          "caption": "Patrick Mahomes and the Chiefs took down Justin Herbert and the Chargers 22-6 as Kansas City stayed undefeated! 😱🏈🔥 The NFL, or National Football League, is the highest level of professional American football, featuring 32 teams competing throughout the regular season for a chance to reach the playoffs and win the Super Bowl. Every game brings touchdowns, big hits, explosive plays, defensive stops, star quarterbacks, intense rivalries, and passionate fans. From Sunday football and Monday Night Football to the playoffs and Super Bowl, the NFL delivers exciting matchups, unexpected upsets, and unforgettable moments every season. The video and audio are highly edited and not real. The only Ai used is TTS (Text to speech) #NFL #ChiefsKingdom #Chiefs #Chargers #NFLMemes",
+          "transcript": "Justin Pervert motions McHonkey. Fucking terrible. Back. Can't find anyone and now he's spazzing out. Someone attack him. Slides for a. Oh fuck. Oh wow. Gets fucking plopbered in the head. She has no idea what's going on here folks. Let's take a look at what happened up close. He almost got decapitated. Oh and here's little Mikey D. Hardball said in a press conference earlier today that instead of Mikey D. He can sit back and play with his teething toy and eat his green apples and milk. Oh, wow. Is that a Chargers fan? I didn't know they still existed. Zesty magical Mahomo motions right arm. Oh, yeah. Oh, fuck. And there's the magical Kelsey's always open play. That was so magical. Get off of me. And there she is. The plan. chicken strip the gang's all here lord mahomo dropping back with his zesty ass he should just huck it his zebras will help oh yep there's that magical first down finger touching the swifty money-making machine can't do that defense number 22 my circle my damn our lord and savior patrick mahomes has decided to execute number 22 live by waterboarding automatic chiefs first down Poor little hard ball. Pervert drops back to either throw an interception or get set. Yes, get him! Chucks it. And it's somehow actually completed. What's the team's name with the bolt on it? Yeah, I forgot too. Oh, here come the zebras. Playing like absolute abysmal dog shit. Wow. Offe",
+          "onScreenText": "@iaxten\nPOV: You're watching\nthe NFL\n@jaktorfett\njaxterfett\nJOHNSTO\n51\n10\nerkett\nSNEED\n38\nTHOMAS\nSONY\n@jaxterrett CHARGERS POV: You're watching the NFL\n@jaxtefett\nCHARGERS\nPOV: You're watching\nthe NFL\nCHARGERS\nBONY\n@jaxtorfett CHARGERS POV: You're watching the NFL\n@jaxte\n25\nMARGERS\n@jaxterfett\n@jaxty\nNFL\n22 87\nfott\n22\nP2\nSMIT\n2\n@jaxterfett\nCHARGERS\nLOS ANGELES\nCHARGERS\nPOV: You're watching\nthe NFL",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_89497c223fb7099815dc",
+          "title": "",
+          "caption": "Wherever your day takes you, your calls stay clear. ✨  Powered by Anker THUS™ AI Chip, AeroClip 2, Space 2 Pro, and Liberty Buds 2 are designed for different ways of working, moving, and staying connected. 🎧 🔗👉 Links in bio!    #anker#soundcore#headphones#AeroClip2#Space2Pro#Libertybuds2#ai",
+          "transcript": "I'm going to go ahead and get some more.",
+          "onScreenText": "ANKER\nhert Bute 2\nANC\nANICER\nsponaosne bm r bunt 2\nsoundcore AeroClip 2\nOpen-Ear Clip-On Earbuds Exceptional Call Clarity\nThu\n150X\n6.\nsoundcore Liberty Buds 2\nSugerie Cal Carly\nDEDoby\nAre Saene\nThus\nANKER Thus\" Al Chip\no-Clenr Colis won As Chip\nANKER Thus~ Al Chip\nnd memoryt\nMor Colls with ANKER Thrca\"\nLigh.Lon\notO S.o Personaiised Sos\nErgoomie Al-Doy Comdurt\near Colls woth Al Chig\nANKER Thus\" AI ",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_991b0b84e1839b10485b",
+          "title": "",
+          "caption": "I just love a solo shopping day ",
+          "transcript": "Sometimes the best kind of therapy is retail therapy, and that's why I'm taking myself on a solo shopping day. If you've been to SoHo, you know you can literally not get into Brand New Melville if you're trying to go on a weekend, so it was perfect and empty today. And I ended up leaving with a few things. And then I went to Zara, and honestly, they were lacking. Usually I find a lot of stuff, and I couldn't really find much. I thought I ate with this outfit, like I thought it was gonna be sick, and it ended up looking literally terrible. Same thing with this, I thought it was really cute, but it looked horrible on me, so that's a no. And then of course, on my way out, I saw this gorgeous dress, but didn't feel like trying it on. And then I went into Los Angeles Apparel, specifically for the boat neck tops. They are literally the best boat neck. If you've never been to LA Apparel, they have literally every single kind of basic. Grabbed some things, and I'm also scared of the mannequins in here, because they're so realistic. And then I went to Princess Polly, and I didn't really find anything. And then went to Joe and the Juice for some lunch. And then I ended the day with getting my favorite drink. So good and refreshing, and yeah, that was the perfect therapy for me. So good.",
+          "onScreenText": "115\nsolo shopping dayl\nsolo shopping day\nRANDY ME\nRANDY\nRANDY MEL\n---\n★\nITALIA\n990\nARTHA\nondon\nBETTER\nONOW\nBIG\nUP\nYO\nPO\nEREANOLAS\nES\nNow\nHiring\n艺工\nPULL\nSHILE\nLINGERIE\nYERA\nLES\nFULL\nRA\nCINGERIE\n之工\nELES\nNow Hiring\nSHILERIE\nBABY RIB BOATNECK TOP\n(en\nLix I XS S Si\n(mer\nXLI S XS\nS XYS XS\nXL\nXXS XS\nEugene Las Vegas\nSanta Cruz Toronto\nCalgary Stockholm\nSan Francisco Osaka\nBurlington Denver\nSan Francisco ",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_9c3156905c984a30df0e",
+          "title": "",
+          "caption": "The People Behind Famous Voices! #fyp #foryoupage❤️❤️ #voiceactor #voice ",
+          "transcript": "EA Sports, it's in the game. EA Sports, it's in the game. Nothing beats the Jetsu Holiday, and right now you can save 50 pounds per person. Hi, I'm a voice actor. You've probably heard me somewhere in the world. I'm Bluetooth connected. Hey, my name is Susan Bennett, and I'm a voice actor and the original voice of Siri. The Bluetooth device is ready to pal. The Bluetooth device is connected successfully. Have you ever wondered who the voice actor was behind this voice? Well, now you have a face to the name. It's Kat, I'm the TikTok text-to-speech voice with a little PSA. If you want me to say the word, yeah, simply type out, yeah, and then hit text-to-speech option.",
+          "onScreenText": "THE PEOPLE BEHIND FAMOUS VOICES\nPARIVGHA\nPARTYGE\nH\nRTYCHAT\nPARTYG HAT\nEA\nANDREW\nANTHONY\nSPORTS\nICE ACTOR BECOMES VIRAL SE REAL NEWS, HONEST VIEWS.\nISTER | VOICE ACTOR\nVICE ACTOR BECOMES VIRAL SE\nREAL NEWS, HONEST VIEWS.\nICE ACTOR BECOMES VIRAL SE\nREAL NEWS, HONEST VIEWS.\nJet2holidays\nJET 2 HOLIDAY\nZOE LESTER\nBLUETOOTH KRISTEN DIMERCURIO\nSIRI\nSUSAN BENNETT\nCHINESE BLUETOOTH\nKUNG PAO PENNY\nII\nELEVEN",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_b18f0a3ca2dd9f94022e",
+          "title": "",
+          "caption": "KKKKKK Eu chego em casa e acaba o sossego de mãe 😂",
+          "transcript": "Ô mãe, pensa tudo bem com senhora? Aqui, cheguei aqui em casa. Agora não tinha ninguém aqui em casa. Aí eu já preparo um cafézinho aqui, deixo um cafézinho no jeiro aqui. E vou aproveitar que isso não cai vazio. Já vou lavar essa vazia tudo pra senhora aqui, tá bom? Ô mãe, que coisa boa aí. Arrumar pra mim, já tá precisando mesmo fazer uma parte dele, por favor. Gente, não deixa nada sujo ainda, tá bem? Beijo. Meu filho, que loucura é essa? Precisa de paz e é essa? Você vai fazer um café, você vai fazer uma toda vazia assim, Lucas? Pelo amor de Deus, meu filho. O sabão é esse, Lucas. Ô mãe, tu dona geral já no sofá da senhora aqui, tá? O cachorro tá deitado dentro dele aqui. Mas aí agora, já tô deixando o meu jeito. Tá cheiroso, mas tem que ver. Ô filho, que que isso tá ficando doido, Lucas? Jogando água desse jeito no sofá? Lu, você vai estragar o sofá. Tá chuvoso, mas como é que tem? Vai secar. Não tem como secar não, Lucas. Você curta fazer as coisas, mas quando faz... Faz besteira, meu filho, pelo amor de Deus. Mãe, eu tenho medo de lavar o sofá já. Só tá topo. Tá pouco moeda, mas tá bom. Tá pouco seca. Ah não, você tá brincando comigo, né? Pelo amor de Deus. E não se faz não, meu filho. Ô, Lucas! Eu tô lavando aqui em cima agora, mãe, a televisão aqui. Nossa senhora, tá um peirado danado, você tem que ver. Sujeito desse aqui, você vai clavar a casa, não? Lucas, não passa, ",
+          "onScreenText": "Mãe\n<41\n0\nvisto por último hoje às 11:39\nHD\n11:04\nVasconcclos\nv\n1,5×\n0:10\n11:06\n0:07\n\"Uai que coisa boa uai arrumar pra mim\nVasconccius\n0:07\n\"Uai que coisa boa uai arrumar pra mim\ntá precisando mesmo fazer uma parte\npra mim por favor beijo não deixe nada\nsujo aí não tá bem beijo\"\nVocê acha que a transcrição foi útil ou não foi útil?\noncelod\n0:05\n\"Uai que coisa boa uai arrumar pra mim\ntá precisando",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_b429ae07d7cf4fc21ed6",
+          "title": "",
+          "caption": "broma a mi mamá del tv💀😭 (si quieren el prompt se los mando👇🏻) #gumaai  #broma #prank #humor #viral ",
+          "transcript": "Broma a mi mamá de que lave su televisor con agua mientras no está en casa. Tommy me dio tanta risa. ¡Vel, tú eres loca, no joda! ¡Nunca limpia y te vas a poner en venta con esa agua! Pero antes de enseñarles la reacción les voy a mostrar cómo generar el video. Lo hice con esta app que se llama Booma AI. Apenas entras es súper sencillo de usar, te metes donde dice generar video, le pones tu foto, le metes un prompt que si quieres te lo va a estar pasando y en pocos minutos tienes listo tu video. Mami, aproveché que no estás para limpiarte el cuarto. ¡Vel, tú eres loca, no joda! ¡Nunca limpia y te vas a poner en venta con esa agua! ¡Me vas a dejar todo mojado! ¡No seca eso antes de que yo llegue! ¡Desconecte el televisor, te vas a quemar toda la casa! ¡Y sale a secarme todo eso! ¡Tú eres loca, vale! Si eres mala, te estoy limpiando. Y ahora voy con el televisor. ¡Aaah! Mira, ¿sabes cómo es la vaina? Que ya yo voy a ir para allá. Ya estoy prendiendo el carro para irme. Me vas a comprar un televisor nuevo, no joda. ¡Si eres loca, vale! Me estás dañando todo ahí en el cuarto. Voy en camino para allá, Kibel. Y ojalá yo encuentre todo ese cuarto inundado. Y dejas todo seco. Ya voy para allá. ¿Tú quieres que me dé una vaina? ¡Aaah! Ya mi mamá estaba que llegaba porque yo tengo su ubicación y yo viendo qué cámara queda mejor aparte cagándome la risa. ¡Mibel! ¡Y el televisor! ¡Ay, yo es",
+          "onScreenText": "broma a mi mamá\nde que lavé su tv\ncon agua\nbroma a mi mamá\nde que lave su tv\ncon agua\nesto a mi me\ndió tanta risa\nv\nwene.sweedor\nSEMTEA.CSCNSTS E\n3778M\n0:00\n@ees t n r ca bpia e\n1.4.7 02\nLAZOM\n11\n0:00\n\"Tú eres loca, no joda, nunca limpia y te vas a poner a inventar con esa agua me\nvas a dejar todo mojado seca eso antes que yo llegue desconecta el televisor que vas a quemar toda la casa y sale a\nse",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_b78d6019175f92cd1aad",
+          "title": "",
+          "caption": "The Seahawks and San Darnold took down Patrick Mahomes and the Chiefs 20-3, handing Kansas City its first loss of the season! 🫣🏈🔥 The NFL, or National Football League, is the highest level of professional American football, featuring 32 teams competing throughout the regular season for a chance to reach the playoffs and win the Super Bowl. Every game brings big hits, touchdowns, incredible catches, defensive stops, star quarterbacks, heated rivalries, and game-changing moments. From Sunday Night Football to the playoffs and Super Bowl, the NFL delivers exciting matchups, unexpected upsets, and unforgettable football action every season. The video and audio are highly edited and not real. The only Ai used is TTS (Text to speech) #NFL #ChiefsKingdom #Seahawks #Chiefs #NFLMemes",
+          "transcript": "",
+          "onScreenText": "",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_bb8cd79ced769357ee68",
+          "title": "",
+          "caption": "#映画 #映画紹介 #fyp ",
+          "transcript": "ね、小島先生。 え? 私もいざって時のこと考えとかないと。 そうだ、倒れる時ここにしよう。 新藤先生か小島先生に見てもらいたいし、新藤先生、お願いしますね。 僕じゃダメですか? この野口もいますよ。 俺だったらついでに、力内障も見ます。 遠慮しとくわ。 看護のは明らかに彼らの医療技術に不安を抱いていた。 だが男性看護師が一人いるおかげで、女性看護師たちの負担はいくらか軽くなっていた。 男性看護師は力仕事は頼もしいのだが、褒められると調子に乗ってしまう。 千夏が少し褒めたばかりなのに、彼自身が腰をぎっくり腰で痛めてしまった。 花輪医師が診察したところ、看知には1週間かかると言った。 そして千夏に佐伯にコルセットを巻くよう指示し、できるだけきつめに巻くようにと言った。 急な出来事のせいで、横溝看護師が楽しみにしていた夏休みは台無しになってしまった。 看護のは仕方ないと説明した。他の家も人手不足なので、みんなで頑張るしかないと。 だが誰かが、みんな同じ状況なら納得できるけど、どうして山代さんだけ夜勤が減っているのかと口にした。 それを聞いた山代は慌てて駆け寄り、自分はもっと夜勤に入れると看護のに申し出た。 看護のは助けを求めるように医療長の方を見た。 医療長は、子供のいる人にはそれに合わせた勤務形態があるべきだと話した。 これを聞いて他の看護師たちは戸惑った。 だが山代さんは家庭のことは気にしなくていい。子供は母に任せれば大丈夫だと言った。 しかし医療長は慎重に考えており、無理をして働き続け、ミスを連発した事例を数多く見てきたと語った。 だから子供を持つ全ての看護師のために、山代さんには模範となって、救急医療の現場に良い改革をもたらしてほしいと願っていた。 そうはいっても、納得できない看護師もいて、子供を都合のいい言い訳にしていると思っていた。 その皮肉な言葉を山代に聞かれてしまった。 明らかに自分のことを言われていた。 山代は何も言わず、荷物を置くと黙ってその場を立ち去った。 山代が仕事を終えたのは真夜中。 買い物を済ませ、急いで家に帰った。 家では母だけが起きて待っていた。 母は立ち上がって、ゴミ箱から拾ったというものを手渡した。 山代は、構ってもらえない息子からの無言の… お待ちしております。 抗議だと理解した部屋で眠りについている息子を見て申し訳ない気持ちでいっぱいになった 母は彼女を責めず十分に慰めてくれた救急の仕事を続ける日々 一体いつまで続くのだろう一方小島は振動の元を訪ね おばあさんのレントゲン写真を出して意見を求めた振動が受け取って確認すると 水蔵がんの終末期でこのままでは今年は持たないだろうと告げた 抗がん剤を使っても1ヶ月寿命を延ばせるかどうかもわからない小島は迷っていると話した この患者には家族がおらず一人きりだからだ 病気と戦う仲間もおらず彼女の苦しみを理解してくれる人もいない すべてを打ち明けるのはまりに残酷だと感じていた その時神道は少し考えて患者の立場になったらどう思うかと尋ねた やはり真実を知り残りの人生を大切に過ごしたいと思うはずだ 振動は自分の考えに自信を持てと言った医師の仕事は後を救うことだけではないからだ",
+          "onScreenText": "解説は純粋に架空て\n娛楽目的のみです\n解説は純粋に架空て、\n娱楽目的のみです\n解説は純粋に架空で、娯楽目的のみてす\n自分に何かあったらと思うと\nストーリー解説は純粋に架空で、娯楽目的のみです\nRETA HOUYAMN\nストーリ\n娯楽目的のみです\n進藤先生と小島先生にも診ていただきたい\nです\n解説は純粋に架空て、娛楽目的のみです\n解説は純粋に架空て娯楽目的のみです\nen\nストーリー解説は純粋に架空て、娯楽目的のみです\nストーリー解説は純粋に架空で\n.\n解説は純粋に架空で\n娛楽目的のみで\n私じゃダメなの?\n解説は純粋に架空で、娛楽目的のみです\n解説は純粋に架空で、娯楽目的のみです\nそれに、私の野口もいるぞ\n内科学\n科大学制花典\nリネン室\nスト！\nD.\n解説は純粋に架空\n娱楽目的のみで\nストーリー解説は純粋に架空て\n湖\n04\n娛楽目的のみ\nストーリー解説は純粋に架空で娛楽目的のみです\n彼自身が腰",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_bdd28ae2be8d8b692933",
+          "title": "",
+          "caption": "The Women Behind Famous Voices! #fyp #foryoupage❤️❤️ #voice #voiceactor ",
+          "transcript": "Nothing feeds the Jet 2 holiday and right now you can save 50 pounds per person. Hi, I'm a voice actor. You've probably heard me somewhere in the world. Bluetooth connected. It's Kat. I'm the TikTok text to speech voice with a little PSA. If you want me to say the word, yeah, simply type out, yeah, and then hit text to speech option. Hey, my name is Susan Bennett and I'm a voice actor and the original voice of Siri. At the next intersection, turn left. At the roundabout, turn right. You have reached your destination. Play my favorite playlist. You sound familiar. Who is this? I'm Alexa. The Bluetooth device is ready to tell. The Bluetooth device is connected successfully.",
+          "onScreenText": "THE WOMEN BEHIND\nFAMOUS VOICES\nSTER I VOICE ACTOR\nICE ACTOR BECOMES VIRAL SEN\nREAL NEWS, HONEST VIEWS.\nSTER | VOICE ACTOR ICE ACTOR BECOMES VIRAL SENS REAL NEWS, HONEST VIEWS.\nBEHIND\nICE ACTOR BECOMES VIRAL SENS REAL NEWS, HONEST VIEWS.\nJET 2 HOLIDAY\nZOE LESTER\nJet2holidays\nOICE ACTOR BECOMES VIRAL SEN\nBLUETOOTH\nKRISTEN DIMERCURIO\nS\nTIKTOK\nKAT CALLAGHAN\nSIRI\nSUSAN BENNETT\nHCOL\na\ne\nNOW\nSPOT METRO\nC",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_c15a0307adeadd4a171d",
+          "title": "",
+          "caption": "החברה של ChatGPT הוציאו את המודל AI הכי חזק בעולם שיכול לעשות בשבילכם משימות על המחשב באופן אוטומטי 😳\n\nהכנתי רשימה עם 7 דרכים להשתמש במודל החדש תגיבו ״רשימה״ ואני אשלח לכם 🙌💸",
+          "transcript": "CHPT הוציאו את ה-AI הכי חזק בעולם והדברים שהוא יכול לעשות זה דברים שלא ראינו מעולם ואתם תבינו בדיוק למה בסוף הסרטון הזה CHPT 6 אסטרה קיבל עדכון משמעותי יותר מכל מה שראינו אי פעם וסוף סוף הגנו לנקודה ש-AI יותר טוב מבני אדם בכמעט כל דבר שהוא יעשה המדל הזה יודע לקבל פקודות ולעשות דברים באופן אוטומטי לגמרי על המחשב שלכם כמו לייצר דברים בתלת מימד, לעשות משימות, ליצור מצגות ולבנות אתרים שלמים מאפס תבינו, הוא יכול ממש לקחת שליטה על המחשב שלכם ולעשות בשבילכם כמעט כל פעולה שתרצו מ-לעשות בשבילכם את הקניות עד לעריכת וידאו ותיקון בגי והדבר שכולם מתלהבים ממנו זה היכולת שלו ליצור דברים בתלת מימד ומשחקי מחשב כל מה שאתם רואים מעליי נוצר בעזרת המודל החדש של CHPT מודלים שלמים של גוף האדם ואפילו מודלים של בתים שאתם יכולים להיכנס אליהם והכל שם מדויק לפרטי פרטים כל זה מפרומפט אחד כמעט כל מה שתרצו המודל הזה ידע לעשות באופן מושלם אם אתם רוצים רשימה של שבעה שימושים מטורפים לצ'צ'פטי החדש תגיבו רשימה ואני אשלוח לכם בחינם לגמרי ואני מנסה להגיע ל-100,000 עוקבים עד סוף השנה אני נותן לכם ערך בחינם אז תעקבו",
+          "onScreenText": "GPT - 5\n20,000,000,000,000\nGPUs\nIX'YIN\nPTN\nGPT-6\n,DクIVユ\nExplode anatomy\nHelical timing.gnar\nOOOOODE\nPI'Ta Man OnxI\nRPM\nEED\n7102\n3\n.ai\n14\nChatGPT 6 Astra\nis\nis here\nhere\n'DIVDUn JIDTy S'P\n'nIyDUn JITy Sュ'P\n'DIyDUD DTy S'P\nA刀\npanvfx?\nThink\nDUD\n1\nINTRODUCING GPT-6\nWhat should we build?\nAI-U\nfor retailers.\nLet's buil\nLet' buidd p e 1se\nseason's rainwear\nDTN ighh-end\nMake sur\nand that it's colorful. Ma",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_c3be6b01d5e71d157780",
+          "title": "",
+          "caption": "Trump bragged about an article he apparently didn’t read #trump #davidpakman #payattention",
+          "transcript": "Look at this. Donald Trump walked up to reporters holding a printout. And in that printout, you can see that there is an article and the article is of a Washington Post story. And the headline is prescription drug prices record sharpest drop in more than 60 years. And Donald Trump had it printed out by his human printer, Natalie Harp. He proudly displayed it. He asked reporters, hey, have you seen that? He made sure that the cameras would capture it. And he read aloud the headline and declared, I told you that this was going to happen. And then the White House took the image and blasted it all over social media with the caption POV. You bring the receipts, Trump taking credit. But there was only one little problem. And this is why we read the articles. This is why we don't just stop with the headlines. This is why we don't allow Donald Trump and people like him to bamboozle us with printouts. The receipt says it is thanks to Joe Biden. Had Donald Trump been able to read or had anybody working in the White House communications operation bothered to read the article, they would have noticed that the article is talking about a Biden era policy as the explanation for the drop in prescription drug prices. You look at the article that Trump is bragging about. And it says there is a policy in the Inflation Reduction Act, of course, signed by President Biden back in 22. And what it did",
+          "onScreenText": "AND DONALD\nTRUMP\nYB\nITION\nAKMAN\nUTH\nGAIN\nsharpest drop in m\nHE PROUDLY\nKMAN\nRUTH GAIN\nDW FROM FOX\n. TRUMP SPEAKS AHEAD OF DEPARTURE FOR LONG ISLA\nFAIR 82°\nAN DIEGO OVER\nAND DECLARED\nThe White House @WhiteHouse\nPOV: you bring the receipts.\n...\nPrescription drug prices record sharpest drop in more than 60 years.\nTOOK-THE IMAGE\nAND THIS IS\nThe Washington Post Democracy Dies in Darkness\nEconomy Prescr",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_cd519dcb95371f2bb793",
+          "title": "",
+          "caption": "為離婚獨居的大哥打掃七、八年沒有住的房子給女兒住（第二期）#獨居男人 #上門清潔",
+          "transcript": "欢迎收看98年的金巴拿在重庆做宝洁 昨天我们帮离婚独居的大哥做了厨房 今天我们继续来给他做卫生间和房间 首先地步我们还是先清空物品 这样后面打扫的时候会更方便 来之前大哥给我说我把握不准的东西就给他先留着 所以我也不知道卫生间里面的这些东西到底能不能全部都丢了 关顾者埋头清东西去了 我都没有注意看这里居然还有一只干了的老鼠 我的伙伴也是被吓到了才跟我说这里有一只老鼠 昨天做厨房的时候都没有老鼠 因为这个房子有七八年都没有住人 所以我今天做卫生间的时候我就很大胆地去做卫生 可是没想到卫生间还有一个惊喜等着我们 昨天我看很多姐妹说这个房子没有再打扫的必要了 都说直接拆了重新装 但是这个房子确实它有点旧 别看它比较旧 但是人家这个房子的位置非常的好 如果是拆了重装的话 肯定是精进还没有达到 今天大哥的女儿也在现场 她跟我们说她才刚毕业一个月收入大概也就三千来块钱 所以很想让我们帮她弄仔细一点 她说这两天就准备和她男朋友搬进来 我也只能说尽力吧 因为这种老房子打扫出来 她看不到明显的效果 但是只要把那些污渍弄干净 我觉得差不多还是可以顾的 今天的这个卫生间其实非常的好打理 它没有玻璃门也没有水龙头 我们只需要把置物架墙面还有地面刷干净 这个卫生间也就算打扫干净了 接着我们来打扫这个房间 这个房间的话都已经被大哥清空的差不多了 床上留下的这些东西他说还要 就让我帮他把东西装在这个收纳箱里面 同样还是先把东西清空之后 然后再来打扫卫生 柜子里面的这些衣服大哥本来说留着的 他女儿就说直接给他扔了 还是听他女儿的吧 收衣服的时候 才发现 虽然说这个大哥婚事迷了 但是看这个房间里面的东西 恋爱可是没有断过呀 房间的物品清空完之后 也是从上到下的一个顺序 开始打扫 这个墙面的资助网 真的非常非常多 加上这个乳胶器的墙面 有点掉皮了 刚刚卫生间的资助网 我是用扫把去扫的 但是发现灰尘给我掉一身 最后我说要不要用 禁点除生纸试一下 没想到它还不启成 也不扬灰 昨天看到评论区 有很多姐妹说 结婚之前一定要了解 对方的生活习惯 不然的话 嫁进去就是当免费的保姆 我倒是觉得这句话说的没错 两个人在一起生活习惯 和家务观念的适配很重要 与其等婚后委屈 不如在相处时 就观察对方的生活细节 比如他会不会主动收拾自己的空间 怎么看待家务的丰工 做宝洁了这么久 见过太多因为家务丰工 而闹矛盾的家庭 所以姐妹们 咱们结婚之前一定要擦亮眼睛 看对方是觉得女人 先生就该做家务 还是会主动和你一起分担 毕竟能一起擦油烟机 拖地的人才能一起走得更长远 今天这个房间还好 就是灰比较重 哇这个垫子真的好有连带感呀 就是我小时候睡的呀 本来是想给它扔了 大哥的女儿说还可以垫一下 上面有很多颗粒 老鼠屎啊什么的 还好带了一个吸尘器 擦这些灰尘的话 直接用深毛巾 其实也是可以擦得掉的 但是这个灰尘比较重 我是喷了一点油污镜 然后再配合摆 结果去刷灰酸的更彻底 这个瓶子其实它是装水卫式的清洁剂的 但是油污镜今天没有带喷头 所以我把油污镜直接倒在水卫式的瓶子里面去了 最后我们来搞这个房间的地面 今天的这个地面有很多成年老购 这种成年老购一定要喷油污镜才可以搞得干净 我是用油污镜 倒在电动喷户里面 直接喷在地面 这样子的话就不用一点点的去按 喷上油污筋之后 然后我是用钢丝球 本来最开始是用手刷的 但是我发现用手 手",
+          "onScreenText": "¡Bienvenidos! Soy una madre soltera nacida en el 98 y hago limpieza en Chongqing.\n@truelie938\n欢迎收看98年单亲妈妈在重庆做保洁\nAyer le limpiamos la cocina a un cliente divorciado que vive solo.\nПРОДУКТ\n@trueke938\n昨天我们帮离婚独居的大哥做了厨房\nHoy nos toca seguir con el baño y la habitación.\n今天我们继续来给他做卫生间和房间 @truelie938\nAdjudice\nComo primer paso,\nsiempre despejamos\ntodo el lugar;\n牌人的\nAdida\n今天我们继续来给他做卫生间和房间\n首先第一步我们还是先清空物品\nasí ",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_d2a4437c36c9aba1ed76",
+          "title": "",
+          "caption": "תנו כבוד לארנון פרנק ❤️ בגיל 88, כשהוא מתגורר בדיור מוגן, ארנון כבר 13 שנה קם בלילה, מעמיס את העגלה ומחלק עיתונים ברחובות השקטים. לרגל יום מחלקי העיתונים, הבת שלו הצטרפה אליו לסיבוב לפנות בוקר כדי לתעד את חריצות והאנרגיה הבלתי נגמרת שלו - וגילתה שזה בהחלט לא קל כמו שזה נראה!  מאחלים לו עוד שנים רבות של בריאות, כושר ושמחת חיים. 📸 נעמה פרנק עזריאל",
+          "transcript": "ומה לעד הסוף אנחנו עולים? חלקך יורדים מפה. הקו המקורי שקיבלתי, זה היה ללכת מבית לבית לעבור את הכביש עשר פעמים. שיניתי את הקו, אני עולה בצד אחד ויורד בצד שני. מה אתה עושה כשאתה קם בפוקר? את מותם עד בלוון על ארץ. מה אתה עושה כשאתה קם בפוקר? לא שוב, אני לא רוצה אותך. נוס, נפוגע. אני יכול למסוף לראות את החובץ של העגלה. אני לא יודע, אני לא יודע, זה בוא עכשיו. תראה אותי. תראה אותי. אתה בכל בעל, בטע פה? בטע. תראי לכל הייתי אצלך בכל מקום, מסתכל בניירות. אור. אני חושב מה שחמדה אז מתי תחלט איתנו? כל כמה שאני אחזיק מעמד. מה, זה התעמלות, מה זה? זה ההתעמלות שלי. היו היום? מדרגות. יש לי סך הכל ביום שישי-חמש מאות מדרגות. יום רגיל, 2.50. זה או זה. אני נוסע לדיור מוגן, היא אמא שלך, לסת לה אוכל, לשלוח אותה לחוגים, ולעשות את השבת. בשבילה מדרגות שלי. יאללה, להתראות. ביי. ביי.",
+          "onScreenText": "הצעד 1\nהפעולה אחת הקודמות ב-88: הפעולה האחרונה בשפה ישירה 👑\nהצביע 11\n197\nDTy DanIN nIoN Ty nhyn7\nMN D'TI' D\"NX\np7nn :88-n  ux nx i'n\nVa7 YIy N7U D'N'N\nהצבלה\nGI\nD'iy anax nIon Ty nhyn7\nNOO D'TI' O\"NX\nהפעולה אחת המקרים ב-8-8 מתבצעת\nהפעולה השנייה בסיס פעולה זוית\nז'נס1\n71 I\nD'7iy Danix qion Ty a7yn7\nNOO D'TI S\"NX\nהפעולה האחרונה ב-88: מחזירה\nפרוטוקול שמקבל פתרון לאיבדה\nהצבוע 1\nהפעולה הבאה\ny\nD'7iy anax",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_d4aa02c8d02723cb4c77",
+          "title": "",
+          "caption": "The People Behind Famous AI voices! #fyp #foryoupage❤️❤️ #voiceactor #voice ",
+          "transcript": "E.A. Sports. It's in the game. It's not bad. How about this one? E.A. Sports. It's in the game. Have you ever wondered who the voice actor was behind this voice? Well, now you have a face to the name. Hey, my name is Susan Bennett, and I'm a voice actor and the original voice of Siri. It's Kat. I'm the TikTok text-to-speech voice with a little P.S.A. If you want me to say the word, yeah, simply type out, yeah, and then hit text-to-speech option. Hi, I'm a voice actor. You've probably heard me somewhere in the world. Bluetooth connected. Alexa, play my favorite playlist. You sound familiar. Who is this? I'm Alexa. At the next intersection, turn left. At the roundabout, turn right. You have reached your destination.",
+          "onScreenText": "THE PEOPLE BEHIND FAMOUS\nAIVOICES\nSTORM\nEA\nANDREW\nANTHONY\nSPORTS\nELEVEN LABS\nJOSHUA MYERS\nII\nS\nSIRI\nSUSAN BENNETT\nTIKTOK\nKAT CALLAGHAN.\nBLUETOOTH\nKRISTEN DIMERCURIO\nALEXA\nGBS\nGms\nG B I ST\nG\nB\nI\nS\nNGW OPENSTATE\nConnectivity SAN FRANCISCO CA\n227299 N, 922 6047 W, NYC 10014\nGPS",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_d8e99256b2dec4561ea8",
+          "title": "",
+          "caption": "[REDIFFUSION] « Une libraire pour dire je t’aime à la langue arabe » 👉 Elle, c’est Hadjira. Elle est d’origine Algérienne et elle a crée la libraire Aïcha, en hommage à sa maman parce que c’est elle qui a donné le goût pour la lecture. 📚 Une librairie installée dans le 13ème arrondissement de Paris, qui a pour vocation à reconnecter tous les immigrés de la Méditerranée, enfants ou petits enfants d’immigrés, à leur racines, qu’ils soient arabes, berbères, ou amazighs. 🎤 Notre journaliste Nawal y a posé sa caméra, on ne peut que vous recommander 📺 Retrouvez la compilation de nos reportages « patrimoine inattendu » sur la chaine Youtube de Liik.",
+          "transcript": "J'ai créé cette librairie pour dire « Je t'aime » à la langue arabe et j'aimerais qu'elle soit accessible à tout le monde. Bonjour, bienvenue dans la librairie Aïcha. Alors Aïcha, c'est le prénom de maman. Je voulais lui rendre hommage de son vivant et aussi lui témoigner tout mon amour et toute ma reconnaissance. C'est maman qui m'a donné le goût du livre en lui-même. C'est important pour moi parce que ça permet justement à nos enfants qui grandissent ici, notamment en France, de valoriser leur langue maternelle. J'ai des livres de personnages de Disney. Là, comme vous voyez, il y a Sophia, il y a Dembo, il y a la Reine des Neiges avec de magnifiques illustrations. Anna Dembo, Anna Filon Sariron. Il y a même Baddington. J'aime beaucoup le personnage de Baddington et je regarde souvent ce dessin animé avec mes enfants. Il y a aussi les Amazirt, les Berbères et je tiens absolument à les mettre à l'honneur aussi. Donc par exemple, vous avez ce livre-là. C'est un livre qui est traduit en Amazirt. Donc il est en français et à chaque fois on a la traduction, on a l'écriture en Amazirt. C'est important pour toi de parler à tout le monde ? Oui, c'est important en tout cas d'essayer d'être dans cette dynamique-là, de m'adresser à tout le monde, à tous ceux qui ont envie de se reconnecter. Les adultes s'intéressent. Il y a beaucoup d'apprenants qui cherchent des livres bilingues justeme",
+          "onScreenText": "UNE LIBRAIRIE\nPOUR DIRE JE T'AIME\nÀ LA LANGUE ARABE\navec Hadjira Nait Bahloul\nEt j'aimerais qu'elle soit\nJ\n00\n9\nBonjour!\nBienvenue dans\nla librairie Aïcha.\nAi cha\nAi cha, c'est\nle prénom de ma maman.\nJe voulais lui rendre\nhommage de son vivant\net aussi lui témoigner\ntout mon amour\net toute ma reconnaissance\nha\nEt c'est maman\nqui m'a donné le goût\nجوهرة الجواك\nC'est\nimportant pour moi\nلي والذلي\nJ'a",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_ef22604f890f6001f6fb",
+          "title": "",
+          "caption": "Xiaomi acaba de dar un golpe sobre la mesa en el mundo de los plegables. 💥 El nuevo Xiaomi 18 Fold viene con una batería brutal de 6000 mAh y triple cámara Leica, solucionando las pegas de autonomía que vemos en el Samsung Fold 8 o el futuro iPhone Ultra. El diseño es espectacular y tiene potencia de sobra, pero el gran bajón es que de momento se queda solo en China. ¿Creéis que si llega a España rompería el mercado? 🤔 #xiaomitdg",
+          "transcript": "El nuevo Xiaomi marca el comienzo de una nueva era en los móviles. El primero fue Huawei con su pura X-Max hace ya dos años. Después, ¿quién vino? Vino Samsung con su Fold 8 hace apenas un mes. Y Apple presentará su iPhone Ultra el 9 de septiembre. Y Xiaomi, bueno, pretende superar a todos con su nuevo Xiaomi 18 Fold. Su presentación oficial es el 7 de septiembre, pero la marca ya ha desvelado prácticamente todos los detalles, incluido el vídeo que estás viendo en este vídeo. Un diseño sublime, o sea, me parece el pic de la tecnología actual. Y una cosa muy clara, demostrarle a todos, al resto, que se pueden hacer las cosas bien. El iPhone Ultra será bastante caro y solo tendrá dos cámaras con una batería pequeña. El Fold 8 de Samsung solo tiene dos cámaras y también tiene una batería pequeña. El modelo de Huawei está fantástico, pero no tiene la potencia necesaria para el precio que cuesta. Pues bueno, el Xiaomi 18 Fold lo tiene todo, ¿vale? Triple cámara trasera firmada por Leica, batería masiva de 6000 mAh, una potencia loca con el procesador X-Ring O3, este de fabricación propia, es una locura, inteligencia artificial... Eso sí, por desgracia y por algún extraño motivo, esta auténtica maravilla de la tecnología se queda solo en China. Ojalá rectifique. El iPhone Ultra",
+          "onScreenText": "95\nPonteze\nLIFE DRIVERS\nWITHIN\nLIFE GAIN\nTucen\nfue Huawei\ncon su Pura X Max\ncon su Pura X\nMax\nhace ya dos años.\nvino? Vino\nFold 8 hace\n150ml/DJ\nvery difficult\napenas un mes y\nThu Aug 20\nseptiembre.\nY Xiaomi pretende\nQusteze\nTORQUEY\nLIL\nPISTONS\noctang Gan\nMeZu\nDust-eze\nLILY BROOKS\nPITTONE\nsuperar a todos\nDRIE GAM\n95\nLightning\nsuperar a todos\nOKYING GAM\nLightning Mega\nXiaomi 18 Fold.\nOR\nCROS\nXiaomI\n",
+          "frameText": "",
+          "truncated": true
+        },
+        {
+          "sourceId": "s_f08e4eecd2f58acb2506",
+          "title": "",
+          "caption": "At this point Ik the apple employees on a first name basis 💀 #fyp #apple #unboxing #mac #bryanthediamond ",
+          "transcript": "I got myself a Mac Studio! Behind me I have a Mac Mini and that shit is frozen. I'm sick and tired of it. It's stuck on this page. I have to basically restart the whole thing. So I got myself this and then on top of that I also got some accessories. I got the Magic Track Bag because I'm used to like zooming in like right and the mouse doesn't do that. And then I got this right here. It's Touch ID. We're gonna unbox this together. And then I have my iPhone Duo playing our lovely Sunset because I like to keep things kind of like romantic in the office. Shut up you stupid robot! I'm so tall the tripod doesn't go any higher. I'll just fix that. I bought a beam. I bought a boom. Oh wow. Oh my gosh. This shit is huge. This is the Mac Mini. This is the Mac Studio. Shit. There you go. I got you baby. I'll never let you fall around me. I got you. Oh my god. It's the wrong way. oh shit do you like that? shit you never know the size comparison is freaking crazy just so you can see what i'm talking about this is the spinning wheel of death um the computer is not usable it's not going to let me do anything right now i can't even move that mouse so um it's time for you to go",
+          "onScreenText": "oibut2\nESSENS\nasc2inqio\nD\nIMBEC ED RA\nMRONTA\nvadic_tuxbq\nCt\nE28ER\nPublic Tracking\nASMR time\nMagic Trackpad\nMma    e id\nMa Tpad\nMa Trad\nMMa pad\nPlayer-Timeline 01\nEI\n00:08\n00:22\n00:18\n00:10\n00:26\n00:01:40:02\n00:00:20:07\nStart clipping\ntarted\n国03\nCHAON",
+          "frameText": "",
+          "truncated": false
+        },
+        {
+          "sourceId": "s_fd9d94828dd91625e3dc",
+          "title": "",
+          "caption": "Full Video on our YouTube Channel @thecuttingedge.school",
+          "transcript": "The fastest way to ruin your career is to use artificial intelligence without using your real intelligence. Can you tell me how Steve Jobs could always grab everyone's attention on stage so easily? Because all of these people were disgustingly articulate. They know what to say and they always knew how to say it. And after giving 100 plus lectures to people across 55 countries, here are 3 rules and 3 habits that will help you become disgustingly articulate. Habit number 1 is that from today onwards, you need to promise me that you will start thinking in structures and not sentences. What do I mean by that? Before you speak something, before you write something, spend enough time building a mental model or a structure to your core ideas, almost like a tree of ideas. Think in bullet points. Rule number 2, how you say something is as important as what you are saying. So for this, the habit is that you need to practice your tone and your pitch. Keep a pencil in your mouth and read aloud books for at least 45 minutes every day for the next 100 days of your life. Rule number 3, information is not equal to knowledge. And again, knowledge is not equal to experience. For this, you have habit number 3. When you are reading about something, when you are understanding something, practice explaining that one idea, that one concept in different ways. Because if you can explain something throu",
+          "onScreenText": "Can you tell me how Steve Jobs\ncould always grab everyone's\nattention on stage so easily?\nbecause all of these people\n6\nHabit number one\nRule number two\nKeep a pencil in your mouth\nFor this you have habit\nbecause if\nand clearly see the core idea.",
+          "frameText": "",
+          "truncated": true
+        }
+      ]
+    }
+  ]
+}

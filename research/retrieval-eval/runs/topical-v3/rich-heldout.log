@@ -1,0 +1,2 @@
+{"kind":"judge","scope":"heldout/rich/claude","status":"success","elapsedMs":67548,"counts":{"search":33,"asset":16,"full":3,"plan":14,"qualification":10,"judge":9}}
+{"kind":"judge","scope":"heldout/rich/codex","status":"success","elapsedMs":145090,"counts":{"search":33,"asset":16,"full":3,"plan":14,"qualification":10,"judge":9}}

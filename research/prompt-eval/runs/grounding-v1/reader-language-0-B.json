@@ -1,0 +1,29 @@
+{
+  "id": "reader-language-0-B",
+  "scenario": "reader-language",
+  "split": "screen",
+  "variant": "B",
+  "strategy": 0,
+  "requestedModel": "gpt-6.1-sol",
+  "effectiveModel": "gpt-6.1-sol",
+  "effort": "medium",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "97c0656c39214f3a23ce4a80d5fadc8b5d954aec7a1a208c8f51ab038f3a4fab",
+  "output": {
+    "product": "Document Audio Reader",
+    "tagline": "Choose a language. Listen to your documents.",
+    "promise": "Input a document in any format, select a language, and listen to its content.",
+    "question": "Does language selection translate the content or choose the reading voice’s language? The brief leaves this unresolved.",
+    "visualQuery": "Proposed video scenes: a person pauses over a dense document, inputs the file on a phone, selects a language, taps play, and puts on headphones.",
+    "terms": [
+      "listening to long documents instead of reading",
+      "document text to speech language selection",
+      "listen to PDF document content",
+      "listen to Word document content",
+      "document format compatibility for audio reading"
+    ]
+  },
+  "flags": [
+    "inspect unsupported wording: translat"
+  ]
+}

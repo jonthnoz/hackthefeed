@@ -1,0 +1,59 @@
+{
+  "id": "6371a4ab7211fe0d836f64877e8e03a8da4591bb5a5e43d697a089f6e332e98c",
+  "scope": "plant-diagnosis/old",
+  "kind": "search",
+  "request": {
+    "body": {
+      "operator": "and",
+      "filters": {
+        "format": {
+          "includes": [
+            "video"
+          ]
+        },
+        "viewsCount": {
+          "min": 5000
+        },
+        "interactionsCount": {
+          "min": 100
+        }
+      },
+      "queries": [
+        {
+          "operator": "or",
+          "filters": {
+            "caption": {
+              "includesExactly": {
+                "values": [
+                  "brown houseplant leaf edges possible causes",
+                  "yellow patches on houseplant leaves",
+                  "photographing leaf damage for identification",
+                  "comparing visible houseplant leaf symptoms",
+                  "recording houseplant watering dates"
+                ]
+              }
+            },
+            "transcript": {
+              "includesExactly": {
+                "values": [
+                  "brown houseplant leaf edges possible causes",
+                  "yellow patches on houseplant leaves",
+                  "photographing leaf damage for identification",
+                  "comparing visible houseplant leaf symptoms",
+                  "recording houseplant watering dates"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sort": "interactionsCount:desc",
+    "limit": 6,
+    "projection": "default"
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:34:05.886Z",
+  "response": [],
+  "elapsedMs": 412
+}

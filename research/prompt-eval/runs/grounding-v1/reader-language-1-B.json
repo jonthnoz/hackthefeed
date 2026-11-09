@@ -1,0 +1,28 @@
+{
+  "id": "reader-language-1-B",
+  "scenario": "reader-language",
+  "split": "screen",
+  "variant": "B",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "97c0656c39214f3a23ce4a80d5fadc8b5d954aec7a1a208c8f51ab038f3a4fab",
+  "output": {
+    "product": "Any-format document audio reader",
+    "tagline": "Turn your documents into listening.",
+    "promise": "Stated capability: input a document in any format, select a language, and listen to its content. Research direction: explore the need to consume long documents when looking at a screen is inconvenient.",
+    "question": "Does selecting a language translate the content or set the narration voice? Is “any doc format” literal, or is there a defined launch format list?",
+    "visualQuery": "Proposed situation: a person pauses over a long document on their phone, puts on earbuds, then folds laundry while listening. Close-ups of dense text, earbuds and hands sorting clothes.",
+    "terms": [
+      "listen to long documents while doing chores",
+      "read documents aloud without watching a screen",
+      "document text to speech language selection",
+      "document format compatibility for audio reading"
+    ]
+  },
+  "flags": [
+    "inspect unsupported wording: translat"
+  ]
+}

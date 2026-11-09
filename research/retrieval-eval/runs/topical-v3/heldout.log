@@ -1,0 +1,41 @@
+Starting heldout plant-diagnosis
+{"kind":"plan","scope":"plant-diagnosis/old","status":"success","elapsedMs":25164,"counts":{"search":17,"asset":6,"full":0,"plan":9,"qualification":7,"judge":4}}
+{"kind":"plan","scope":"plant-diagnosis/new","status":"success","elapsedMs":28283,"counts":{"search":17,"asset":6,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"asset","scope":"plant-diagnosis/old","status":"success","elapsedMs":306,"counts":{"search":17,"asset":7,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"asset","scope":"plant-diagnosis/old","status":"success","elapsedMs":183,"counts":{"search":17,"asset":8,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"search","scope":"plant-diagnosis/old","status":"success","elapsedMs":412,"counts":{"search":20,"asset":8,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"search","scope":"plant-diagnosis/old","status":"success","elapsedMs":2452,"counts":{"search":20,"asset":8,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"search","scope":"plant-diagnosis/old","status":"success","elapsedMs":2510,"counts":{"search":20,"asset":8,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"asset","scope":"plant-diagnosis/new","status":"success","elapsedMs":165,"counts":{"search":21,"asset":10,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"search","scope":"plant-diagnosis/new","status":"success","elapsedMs":202,"counts":{"search":22,"asset":10,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"asset","scope":"plant-diagnosis/new","status":"success","elapsedMs":239,"counts":{"search":22,"asset":10,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"search","scope":"plant-diagnosis/new","status":"success","elapsedMs":2361,"counts":{"search":23,"asset":10,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"search","scope":"plant-diagnosis/new","status":"success","elapsedMs":2481,"counts":{"search":23,"asset":10,"full":0,"plan":10,"qualification":7,"judge":4}}
+{"kind":"qualification","scope":"plant-diagnosis/new","status":"success","elapsedMs":29905,"counts":{"search":23,"asset":10,"full":0,"plan":10,"qualification":8,"judge":4}}
+Saved plant-diagnosis
+Starting heldout subscription-reminders
+{"kind":"plan","scope":"subscription-reminders/new","status":"success","elapsedMs":21436,"counts":{"search":23,"asset":10,"full":0,"plan":11,"qualification":8,"judge":4}}
+{"kind":"plan","scope":"subscription-reminders/old","status":"success","elapsedMs":22652,"counts":{"search":23,"asset":10,"full":0,"plan":12,"qualification":8,"judge":4}}
+{"kind":"asset","scope":"subscription-reminders/old","status":"success","elapsedMs":456,"counts":{"search":23,"asset":11,"full":0,"plan":12,"qualification":8,"judge":4}}
+{"kind":"search","scope":"subscription-reminders/old","status":"success","elapsedMs":357,"counts":{"search":25,"asset":11,"full":0,"plan":12,"qualification":8,"judge":4}}
+{"kind":"search","scope":"subscription-reminders/old","status":"success","elapsedMs":1752,"counts":{"search":25,"asset":11,"full":0,"plan":12,"qualification":8,"judge":4}}
+{"kind":"asset","scope":"subscription-reminders/new","status":"success","elapsedMs":259,"counts":{"search":26,"asset":12,"full":0,"plan":12,"qualification":8,"judge":4}}
+{"kind":"search","scope":"subscription-reminders/new","status":"success","elapsedMs":264,"counts":{"search":27,"asset":12,"full":0,"plan":12,"qualification":8,"judge":4}}
+{"kind":"search","scope":"subscription-reminders/new","status":"success","elapsedMs":2045,"counts":{"search":27,"asset":12,"full":0,"plan":12,"qualification":8,"judge":4}}
+{"kind":"qualification","scope":"subscription-reminders/new","status":"success","elapsedMs":34381,"counts":{"search":27,"asset":12,"full":0,"plan":12,"qualification":9,"judge":4}}
+Saved subscription-reminders
+Starting heldout product-photo
+{"kind":"plan","scope":"product-photo/new","status":"success","elapsedMs":14580,"counts":{"search":27,"asset":12,"full":0,"plan":13,"qualification":9,"judge":4}}
+{"kind":"plan","scope":"product-photo/old","status":"success","elapsedMs":17372,"counts":{"search":27,"asset":12,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"asset","scope":"product-photo/old","status":"success","elapsedMs":256,"counts":{"search":27,"asset":13,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"asset","scope":"product-photo/old","status":"success","elapsedMs":165,"counts":{"search":27,"asset":14,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"search","scope":"product-photo/old","status":"success","elapsedMs":303,"counts":{"search":30,"asset":14,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"search","scope":"product-photo/old","status":"success","elapsedMs":1877,"counts":{"search":30,"asset":14,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"search","scope":"product-photo/old","status":"success","elapsedMs":2290,"counts":{"search":30,"asset":14,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"asset","scope":"product-photo/new","status":"success","elapsedMs":169,"counts":{"search":31,"asset":16,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"asset","scope":"product-photo/new","status":"success","elapsedMs":194,"counts":{"search":32,"asset":16,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"search","scope":"product-photo/new","status":"success","elapsedMs":220,"counts":{"search":33,"asset":16,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"search","scope":"product-photo/new","status":"success","elapsedMs":1723,"counts":{"search":33,"asset":16,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"search","scope":"product-photo/new","status":"success","elapsedMs":1721,"counts":{"search":33,"asset":16,"full":0,"plan":14,"qualification":9,"judge":4}}
+{"kind":"qualification","scope":"product-photo/new","status":"success","elapsedMs":56190,"counts":{"search":33,"asset":16,"full":0,"plan":14,"qualification":10,"judge":4}}
+Saved product-photo

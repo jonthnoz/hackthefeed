@@ -1,0 +1,6 @@
+{
+  "method": "Direct escalated CLI with Draft 7 judge schema and empty stdin; no inference request.",
+  "exitCode": 0,
+  "stderr": "",
+  "schemaAccepted": true
+}

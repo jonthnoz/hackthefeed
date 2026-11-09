@@ -1,0 +1,27 @@
+{
+  "id": "expense-tracking-1-B",
+  "scenario": "expense-tracking",
+  "split": "screen",
+  "variant": "B",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "4405d52dc0ce2622a8fd73fc826b7b7f913dc126817d1ac4b3699ef6b4c23e7e",
+  "output": {
+    "product": "Shared trip expense tracker: enter costs, see who owes what, and mark expenses settled.",
+    "tagline": "Know who owes what.",
+    "promise": "Track shared trip costs and distinguish outstanding expenses from those marked settled.",
+    "question": "A plausible problem is losing track of shared costs across receipts and messages. Validate that need; clarify how each person's share is assigned, which the brief leaves unspecified.",
+    "visualQuery": "Proposed video scenes: friends compare trip receipts at a table; a person enters a shared cost on a phone; close-up of who owes what; an expense changes from outstanding to marked settled.",
+    "terms": [
+      "keeping track of shared trip receipts",
+      "recording shared trip expenses",
+      "checking who owes what after a trip",
+      "forgetting which trip expenses are settled",
+      "marking shared expenses settled"
+    ]
+  },
+  "flags": []
+}

@@ -1,0 +1,35 @@
+Starting screen sokka-places
+{"kind":"plan","scope":"sokka-places/old","status":"success","elapsedMs":77877,"counts":{"search":0,"asset":0,"full":0,"plan":2,"qualification":0,"judge":0}}
+{"kind":"plan","scope":"sokka-places/new","status":"success","elapsedMs":23927,"counts":{"search":0,"asset":0,"full":0,"plan":3,"qualification":0,"judge":0}}
+{"kind":"asset","scope":"sokka-places/old","status":"success","elapsedMs":502,"counts":{"search":0,"asset":1,"full":0,"plan":3,"qualification":0,"judge":0}}
+{"kind":"search","scope":"sokka-places/old","status":"success","elapsedMs":408,"counts":{"search":2,"asset":1,"full":0,"plan":3,"qualification":0,"judge":0}}
+{"kind":"search","scope":"sokka-places/old","status":"success","elapsedMs":1982,"counts":{"search":2,"asset":1,"full":0,"plan":3,"qualification":0,"judge":0}}
+{"kind":"asset","scope":"sokka-places/new","status":"success","elapsedMs":170,"counts":{"search":3,"asset":2,"full":0,"plan":3,"qualification":0,"judge":0}}
+{"kind":"search","scope":"sokka-places/new","status":"success","elapsedMs":300,"counts":{"search":4,"asset":2,"full":0,"plan":3,"qualification":0,"judge":0}}
+{"kind":"search","scope":"sokka-places/new","status":"success","elapsedMs":1741,"counts":{"search":4,"asset":2,"full":0,"plan":3,"qualification":0,"judge":0}}
+{"kind":"qualification","scope":"sokka-places/new","status":"success","elapsedMs":82353,"counts":{"search":4,"asset":2,"full":0,"plan":3,"qualification":1,"judge":0}}
+Saved sokka-places
+Starting screen reader-voice
+{"kind":"plan","scope":"reader-voice/old","status":"success","elapsedMs":11295,"counts":{"search":4,"asset":2,"full":0,"plan":4,"qualification":1,"judge":0}}
+{"kind":"plan","scope":"reader-voice/new","status":"success","elapsedMs":22317,"counts":{"search":4,"asset":2,"full":0,"plan":5,"qualification":1,"judge":0}}
+{"kind":"asset","scope":"reader-voice/old","status":"success","elapsedMs":460,"counts":{"search":4,"asset":3,"full":0,"plan":5,"qualification":1,"judge":0}}
+{"kind":"search","scope":"reader-voice/old","status":"success","elapsedMs":430,"counts":{"search":6,"asset":3,"full":0,"plan":5,"qualification":1,"judge":0}}
+{"kind":"search","scope":"reader-voice/old","status":"success","elapsedMs":2247,"counts":{"search":6,"asset":3,"full":0,"plan":5,"qualification":1,"judge":0}}
+{"kind":"search","scope":"reader-voice/new","status":"success","elapsedMs":279,"counts":{"search":7,"asset":4,"full":0,"plan":5,"qualification":1,"judge":0}}
+{"kind":"asset","scope":"reader-voice/new","status":"success","elapsedMs":580,"counts":{"search":7,"asset":4,"full":0,"plan":5,"qualification":1,"judge":0}}
+{"kind":"search","scope":"reader-voice/new","status":"success","elapsedMs":2834,"counts":{"search":8,"asset":4,"full":0,"plan":5,"qualification":1,"judge":0}}
+{"kind":"qualification","scope":"reader-voice/new","status":"success","elapsedMs":41070,"counts":{"search":8,"asset":4,"full":0,"plan":5,"qualification":2,"judge":0}}
+reader-voice: Too few close references. Checking one nearby user need.
+{"kind":"search","scope":"reader-voice/new","status":"success","elapsedMs":219,"counts":{"search":9,"asset":4,"full":0,"plan":5,"qualification":2,"judge":0}}
+Saved reader-voice
+Starting screen splitly-expenses
+{"kind":"plan","scope":"splitly-expenses/old","status":"success","elapsedMs":15238,"counts":{"search":9,"asset":4,"full":0,"plan":6,"qualification":2,"judge":0}}
+{"kind":"plan","scope":"splitly-expenses/new","status":"success","elapsedMs":23241,"counts":{"search":9,"asset":4,"full":0,"plan":7,"qualification":2,"judge":0}}
+{"kind":"asset","scope":"splitly-expenses/old","status":"success","elapsedMs":433,"counts":{"search":9,"asset":5,"full":0,"plan":7,"qualification":2,"judge":0}}
+{"kind":"search","scope":"splitly-expenses/old","status":"success","elapsedMs":344,"counts":{"search":11,"asset":5,"full":0,"plan":7,"qualification":2,"judge":0}}
+{"kind":"search","scope":"splitly-expenses/old","status":"success","elapsedMs":1866,"counts":{"search":11,"asset":5,"full":0,"plan":7,"qualification":2,"judge":0}}
+{"kind":"asset","scope":"splitly-expenses/new","status":"success","elapsedMs":222,"counts":{"search":12,"asset":6,"full":0,"plan":7,"qualification":2,"judge":0}}
+{"kind":"search","scope":"splitly-expenses/new","status":"success","elapsedMs":270,"counts":{"search":13,"asset":6,"full":0,"plan":7,"qualification":2,"judge":0}}
+{"kind":"search","scope":"splitly-expenses/new","status":"success","elapsedMs":1667,"counts":{"search":13,"asset":6,"full":0,"plan":7,"qualification":2,"judge":0}}
+{"kind":"qualification","scope":"splitly-expenses/new","status":"success","elapsedMs":50077,"counts":{"search":13,"asset":6,"full":0,"plan":7,"qualification":3,"judge":0}}
+Saved splitly-expenses

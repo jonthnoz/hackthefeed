@@ -1,0 +1,15 @@
+{
+  "scenarios": [
+    "plant-diagnosis",
+    "subscription-reminders",
+    "product-photo"
+  ],
+  "counts": {
+    "search": 33,
+    "asset": 16,
+    "full": 0,
+    "plan": 14,
+    "qualification": 10,
+    "judge": 4
+  }
+}

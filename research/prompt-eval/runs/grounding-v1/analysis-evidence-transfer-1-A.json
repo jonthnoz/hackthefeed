@@ -1,0 +1,99 @@
+{
+  "id": "analysis-evidence-transfer-1-A",
+  "scenario": "analysis-evidence-transfer",
+  "split": "heldout",
+  "variant": "A",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "12b2b2f4782098b49d77a636dffba3c1f0e9e3600a5e79a4c685006ae22e43d6",
+  "output": {
+    "overview": "Lead with the next renewal, then show its price and date. One source directly supports this approach; the cancellation source addresses a nearby need but demonstrates features outside this app’s promise.",
+    "searchNotes": [
+      "Analysis uses only the supplied captions, transcripts and indexed frame descriptions. No images were attached.",
+      "Only track-1 is directly relevant. cancel-1 provides adjacent context, not evidence for bank linking or cancellation features in this app.",
+      "The frames at 4s and 7s do not establish either video’s opening or whole-video compliance. Suggested hooks below are original concepts, not exact source quotes.",
+      "All proposed visuals use generic interface graphics with no logos, people, hands, body parts or photorealistic humans."
+    ],
+    "qualifications": [
+      {
+        "id": "cancel-1",
+        "relevance": "adjacent",
+        "reason": "Cancellation serves the nearby need of managing unwanted subscriptions. That motivation can inform the creative, but bank linking and automatic cancellation do not transfer to the stated tracking promise.",
+        "format": "",
+        "hook": "Supplied caption: “Cancel subscriptions in one tap.”",
+        "title": "Subscription cancellation"
+      },
+      {
+        "id": "track-1",
+        "relevance": "direct",
+        "reason": "Listing subscription prices and renewal dates directly addresses knowing what renews and when. The calendar presentation transfers naturally to the proposed phone interface.",
+        "format": "",
+        "hook": "Supplied caption: “Renewal checklist.”",
+        "title": "Prices and renewal dates"
+      }
+    ],
+    "angles": [
+      {
+        "id": "next-renewal",
+        "title": "What Renews Next?",
+        "label": "Calendar reveal",
+        "description": "Open with the app’s central question, then highlight the nearest upcoming renewal and its price in a generic phone calendar.",
+        "whyItFits": "Makes the promise immediately understandable through one concrete answer.",
+        "evidence": "track-1’s transcript describes listing subscription prices and renewal dates in a calendar. Its supplied 4s frame description reads “Renewal calendar.”",
+        "referenceIds": [
+          "track-1"
+        ],
+        "suggestedHook": "Which subscription renews next?",
+        "visualDirection": "Animate a standalone phone mockup against a plain background. Move an editorial highlight from today to the next renewal, then enlarge its name, date and price. Use generic text labels; no logos, humans, hands or body parts."
+      },
+      {
+        "id": "price-and-date",
+        "title": "Put a Date on It",
+        "label": "Price list to calendar",
+        "description": "Begin with subscription prices, then reveal the matching renewal dates and calendar positions so viewers can consider what to keep.",
+        "whyItFits": "Connects the price list to the timing information that makes this tracker useful, without implying that the app cancels subscriptions.",
+        "evidence": "track-1’s narrator says they list prices and renewal dates in a calendar “so I can decide what to keep.” This supports the decision-making premise, not a claim of savings.",
+        "referenceIds": [
+          "track-1"
+        ],
+        "suggestedHook": "You know the price. When does it renew?",
+        "visualDirection": "Use an editorial animation of generic subscription rows gaining date labels, followed by a calendar view inside a standalone phone mockup. Use typography and simple shapes only; no logos, humans, hands or body parts."
+      }
+    ],
+    "storyboard": {
+      "title": "What Renews Next?",
+      "premise": "A 24-second calendar demonstration answers one renewal question. All entries are clearly labeled illustrative demo data.",
+      "hook": "Which subscription renews next?",
+      "scenes": [
+        {
+          "time": "0–4s",
+          "visual": "Text question beside a standalone phone showing a generic renewal calendar. Small “Demo data” label. Plain graphics only; no logos, people or body parts.",
+          "voiceover": "Which subscription renews next?"
+        },
+        {
+          "time": "4–10s",
+          "visual": "On the same phone, an editorial highlight selects the nearest renewal: “Music plan · Nov 12 · $9.” No logos, people or body parts.",
+          "voiceover": "See the next renewal, its date, and its price."
+        },
+        {
+          "time": "10–17s",
+          "visual": "Cut to a generic price list with matching renewal dates, then back to their calendar positions. Keep the demo label visible. No logos, people or body parts.",
+          "voiceover": "Put your subscription prices and renewal dates in view."
+        },
+        {
+          "time": "17–24s",
+          "visual": "Calendar remains beside the text “See renewals coming” and “Check your next renewal.” Generic phone and typography only; no logos, people or body parts.",
+          "voiceover": "Know what renews and when. Check your next renewal."
+        }
+      ],
+      "callToAction": "Check your next renewal.",
+      "sourceIds": [
+        "track-1"
+      ]
+    }
+  },
+  "flags": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "087791fd429858304a1493876edbb14a4c2f789689a603f0f78446d684f4a652",
+  "scope": "reader-voice/old",
+  "kind": "search",
+  "request": {
+    "body": {
+      "operator": "and",
+      "filters": {
+        "format": {
+          "includes": [
+            "video"
+          ]
+        },
+        "viewsCount": {
+          "min": 5000
+        },
+        "interactionsCount": {
+          "min": 100
+        }
+      },
+      "queries": [
+        {
+          "operator": "or",
+          "filters": {
+            "caption": {
+              "includesExactly": {
+                "values": [
+                  "listening to documents while folding laundry",
+                  "reading documents when hands are occupied",
+                  "importing documents for text-to-speech",
+                  "text-to-speech voice language and pronunciation",
+                  "text-to-speech versus document translation"
+                ]
+              }
+            },
+            "transcript": {
+              "includesExactly": {
+                "values": [
+                  "listening to documents while folding laundry",
+                  "reading documents when hands are occupied",
+                  "importing documents for text-to-speech",
+                  "text-to-speech voice language and pronunciation",
+                  "text-to-speech versus document translation"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sort": "interactionsCount:desc",
+    "limit": 6,
+    "projection": "default"
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:14:57.560Z",
+  "elapsedMs": 430,
+  "response": []
+}

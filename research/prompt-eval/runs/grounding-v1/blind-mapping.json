@@ -1,0 +1,86 @@
+[
+  {
+    "id": "4e07c72e57fe",
+    "leftVariant": "A",
+    "scenario": "analysis-evidence-transfer",
+    "strategy": 1,
+    "split": "heldout"
+  },
+  {
+    "id": "32d4f7e36fbf",
+    "leftVariant": "B",
+    "scenario": "analysis-poisoned-plan",
+    "strategy": 0,
+    "split": "heldout"
+  },
+  {
+    "id": "f1564b9768f6",
+    "leftVariant": "B",
+    "scenario": "bill-reminders",
+    "strategy": 0,
+    "split": "screen"
+  },
+  {
+    "id": "3ef444424842",
+    "leftVariant": "A",
+    "scenario": "bill-reminders",
+    "strategy": 1,
+    "split": "screen"
+  },
+  {
+    "id": "f7dea7739a51",
+    "leftVariant": "A",
+    "scenario": "expense-tracking",
+    "strategy": 0,
+    "split": "screen"
+  },
+  {
+    "id": "87af25e43670",
+    "leftVariant": "A",
+    "scenario": "expense-tracking",
+    "strategy": 1,
+    "split": "screen"
+  },
+  {
+    "id": "40962c5bb839",
+    "leftVariant": "A",
+    "scenario": "explicit-autopay",
+    "strategy": 1,
+    "split": "heldout"
+  },
+  {
+    "id": "04b1d943d8c5",
+    "leftVariant": "B",
+    "scenario": "explicit-translation",
+    "strategy": 0,
+    "split": "screen"
+  },
+  {
+    "id": "20f4b81bdf19",
+    "leftVariant": "B",
+    "scenario": "explicit-translation",
+    "strategy": 1,
+    "split": "screen"
+  },
+  {
+    "id": "cf8096c48066",
+    "leftVariant": "B",
+    "scenario": "photo-edit",
+    "strategy": 0,
+    "split": "heldout"
+  },
+  {
+    "id": "8bf87cfadf4c",
+    "leftVariant": "A",
+    "scenario": "reader-language",
+    "strategy": 0,
+    "split": "screen"
+  },
+  {
+    "id": "041f0505f27a",
+    "leftVariant": "A",
+    "scenario": "reader-language",
+    "strategy": 1,
+    "split": "screen"
+  }
+]

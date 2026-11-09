@@ -1,0 +1,55 @@
+{
+  "id": "1c27c6766081ee996ecd6ec15e1655498b64a78f9edaf3e269b8b9d37da07076",
+  "scope": "reader-voice/new",
+  "kind": "search",
+  "request": {
+    "body": {
+      "operator": "and",
+      "filters": {
+        "format": {
+          "includes": [
+            "video"
+          ]
+        },
+        "viewsCount": {
+          "min": 5000
+        },
+        "interactionsCount": {
+          "min": 100
+        }
+      },
+      "queries": [
+        {
+          "operator": "or",
+          "filters": {
+            "caption": {
+              "includesExactly": {
+                "values": [
+                  "article reader",
+                  "listen to articles",
+                  "webpage read aloud"
+                ]
+              }
+            },
+            "transcript": {
+              "includesExactly": {
+                "values": [
+                  "article reader",
+                  "listen to articles",
+                  "webpage read aloud"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sort": "interactionsCount:desc",
+    "limit": 12,
+    "projection": "default"
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:15:44.311Z",
+  "response": [],
+  "elapsedMs": 219
+}

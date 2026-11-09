@@ -1,0 +1,944 @@
+{
+  "judge": "claude",
+  "config": {
+    "provider": "claude",
+    "model": "opus",
+    "effort": "high",
+    "timeoutMs": 480000
+  },
+  "unionHash": "787b82d1414d4c7fc0bb2b770b3793091428a43211ce787bfa6b5857ff7d2de9",
+  "labels": [
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_050f0ac09053c237546c",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Source agent books flights/reservations and checks availability; booking is unsupported",
+        "Agent proactively plans activities from schedule; automatic itinerary generation unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Transcript: saved places 'end up getting buried in my saved posts'; agent 'organized everything into categories, mapped out my saved places'. Also 'made the booking', which is unsupported."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_083eb9ae35b6da0efd2c",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "On-screen 'Directions' button could imply live navigation, which is unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Caption: 'Good thing I saved my shopping spots on GobiMaps... just open your saved places and get going'. Transcript: 'Go save this reel on Gobi Maps'. On-screen place card shows 'Save'."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_164607ddfc53132e7112",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Step-by-step walkthrough of a MapQuest surveillance-camera layer ('click the Layers button... turn that on'). It's a map app, but nothing about saving places or collections."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_20d4e87de65977233034",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Menu recommendations and 'Ask Gobi' AI Q&A aren't among the supported capabilities"
+      ],
+      "constraints": "fits",
+      "evidence": "Caption: 'Saw it on Instagram. Saved it on Gobi... No more \"where did I see this place?\"... find the place whenever you want — right in your Saved Places.'"
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_296e6717bf4b0f0d200e",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Celebrity cafe review gossip built from comment screenshots. No saving or organizing of places."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_4d279fe9d3d42d486d04",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "Reservations and ride booking are unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Uber Eats dine-out demo: 'discover, reserve, and even book your ride all in one place'. Only the app-walkthrough format transfers; saving and collections are absent."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_4fd74e4239b8437c6a7e",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "Reservations, ride booking, and cash-back rewards are unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Same Uber Eats dine-out script: 'discover, reserve, and even book your ride'. No saved-place collections shown."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_554fb25cf2b43ea45d47",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Portuguese Michelin restaurant review (Smoked Room, Madrid). No saving or map features."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_599b7767e06bf4615a5a",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "'What I ate in a day Newcastle' food vlog. Shares the broad topic of places but has no saving or recovery task."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_5bf8acce527c0c9e5820",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Musician day-in-life with an app tag (#wanderboat). On-screen shows a map and categories ('Discovery', 'Coffee Fix'), but no saving or collections are described."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_6883543e8d03016e1563",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "French brunch cafe review in Oran. A Google Maps pin appears briefly, but nothing is saved or organized."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_6ca15019c1718ca22481",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "unknown",
+      "unsupportedCapabilityIssues": [
+        "Caption focuses on route planning, which is close to unsupported itinerary generation"
+      ],
+      "constraints": "fits",
+      "evidence": "Transcript is just '.'. Caption (truncated) is about avoiding crowds in Madeira and connecting places into routes. Nothing about saving places."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_751f4b10f6c6a71b7ca9",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Privacy rant about location sharing. On-screen briefly shows Instagram's business map, but saving places isn't the subject."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_834d190e5bc77e05f994",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "On-screen skit: 'Let's fly to Utah for this coffee shop I found on instagram!' with a map zoom ('Springdale', '9,000 km'). Discovery-to-map device, but no saving."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_8a4d4e3465e03fc4f185",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Galaxy S27 Ultra leak news. Unrelated."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_8b6f9829930fcfe8818b",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [
+        "Matching users with other people who want to go isn't supported"
+      ],
+      "constraints": "fits",
+      "evidence": "Mostly a bar review. It closes with a CTA: 'you can save fives on the grid directly from this video, and we'll show you other people who want to go with you.'"
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_8c055d06b9cd7e432ecd",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Russian ad for NFC review cards for businesses on Yandex Maps. Unrelated."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_8cc4942660d182fee55d",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Tourism scenery of Hildesheim. 'Add Hildesheim to your saved places' is only a caption tag. This is the generic travel scenery the brief excludes."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_905443121801658018e2",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Cheap French house listing plus local bar reviews. Unrelated."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_a34b5613f6a32d87a816",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "The AI agent plans a whole day from saves; automatic itinerary generation unsupported",
+        "Calendar checking and show finding are unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Hook: 'If you have hundreds of saved places on Instagram, but never look at them again'. The payoff, though, is an AI-planned day: 'Ruby... planned the whole day'."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_a6860fd025e6908b419d",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Transcript: 'I made a list with all of my favorite coffee shops stores and restaurants... I also created a list on google map'. Caption: spots 'from TikTok or friend's recommendations'."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_b39d4a16cee1b30a94b7",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Top-10 martinis-with-fries list. CTA: 'I'll send you the list on the grid'. Mostly a restaurant profile; saving isn't demonstrated."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_b4092a647696eac059bf",
+      "proximity": "adjacent",
+      "useful": "no",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Core message is booking tours ('don't just save places... book'), which is unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Opens with 'I make a list of places I want to visit', but resolves with booking a tour on Naver Maps. That contradicts what this product does."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_c0d66e58a5bb574edc9c",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Vibe-coding demo reviving an events/deals app. No transcript, and nothing about saving places."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_c5723ec29f9c88d215cd",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Monument Valley restaurant view, i.e. generic scenic travel content. The brief excludes this."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_cf196365ac1d51535166",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Cologne spots guide ('speichert euch das Video ab'). On-screen shows a map with pins and 'Notiz hinzufügen', which suggests a saved map list, but evidence is partial."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_dda2d92fb00088f4d9f0",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Following friends and planning shopping days together aren't listed capabilities"
+      ],
+      "constraints": "fits",
+      "evidence": "Transcript: 'suddenly 15 places. Now I keep all these finds on my own Gobi map, so nothing gets lost in my Instagram saves.' Caption: 'create your own map... save all the places'."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_eb678117052700efa1f8",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [
+        "Member discounts and deals aren't supported",
+        "Matching with other users isn't supported"
+      ],
+      "constraints": "fits",
+      "evidence": "Wine bar profile ending in 'you can save 10 degrees on the grid by importing this video' plus deals and discounts. The save action appears only as a CTA."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_eb6ab5c2d6daf3cb1e2b",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [
+        "Showing 'people who want to go with you' isn't supported"
+      ],
+      "constraints": "fits",
+      "evidence": "Restaurant profile ending in 'you can save Syrah directly from this video by importing it on the grid'. The save action appears only as a CTA."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_fe215c0da09e763faf35",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Twosome Place chocolate cake review. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_0253bad49fc41f041522",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Retreat venue business financials (revenue/expenses). Not about group expense splitting."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_0498981466a00611db6a",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Podcast clip on money red flags. 'Shared expenses' comes up only in passing; no tracking of balances."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_0a862b54472e8bb45c3f",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Clothing store customer orders POV. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_107dec38472088dee00a",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Lost-bet ice cream in towels POV. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_15f04ea9c6cc0b5b17a5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Dog shelter fundraising news. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_1dcc3cb516e0c21010a4",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Comedy skit; 'shared expenses' is only a punchline. No expense tracking."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_1dd29af0dba61cfc7462",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Paros night-out travel vlog with prices mentioned. No splitting or balances."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_295421dae2413c399b8c",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Credit card points travel ad. Personal finance, not group balances."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_328a5a991f512b0dc455",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Japanese baby first-shoes story with a receipt. Not shared expenses."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_3ba4c066aea2bba3bfeb",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Vietnamese friends making a decorated cup. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_3f61f360d697b9b4699b",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Listicle of ChatGPT interactive UIs. Caption mentions 'A bill splitter', but the visible transcript doesn't show it (truncated)."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_4657d1bcf85fc5b6d535",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [
+        "Source is about accepting payments, i.e. payment processing, which is unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Comedy rant about accepting every payment method; Splitwise is only named in a list. No balance tracking."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_60eced62e7187d968cd5",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Running on-screen 'BUDGET: £12.00' → '£4.00' counter in a travel vlog. A transferable running-balance overlay, but it's a personal budget."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_6cfeb781b30690324a6b",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Transcript: 'why am I buying all the groceries lately? I simply pull my phone, check our splitwise balance... I'm actually behind.' On-screen: 'You owe Zika T. $214.10'."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_721d90fc711988874f24",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Mexico City restaurant review. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_7786c618f01888dad330",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Itemized personal groomsman costs with on-screen amounts ('$192.09', total '$1,574.26'). Itemized-cost reveal device, but no group balances."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_7860d71679d8a5346cd6",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [
+        "QR money transfer to a linked bank account is unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Digital piggy bank ad with a QR transfer to a bank account. Not shared expense tracking."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_7b651f053b413cd621c5",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "Booking, itinerary, and weather features are outside this product"
+      ],
+      "constraints": "fits",
+      "evidence": "Caption lists 'manage trip expenses effortlessly' among many features. The transcript is garbled filler, and on-screen shows trip planning, not expenses."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_7db4387cfa969d05670e",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Settling inside the app ('Pay me!', 'Slide to request') implies money transfer, which is unsupported",
+        "Splitting a card transaction implies bank/card linking"
+      ],
+      "constraints": "fits",
+      "evidence": "Skit hook 'how much I owe you ah?' is chaos resolved by creating a group 'JB Day Trip' and splitting to see 'who owes what'. The settlement step happens via in-app payment."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_97b5a85e93adacbe5de2",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Transcript (German): after a week in Ibiza 'habe gerade mal in unsere Splitwise-Gruppe geguckt und da steht, ich bekomme noch 4000 Euro'. A comedic hook built on a group balance."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_a6373d8817aae7d6dd7c",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Wise card spending contest for MAMA Awards trip. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_a638912d755057a2aa29",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Fukuoka family hotel promo. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_abc38a5d3915f138936a",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Thai Macao travel variety show. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_af504954fa724475dd59",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Marriage rules list arguing against tracking: 'We don't sit there calculating who paid last time, who owes whom'. Shared topic only, and the stance runs opposite to the product."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_ba2ebd3e7de4b3941d8f",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Duplicate ice-cream-in-towels POV. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_bef072f225f3964ec8d1",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Luxury Escapes fall hotel discount promo. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_cbb2629b98c362f3d421",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Podcast debate: 'How do you think costs should be split on vacation? ... if you're using Splitwise, then use it militantly.' Talking-head opinion, no product demonstration."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_d241964cbd12f08ef092",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Shanghai restaurant food review. Unrelated."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_e081eb337e5b9c5b837d",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Itemized solo trip cost breakdown with on-screen prices ('$89.50', 'GRAND TOTAL: $653.99'). A transferable itemized-expense reveal, but no group balances."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_f5c786e88c430b38ba1f",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Korean skit about secretly using sister's card to treat friends, with on-screen spend counters ('소비 금액 -175,800원'). Covers 'who paid' tension and amount overlays, but there's no splitting."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_00be04ba07e688ccb1da",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Paste-text tool demo: 'You just paste your text in and then it scans your writing'. A text-in tool walkthrough, but no audio or reading aloud."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_1153ce0121818e333b1b",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "iPhone unboxing ASMR. A language list appears on setup screen only."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_15030494cc3e6f8a5aa2",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Compilation of the people behind famous voices, including 'I'm the TikTok text-to-speech voice'. A voice-recognition hook; no document reading."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_2f520239089de2125e19",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Satirical skit about data leaks. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_3f9db2323724cea6fd23",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Armenian ChatGPT image-prompt trend. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_453a261b8ad2bda2b5df",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "'Bad Day' music video lyrics. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_591fea018935e1107ec3",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Eyeshadow tutorial. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_6ca634534863d5798f99",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [
+        "Creator paraphrases and summarizes the article; summarization is unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Creator narrates a Boston Globe article and reads quoted comments over on-screen text ('Let me show you some of the comments'). Human narration, not TTS."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_6d7f2fa67c2cf0075143",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "News report on organ selling in Afghanistan. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_726ff821b129d291d716",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Political commentary on not reading an article. Reading comes up only as a theme; no listening task."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_7ebad5beb0cfe2623209",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Build demo: 'a tiny printer that prints out text so you don't have to look at your phone'. Shows an alternative-output-for-text device, but it's print, not audio."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_873d7319c01556e23624",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Caption: 'The only Ai used is TTS (Text to speech)' for comedic NFL commentary. Shows a TTS voice over footage, but not document reading."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_89497c223fb7099815dc",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Anker earbuds ad about call clarity. The on-the-go listening overlap is lifestyle context only."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_991b0b84e1839b10485b",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Solo shopping vlog. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_9c3156905c984a30df0e",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "'The People Behind Famous Voices' compilation, including the TikTok TTS voice PSA. A voice-identity hook; no document reading."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_b18f0a3ca2dd9f94022e",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Brazilian WhatsApp voice-message prank. On-screen shows voice-note transcription (speech-to-text), the reverse of document TTS."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_b429ae07d7cf4fc21ed6",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "AI-generated prank video on mom. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_b78d6019175f92cd1aad",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "unknown",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Transcript and on-screen text are empty. Caption only says 'The only Ai used is TTS' for edited NFL audio, so evidence is sparse."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_bb8cd79ced769357ee68",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Japanese drama recap narration. No evidence of TTS or documents."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_bdd28ae2be8d8b692933",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "'The Women Behind Famous Voices' compilation including the TikTok TTS voice and Siri. A voice-identity hook only."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_c15a0307adeadd4a171d",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Hebrew GPT-6 hype video. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_c3be6b01d5e71d157780",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Duplicate political commentary about an unread article. No listening task."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_cd519dcb95371f2bb793",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [
+        "Spanish translated subtitles would imply translation, which is unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Chinese home cleaning vlog with Spanish subtitle translation. Unrelated to document TTS."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_d2a4437c36c9aba1ed76",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "88-year-old newspaper deliverer story. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_d4aa02c8d02723cb4c77",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "'The People Behind Famous AI voices' compilation (TikTok TTS, Siri, Alexa). A voice-identity hook; no documents."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_d8e99256b2dec4561ea8",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [
+        "Bilingual/translated books and language reconnection imply translation and language learning, which are unsupported"
+      ],
+      "constraints": "fits",
+      "evidence": "Arabic bookstore profile: 'livre qui est traduit en Amazirt', 'apprenants qui cherchent des livres bilingues'. Not TTS."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_ef22604f890f6001f6fb",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Xiaomi foldable phone news. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_f08e4eecd2f58acb2506",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Mac Studio unboxing. Unrelated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_fd9d94828dd91625e3dc",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Communication habits advice ('read aloud books for at least 45 minutes'). Here a human reads aloud for speech practice; there's no TTS listening."
+    }
+  ]
+}

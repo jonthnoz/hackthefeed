@@ -1,0 +1,27 @@
+{
+  "id": "photo-edit-0-B",
+  "scenario": "photo-edit",
+  "split": "heldout",
+  "variant": "B",
+  "strategy": 0,
+  "requestedModel": "gpt-6.1-sol",
+  "effectiveModel": "gpt-6.1-sol",
+  "effort": "medium",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "70fd7ef781b923621888f31ec2f5304b52ce826540f8e90effab1b6b032f96ab",
+  "output": {
+    "product": "Room Photo Editor",
+    "tagline": "Brighten, crop and color your room photo before sharing.",
+    "promise": "Adjust exposure, refine the crop and apply a color preset to improve a room photo before sharing it.",
+    "question": "Plausible situation to validate: a room photo looks dark or poorly framed. Which adjustment most helps users feel ready to share it? The intended users and sharing method remain unspecified.",
+    "visualQuery": "Room photo editing close-up: a dim interior photo brightens as exposure changes, crop edges tighten around the room, color presets change the image, then the edited photo is shared.",
+    "terms": [
+      "brighten dark room photo",
+      "crop distracting edges from interior photo",
+      "compare color presets on room photo",
+      "edit room photo before sharing"
+    ],
+    "alternativeVisualQuery": "Stylized app-screen animation: a dim room photo brightens with an exposure slider, a crop frame tightens around furniture, color preset thumbnails change the image, and the finished photo moves into a share panel."
+  },
+  "flags": []
+}

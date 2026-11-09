@@ -1,0 +1,12 @@
+{
+  "id": "6ec5fb53c8a0d91ed880206cae758c7baac86d1f54b49fec6a9f700963305e14",
+  "scope": "sokka-places/old",
+  "kind": "asset",
+  "request": {
+    "text": "Person scrolling through social bookmarks to find a restaurant post; proposed Sokka demo showing a named collection, selecting a saved restaurant, then opening that place on a map."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:12:56.708Z",
+  "response": "ast_zW8KBOuvZoTu5hkoRMmFUidyybrN",
+  "elapsedMs": 502
+}

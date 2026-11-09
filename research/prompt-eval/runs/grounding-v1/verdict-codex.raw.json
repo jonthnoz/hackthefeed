@@ -1,0 +1,416 @@
+{
+  "pairs": [
+    {
+      "id": "4e07c72e57fe",
+      "left": {
+        "fabricatedFeatures": 1,
+        "fabricatedClaims": [
+          "Unconfirmed in-app calendar: “Use an editorial animation of generic subscription rows gaining date labels, followed by a calendar view inside a standalone phone mockup.”"
+        ],
+        "faithfulness": 2,
+        "specificity": 4,
+        "uncertainty": 2,
+        "explicitCapabilities": 2,
+        "constraintViolations": [],
+        "evidence": [
+          "“Lead with the next renewal, then show its price and date.” The creative covers tracking, but omits the supported reminder and manual cancelled-status workflows.",
+          "“No images were attached.” Correctly distinguishes supplied descriptions from image inspection.",
+          "“bank linking and automatic cancellation do not transfer” correctly rejects the adjacent product’s capabilities."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“The plan’s renewal calendar is an unconfirmed interface assumption.” Correctly prevents source presentation from becoming an app feature.",
+          "“Question: What reminder timing and delivery method does the app support?” Identifies an actionable gap without specifying either.",
+          "“After cancelling with the provider, mark it cancelled here.” Preserves the supported manual status update.",
+          "“The supplied full-spec URL was not loaded or read” accurately limits project coverage."
+        ]
+      },
+      "preferred": "right",
+      "reason": "Right preserves the full supported workflow, rejects the outdated roadmap, and identifies the calendar assumption. Left’s detailed calendar presentation introduces an unconfirmed feature while omitting reminders and cancellation recordkeeping."
+    },
+    {
+      "id": "32d4f7e36fbf",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Language selection does not translate the text.” Correctly follows the clarification over the erroneous plan.",
+          "“Bring your book or document, in any format.” Preserves the explicitly stated format scope.",
+          "“a language selector labeled 'Pronunciation & voice'” makes the actual selector behavior concrete.",
+          "“no video files or attached images were available for inspection” accurately bounds the evidence."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 1,
+        "fabricatedClaims": [
+          "Document translation: “Show one document moving from unfamiliar text to a readable translation, then to audio playback.”"
+        ],
+        "faithfulness": 1,
+        "specificity": 2,
+        "uncertainty": 1,
+        "explicitCapabilities": 1,
+        "constraintViolations": [],
+        "evidence": [
+          "“choose a translation language” replaces the explicitly specified pronunciation-and-voice selector.",
+          "“Understand books in any language. Translate and listen.” Carries the unsupported translation premise into the final creative promise.",
+          "“No frame images were attached.” Its evidence-access qualification is accurate despite the product mismatch."
+        ]
+      },
+      "preferred": "left",
+      "reason": "Left corrects the plan and demonstrates the supported input–voice–play sequence. Right transfers another product’s translation functionality despite the explicit clarification; the question-shaped hook does not excuse the asserted translation scenes."
+    },
+    {
+      "id": "f1564b9768f6",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“add a due date, receive a notification and mark the bill paid” preserves all three stated actions.",
+          "“When does the notification arrive relative to the due date?” correctly leaves timing unresolved.",
+          "“Stylized animation of a paper bill beside a calendar” supplies a positive alternative scene without excluded concepts."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 1,
+        "fabricatedClaims": [
+          "Unconfirmed notification timing: “Get a notification when a bill is due, so you can remember to pay it.”"
+        ],
+        "faithfulness": 3,
+        "specificity": 4,
+        "uncertainty": 2,
+        "explicitCapabilities": 3,
+        "constraintViolations": [],
+        "evidence": [
+          "“whether a due-date notification addresses their main reason for forgetting payments” investigates usefulness but assumes the unspecified notification schedule.",
+          "“then marking the bill paid” preserves manual status tracking; the animated paid-state transition alone does not establish automatic payment.",
+          "“Stylized animation of household invoices beside a calendar” satisfies the alternative-query constraints."
+        ]
+      },
+      "preferred": "left",
+      "reason": "Left retains date entry, notification and manual status while explicitly checking timing. Right narrows the notification to when the bill is due without supporting timing information. Both alternative queries satisfy the creative constraints."
+    },
+    {
+      "id": "3ef444424842",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Add a bill’s due date and get a notification to remind you to pay.” Makes no exact timing or payment-execution claim.",
+          "“marks the bill paid after paying” clearly separates payment from recordkeeping.",
+          "“Stylized animation of a paper bill beside a calendar and a plain phone screen.” Provides a compliant positive alternative."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Add a bill’s due date, receive a notification, and mark the bill paid.” Preserves the full workflow.",
+          "“Timing and reduced late payments remain unconfirmed.” Correctly separates capabilities from unverified outcomes.",
+          "“a paper bill’s due date is highlighted” begins a concrete, compliant alternative sequence."
+        ]
+      },
+      "preferred": "tie",
+      "reason": "Both provide concrete date-entry, notification and manual-status scenes without inventing payment functionality. Right’s timing question is useful, but left already avoids a timing promise. People in the main retrieval queries are permitted."
+    },
+    {
+      "id": "f7dea7739a51",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Keep track of who owes what for shared trip costs until everything is settled.” Describes tracking rather than executing settlement.",
+          "“entering shared costs on a phone, discussing who owes whom, and marking an expense settled” concretely preserves the stated actions.",
+          "“Explore their current process and where confusion occurs.” Supplies an actionable research direction without asserting a validated problem."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Enter shared trip costs, see who owes what, and mark expenses settled” exactly preserves the workflow.",
+          "“How are shared costs allocated among the people on the trip?” identifies an unspecified implementation detail without choosing a formula.",
+          "“Proposed scenes for presenting the stated actions.” Correctly labels the scenes as proposals."
+        ]
+      },
+      "preferred": "tie",
+      "reason": "Both offer specific, faithful retrieval scenes and keep settlement as a recorded status. Neither claims transfers, connected banks or automatic settlement. Right’s allocation question adds useful detail without resolving a defect in left."
+    },
+    {
+      "id": "87af25e43670",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Enter shared trip costs, see who owes what, and mark expenses settled.” Preserves all explicit capabilities.",
+          "“two friends checking amounts owed; someone marking an expense settled” gives concrete scenes without depicting money movement.",
+          "“where does confusion arise before settling up?” asks a research question rather than asserting a proven pain point."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“distinguish outstanding expenses from those marked settled” accurately describes recordkeeping.",
+          "“A plausible problem is losing track of shared costs across receipts and messages. Validate that need” keeps the use situation hypothetical.",
+          "“clarify how each person's share is assigned” avoids assuming an allocation rule."
+        ]
+      },
+      "preferred": "tie",
+      "reason": "Both preserve entry, amounts owed and manual settlement status with useful trip-specific scenes. Right makes hypothesis boundaries more explicit, while left already avoids unsupported allocation or transfer claims."
+    },
+    {
+      "id": "40962c5bb839",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“A bill payment app with bank account linking and scheduled automatic payments.” Preserves the explicitly authorized automation.",
+          "“Authorize and schedule your bill payment” retains authorization rather than implying unauthorized execution.",
+          "“choosing a payment date on a phone and confirming authorization” provides concrete retrieval scenes."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Link a bank account, set a bill’s due date and authorize payment so the app pays the bill automatically.” Preserves every stated capability.",
+          "“Unresolved: which banks and bill types are supported?” usefully bounds compatibility.",
+          "“manual bill payment reminders” is contextual retrieval language, not a claim that this app only provides reminders."
+        ]
+      },
+      "preferred": "tie",
+      "reason": "Both correctly retain bank linking, authorization and automatic payment. These are explicit capabilities, not fabrications. Right’s fuller promise and compatibility question are useful, but left also preserves the complete product scope."
+    },
+    {
+      "id": "04b1d943d8c5",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Upload an English PDF, read its Spanish translation, and listen to it narrated in your chosen Spanish voice.” Preserves translation and voice choice.",
+          "“whether scanned PDFs are supported” identifies a meaningful format-coverage question without asserting OCR.",
+          "“Proposed demo” appropriately labels the upload–translation–voice–playback sequence."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“listen to its Spanish translation in the Spanish narration voice you choose” retains both explicit language capabilities.",
+          "“Test both experiences with their own documents” gives an actionable comparative research method.",
+          "“Spanish-speaking student” is a plausible proposed use situation, not an asserted audience finding."
+        ]
+      },
+      "preferred": "tie",
+      "reason": "Both concretely preserve English-PDF upload, Spanish translation, Spanish narration and voice selection. Left investigates scanned-file coverage; right proposes a useful comprehension test. Neither adds an unsupported capability."
+    },
+    {
+      "id": "20f4b81bdf19",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Upload an English PDF, translate it into Spanish, and listen to the Spanish translation using your chosen narration voice.” Preserves the exact supported sequence.",
+          "“Test this plausible need” correctly labels the proposed situation.",
+          "“Confirm whether scanned PDFs are supported.” Avoids asserting additional document-processing capability."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“listening to their Spanish translation in a voice you choose” retains translation and voice choice.",
+          "“does hearing the translation help them understand the content more easily than reading it?” frames comparative comprehension as a question.",
+          "“uploading the document; selecting a Spanish narration voice” makes the proposed use situation operationally specific."
+        ]
+      },
+      "preferred": "tie",
+      "reason": "Both retain the supported translation-and-narration workflow. Right’s “Understand English PDFs” positioning is supported benefit framing, without a guaranteed comprehension claim. Left’s scanned-PDF question is useful but does not expose a fabrication in right."
+    },
+    {
+      "id": "cf8096c48066",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Adjust exposure, refine the crop and apply a color preset” precisely preserves the editing tools.",
+          "“Plausible situation to validate” separates a dark-photo scenario from validated research.",
+          "“a dim room photo brightens with an exposure slider” keeps the improvement within the image and provides a compliant alternative scene."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Make room photos brighter, better framed and more cohesive in color before sharing.” Describes supported photo edits, not physical room improvement.",
+          "“exposure increases, distracting edges are cropped, and color presets change the room’s tones” is explicitly situated within photo editing.",
+          "“a generic photo editor displaying a dim living room image” makes the alternative scene’s image context clear."
+        ]
+      },
+      "preferred": "tie",
+      "reason": "Both provide specific exposure, crop and preset scenes while keeping changes confined to the photo. Both alternative queries satisfy the constraints. Neither implies renovation, furniture replacement or guaranteed physical-room improvement."
+    },
+    {
+      "id": "8bf87cfadf4c",
+      "left": {
+        "fabricatedFeatures": 1,
+        "fabricatedClaims": [
+          "Unconfirmed translation functionality contaminates retrieval: “document translation and read aloud”"
+        ],
+        "faithfulness": 3,
+        "specificity": 3,
+        "uncertainty": 2,
+        "explicitCapabilities": 3,
+        "constraintViolations": [],
+        "evidence": [
+          "“Do users need documents translated into another language, or read aloud in their original language?” correctly identifies the ambiguity, but does not contain it within the question.",
+          "“Listen to your documents in the language you select.” Leaves the creative promise open to the unresolved translation interpretation.",
+          "“importing a document, selecting a language, and starting playback” preserves a useful core sequence, although unrestricted format support is not explicitly retained."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Input a document in any format, select a language, and listen to its content.” Preserves the brief without choosing a translation interpretation.",
+          "“Does language selection translate the content or choose the reading voice’s language?” isolates the unresolved capability.",
+          "“document text to speech language selection” supplies useful retrieval without asserting translation."
+        ]
+      },
+      "preferred": "right",
+      "reason": "Right preserves any-format input and keeps translation confined to a clarification question. Left asks the right question but then includes an unconfirmed translation capability in retrieval."
+    },
+    {
+      "id": "041f0505f27a",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 3,
+        "specificity": 3,
+        "uncertainty": 2,
+        "explicitCapabilities": 3,
+        "constraintViolations": [],
+        "evidence": [
+          "“Listen to your documents in your chosen language.” Repeats the brief’s ambiguity; it does not independently establish translation.",
+          "“When does reading long documents become inconvenient” explores a plausible situation but leaves the central language-selector ambiguity unresolved.",
+          "“person listening through earbuds while walking or folding laundry” is concrete use-context retrieval, though it omits the input and selector steps.",
+          "“PDF audio reader” and “Word document text to speech” are useful examples, but do not explicitly preserve the stated any-format scope."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 3,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "“Stated capability: input a document in any format, select a language, and listen to its content.” Preserves the complete brief.",
+          "“Does selecting a language translate the content or set the narration voice?” directly addresses the consequential ambiguity.",
+          "“Is ‘any doc format’ literal, or is there a defined launch format list?” seeks verification while retaining the stated scope.",
+          "“folds laundry while listening” provides a concrete situation, but the query still lacks the core input–selection–playback demonstration."
+        ]
+      },
+      "preferred": "right",
+      "reason": "Right preserves any-format input and explicitly separates translation from voice selection. Left does not assert translation outright, but leaves that ambiguity unresolved and omits the full format promise. Both would benefit from retrieval scenes showing the actual input and language-selection workflow."
+    }
+  ],
+  "limitations": [
+    "Judgments use only the supplied text. No linked specifications, videos or images were accessed; frame descriptions are textual evidence, not image inspection.",
+    "Repeated manifestations of one invented capability are counted once. Main planning queries may retain unrestricted domain imagery; creative constraints are applied to alternative queries and all analysis-stage creative directions."
+  ]
+}

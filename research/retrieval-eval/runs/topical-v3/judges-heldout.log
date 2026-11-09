@@ -1,0 +1,10 @@
+{"kind":"judge","scope":"heldout/initial/codex","status":"success","elapsedMs":267034,"counts":{"search":33,"asset":16,"full":3,"plan":14,"qualification":10,"judge":6}}
+ZodError: [
+  {
+    "code": "custom",
+    "message": "Missing opaque ID b_90d20de70751575aad0a/s_c6ca4b8266c23129c53e",
+    "path": []
+  }
+]
+
+Bun v1.3.3 (macOS arm64)

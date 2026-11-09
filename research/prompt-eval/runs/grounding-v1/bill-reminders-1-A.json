@@ -1,0 +1,28 @@
+{
+  "id": "bill-reminders-1-A",
+  "scenario": "bill-reminders",
+  "split": "screen",
+  "variant": "A",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "dd79bfad4096cf1e548ea91f42e193176bddd3d4f7750c49bcabc7892ef9cbdf",
+  "output": {
+    "product": "Bill reminder app",
+    "tagline": "Remember when bills are due.",
+    "promise": "Add a bill’s due date and get a notification to remind you to pay.",
+    "question": "How do people keep track of bill due dates, and what causes them to forget a payment?",
+    "visualQuery": "A person sorts household bills at a kitchen table, enters a due date on a phone, receives a bill reminder notification, and marks the bill paid after paying.",
+    "terms": [
+      "bill due date reminder",
+      "bill payment notification",
+      "household bill tracking",
+      "unpaid bill tracking",
+      "mark bill as paid"
+    ],
+    "alternativeVisualQuery": "Stylized animation of a paper bill beside a calendar and a plain phone screen. A due date is entered, a bill reminder notification appears, and the bill status changes to Paid with a checkmark."
+  },
+  "flags": []
+}

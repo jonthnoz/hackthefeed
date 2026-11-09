@@ -1,0 +1,10 @@
+decision	reason	evidence	result
+Freeze original sources	Keep faithful legacy despite concurrent production edits	frozen/source-hashes.json	Complete before main edited prompts
+Separate presentation from retrieval	User clarified first means first final approach	User clarification in delegated task	No direct-at-top retrieval success condition
+Raise asset ceiling to 16	Two constrained old/new plans require four extra assets	Coordinator explicit authorization	Protocol corrected before live work
+Common light labels	Avoid repeated judge calls for ablations	Fixed scenario union and private mappings	Each unique source labeled once per judge
+Sequential architecture pass	No additional model or agent calls authorized	Available runtime tools and explicit no-live gate	Follow production export contract directly
+Preserve failed planner attempt	Restricted-shell CLI failed before inference	calls/92f6090b5f5f60aa33f67b3ed3d9c9d6dab0650ec16c0ce4d67f35eb63f4b38b.json	Coordinator authorized ceiling13 and one exact explicit retry
+Archive pre-search candidate revision	Independent production review fixes landed before successful inference	manifest-before-review-fixes.json and sources-before-review-fixes	Final retrieval hash f1a0580f frozen; main separately amended assessment-only research context
+Derive from lane payloads	Query trace completion order differs from production encounter order	Production discoverCandidates returns visual/text/targeted while queries append on completion	Offline derive preserves prior arms if changed and refuses new provider calls
+Keep reader weakness visible	Selected pronunciation compilations lack document import or sustained listening	reader-voice.json and manual-screen-audit.md	Unblinded observation only; no tuning and no quality scores

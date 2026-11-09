@@ -1,0 +1,12 @@
+{
+  "id": "ef95c855a263a0ff00f41c0589ccbc297a8dd819d4bb3ebc86b86774ee92d8e1",
+  "scope": "splitly-expenses/new",
+  "kind": "asset",
+  "request": {
+    "text": "Shared trip expense demonstration: enter a hotel cost and a dinner cost paid by different group members, show who owes whom, then manually mark one debt settled and show its settled status."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:16:25.322Z",
+  "response": "ast_yFdzheBmYelFEdbKrk47urF7hRBd",
+  "elapsedMs": 222
+}

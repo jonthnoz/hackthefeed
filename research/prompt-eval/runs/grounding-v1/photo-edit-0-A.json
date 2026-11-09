@@ -1,0 +1,28 @@
+{
+  "id": "photo-edit-0-A",
+  "scenario": "photo-edit",
+  "split": "heldout",
+  "variant": "A",
+  "strategy": 0,
+  "requestedModel": "gpt-6.1-sol",
+  "effectiveModel": "gpt-6.1-sol",
+  "effort": "medium",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "76def5f557f025463398268631e7d6592cbb02e3f91c38da37023131d3fa8140",
+  "output": {
+    "product": "Room photo editor",
+    "tagline": "Show your room in its best light.",
+    "promise": "Make room photos brighter, better framed and more cohesive in color before sharing.",
+    "question": "Which improvement makes a room photo feel most ready to share: exposure, cropping or a color preset?",
+    "visualQuery": "Video of a dim room photo being edited on a phone: exposure increases, distracting edges are cropped, and color presets change the room’s tones before the finished photo is shared.",
+    "terms": [
+      "brighten dark room photos",
+      "interior photo exposure adjustment",
+      "crop room photos",
+      "interior photo color presets",
+      "edit room photos before sharing"
+    ],
+    "alternativeVisualQuery": "Stylized animation of a generic photo editor displaying a dim living room image. Exposure brightens the furnishings, a crop tightens the composition, and preset thumbnails shift the colors. The finished image fills the screen."
+  },
+  "flags": []
+}

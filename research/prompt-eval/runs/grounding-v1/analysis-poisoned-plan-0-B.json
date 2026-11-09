@@ -1,0 +1,101 @@
+{
+  "id": "analysis-poisoned-plan-0-B",
+  "scenario": "analysis-poisoned-plan",
+  "split": "heldout",
+  "variant": "B",
+  "strategy": 0,
+  "requestedModel": "gpt-6.1-sol",
+  "effectiveModel": "gpt-6.1-sol",
+  "effort": "medium",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "2c386d049423b4c356e54b857a8e6b7cc9a7ba62a2684251f2731f059c8f0245",
+  "output": {
+    "overview": "Position the app as a book and document reader: input a document in any format, select a language for text-to-speech pronunciation and voice, then listen to the original content. Language selection does not translate the text.",
+    "searchNotes": [
+      "The product plan incorrectly adds translation. Remove its translator positioning, translated-audiobook promise and foreign-text transformation concept.",
+      "Only one supplied reference directly matches the brief. Coverage consists of transcripts and frame descriptions; no video files or attached images were available for inspection.",
+      "The supplied frames are indexed segments, not verified openings. Whole-video compliance with the creative constraints is unresolved.",
+      "Proposed retrieval phrases: 'import document choose reading voice play' and 'document reader language pronunciation text to speech'.",
+      "Unresolved implementation question: How will the requested support for any document format be delivered and verified?",
+      "All proposed visuals use original, logo-free interface graphics with no humans, hands or body parts. These are presentation concepts, not evidence of an existing interface."
+    ],
+    "qualifications": [
+      {
+        "id": "read-1",
+        "relevance": "direct",
+        "reason": "The transcript describes the same core sequence: import a document, choose a reading voice and play. It does not establish this app's format coverage or language-selection behavior.",
+        "format": "",
+        "hook": "Proposed adaptation: “Your document. Choose a voice. Press play.”",
+        "title": "Listen to documents"
+      },
+      {
+        "id": "translate-1",
+        "relevance": "irrelevant",
+        "reason": "Its central need is translating a document before listening. That conflicts with the brief's explicit pronunciation-and-voice selector. Shared playback terminology does not make its translation promise transferable.",
+        "format": "",
+        "hook": "Reject the translation-led hook; do not adapt its language-conversion promise.",
+        "title": "Translate and listen"
+      }
+    ],
+    "angles": [
+      {
+        "id": "angle-1",
+        "title": "Document to Play",
+        "label": "Core action sequence",
+        "description": "Show a document entering the reader, a language being selected for pronunciation and voice, and playback starting.",
+        "whyItFits": "Makes the stated workflow concrete with minimal explanation. Wanting to listen instead of read is a plausible user situation, not evidence of an additional audience or outcome.",
+        "evidence": "read-1's transcript says, “Import a document, choose a reading voice and press play.” Its supplied frame description lists a document library and playback controls.",
+        "referenceIds": [
+          "read-1"
+        ],
+        "suggestedHook": "Your document. Your reading voice. Press play.",
+        "visualDirection": "Use a proposed, logo-free reader interface with an animated document card, a language selector labeled 'Pronunciation & voice', and a play control. Keep original text unchanged. No humans, hands or body parts."
+      },
+      {
+        "id": "angle-2",
+        "title": "Choose How It Sounds",
+        "label": "Language-selector clarity",
+        "description": "Keep a short passage visible while highlighting language selection, then start narration. Explain that the selection controls pronunciation and voice.",
+        "whyItFits": "Gives the brief's explicit distinction a clear visual treatment without implying translation or adding a separate workflow.",
+        "evidence": "read-1 explicitly mentions choosing a reading voice before playback. The language-selector meaning comes from the brief; it is not demonstrated by the supplied reference.",
+        "referenceIds": [
+          "read-1"
+        ],
+        "suggestedHook": "Choose the pronunciation and voice. Hear your original text.",
+        "visualDirection": "Use logo-free motion graphics: a fixed passage beside a proposed language selector, followed by a playback indicator. Never replace the passage with translated text. No humans, hands or body parts."
+      }
+    ],
+    "storyboard": {
+      "title": "Choose a Voice, Start Listening",
+      "premise": "A 24-second interface-led demonstration of document input, language selection and listening to original content.",
+      "hook": "Turn your document into something you can listen to.",
+      "scenes": [
+        {
+          "time": "0–5s",
+          "visual": "An unbranded document card moves into a proposed reader interface through graphic animation. On-screen text: 'Bring your document.' No humans or body parts.",
+          "voiceover": "Bring your book or document, in any format."
+        },
+        {
+          "time": "5–11s",
+          "visual": "A logo-free language selector opens beside an unchanged passage. Label: 'Language for pronunciation & voice'. No humans or body parts.",
+          "voiceover": "Select a language for the reading voice and pronunciation."
+        },
+        {
+          "time": "11–17s",
+          "visual": "The original passage remains fixed. A simple caption reads 'Original text. Selected voice.' All graphics are unbranded; no humans or body parts.",
+          "voiceover": "Your text stays in its original language. The selection doesn't translate it."
+        },
+        {
+          "time": "17–24s",
+          "visual": "A play control activates through animation and a playback indicator advances. End card: 'Input. Select. Listen.' Logo-free, with no humans or body parts.",
+          "voiceover": "Press play and listen to your content."
+        }
+      ],
+      "callToAction": "Input a document, select the reading language and press play.",
+      "sourceIds": [
+        "read-1"
+      ]
+    }
+  },
+  "flags": []
+}

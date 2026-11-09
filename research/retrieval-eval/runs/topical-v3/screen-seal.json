@@ -1,0 +1,23 @@
+{
+  "production": {
+    "server/prompts.ts": "be96d3a55f59aee6b53c9894d2089473eb64487c268fabbe3630cdfd3e4c8d48",
+    "server/retrieval.ts": "61fb7be3076f21e0c70b5bd33011c1114e08a2e27b97078b9a8b33c5e036b6ac",
+    "server/research.ts": "2d721513c73bf8a75fbd6c50f2b511dc851344b937c6cc70eb028311f1c76a3d",
+    "server/oriane.ts": "0eedcb5c51648ad33f9062f98bd87a9392195d7ee1f83b0a20e5f6c99420b080",
+    "shared/schema.ts": "587c5f061d0802605c5eae687a760beba6fce6e5f385f9b211f2930cbf7e4f89",
+    "server/ai/codex.ts": "fa710f63a55522242cbd9fa29b725b6e4eab99942e25e88c53931307161eb60d",
+    "server/ai/claude.ts": "df4b1a948d721229e245b72a93f7503744e29939c22531aff501bd93e0edba72",
+    "server/ai/process.ts": "2c82c9ef5676fe103c5477c446d64746f3a618da506a74282a3b540918f8b1c7"
+  },
+  "note": "Both independent judges meet screening threshold. Freeze short task queries, lightweight qualification, six-source enrichment bound, deduplication before lane reservations, and exactly one conditional context or nearby recovery. Universal context filtering rejected on screening. Held-out outputs have not been opened; no further tuning is allowed for this run.",
+  "sealedAt": "2026-11-09T03:33:09.441Z",
+  "screenHashes": {
+    "research/retrieval-eval/runs/topical-v3/sokka-places.json": "b8d5110c87d34ba80ded208b14a07b3582a5f0f5e725809de9b0faabd7a2cd94",
+    "research/retrieval-eval/runs/topical-v3/splitly-expenses.json": "6852778aed3943aa97e2f3c3c7c301803aa607a134b4ca5d7705c68aeb2c1a8a",
+    "research/retrieval-eval/runs/topical-v3/screen-complete.json": "2f3501e1f6800ddaa2963b0d38a4f01b77f9383e5310543efa62179335df91fa",
+    "research/retrieval-eval/runs/topical-v3/reader-voice.json": "b3aeb8ff58a4d1f2055bba6470140c150b61a8a40bd21d9c5e1eefd7445fc71c",
+    "research/retrieval-eval/runs/topical-v3/screen-judge-inheritance.json": "fd8cb59d962e683e0337af33f2b6861a456c3208d0262d532effacef4fc6ecc5",
+    "research/retrieval-eval/runs/topical-v3/manifest.json": "e6b2ea21ca3a01c0a79e419dff2c1621879fb88224a8689f490b697f287411b3",
+    "research/retrieval-eval/runs/topical-v3/context-anchors.json": "e55e5e23524a40dce6b56c28179f8854078b4a15d38689339cd4a495095a4919"
+  }
+}

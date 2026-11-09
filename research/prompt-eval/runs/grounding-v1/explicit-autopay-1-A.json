@@ -1,0 +1,28 @@
+{
+  "id": "explicit-autopay-1-A",
+  "scenario": "explicit-autopay",
+  "split": "heldout",
+  "variant": "A",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "beeb7c0afa087472847dc85cac193938421191e5c3b9f9e1602b6dc3249f7e72",
+  "output": {
+    "product": "A bill payment app with bank account linking and scheduled automatic payments.",
+    "tagline": "Set the due date. Let the payment happen.",
+    "promise": "Authorize and schedule your bill payment so you don’t have to remember to pay it manually.",
+    "question": "When people miss bill due dates, is remembering to make the payment the main problem, and would scheduling an authorized payment solve it?",
+    "visualQuery": "Person checking a bill’s due date, looking between a calendar and banking screen, then choosing a payment date on a phone and confirming authorization.",
+    "terms": [
+      "automatic bill payments",
+      "scheduled bill payments",
+      "bank account bill pay",
+      "forgotten bill due dates",
+      "bill payment authorization",
+      "pay bills on due date"
+    ]
+  },
+  "flags": []
+}

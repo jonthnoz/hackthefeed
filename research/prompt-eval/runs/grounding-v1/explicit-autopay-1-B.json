@@ -1,0 +1,27 @@
+{
+  "id": "explicit-autopay-1-B",
+  "scenario": "explicit-autopay",
+  "split": "heldout",
+  "variant": "B",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "949ce6816319d227dc8acb839554af1f0761bf87c5b10052eed2d227332496c5",
+  "output": {
+    "product": "Scheduled automatic bill payments",
+    "tagline": "Set the date. Authorize payment. Let the app pay.",
+    "promise": "Link a bank account, set a bill’s due date and authorize payment so the app pays the bill automatically.",
+    "question": "Investigate this plausible need: remembering to initiate bill payments while busy. Does scheduling payment address that burden? Unresolved: which banks and bill types are supported?",
+    "visualQuery": "Proposed scenes: person checks a paper bill against a calendar, links a bank account on a phone, selects the bill’s due date and authorizes payment; calendar advances to the scheduled date.",
+    "terms": [
+      "remembering to pay bills by the due date",
+      "manual bill payment reminders",
+      "bank account linking for bill payments",
+      "authorize a scheduled bill payment",
+      "automatic bill payment on a selected date"
+    ]
+  },
+  "flags": []
+}

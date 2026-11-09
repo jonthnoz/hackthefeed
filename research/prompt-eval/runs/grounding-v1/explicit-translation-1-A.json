@@ -1,0 +1,27 @@
+{
+  "id": "explicit-translation-1-A",
+  "scenario": "explicit-translation",
+  "split": "screen",
+  "variant": "A",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "c845a2b7e374a86e0087037a8527aca304c6994fa99ffd717b481ab77790b22c",
+  "output": {
+    "product": "English PDF translator with Spanish narration",
+    "tagline": "Your English PDFs, read aloud in Spanish.",
+    "promise": "Understand English PDFs by listening to their Spanish translation in a voice you choose.",
+    "question": "When Spanish-speaking readers struggle with English PDFs, does hearing the translation help them understand the content more easily than reading it?",
+    "visualQuery": "Person struggling to read an English PDF on a laptop; uploading the document; selecting a Spanish narration voice; putting on headphones and listening while taking notes.",
+    "terms": [
+      "English PDF to Spanish translation",
+      "read English PDFs aloud in Spanish",
+      "Spanish text to speech for PDFs",
+      "listen to translated documents",
+      "Spanish narration voice selection"
+    ]
+  },
+  "flags": []
+}

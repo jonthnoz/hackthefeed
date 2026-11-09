@@ -1,0 +1,27 @@
+{
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "hashes": {
+    "server/prompts.ts": "cfd5498df64020e0c6eee9111d9bfa711e24192b4e7eb2bc087a3f1bc0cbbf29",
+    "research/prompt-eval/baseline.ts": "92b875978f1e63ab20f1890ea90540daa0164fdf798d0c7701126a4e57ad0b2f",
+    "research/prompt-eval/scenarios.ts": "1bb4a2e4091390a29b838da22ed7ee848650ac9d7af9bd010ee7cc9f45317a24",
+    "research/prompt-eval/protocol.md": "a4117655a9c737bc6674ea4bd049945bc796a678c5c717f1c7825152a823b33d"
+  },
+  "strategies": [
+    {
+      "provider": "codex",
+      "model": "gpt-6.1-sol",
+      "effort": "medium",
+      "timeoutMs": 240000
+    },
+    {
+      "provider": "codex",
+      "model": "gpt-6-astra",
+      "effort": "high",
+      "timeoutMs": 240000
+    }
+  ],
+  "seed": "grounding-2026-11-09",
+  "generationLimit": 24,
+  "judgeLimit": 4,
+  "createdAt": "2026-11-09T02:14:24.048Z"
+}

@@ -1,0 +1,67 @@
+import { z } from 'zod';
+
+export const constraintsSchema = z.object({ noRealPeople: z.boolean().default(false), exclude: z.string().max(1000).default('') });
+export const constraintAssessmentSchema = z.object({ status: z.enum(['fits', 'excluded', 'uncertain']), reason: z.string() });
+export const projectSourceSchema = z.object({ url: z.string(), status: z.enum(['loaded', 'failed']), title: z.string(), excerpt: z.string(), reason: z.string() });
+
+export const frameSchema = z.object({ url: z.string(), seconds: z.number(), text: z.string() });
+export const referenceSchema = z.object({
+  id: z.string(), title: z.string(), creator: z.string(), platform: z.string(),
+  url: z.string(), thumbnail: z.string(), publishedAt: z.string(),
+  views: z.number().nullable(), likes: z.number().nullable(), comments: z.number().nullable(), shares: z.number().nullable(),
+  interactions: z.number().nullable(), engagementRate: z.number().nullable(),
+  duration: z.number().nullable(), caption: z.string(), transcript: z.string(),
+  frames: z.array(frameSchema),
+  relevance: z.enum(['direct', 'adjacent', 'mechanism']),
+  relevanceReason: z.string(), format: z.string(), hook: z.string(),
+});
+export const angleSchema = z.object({
+  id: z.string(), title: z.string(), label: z.string(), description: z.string(),
+  whyItFits: z.string(), evidence: z.string(), referenceIds: z.array(z.string()),
+  suggestedHook: z.string(), visualDirection: z.string(),
+});
+export const storyboardSchema = z.object({
+  title: z.string(), premise: z.string(), hook: z.string(),
+  scenes: z.array(z.object({ time: z.string(), visual: z.string(), voiceover: z.string() })),
+  callToAction: z.string(), sourceIds: z.array(z.string()),
+});
+export const studySchema = z.object({
+  id: z.string(), product: z.string(), tagline: z.string(), brief: z.string(),
+  promise: z.string(), question: z.string(), createdAt: z.string(),
+  origin: z.enum(['curated', 'live']), language: z.string(),
+  overview: z.string(), searchNotes: z.array(z.string()),
+  references: z.array(referenceSchema), angles: z.array(angleSchema),
+  storyboard: storyboardSchema,
+  constraints: constraintsSchema.default({ noRealPeople: false, exclude: '' }),
+  excludedReferences: z.array(referenceSchema).default([]),
+  uncertainReferences: z.array(referenceSchema).default([]),
+  constraintAssessments: z.record(z.string(), constraintAssessmentSchema).default({}),
+  resources: z.array(z.url()).max(5).default([]),
+  projectSources: z.array(projectSourceSchema).default([]),
+});
+export const researchInputSchema = z.object({ brief: z.string().min(12).max(5000), focus: z.string().max(1000).default(''), constraints: constraintsSchema.default({ noRealPeople: false, exclude: '' }), resources: z.array(z.url().refine(value => ['http:', 'https:'].includes(new URL(value).protocol), 'Use HTTP or HTTPS links.')).max(5).default([]) });
+export const historyEntrySchema = studySchema.pick({ id: true, product: true, tagline: true, brief: true, createdAt: true, constraints: true }).extend({ referenceCount: z.number(), angleCount: z.number() });
+export type Constraints = z.infer<typeof constraintsSchema>;
+export type HistoryEntry = z.infer<typeof historyEntrySchema>;
+export const planSchema = z.object({
+  product: z.string(), tagline: z.string(), promise: z.string(), question: z.string(),
+  visualQuery: z.string().max(300), terms: z.array(z.string()).min(2).max(8),
+});
+export const analysisSchema = z.object({
+  overview: z.string(), searchNotes: z.array(z.string()),
+  qualifications: z.array(z.object({
+    id: z.string(), relevance: z.enum(['direct', 'adjacent', 'mechanism', 'irrelevant']),
+    reason: z.string(), format: z.string(), hook: z.string(), title: z.string(),
+  })),
+  angles: z.array(angleSchema), storyboard: storyboardSchema,
+});
+export const jobSchema = z.discriminatedUnion('status', [
+  z.object({ id: z.string(), status: z.literal('running'), stage: z.string(), detail: z.string() }),
+  z.object({ id: z.string(), status: z.literal('complete'), studyId: z.string() }),
+  z.object({ id: z.string(), status: z.literal('error'), message: z.string() }),
+]);
+export type Reference = z.infer<typeof referenceSchema>;
+export type Angle = z.infer<typeof angleSchema>;
+export type Study = z.infer<typeof studySchema>;
+export type ResearchInput = z.infer<typeof researchInputSchema>;
+export type Job = z.infer<typeof jobSchema>;

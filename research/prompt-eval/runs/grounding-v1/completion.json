@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "generations": 24,
+  "validJudgeVerdicts": 2,
+  "judgeAttempts": 3,
+  "failedJudgeAttempts": 1,
+  "productionPromptHash": "db6f8b10db6dfba6f33c08366de89a4389b29e9fb8a98781eb885121efe6422c",
+  "runnerHash": "3af80b988a1628debac667a8096c78107612a743057918421913bc828aea1987",
+  "scope": "Frozen grounding comparison completed; production hands-only policy changed afterward and has deterministic coverage; no live retrieval measured."
+}

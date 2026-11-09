@@ -1,0 +1,61 @@
+{
+  "id": "3528160bb014f139e9ba57bf4cf2a376c1b333fa18eca0ca7e4e134a176d93b6",
+  "scope": "sokka-places/old",
+  "kind": "search",
+  "request": {
+    "body": {
+      "operator": "and",
+      "filters": {
+        "format": {
+          "includes": [
+            "video"
+          ]
+        },
+        "viewsCount": {
+          "min": 5000
+        },
+        "interactionsCount": {
+          "min": 100
+        }
+      },
+      "queries": [
+        {
+          "operator": "or",
+          "filters": {
+            "caption": {
+              "includesExactly": {
+                "values": [
+                  "finding restaurant recommendations buried in social bookmarks",
+                  "forgetting which social post mentioned a place",
+                  "organizing saved places into named collections",
+                  "choosing where to go from saved places",
+                  "manually adding a place to a collection",
+                  "opening a saved place on a map"
+                ]
+              }
+            },
+            "transcript": {
+              "includesExactly": {
+                "values": [
+                  "finding restaurant recommendations buried in social bookmarks",
+                  "forgetting which social post mentioned a place",
+                  "organizing saved places into named collections",
+                  "choosing where to go from saved places",
+                  "manually adding a place to a collection",
+                  "opening a saved place on a map"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sort": "interactionsCount:desc",
+    "limit": 6,
+    "projection": "default"
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:12:57.214Z",
+  "elapsedMs": 408,
+  "response": []
+}

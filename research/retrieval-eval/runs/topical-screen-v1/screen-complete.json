@@ -1,0 +1,15 @@
+{
+  "scenarios": [
+    "sokka-places",
+    "reader-voice",
+    "splitly-expenses"
+  ],
+  "counts": {
+    "search": 13,
+    "asset": 6,
+    "full": 0,
+    "plan": 7,
+    "qualification": 3,
+    "judge": 0
+  }
+}

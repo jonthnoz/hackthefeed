@@ -1,0 +1,27 @@
+{
+  "id": "expense-tracking-1-A",
+  "scenario": "expense-tracking",
+  "split": "screen",
+  "variant": "A",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "e845fceef6d09d5afd461a76f89852dbaef816d1cb17704f2d7d5cbc952cf4b6",
+  "output": {
+    "product": "Shared trip expense tracker",
+    "tagline": "Know who owes what.",
+    "promise": "Enter shared trip costs, see who owes what, and mark expenses settled.",
+    "question": "How do friends track who owes what after shared trip purchases, and where does confusion arise before settling up?",
+    "visualQuery": "Friends reviewing dinner receipts at a restaurant table; a traveler entering a shared cost on a phone; two friends checking amounts owed; someone marking an expense settled.",
+    "terms": [
+      "shared trip expense tracker",
+      "group trip cost splitting",
+      "track who owes whom",
+      "shared expense balances",
+      "mark expenses settled"
+    ]
+  },
+  "flags": []
+}

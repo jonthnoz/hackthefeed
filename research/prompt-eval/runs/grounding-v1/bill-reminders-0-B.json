@@ -1,0 +1,28 @@
+{
+  "id": "bill-reminders-0-B",
+  "scenario": "bill-reminders",
+  "split": "screen",
+  "variant": "B",
+  "strategy": 0,
+  "requestedModel": "gpt-6.1-sol",
+  "effectiveModel": "gpt-6.1-sol",
+  "effort": "medium",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "6d90fe79537f3e3a716184ce4040d61ffddcf204815e3c511e542a4bfe30af8d",
+  "output": {
+    "product": "A bill reminder app: add a due date, receive a notification and mark the bill paid.",
+    "tagline": "Remember what’s due. Track what’s paid.",
+    "promise": "When bills have different due dates, reminders and a paid status help you keep track of what still needs attention.",
+    "question": "When does the notification arrive relative to the due date? Timing is unspecified; research should avoid promising advance notice.",
+    "visualQuery": "Person checking paper bills against a calendar, entering a bill due date on a phone, receiving a bill notification, then marking the bill paid on screen.",
+    "terms": [
+      "remembering bill due dates",
+      "bill due date notification",
+      "marking a bill paid",
+      "tracking paid and unpaid bills",
+      "checking bills against a calendar"
+    ],
+    "alternativeVisualQuery": "Stylized animation of a paper bill beside a calendar, transitioning to a generic phone screen where a due date is entered, a bill reminder appears, and the bill status changes to Paid."
+  },
+  "flags": []
+}

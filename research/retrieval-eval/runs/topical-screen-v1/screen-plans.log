@@ -1,0 +1,15 @@
+Starting screen sokka-places
+28 |       reject(new Error(`${options.command} could not start. Install it and make it available on PATH. ${options.hint}`));
+29 |     });
+30 |     child.on('close', code => {
+31 |       cleanup();
+32 |       if (timedOut) reject(new Error(`${options.command} timed out. Increase AI_TIMEOUT_MS or choose a faster model.`));
+33 |       else if (code !== 0) reject(new Error(`${options.command} exited with code ${code}. ${options.hint}`));
+                                           ^
+error: codex exited with code 1. Check `codex login status` and that AI_MODEL is available to your account.
+      at <anonymous> (/Users/macos/git/oriane/server/ai/process.ts:33:39)
+      at emit (node:events:98:22)
+      at #maybeClose (node:child_process:766:16)
+      at #handleOnExit (node:child_process:520:72)
+
+Bun v1.3.3 (macOS arm64)

@@ -1,0 +1,417 @@
+{
+  "pairs": [
+    {
+      "id": "4e07c72e57fe",
+      "left": {
+        "fabricatedFeatures": 1,
+        "fabricatedClaims": [
+          "\"highlight the nearest upcoming renewal and its price in a generic phone calendar\" (presents an in-app calendar view as the app's interface, which the brief does not state)"
+        ],
+        "faithfulness": 2,
+        "specificity": 3,
+        "uncertainty": 1,
+        "explicitCapabilities": 1,
+        "constraintViolations": [],
+        "evidence": [
+          "Leaves out stated reminders and the manual cancelled status. The storyboard voiceover only says \"See the next renewal, its date, and its price.\"",
+          "Calls cancel-1 \"adjacent\" and says \"That motivation can inform the creative\", but correctly adds that \"bank linking and automatic cancellation do not transfer\".",
+          "Never mentions the outdated roadmap or the URL that wasn't loaded.",
+          "Correctly separates text evidence from images: \"No images were attached.\""
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "Lists the stated capabilities: \"manual entry of subscription prices and renewal dates, reminders, and manually marking a subscription cancelled after provider cancellation\".",
+          "\"The outdated roadmap contradicts the user clarification and is excluded... The supplied full-spec URL was not loaded or read\".",
+          "Flags \"The plan’s renewal calendar is an unconfirmed interface assumption.\"",
+          "Asks an actionable question: \"What reminder timing and delivery method does the app support?\" and says to show \"a generic reminder without a channel or lead-time claim\".",
+          "Storyboard voiceover: \"After cancelling with the provider, mark it cancelled here.\""
+        ]
+      },
+      "preferred": "right",
+      "reason": "Right keeps all three stated capabilities, rejects the outdated roadmap, flags the unloaded URL, and marks the calendar as an unconfirmed assumption. Left drops reminders and the cancelled status, and it presents a calendar view as the app's own interface."
+    },
+    {
+      "id": "32d4f7e36fbf",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "\"The product plan incorrectly adds translation. Remove its translator positioning\".",
+          "Rejects translate-1 as \"irrelevant\" because translation \"conflicts with the brief's explicit pronunciation-and-voice selector\".",
+          "Storyboard: \"Your text stays in its original language. The selection doesn't translate it.\"",
+          "Proposes retrieval phrases: \"'import document choose reading voice play'\".",
+          "Constraints are respected throughout: \"No humans, hands or body parts.\""
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 2,
+        "fabricatedClaims": [
+          "\"Read the translated text in your chosen language.\"",
+          "\"Understand books in any language. Translate and listen.\""
+        ],
+        "faithfulness": 0,
+        "specificity": 2,
+        "uncertainty": 1,
+        "explicitCapabilities": 1,
+        "constraintViolations": [],
+        "evidence": [
+          "Positions the product as \"Two concepts for a document translator\", which contradicts the user's clarification.",
+          "Classifies translate-1 as \"direct\" and claims \"Its text-to-playback sequence transfers directly.\"",
+          "Angle 2 says \"choose a translation language\", which reverses what the language selector does.",
+          "It does acknowledge \"No frame images were attached.\""
+        ]
+      },
+      "preferred": "left",
+      "reason": "Left corrects the plan using the brief's clarification and keeps translation out of every creative direction. Right repeats the plan's translation claim and promises users will understand any book."
+    },
+    {
+      "id": "f1564b9768f6",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "The product line keeps all three actions: \"add a due date, receive a notification and mark the bill paid.\"",
+          "\"Timing is unspecified; research should avoid promising advance notice.\"",
+          "alternativeVisualQuery is positive and free of people and logos: \"Stylized animation of a paper bill beside a calendar, transitioning to a generic phone screen... status changes to Paid.\""
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 3,
+        "specificity": 3,
+        "uncertainty": 2,
+        "explicitCapabilities": 3,
+        "constraintViolations": [],
+        "evidence": [
+          "The promise \"Get a notification when a bill is due\" assumes when the notification arrives, and it leaves out marking a bill paid.",
+          "The tagline \"Keep bill due dates off your mind\" is a mild outcome claim.",
+          "alternativeVisualQuery meets the constraints: \"Stylized animation of household invoices beside a calendar... changing to paid with a checkmark.\""
+        ]
+      },
+      "preferred": "left",
+      "reason": "Left keeps all three actions in its product statement and asks an actionable question about notification timing. Right's promise assumes the timing and drops the paid status."
+    },
+    {
+      "id": "3ef444424842",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 3,
+        "uncertainty": 2,
+        "explicitCapabilities": 3,
+        "constraintViolations": [],
+        "evidence": [
+          "The promise \"Add a bill’s due date and get a notification to remind you to pay\" leaves out the paid status, though the terms include \"mark bill as paid\".",
+          "The question is general research and doesn't address notification timing.",
+          "alternativeVisualQuery meets the constraints: \"plain phone screen... bill status changes to Paid with a checkmark.\""
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "The promise keeps all three actions: \"Add a bill’s due date, receive a notification, and mark the bill paid.\"",
+          "\"This is a plausible situation, not a validated finding. When are notifications sent relative to the due date? Timing and reduced late payments remain unconfirmed.\"",
+          "alternativeVisualQuery: \"Stylized animation with plain typography... status changes to Paid.\""
+        ]
+      },
+      "preferred": "right",
+      "reason": "Right keeps the complete stated workflow in its promise and labels its assumptions about timing and outcomes as unconfirmed. Left's promise leaves out the paid status."
+    },
+    {
+      "id": "f7dea7739a51",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 3,
+        "uncertainty": 2,
+        "explicitCapabilities": 3,
+        "constraintViolations": [],
+        "evidence": [
+          "The promise \"Keep track of who owes what for shared trip costs until everything is settled\" doesn't explicitly mention entering costs or marking expenses settled.",
+          "The question is general research and doesn't name the open product detail.",
+          "Makes no claims about sending money or connecting banks."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "The promise keeps every stated action: \"Enter shared trip costs, see who owes what, and mark expenses settled\".",
+          "\"How are shared costs allocated among the people on the trip? The brief leaves this unspecified.\"",
+          "The terms are need-oriented: \"confusion over which trip expenses are already settled\"."
+        ]
+      },
+      "preferred": "right",
+      "reason": "Both outputs are clean. Right keeps every stated action in its promise and names the unresolved question of how costs are allocated."
+    },
+    {
+      "id": "87af25e43670",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 3,
+        "uncertainty": 2,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "The promise keeps every stated action: \"Enter shared trip costs, see who owes what, and mark expenses settled.\"",
+          "The question is general research and doesn't name the open detail of how shares are allocated."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "The product line keeps all actions: \"enter costs, see who owes what, and mark expenses settled.\"",
+          "\"A plausible problem is losing track... Validate that need; clarify how each person's share is assigned\".",
+          "visualQuery is labeled as \"Proposed video scenes\" and includes \"an expense changes from outstanding to marked settled\"."
+        ]
+      },
+      "preferred": "right",
+      "reason": "Both keep the stated capabilities. Right labels its plausible need and asks how shares are assigned, which makes its uncertainty more actionable."
+    },
+    {
+      "id": "40962c5bb839",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 3,
+        "specificity": 3,
+        "uncertainty": 2,
+        "explicitCapabilities": 3,
+        "constraintViolations": [],
+        "evidence": [
+          "The product line keeps \"bank account linking and scheduled automatic payments\", but the promise leaves out bank linking.",
+          "visualQuery shows authorization but not linking a bank account.",
+          "The question doesn't ask which banks or bill types are supported."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "The promise keeps every stated capability: \"Link a bank account, set a bill’s due date and authorize payment so the app pays the bill automatically.\"",
+          "\"Unresolved: which banks and bill types are supported?\"",
+          "visualQuery: \"links a bank account on a phone, selects the bill’s due date and authorizes payment\"."
+        ]
+      },
+      "preferred": "right",
+      "reason": "Right fully keeps the stated bank linking, authorization and automatic payment, and asks an actionable question about which banks and bill types are supported. Left's promise and visual query leave out bank linking."
+    },
+    {
+      "id": "04b1d943d8c5",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "\"Upload an English PDF, read its Spanish translation, and listen to it narrated in your chosen Spanish voice.\" Showing the translated text on screen is a mild assumption.",
+          "\"The brief does not specify whether scanned PDFs are supported.\"",
+          "visualQuery is labeled \"Proposed demo\"."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 3,
+        "specificity": 4,
+        "uncertainty": 2,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "Keeps translation and narration: \"listen to its Spanish translation in the Spanish narration voice you choose.\"",
+          "visualQuery assumes an audience without labeling it as proposed: \"Spanish-speaking student opens an English PDF\".",
+          "The question tests the value of narration but not product limits such as scanned PDFs."
+        ]
+      },
+      "preferred": "left",
+      "reason": "Both keep translation and Spanish narration. Left labels its scenes as proposed and asks an actionable question about scanned PDFs, while right assumes an audience without labeling it."
+    },
+    {
+      "id": "20f4b81bdf19",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "\"Upload an English PDF, translate it into Spanish, and listen to the Spanish translation using your chosen narration voice.\"",
+          "\"Test this plausible need... Confirm whether scanned PDFs are supported.\"",
+          "The terms are faithful: \"choose Spanish narration voice for PDF reading\"."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 3,
+        "specificity": 3,
+        "uncertainty": 2,
+        "explicitCapabilities": 3,
+        "constraintViolations": [],
+        "evidence": [
+          "The promise \"Understand English PDFs by listening to their Spanish translation\" states a comprehension outcome as fact and leaves out upload.",
+          "visualQuery \"Person struggling to read an English PDF\" assumes an audience without labeling it as proposed.",
+          "No question about product limits."
+        ]
+      },
+      "preferred": "left",
+      "reason": "Left states the full workflow, labels its plausible need, and asks about scanned PDFs. Right frames comprehension as a guaranteed outcome."
+    },
+    {
+      "id": "cf8096c48066",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "\"Adjust exposure, refine the crop and apply a color preset to improve a room photo before sharing it.\"",
+          "\"Plausible situation to validate... The intended users and sharing method remain unspecified.\"",
+          "alternativeVisualQuery is positive and free of people and logos, and includes \"moves into a share panel\"."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 3,
+        "uncertainty": 3,
+        "explicitCapabilities": 3,
+        "constraintViolations": [],
+        "evidence": [
+          "\"Make room photos brighter, better framed and more cohesive in color before sharing.\"",
+          "alternativeVisualQuery ends with \"The finished image fills the screen\" and leaves out the sharing step.",
+          "The question asks which edit matters most but doesn't flag that the sharing method is unspecified."
+        ]
+      },
+      "preferred": "left",
+      "reason": "Both are faithful to the stated photo edits with no claims about real renovation. Left keeps sharing in its alternative visual query and marks its unknowns more clearly."
+    },
+    {
+      "id": "8bf87cfadf4c",
+      "left": {
+        "fabricatedFeatures": 1,
+        "fabricatedClaims": [
+          "\"document translation and read aloud\" (a retrieval term that brings the open translation question into retrieval)"
+        ],
+        "faithfulness": 2,
+        "specificity": 3,
+        "uncertainty": 3,
+        "explicitCapabilities": 2,
+        "constraintViolations": [],
+        "evidence": [
+          "The question correctly asks \"Do users need documents translated into another language, or read aloud in their original language?\"",
+          "Even so, the terms include \"document translation and read aloud\", which lets that open question contaminate retrieval.",
+          "The promise \"Listen to your documents in the language you select\" leaves out input in any format."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "\"Input a document in any format, select a language, and listen to its content.\"",
+          "\"Does language selection translate the content or choose the reading voice’s language? The brief leaves this unresolved.\"",
+          "The terms are neutral: \"document text to speech language selection\"."
+        ]
+      },
+      "preferred": "right",
+      "reason": "Right states the capabilities exactly and keeps the language question out of retrieval. Left raises the same question but then adds a translation term to retrieval."
+    },
+    {
+      "id": "041f0505f27a",
+      "left": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 3,
+        "specificity": 3,
+        "uncertainty": 1,
+        "explicitCapabilities": 3,
+        "constraintViolations": [],
+        "evidence": [
+          "The promise \"Listen to your documents in your chosen language\" leaves out input in any format and doesn't address what the language selection means.",
+          "The question is only about the need (\"When does reading long documents become inconvenient\") and ignores the ambiguous language selector.",
+          "The terms are neutral, for example \"multilingual text to speech\"."
+        ]
+      },
+      "right": {
+        "fabricatedFeatures": 0,
+        "fabricatedClaims": [],
+        "faithfulness": 4,
+        "specificity": 4,
+        "uncertainty": 4,
+        "explicitCapabilities": 4,
+        "constraintViolations": [],
+        "evidence": [
+          "Separates \"Stated capability\" from \"Research direction\" in the promise.",
+          "\"Does selecting a language translate the content or set the narration voice? Is “any doc format” literal, or is there a defined launch format list?\"",
+          "visualQuery is labeled \"Proposed situation\"."
+        ]
+      },
+      "preferred": "right",
+      "reason": "Right keeps the stated capabilities, separates them from research assumptions, and asks about both ambiguities: the language selector and the format coverage. Left leaves out format coverage and ignores the language ambiguity."
+    }
+  ],
+  "limitations": [
+    "I judged only from the supplied JSON text. No images, videos or external URLs were available or inspected.",
+    "Whether something counts as a fabricated interface element versus an allowed presentation choice is a judgement call. In pair 4e07c72e57fe, for example, I counted the calendar view as fabricated.",
+    "The borderline outcome wording in pairs 20f4b81bdf19 and f1564b9768f6 is noted in the evidence and lowers faithfulness scores, but I didn't count it as a fabricated feature."
+  ]
+}

@@ -1,0 +1,13 @@
+{"kind":"plan","scope":"screen/context-anchors","status":"success","elapsedMs":11752,"counts":{"search":13,"asset":6,"full":0,"plan":8,"qualification":3,"judge":0}}
+{"kind":"search","scope":"sokka-places/new","status":"success","elapsedMs":656,"counts":{"search":14,"asset":6,"full":0,"plan":8,"qualification":3,"judge":0}}
+{"kind":"qualification","scope":"sokka-places/new","status":"success","elapsedMs":39206,"counts":{"search":14,"asset":6,"full":0,"plan":8,"qualification":4,"judge":0}}
+Saved contextual screening sokka-places
+{"kind":"search","scope":"reader-voice/new","status":"success","elapsedMs":253,"counts":{"search":15,"asset":6,"full":0,"plan":8,"qualification":4,"judge":0}}
+{"kind":"qualification","scope":"reader-voice/new","status":"success","elapsedMs":32101,"counts":{"search":15,"asset":6,"full":0,"plan":8,"qualification":5,"judge":0}}
+reader-voice: Too few close references. Checking one nearby user need.
+Saved contextual screening reader-voice
+{"kind":"search","scope":"splitly-expenses/new","status":"success","elapsedMs":432,"counts":{"search":16,"asset":6,"full":0,"plan":8,"qualification":5,"judge":0}}
+{"kind":"qualification","scope":"splitly-expenses/new","status":"success","elapsedMs":27303,"counts":{"search":16,"asset":6,"full":0,"plan":8,"qualification":6,"judge":0}}
+splitly-expenses: Too few close references. Checking one nearby user need.
+{"kind":"search","scope":"splitly-expenses/new","status":"success","elapsedMs":297,"counts":{"search":17,"asset":6,"full":0,"plan":8,"qualification":6,"judge":0}}
+Saved contextual screening splitly-expenses

@@ -1,0 +1,17 @@
+{
+  "scenarios": [
+    "sokka-places",
+    "reader-voice",
+    "splitly-expenses"
+  ],
+  "counts": {
+    "search": 17,
+    "asset": 6,
+    "full": 0,
+    "plan": 8,
+    "qualification": 7,
+    "judge": 0
+  },
+  "previousDirectory": "research/retrieval-eval/runs/topical-v2",
+  "amendment": "research/retrieval-eval/context-amendment.md"
+}

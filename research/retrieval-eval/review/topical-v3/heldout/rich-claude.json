@@ -1,0 +1,224 @@
+{
+  "judge": "claude",
+  "config": {
+    "provider": "claude",
+    "model": "opus",
+    "effort": "high",
+    "timeoutMs": 480000
+  },
+  "unionHash": "964aeafa147f58078139ba06edf0f1e5b9b52fdcfc81aeb4a7d3f431d2d16182",
+  "labels": [
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_13332572f03c9d01cdc5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "The rover moves itself and uses a soil sensor to ask for water. The app doesn't automate watering or sense moisture; it only records watering dates.",
+        "Nothing here looks at leaf damage or suggests causes."
+      ],
+      "constraints": "unknown",
+      "evidence": "The transcript describes a robot plant on a 'TurtleBot 4' that roams to 'find its own light' and has 'a sensor in the planter so it knows when it's thirsty'. That is a robotics build, not diagnosing leaf damage. On-screen text shows 'BUILDING WITH GOOGLE GEMINI' and team chat names, which hint at branding and people, but the text alone can't confirm logos or faces are visible."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_43d14b781858b35377e8",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "The agronomist names each disease with certainty. The app only offers possible causes, so the tone has to be softened to avoid implying a guaranteed diagnosis.",
+        "These are field tomato crop diseases, not houseplants. Don't suggest the app covers crop pathology or gives expert agronomy advice."
+      ],
+      "constraints": "unknown",
+      "evidence": "Goes symptom by symptom, linking visible leaf damage to a likely cause: 'manchas café aterciopeladas en el envés' → fulvia; 'punteado amarillo fino... telarañas' → red spider mite; 'anillos concéntricos... halo amarillento' → early blight. The way it maps a visible pattern to a cause carries over, with hedged wording. Presenter visibility isn't established."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_9b7628e8d8e3d7c1073f",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "It's a homemade cleaning and pest-treatment recipe. Borrowing it would suggest the app gives treatments or cures."
+      ],
+      "constraints": "violates",
+      "evidence": "Shows how to clean dusty leaves with a neem oil recipe ('passer de ça à ça'), not how to work out what caused visible damage. Frame text shows branded product labels ('MARY TYLOR NATURALS', 'DR. BRONNER'S', 'ISOPROPYL ALCOHOL'), which breaks the no-brand-logos rule."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_ad1085689ae6da1782c5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "A decorative tour of houseplants ('Begonia Red Tempest', 'Anthurium... hybrid'). The only damage mention is a begonia that 'just got sick', with no symptoms or causes given. The text doesn't establish whether people appear."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_c254063d15e9588cb455",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "unknown",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "No transcript. On-screen text 'auch unser Haus sieht oft so aus' is about a messy home. Nothing about plants or leaf damage."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_e9cf91e18dac57be83f2",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "It gives prevention advice (better airflow). The app doesn't measure soil moisture or guarantee that root rot is prevented; it only suggests possible causes and records watering dates."
+      ],
+      "constraints": "unknown",
+      "evidence": "Links a visible symptom to a possible cause and a next check: '根腐れの原因になります / 葉が黄色くなることもあります' (soggy soil can cause root rot and yellow leaves), then 'まず水やりの前に土を見て乾いているか確認します' (check whether the soil is dry before watering). This fits 'decide what to check next' and ties into watering records. Whether people appear isn't established."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_6b09ecf38ef4b49403b5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "unknown",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript is unrelated family chatter, and the on-screen text is fragments ('iPhane', 'adidas'). Nothing about subscriptions or renewals. This brief has no constraints."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_76d6c6e22baa3e8a0104",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "News about a PlayStation Store pricing bug ('GTA 6 cuesta $100 pesos'). The 'Se renueva sola' text is incidental. Not about tracking renewals. This brief has no constraints."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_9a326490a5aacf6bc6d6",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Recommends apps that link bank accounts and cancel for you (Rocket Money, ChatGPT finances, Meta AI). The tracker can't link banks or cancel.",
+        "'Could save you hundreds of dollars a year' sounds like guaranteed savings."
+      ],
+      "constraints": "fits",
+      "evidence": "Frames the problem of forgotten subscriptions ('you might forget what you're paying for or to cancel before that free trial ends') and recommends 'set a calendar reminder... until a few days before the trial expires... decide whether it's worth paying'. That lines up with renewal reminders and deciding before a renewal. The discovery steps rely on statements and app stores, not manual entry."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_9e63cc9eb1090c124b00",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Shows yearly cost and category spending. Yearly totals aren't a listed capability.",
+        "The framing is 'build it with an app builder', which the product isn't. The 'fixed it' claim leans toward guaranteed savings."
+      ],
+      "constraints": "fits",
+      "evidence": "'I can add my subscriptions... it also reminds me two days before a free trial turns into a payment. So luckily I could cancel a few things before they become payments.' The on-screen '+ Add Subscription' matches manual entry plus a reminder to decide before renewal."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_b73f97a0f3f9c71c00da",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "The core workflow uses Plaid to link bank accounts and detect subscriptions automatically, which the product can't do.",
+        "A 24-month spending history pulled from transactions isn't supported."
+      ],
+      "constraints": "fits",
+      "evidence": "'utilize Plaid connector... The agent connected to my credit cards, pulled two years of history' and then classified subscriptions. A list view with billing dates ('Billed monthly · Sep 25, 2026') is a loose bridge, but the method depends on bank linking."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_df72d2cd4596657bdfc1",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Picking up an NYC marathon bib ('POV: You're the first woman in your lineage...'). No subscription content. This brief has no constraints."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_05a46cbafdb54cb00146",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Uses generative AI to add sunlight-through-leaves shadows and synthetic wall/floor gradients, which goes past 'solid color' and leans toward invented visual detail.",
+        "Relies on Photoshop's layer masks, harmonize, and blur tools, which aren't supported."
+      ],
+      "constraints": "unknown",
+      "evidence": "Some overlap: '商品のイメージに合った色背景に商品画像を配置' (put the product on a solid color background that suits it) and 'オブジェクト選択ツールで商品のパッケージのみを選択' (select just the package). But the focus is generating shadows ('画像を生成... 木漏れ日'). Shown as a screen recording of a hand cream product; full-video absence of people isn't established."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_23ba2f0ee390d9d0a981",
+      "proximity": "mechanism",
+      "useful": "uncertain",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "About camera settings, lenses, and colour grading for video. None of that is part of this editor."
+      ],
+      "constraints": "unknown",
+      "evidence": "Numbered steps for cinematic phone video, each with 'Before / After' labels on screen. The labelled before/after device carries over, but the task (shooting video) is different. People may appear; the text can't establish it."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_5b13d57daecf3fc994ad",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "Portrait mode, zoom, the 'Dramatic' filter, and f-stop are in-camera capture settings, not editing an existing photo."
+      ],
+      "constraints": "unknown",
+      "evidence": "Contrasts '普通に撮ると' (shooting normally) with 'プロは5ステップで' (a pro's 5 steps) for cafe item photos, including '明るさを少し上げて' (raise brightness a little). Brightness is a shared lever, but this is capture, not background removal or export. Whether people appear isn't established."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_92026226c0a770b42cf0",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Perspective transforms, layered cutouts, and spatial scene effects aren't supported."
+      ],
+      "constraints": "unknown",
+      "evidence": "A creative 3D music-player edit: 'take a photo of yourself', layer Spotify screenshots between your fingers, then 'spatial scene'. It even says 'We can skip background removal'. Not a product listing photo. The 'photo of yourself' may show only a hand or a full person; unclear from the text."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_c6ca4b8266c23129c53e",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "An evening routine vlog (kale salad, client calls, Dancing with the Stars). No photo editing content. Whether a person is visible isn't established by the text."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_cbf94b35b21c713edca0",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "Generates new AI backgrounds and 'Studio Shot' variations. Only solid color backgrounds are supported.",
+        "Shows Shopify import and listing-size presets that the product doesn't have, and the editor doesn't publish listings."
+      ],
+      "constraints": "unknown",
+      "evidence": "'This is the product photo I took on my phone and this is the one I actually use for a listing... It removes the background.' On-screen 'BEFORE'/'AFTER', 'Suggested colors', and 'Save to gallery' match background removal, a colour choice, and export. Visible faces or people can't be ruled out from the text."
+    }
+  ],
+  "inheritance": null
+}

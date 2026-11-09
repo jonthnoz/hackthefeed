@@ -1,0 +1,27 @@
+{
+  "id": "explicit-translation-0-B",
+  "scenario": "explicit-translation",
+  "split": "screen",
+  "variant": "B",
+  "strategy": 0,
+  "requestedModel": "gpt-6.1-sol",
+  "effectiveModel": "gpt-6.1-sol",
+  "effort": "medium",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "43f599a3b9340e88ca41ea843142b305933f123b2881f75ead6bcc89221b7b70",
+  "output": {
+    "product": "English PDF to Spanish Reader",
+    "tagline": "Your English PDFs, read aloud in Spanish—in the voice you choose.",
+    "promise": "Upload an English PDF, read its Spanish translation, and listen to it narrated in your chosen Spanish voice.",
+    "question": "The brief does not specify whether scanned PDFs are supported. Are they, or must PDFs contain selectable text?",
+    "visualQuery": "Proposed demo: a person uploads an English PDF; Spanish text appears; they select a Spanish narration voice and start playback, then follow the translated text while listening through headphones.",
+    "terms": [
+      "English PDF translation into Spanish",
+      "listen to English documents in Spanish",
+      "Spanish PDF narration voice selection",
+      "reading lengthy English documents as a Spanish speaker",
+      "switching between document translation and Spanish audio"
+    ]
+  },
+  "flags": []
+}

@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-11-09T02:17:51.907Z",
+  "hashes": {
+    "server/ai/codex.ts": "fa710f63a55522242cbd9fa29b725b6e4eab99942e25e88c53931307161eb60d",
+    "server/ai/claude.ts": "df4b1a948d721229e245b72a93f7503744e29939c22531aff501bd93e0edba72",
+    "server/ai/config.ts": "b6b99ab093b4b6af5ef8dba0c76d95cb816009c2fb2e32ec168c9e09f496e5b2",
+    "server/ai/process.ts": "2c82c9ef5676fe103c5477c446d64746f3a618da506a74282a3b540918f8b1c7",
+    "shared/schema.ts": "9674793254671c6d933b74d56d77afd75d9a0a645dad87cb8051a55fb8526994",
+    "scripts/prompt-eval.ts": "5c5e04e47123d504a7f5108e9d8a1fb1d3e2b3fee835df8ae1990b492da28879"
+  },
+  "modelResolution": "Explicit CLI model arguments. Helpers return structured content only and do not expose resolved provider versions or token usage.",
+  "networkScope": "Installed Codex and Claude inference only. No Oriane research API calls."
+}

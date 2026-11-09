@@ -1,0 +1,58 @@
+[
+  {
+    "judge": "codex",
+    "richSources": 18,
+    "cases": [
+      {
+        "scenario": "plant-diagnosis",
+        "beforeA": 4,
+        "beforeD": 4,
+        "afterA": 4,
+        "afterD": 5
+      },
+      {
+        "scenario": "subscription-reminders",
+        "beforeA": 1,
+        "beforeD": 5,
+        "afterA": 1,
+        "afterD": 5
+      },
+      {
+        "scenario": "product-photo",
+        "beforeA": 1,
+        "beforeD": 4,
+        "afterA": 1,
+        "afterD": 4
+      }
+    ],
+    "meanGain": 2.6666666666666665
+  },
+  {
+    "judge": "claude",
+    "richSources": 18,
+    "cases": [
+      {
+        "scenario": "plant-diagnosis",
+        "beforeA": 3,
+        "beforeD": 2,
+        "afterA": 3,
+        "afterD": 3
+      },
+      {
+        "scenario": "subscription-reminders",
+        "beforeA": 0,
+        "beforeD": 2,
+        "afterA": 0,
+        "afterD": 3
+      },
+      {
+        "scenario": "product-photo",
+        "beforeA": 0,
+        "beforeD": 1,
+        "afterA": 0,
+        "afterD": 1
+      }
+    ],
+    "meanGain": 1.3333333333333333
+  }
+]

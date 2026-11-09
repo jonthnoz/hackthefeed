@@ -1,0 +1,12 @@
+{
+  "id": "bf3634a7424f7122527dc73e6178d07b69534e5e9ddd5106e560dca6b2c6fe36",
+  "scope": "plant-diagnosis/new",
+  "kind": "asset",
+  "request": {
+    "text": "Houseplant app demonstration: a person photographs a brown-spotted leaf, then views the captured leaf beside a list of possible causes of its visible damage."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:34:08.397Z",
+  "response": "ast_6ZAIpoO6305rnCaGP7BaWqtn7ix6",
+  "elapsedMs": 239
+}

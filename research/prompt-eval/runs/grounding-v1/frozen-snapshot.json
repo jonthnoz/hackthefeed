@@ -1,0 +1,7 @@
+{
+  "originalSourceHash": "cfd5498df64020e0c6eee9111d9bfa711e24192b4e7eb2bc087a3f1bc0cbbf29",
+  "sourceArtifact": "research/prompt-eval/frozen-prompts.source.txt",
+  "moduleArtifact": "research/prompt-eval/frozen-prompts.ts",
+  "moduleAdjustment": "Only the type import path was adjusted for the copied module location; prompt strings are unchanged.",
+  "changeAfterFreeze": "Production noRealPeople policy now permits hands/fingers-only demonstrations. The A/B run measures the earlier stricter rule."
+}

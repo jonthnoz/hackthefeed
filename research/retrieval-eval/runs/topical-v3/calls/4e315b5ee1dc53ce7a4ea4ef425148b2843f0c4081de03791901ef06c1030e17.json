@@ -1,0 +1,61 @@
+{
+  "id": "4e315b5ee1dc53ce7a4ea4ef425148b2843f0c4081de03791901ef06c1030e17",
+  "scope": "product-photo/old",
+  "kind": "search",
+  "request": {
+    "body": {
+      "operator": "and",
+      "filters": {
+        "format": {
+          "includes": [
+            "video"
+          ]
+        },
+        "viewsCount": {
+          "min": 5000
+        },
+        "interactionsCount": {
+          "min": 100
+        }
+      },
+      "queries": [
+        {
+          "operator": "or",
+          "filters": {
+            "caption": {
+              "includesExactly": {
+                "values": [
+                  "cluttered product listing photo before and after",
+                  "product photo background removal demonstration",
+                  "solid color background for product photography",
+                  "product photo brightness adjustment",
+                  "export edited product listing image",
+                  "preserve product details during photo editing"
+                ]
+              }
+            },
+            "transcript": {
+              "includesExactly": {
+                "values": [
+                  "cluttered product listing photo before and after",
+                  "product photo background removal demonstration",
+                  "solid color background for product photography",
+                  "product photo brightness adjustment",
+                  "export edited product listing image",
+                  "preserve product details during photo editing"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sort": "interactionsCount:desc",
+    "limit": 6,
+    "projection": "default"
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:36:36.332Z",
+  "response": [],
+  "elapsedMs": 303
+}

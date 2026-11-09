@@ -1,0 +1,12 @@
+{
+  "id": "9a0d119a751422fe65e822f682f6a77e7e819170e44f582f2399a3d72d74cee2",
+  "scope": "product-photo/new",
+  "kind": "asset",
+  "request": {
+    "text": "App screens show a ceramic mug photo on a cluttered table, the isolated mug on a solid cream background, a brightness slider adjustment, and the exported listing image beside the original, with matching product details."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:36:38.626Z",
+  "response": "ast_DIGGJAd6fcS2Vx9fbl22cdk279VN",
+  "elapsedMs": 194
+}

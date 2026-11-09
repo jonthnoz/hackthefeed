@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "search": 33,
+    "asset": 16,
+    "full": 3,
+    "plan": 14,
+    "qualification": 10,
+    "judge": 9
+  },
+  "modelVersionNote": "Claude opus is an alias; exact effective model version is not exposed. No fallback or automatic retries."
+}

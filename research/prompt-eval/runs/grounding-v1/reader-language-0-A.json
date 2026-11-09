@@ -1,0 +1,30 @@
+{
+  "id": "reader-language-0-A",
+  "scenario": "reader-language",
+  "split": "screen",
+  "variant": "A",
+  "strategy": 0,
+  "requestedModel": "gpt-6.1-sol",
+  "effectiveModel": "gpt-6.1-sol",
+  "effort": "medium",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "9116b42463dc23a841f11b6d7ae9338ff83c470ff88567c02e6c5da1bf33fb4b",
+  "output": {
+    "product": "Document audio reader",
+    "tagline": "Turn reading time into listening time.",
+    "promise": "Listen to your documents in the language you select.",
+    "question": "Do users need documents translated into another language, or read aloud in their original language? Research this distinction before testing the promise.",
+    "visualQuery": "A person scrolling through a long document on a phone, putting on headphones, then listening while walking; close-ups of importing a document, selecting a language, and starting playback.",
+    "terms": [
+      "document text to speech",
+      "PDF read aloud",
+      "Word document audio reader",
+      "EPUB text to speech",
+      "multilingual document narration",
+      "document translation and read aloud"
+    ]
+  },
+  "flags": [
+    "inspect unsupported wording: translat"
+  ]
+}

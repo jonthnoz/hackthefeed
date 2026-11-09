@@ -1,0 +1,192 @@
+[
+  {
+    "kind": "generation",
+    "id": "reader-language-0-A",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "reader-language-0-B",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "reader-language-1-A",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "reader-language-1-B",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "expense-tracking-0-A",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "expense-tracking-0-B",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "expense-tracking-1-A",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "expense-tracking-1-B",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "bill-reminders-0-A",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "bill-reminders-0-B",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "bill-reminders-1-A",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "bill-reminders-1-B",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "explicit-translation-0-A",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "explicit-translation-0-B",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "explicit-translation-1-A",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "explicit-translation-1-B",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "photo-edit-0-A",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "photo-edit-0-B",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "explicit-autopay-1-A",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "explicit-autopay-1-B",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "analysis-poisoned-plan-0-A",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "analysis-poisoned-plan-0-B",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "medium"
+  },
+  {
+    "kind": "generation",
+    "id": "analysis-evidence-transfer-1-A",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "generation",
+    "id": "analysis-evidence-transfer-1-B",
+    "status": "success",
+    "model": "gpt-6-astra",
+    "effort": "high"
+  },
+  {
+    "kind": "judge",
+    "id": "claude",
+    "status": "failed",
+    "model": "opus",
+    "effort": "high",
+    "error": "claude exited with code 1. Check `claude auth status`, update Claude Code, and verify AI_MODEL."
+  },
+  {
+    "kind": "judge",
+    "id": "claude",
+    "status": "success",
+    "model": "opus",
+    "effort": "high"
+  },
+  {
+    "kind": "judge",
+    "id": "codex",
+    "status": "success",
+    "model": "gpt-6.1-sol",
+    "effort": "high"
+  }
+]

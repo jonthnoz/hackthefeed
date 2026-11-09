@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "briefId": {
+            "type": "string"
+          },
+          "sourceId": {
+            "type": "string"
+          },
+          "proximity": {
+            "type": "string",
+            "enum": [
+              "direct",
+              "adjacent",
+              "mechanism",
+              "irrelevant",
+              "unknown"
+            ]
+          },
+          "useful": {
+            "type": "string",
+            "enum": [
+              "yes",
+              "no",
+              "uncertain"
+            ]
+          },
+          "mechanism": {
+            "type": "string",
+            "enum": [
+              "demonstration",
+              "before-after",
+              "problem-solution",
+              "comparison",
+              "tutorial",
+              "story",
+              "list",
+              "social-proof",
+              "other",
+              "unknown"
+            ]
+          },
+          "unsupportedCapabilityIssues": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 220
+            }
+          },
+          "constraints": {
+            "type": "string",
+            "enum": [
+              "fits",
+              "violates",
+              "unknown"
+            ]
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 500
+          }
+        },
+        "required": [
+          "briefId",
+          "sourceId",
+          "proximity",
+          "useful",
+          "mechanism",
+          "unsupportedCapabilityIssues",
+          "constraints",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "labels"
+  ],
+  "additionalProperties": false
+}

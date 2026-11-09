@@ -1,0 +1,2 @@
+{"kind":"judge","scope":"screen/initial/claude","status":"success","elapsedMs":19217,"counts":{"search":17,"asset":6,"full":0,"plan":8,"qualification":7,"judge":4}}
+{"kind":"judge","scope":"screen/initial/codex","status":"success","elapsedMs":53840,"counts":{"search":17,"asset":6,"full":0,"plan":8,"qualification":7,"judge":4}}

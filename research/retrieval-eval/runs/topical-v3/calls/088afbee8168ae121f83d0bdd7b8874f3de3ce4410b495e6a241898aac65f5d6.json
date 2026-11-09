@@ -1,0 +1,12 @@
+{
+  "id": "088afbee8168ae121f83d0bdd7b8874f3de3ce4410b495e6a241898aac65f5d6",
+  "scope": "product-photo/new",
+  "kind": "asset",
+  "request": {
+    "text": "A cluttered photo of a ceramic mug becomes a listing image: the editor removes the background, selects a solid cream color, adjusts brightness, and exports the image. Show the original and exported mug photos side by side."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:36:38.626Z",
+  "response": "ast_mhDuC3amVcgSICgQFqdgDf59ktdj",
+  "elapsedMs": 169
+}

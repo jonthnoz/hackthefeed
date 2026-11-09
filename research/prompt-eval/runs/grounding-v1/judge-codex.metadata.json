@@ -1,0 +1,9 @@
+{
+  "provider": "codex",
+  "model": "gpt-6.1-sol",
+  "effort": "high",
+  "timeoutMs": 480000,
+  "promptHash": "ff64ddd444016e3e5582210b72340b8f421920e819363dcce88c023effa07926",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "modelResolution": "explicit CLI model argument; no fallback"
+}

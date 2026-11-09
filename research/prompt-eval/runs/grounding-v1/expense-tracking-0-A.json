@@ -1,0 +1,28 @@
+{
+  "id": "expense-tracking-0-A",
+  "scenario": "expense-tracking",
+  "split": "screen",
+  "variant": "A",
+  "strategy": 0,
+  "requestedModel": "gpt-6.1-sol",
+  "effectiveModel": "gpt-6.1-sol",
+  "effort": "medium",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "e845fceef6d09d5afd461a76f89852dbaef816d1cb17704f2d7d5cbc952cf4b6",
+  "output": {
+    "product": "Shared trip expense tracker",
+    "tagline": "Know who owes what.",
+    "promise": "Keep track of who owes what for shared trip costs until everything is settled.",
+    "question": "When friends pay for different trip expenses, what makes it hard to work out who still owes money? Explore their current process and where confusion occurs.",
+    "visualQuery": "Friends at a holiday rental comparing dinner receipts, entering shared costs on a phone, discussing who owes whom, and marking an expense settled.",
+    "terms": [
+      "shared trip expense tracker",
+      "group trip cost sharing",
+      "track who owes whom",
+      "shared expense balances",
+      "trip debt tracking",
+      "mark expenses settled"
+    ]
+  },
+  "flags": []
+}

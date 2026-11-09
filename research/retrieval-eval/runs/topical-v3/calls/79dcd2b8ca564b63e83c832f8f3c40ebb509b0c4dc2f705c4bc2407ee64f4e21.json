@@ -1,0 +1,12 @@
+{
+  "id": "79dcd2b8ca564b63e83c832f8f3c40ebb509b0c4dc2f705c4bc2407ee64f4e21",
+  "scope": "plant-diagnosis/old",
+  "kind": "asset",
+  "request": {
+    "text": "Proposed scene: macro shots of brown leaf edges and yellow patches; hands photograph a damaged leaf beside a plain pot; a generic phone screen transitions from the leaf photo to possible-cause cards; the leaf returns to close-up."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:34:05.700Z",
+  "response": "ast_KKcvNIkyYmMalMKJtPtBxVTZRItH",
+  "elapsedMs": 183
+}

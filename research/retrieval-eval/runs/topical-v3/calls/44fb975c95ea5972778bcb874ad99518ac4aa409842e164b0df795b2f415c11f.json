@@ -1,0 +1,12 @@
+{
+  "id": "44fb975c95ea5972778bcb874ad99518ac4aa409842e164b0df795b2f415c11f",
+  "scope": "subscription-reminders/new",
+  "kind": "asset",
+  "request": {
+    "text": "Close-up demo: manually enter a streaming subscription’s price and renewal date, show that subscription’s upcoming renewal, then show its renewal reminder."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:35:27.254Z",
+  "response": "ast_bH6Kb7jas380EE6wggahh8OsYITA",
+  "elapsedMs": 259
+}

@@ -1,0 +1,55 @@
+{
+  "id": "dc42ab3632411b70c5e87103d9290948460d23c3732602a17a34c49229d05a16",
+  "scope": "splitly-expenses/new",
+  "kind": "search",
+  "request": {
+    "body": {
+      "operator": "and",
+      "filters": {
+        "format": {
+          "includes": [
+            "video"
+          ]
+        },
+        "viewsCount": {
+          "min": 5000
+        },
+        "interactionsCount": {
+          "min": 100
+        }
+      },
+      "queries": [
+        {
+          "operator": "or",
+          "filters": {
+            "caption": {
+              "includesExactly": {
+                "values": [
+                  "household bill splitting",
+                  "roommate expenses",
+                  "shared utility bills"
+                ]
+              }
+            },
+            "transcript": {
+              "includesExactly": {
+                "values": [
+                  "household bill splitting",
+                  "roommate expenses",
+                  "shared utility bills"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sort": "interactionsCount:desc",
+    "limit": 12,
+    "projection": "default"
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:26:54.922Z",
+  "response": [],
+  "elapsedMs": 297
+}

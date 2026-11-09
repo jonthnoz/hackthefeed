@@ -1,0 +1,8 @@
+{
+  "method": "Direct escalated Claude CLI with the failed judge flags and empty stdin. No inference request.",
+  "exitCode": 1,
+  "stderr": "Error: --json-schema is not a valid JSON Schema: no schema with key or ref \"https://json-schema.org/draft/2020-12/schema\"",
+  "diagnosis": "Local JSON Schema dialect rejection before authentication or inference.",
+  "retry": "Same blind prompt and Opus high configuration; generate a Draft 7 schema for Claude.",
+  "accountDetailsRecorded": false
+}

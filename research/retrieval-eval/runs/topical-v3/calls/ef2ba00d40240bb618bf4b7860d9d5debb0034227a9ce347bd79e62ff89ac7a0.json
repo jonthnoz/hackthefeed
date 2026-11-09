@@ -1,0 +1,12 @@
+{
+  "id": "ef2ba00d40240bb618bf4b7860d9d5debb0034227a9ce347bd79e62ff89ac7a0",
+  "scope": "plant-diagnosis/old",
+  "kind": "asset",
+  "request": {
+    "text": "Houseplant owner notices brown leaf edges, photographs the damaged leaf with a phone, and reviews possible causes; close-ups compare yellow patches, brown tips and damaged leaf surfaces."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:34:05.393Z",
+  "response": "ast_2G6yhbKGIcmqUgXuTOyzlXwDsLbT",
+  "elapsedMs": 306
+}

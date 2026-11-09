@@ -1,0 +1,12 @@
+{
+  "id": "ebd532618e969436b5fd9bec1bd5398c59981d11b922226f470ae269775231ab",
+  "scope": "plant-diagnosis/new",
+  "kind": "asset",
+  "request": {
+    "text": "Proposed hands-only demonstration: fingers photograph a brown-spotted houseplant leaf, then tap a plain app screen displaying the leaf photo and possible causes. Simple text labels emphasize uncertainty."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:34:08.397Z",
+  "response": "ast_BVuhazrYUF5K5TJsqJoKhyh8oREM",
+  "elapsedMs": 165
+}

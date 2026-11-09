@@ -1,0 +1,217 @@
+{
+  "judge": "codex",
+  "config": {
+    "provider": "codex",
+    "model": "gpt-6.1-sol",
+    "effort": "high",
+    "timeoutMs": 480000
+  },
+  "unionHash": "964aeafa147f58078139ba06edf0f1e5b9b52fdcfc81aeb4a7d3f431d2d16182",
+  "labels": [
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_13332572f03c9d01cdc5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Autonomous movement, light seeking, and sensor-based watering requests are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "The build story concerns a rover that finds light and senses thirst, with no damaged-leaf investigation or possible-cause suggestions. Indexed Google/Gemini text establishes branding references but does not conclusively establish visible logos or people."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_43d14b781858b35377e8",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Definitive symptom-to-disease identifications must not become guaranteed app diagnoses."
+      ],
+      "constraints": "unknown",
+      "evidence": "Pairs visible leaf symptoms with causes: fine yellow stippling and webs with mites, and concentric rings with early blight. This symptom-by-symptom catalogue concretely supports investigating leaf damage. Absence of people and logos is not established."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_9b7628e8d8e3d7c1073f",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "The cleaning mixture and pest prevention/treatment claims are not app capabilities."
+      ],
+      "constraints": "unknown",
+      "evidence": "Opens with changing leaves 'de ça à ça' and explains inspecting and cleaning dusty leaves, a concrete neighboring task when checking leaf appearance. Indexed packaging names include Mary Tylor and Dr. Bronner's, but logo appearance and absence of people are not conclusively established."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_ad1085689ae6da1782c5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Lists ornamental plants for whimsical decor, praising colors, textures, and shapes. The passing mention of a sick begonia supplies no damage investigation or useful cause-assessment demonstration. People/logo absence is unestablished."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_c254063d15e9588cb455",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "unknown",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Caption says a home is for living in; indexed text repeats that their house often looks like this. There is no leaf investigation or concrete transferable demonstration, and no evidence establishing people/logo absence."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_e9cf91e18dac57be83f2",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "The opening's categorical attribution to trapped moisture must be qualified as a possible cause."
+      ],
+      "constraints": "unknown",
+      "evidence": "Connects yellow leaves with wet soil and poor airflow, then instructs checking whether soil is dry before watering. This directly models investigating a visible symptom and deciding what to check next. People/logo absence is unestablished."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_6b09ecf38ef4b49403b5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "unknown",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Fragmented dialogue about choosing English and indexed phone-related words provide no subscription tracking, renewal decision, or concrete useful presentation device."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_76d6c6e22baa3e8a0104",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Uses a surprising GTA price claim followed by an explanation of regional-pricing errors. Incidental subscription mentions do not demonstrate tracking renewal dates or making a decision before renewal."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_9a326490a5aacf6bc6d6",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Connected-account subscription discovery and assisted cancellation are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "Explicitly recommends a calendar reminder a few days before trial expiry so users can decide whether to pay instead of forgetting. The stepwise forgotten-subscription tutorial supplies a concrete reference despite its additional connected-account tools."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_9e63cc9eb1090c124b00",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Automatic annual cost calculations and spending summaries are not established capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "Moves from noticing a £30 monthly fee to adding subscriptions in a tracker and receiving reminders two days before trials become paid. Cancellation is described as the user's subsequent action, matching the brief's decision-before-renewal workflow."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_b73f97a0f3f9c71c00da",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Bank/credit-card linking, statement imports, automatic subscription identification, and historical spending analysis are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "Demonstrates auditing recurring subscriptions through a reviewable list of prices and billing dates, then discussing subscriptions cancelled. That review bridges to deciding which subscriptions to retain, but upcoming reminders and manual entry are not demonstrated."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_df72d2cd4596657bdfc1",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption and repeated POV text concern a personal marathon milestone and bib pickup. Race instructions provide no subscription-renewal task or concrete useful creative reference for it."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_05a46cbafdb54cb00146",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Generated dappled shadows, gradient environments, harmonization, and layer-based shadow manipulation exceed the supported edits."
+      ],
+      "constraints": "unknown",
+      "evidence": "The tutorial explicitly places a product image on a chosen solid color and isolates its packaging with a layer mask. Those supported core edits make it useful despite additional generative effects. Absence of faces/full people is unestablished."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_23ba2f0ee390d9d0a981",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Video recording controls, lens selection, and LUT/color-grading functionality are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "Indexed steps pair lighting, lens, and composition changes with repeated 'Before' and 'After' comparisons. This supplies an observable step-and-result presentation device for demonstrating brightness or background edits, although the source task is cinematic video capture. Face/person absence is unestablished."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_5b13d57daecf3fc994ad",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Camera portrait mode, aperture, filters, and capture composition controls are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "Shows improving a product photograph through numbered capture steps, including grid alignment and increasing brightness. Creating a clearer product photo at capture is a concrete neighboring task to editing an existing listing image. Face/person absence is unestablished."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_92026226c0a770b42cf0",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Layer compositing, manual cutout refinement, perspective transforms, shadows, and spatial-scene effects are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "The social-photo tutorial explicitly walks through importing a photo, cutting out its subject, and exporting. That interface walkthrough is transferable to background removal, although the goal is a layered music-player illusion. 'Photo of yourself' does not establish visible faces or full people."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_c6ca4b8266c23129c53e",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "Narrates dinner, work calls, feeding cats, and watching television. No product-photo editing or useful editing demonstration is supplied; first-person narration does not establish visible faces/full people."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_cbf94b35b21c713edca0",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "Generating new backgrounds and AI product beautification are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "Explicitly contrasts the original phone product photo with the listing-ready result, demonstrates background removal, and shows saving to the gallery. 'Same product, same photo' supports the intended transformation despite unsupported generated backgrounds. Face/person absence is unestablished."
+    }
+  ],
+  "inheritance": null
+}

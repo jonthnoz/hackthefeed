@@ -1,0 +1,12 @@
+{
+  "id": "ac505db334ec981466f9433407242e9ece0ac0b3519d20b214a865779e9193d4",
+  "scope": "sokka-places/new",
+  "kind": "asset",
+  "request": {
+    "text": "A social post featuring a café and its name; the same café shown saved in a named “Places to try” collection, selected from that collection, then opened on a map."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:12:59.201Z",
+  "elapsedMs": 170,
+  "response": "ast_PVqEB2ennbZARUW0rPcfVJmeeS67"
+}

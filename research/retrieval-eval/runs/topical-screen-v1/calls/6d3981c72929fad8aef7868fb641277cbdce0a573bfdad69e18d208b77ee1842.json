@@ -1,0 +1,12 @@
+{
+  "id": "6d3981c72929fad8aef7868fb641277cbdce0a573bfdad69e18d208b77ee1842",
+  "scope": "reader-voice/old",
+  "kind": "asset",
+  "request": {
+    "text": "Close-up of importing a document and starting read-aloud; cut to the same person folding laundry beside the phone. Proposed scene illustrating listening while hands are occupied."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:14:57.097Z",
+  "response": "ast_jcsbfkW8IcXKHImOPWAlTYXILGhy",
+  "elapsedMs": 460
+}

@@ -1,0 +1,27 @@
+{
+  "id": "expense-tracking-0-B",
+  "scenario": "expense-tracking",
+  "split": "screen",
+  "variant": "B",
+  "strategy": 0,
+  "requestedModel": "gpt-6.1-sol",
+  "effectiveModel": "gpt-6.1-sol",
+  "effort": "medium",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "4405d52dc0ce2622a8fd73fc826b7b7f913dc126817d1ac4b3699ef6b4c23e7e",
+  "output": {
+    "product": "Shared trip expense tracker",
+    "tagline": "Know who owes what. Track what’s settled.",
+    "promise": "Enter shared trip costs, see who owes what, and mark expenses settled so you can keep track of outstanding amounts.",
+    "question": "How are shared costs allocated among the people on the trip? The brief leaves this unspecified.",
+    "visualQuery": "Friends compare trip receipts at a table; one person enters shared costs on a phone, checks who owes what, then marks an expense settled. Proposed scenes for presenting the stated actions.",
+    "terms": [
+      "tracking who owes what after a group trip",
+      "entering shared trip expenses",
+      "checking outstanding shared trip costs",
+      "marking shared expenses settled",
+      "confusion over which trip expenses are already settled"
+    ]
+  },
+  "flags": []
+}

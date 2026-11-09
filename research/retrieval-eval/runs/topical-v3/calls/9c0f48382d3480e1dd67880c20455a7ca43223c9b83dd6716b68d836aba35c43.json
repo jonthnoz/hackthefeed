@@ -1,0 +1,59 @@
+{
+  "id": "9c0f48382d3480e1dd67880c20455a7ca43223c9b83dd6716b68d836aba35c43",
+  "scope": "subscription-reminders/old",
+  "kind": "search",
+  "request": {
+    "body": {
+      "operator": "and",
+      "filters": {
+        "format": {
+          "includes": [
+            "video"
+          ]
+        },
+        "viewsCount": {
+          "min": 5000
+        },
+        "interactionsCount": {
+          "min": 100
+        }
+      },
+      "queries": [
+        {
+          "operator": "or",
+          "filters": {
+            "caption": {
+              "includesExactly": {
+                "values": [
+                  "forgetting subscription renewal dates",
+                  "manually tracking subscription prices and renewal dates",
+                  "subscription renewal reminder before payment",
+                  "checking receipts for subscription renewal dates",
+                  "remembering annual subscription renewals"
+                ]
+              }
+            },
+            "transcript": {
+              "includesExactly": {
+                "values": [
+                  "forgetting subscription renewal dates",
+                  "manually tracking subscription prices and renewal dates",
+                  "subscription renewal reminder before payment",
+                  "checking receipts for subscription renewal dates",
+                  "remembering annual subscription renewals"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sort": "interactionsCount:desc",
+    "limit": 6,
+    "projection": "default"
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:35:25.498Z",
+  "response": [],
+  "elapsedMs": 357
+}

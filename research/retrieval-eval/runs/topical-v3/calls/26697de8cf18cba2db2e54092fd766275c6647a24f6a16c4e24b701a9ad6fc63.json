@@ -1,0 +1,57 @@
+{
+  "id": "26697de8cf18cba2db2e54092fd766275c6647a24f6a16c4e24b701a9ad6fc63",
+  "scope": "plant-diagnosis/new",
+  "kind": "search",
+  "request": {
+    "body": {
+      "operator": "and",
+      "filters": {
+        "format": {
+          "includes": [
+            "video"
+          ]
+        },
+        "viewsCount": {
+          "min": 5000
+        },
+        "interactionsCount": {
+          "min": 100
+        }
+      },
+      "queries": [
+        {
+          "operator": "or",
+          "filters": {
+            "caption": {
+              "includesExactly": {
+                "values": [
+                  "leaf damage",
+                  "plant diagnosis",
+                  "plant health check",
+                  "leaf scan"
+                ]
+              }
+            },
+            "transcript": {
+              "includesExactly": {
+                "values": [
+                  "leaf damage",
+                  "plant diagnosis",
+                  "plant health check",
+                  "leaf scan"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sort": "interactionsCount:desc",
+    "limit": 12,
+    "projection": "default"
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:34:08.397Z",
+  "response": [],
+  "elapsedMs": 202
+}

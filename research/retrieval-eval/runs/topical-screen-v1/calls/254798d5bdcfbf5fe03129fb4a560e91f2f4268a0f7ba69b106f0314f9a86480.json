@@ -1,0 +1,12 @@
+{
+  "id": "254798d5bdcfbf5fe03129fb4a560e91f2f4268a0f7ba69b106f0314f9a86480",
+  "scope": "reader-voice/new",
+  "kind": "asset",
+  "request": {
+    "text": "Split-screen demonstration: a document imported into a text-to-speech reader, its existing words narrated aloud, and someone folding laundry while listening. Show the source text with matching narration captions in the same language."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:14:59.815Z",
+  "response": "ast_gkeRjC8Q7NXI6cz6AD0Ld8wwfvBS",
+  "elapsedMs": 580
+}

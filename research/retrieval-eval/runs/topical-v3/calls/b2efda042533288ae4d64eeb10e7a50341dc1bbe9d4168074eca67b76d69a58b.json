@@ -1,0 +1,86 @@
+{
+  "id": "b2efda042533288ae4d64eeb10e7a50341dc1bbe9d4168074eca67b76d69a58b",
+  "scope": "screen/context-anchors",
+  "kind": "plan",
+  "request": {
+    "prompt": "Generate subject context anchors for literal video search. Do not use tools or inspect files. contextTerms disambiguate the subject of the literal task terms. Supply 2-8 short phrases identifying the input object, specific product category or confidently known competing tools for the STATED workflow. The text search requires at least one task term AND at least one context term, anywhere in caption or transcript; alternatives within each group use OR. Choose common expressions a relevant creator would actually use. Do not repeat the task terms, add capabilities, or use generic app, AI, tool, life or productivity alone as context. Context distinguishes the intended use from unrelated meanings of the same words. Use an empty array only when no defensible context distinction exists. These are search anchors, not required capabilities or claims about the user's product.\nReturn exactly one context array for each supplied ID. Ground these search anchors in the original briefs; no extra product capabilities. Inputs: [{\"id\":\"sokka-places\",\"brief\":\"Sokka saves places I discover in social posts or add manually into named collections, so I can find them when deciding where to go. I can open a saved place on a map.\",\"focus\":\"Stop losing places saved across social posts.\",\"taskTerms\":[\"save places\",\"place collections\",\"saved places\",\"organize saved places\",\"save Instagram places\"]},{\"id\":\"reader-voice\",\"brief\":\"A document reader that imports documents and reads their existing text aloud. The language selector chooses a text-to-speech voice and pronunciation. It does not translate the text.\",\"focus\":\"Listen to a document while doing something else.\",\"taskTerms\":[\"text to speech\",\"document reader\",\"read aloud\",\"listen to documents\",\"document narration\"]},{\"id\":\"splitly-expenses\",\"brief\":\"Splitly lets a group enter shared trip expenses, see who owes whom, and mark debts settled manually.\",\"focus\":\"Make shared costs and outstanding balances understandable.\",\"taskTerms\":[\"trip expenses\",\"expense splitting\",\"shared expenses\",\"who owes whom\",\"mark as settled\",\"Splitwise\"]}]",
+    "jsonSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "properties": {
+        "contexts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "contextTerms": {
+                "minItems": 2,
+                "maxItems": 8,
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            },
+            "required": [
+              "id",
+              "contextTerms"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "contexts"
+      ],
+      "additionalProperties": false
+    },
+    "images": [],
+    "config": {
+      "provider": "codex",
+      "model": "gpt-6.1-sol",
+      "effort": "medium",
+      "timeoutMs": 240000
+    }
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:25:03.193Z",
+  "elapsedMs": 11752,
+  "response": {
+    "contexts": [
+      {
+        "id": "sokka-places",
+        "contextTerms": [
+          "restaurant recommendations",
+          "travel bookmarks",
+          "Google Maps",
+          "spots from social media",
+          "places to visit"
+        ]
+      },
+      {
+        "id": "reader-voice",
+        "contextTerms": [
+          "PDF files",
+          "Word documents",
+          "Speechify",
+          "NaturalReader",
+          "ReadEra"
+        ]
+      },
+      {
+        "id": "splitly-expenses",
+        "contextTerms": [
+          "group travel",
+          "vacation costs",
+          "group bills",
+          "Tricount",
+          "Settle Up"
+        ]
+      }
+    ]
+  }
+}

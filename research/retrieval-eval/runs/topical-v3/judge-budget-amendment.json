@@ -1,0 +1,7 @@
+{
+  "previousCeiling": 8,
+  "amendedCeiling": 9,
+  "reason": "The initial held-out Claude verdict returned 44 of 45 required source labels. The complete Codex verdict succeeded. Retain and validate the 44 available Claude labels, explicitly judge only the single omitted source, then verify full coverage. Preserve the failed attempt and count its usage. Two richer-evidence judge calls remain separately budgeted.",
+  "productionStrategyUnchanged": true,
+  "automaticRetry": false
+}

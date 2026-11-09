@@ -1,0 +1,1034 @@
+{
+  "judge": "codex",
+  "config": {
+    "provider": "codex",
+    "model": "gpt-6.1-sol",
+    "effort": "high",
+    "timeoutMs": 480000
+  },
+  "unionHash": "afdad3831ae37174c3e72abfd2acc6a7b0f83ba20a46d72bdc846d6ab13c8004",
+  "labels": [
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_050f0ac09053c237546c",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Autonomously processing an entire saved-post history is not established.",
+        "Scheduling, automatic itinerary planning, availability checks and bookings are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript describes places buried among 6,000 saved posts becoming categories, mapped places and a tracker. This directly addresses recovering disorganized social discoveries."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_083eb9ae35b6da0efd2c",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption connects saved shopping spots with avoiding endless searching; the transcript explicitly asks viewers to save the store's reel on GobiMaps."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_164607ddfc53132e7112",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Surveillance-camera layers, camera metadata and route settings are not established Sokka capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript gives an explicit tap-by-tap tutorial: open the app, enable a layer, zoom and select a map marker. That map-interface walkthrough is transferable."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_20d4e87de65977233034",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Menu recommendations, venue-information generation and conversational restaurant advice are not established capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The caption explicitly contrasts searching through saved reels with importing a reel and retrieving its place in Saved Places. The transcript additionally promotes unsupported recommendations."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_296e6717bf4b0f0d200e",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "social-proof",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript assembles negative cafe reviews and comments. It provides no saving, organization or retrieval workflow, and no concrete useful reference for that task."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_4d279fe9d3d42d486d04",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Restaurant reservations, ride booking and cashback rewards are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript walks through tapping Dine Out, choosing a restaurant and visiting it for date night. Choosing a destination is neighboring work, but saved-place recovery is absent."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_4fd74e4239b8437c6a7e",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Restaurant reservations, ride booking, discounts and cashback rewards are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript connects an app-tab walkthrough to selecting and visiting a specific restaurant. This concretely references deciding where to go, without demonstrating recovery of social saves."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_554fb25cf2b43ea45d47",
+      "proximity": "adjacent",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The text evaluates a named Madrid restaurant through price, service and dishes, a neighboring destination-selection task. It supplies no concrete saving or organizational reference."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_599b7767e06bf4615a5a",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript organizes named Newcastle recommendations into breakfast, lunch and dinner; on-screen text includes a cafe profile and address. This is a concrete categorized place-guide reference."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_5bf8acce527c0c9e5820",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript visits a newly found cafe; on-screen text includes Discovery, Coffee Fix and 'I need a coffee.' Truncation leaves the app's discovery interaction unclear."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_6883543e8d03016e1563",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The text recommends Lopez Coffeeshop, lists food and visit details, and includes a named Google Maps listing. It concretely connects a social recommendation with a locatable venue."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_6ca15019c1718ca22481",
+      "proximity": "adjacent",
+      "useful": "no",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Route construction, itinerary generation and advice about optimal visiting times are not established capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The caption addresses choosing Madeira destinations, timing and sensible routes. Its solution concerns itinerary planning; supplied text does not demonstrate recovering or organizing saved places."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_751f4b10f6c6a71b7ca9",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript discusses privacy and continuous friend-location sharing. Incidental on-screen business-map text does not establish a saved-place task or useful retrieval reference."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_834d190e5bc77e05f994",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "On-screen dialogue starts with a coffee shop found on Instagram, followed by Springdale/map text; the caption identifies Canyon Coffee. This connects social discovery to a concrete destination."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_8a4d4e3465e03fc4f185",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The text compares alleged Samsung charging performance and colors. It contains no place-saving task or concrete useful mechanism for organizing social discoveries."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_8b6f9829930fcfe8818b",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Matching users with other people who want to visit is not established."
+      ],
+      "constraints": "fits",
+      "evidence": "After a detailed bar recommendation, the transcript says users can save Fives directly from this video. The venue story ends in the supported social-discovery saving action."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_8c055d06b9cd7e432ecd",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "NFC-card interactions and collecting business reviews are not established capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript contrasts lengthy searching with tapping a phone on a card to open the exact review page. The concrete friction-to-single-action demonstration is transferable."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_8cc4942660d182fee55d",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption names Hildesheim, supplies specific reasons to visit and explicitly says 'Add Hildesheim to your saved places.' This is a concrete destination recommendation with a saving CTA."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_905443121801658018e2",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "Property listings and retrieving venue ratings or reviews are not established capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript moves from a property listing to its town, named nearby bars and their reviews. This supplies a concrete location-drilldown demonstration, although the primary task is property evaluation."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_a34b5613f6a32d87a816",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Automatic itinerary generation, dietary filtering, walkability planning and calendar access are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The opening explicitly identifies hundreds of Instagram-saved places never revisited, then names outings selected from them. The lost-saves problem directly matches, despite unsupported automated planning."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_a6860fd025e6908b419d",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Sharing map collections with other users is not established."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript describes compiling TikTok and friend recommendations into categorized coffee-shop, store and restaurant lists, including a Google Maps list. This directly references organizing discovered places."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_b39d4a16cee1b30a94b7",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Providing an externally curated ranked recommendation database or distributing lists is not established."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript introduces a themed New York restaurant list, details one entry and offers the complete top-ten list on Grid. This concretely references a named collection of visit candidates."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_b4092a647696eac059bf",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Experience bookings, available-date checks and packaged tour fulfillment are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript contrasts making place lists and overplanning with choosing a specific Seoul afternoon experience. The planning-versus-exploring narrative is concrete, but its booking solution is unsupported."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_c0d66e58a5bb574edc9c",
+      "proximity": "mechanism",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "AI app building and local event or deal feeds are not established capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The caption tells a failed-app revival story involving data management; on-screen text lists events and deals. The revival device is observable, but offers no concrete saved-place reference."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_c5723ec29f9c88d215cd",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption names The View Restaurant, lists reasons it belongs on a bucket list and provides its location. On-screen text also identifies the venue, giving a concrete save-worthy recommendation."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_cf196365ac1d51535166",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript offers a saveable Cologne weekend guide with named beauty, dining and shopping places; on-screen text includes a map and notes. This concretely references a themed place collection."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_dda2d92fb00088f4d9f0",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Following friends, sharing discoveries and collaborative planning are not established capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript turns fifteen shopping finds scattered across reels into a personal map so nothing gets lost in Instagram saves. This directly matches the organization and retrieval problem."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_eb678117052700efa1f8",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Local deal discovery and exclusive member discounts are not established capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript gives a specific bar recommendation, then explicitly says to save Ten Degrees by importing this video. That is the supported social-post-to-saved-place action."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_eb6ab5c2d6daf3cb1e2b",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Showing other people who want to visit is not established."
+      ],
+      "constraints": "fits",
+      "evidence": "The restaurant story ends with saving Sirrah directly from the video by importing it into Grid. The subsequent social-matching claim exceeds Sokka's supplied capabilities."
+    },
+    {
+      "briefId": "b_41736a7747df15ab9c64",
+      "sourceId": "s_fe215c0da09e763faf35",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The supplied text enumerates and tastes chocolate-cake varieties. A cafe brand alone does not establish a place-recovery task or useful organizational reference."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_0253bad49fc41f041522",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Business revenue, profit and venue-management functionality are not established."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript explicitly presents group-rental revenues, monthly expenses and a bottom-line profit of $13,515. The itemized figures-to-total breakdown is a concrete financial-clarity reference."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_0498981466a00611db6a",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The conversation concerns generosity, tipping and relationship red flags. Mentioning a shared bank account supplies neither expense tracking nor a concrete useful balances demonstration."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_0a862b54472e8bb45c3f",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript records clothing-store interactions about sizes, stock and purchases. It contains no shared expense allocation, outstanding balance or useful financial explanation."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_107dec38472088dee00a",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "On-screen text describes losing a bet and meeting a follower while wearing towels. The travel setting supplies no shared-cost task or useful balances reference."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_15f04ea9c6cc0b5b17a5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The text describes fundraising to purchase shelter land and exceeding the target. It does not explain expense allocation, interpersonal debts or a concrete shared-cost workflow."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_1dcc3cb516e0c21010a4",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript is a wedding-related comedy sketch about a fictional service. The isolated phrase 'shared expenses' does not establish tracking or explaining shared balances."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_1dd29af0dba61cfc7462",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript describes a group evening in Paros and individual menu prices. It never allocates costs or tracks debts; a shared holiday alone is insufficient."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_295421dae2413c399b8c",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The trip narrative promotes earning credit-card rewards on eligible purchases. It supplies no shared-cost breakdown, member balances or sufficiently concrete transferable financial display."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_328a5a991f512b0dc455",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The story makes an unexpectedly expensive first-shoe outing tangible through an emergency clothing purchase and an on-screen ¥31,350 receipt. This is a concrete surprise-cost reveal."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_3ba4c066aea2bba3bfeb",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The supplied text concerns friends decorating cups during a trip. It provides no monetary allocation, outstanding balance or useful cost-tracking mechanism."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_3f61f360d697b9b4699b",
+      "proximity": "unknown",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "AI-generated interactive interfaces and credit-card repayment projections are not established capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The caption mentions 'a bill splitter,' but the truncated transcript never reaches that example. The detailed supplied demonstrations concern other tasks, leaving the relevant functionality unverified."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_4657d1bcf85fc5b6d535",
+      "proximity": "adjacent",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Accepting or processing payments through wallets, bank accounts or cryptocurrency is unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript lists payment channels to prevent excuses for not paying. Collecting money neighbors debt settlement, but the entire reference depends on payment processing rather than tracking balances."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_60eced62e7187d968cd5",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "On-screen budget labels change from £12 to £4 after an £8 room purchase; the transcript separately explains a £162 obligation. The running tally concretely makes spending understandable."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_6cfeb781b30690324a6b",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The narrator checks Splitwise instead of guessing who bought more groceries; on-screen text says 'You owe Zika T. $214.10.' This directly demonstrates understandable shared balances."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_721d90fc711988874f24",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript reviews dishes at Chunky Dragon. Dining with others is not evidence of splitting costs, tracking expenses or explaining outstanding debts."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_7786c618f01888dad330",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The source itemizes tuxedo, Uber and bachelor-trip costs and totals them at $1,574.26. Personal trip-cost accounting is a concrete neighbor to entering shared trip expenses."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_7860d71679d8a5346cd6",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "QR-code money collection, bank linking and receiving transfers are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "A dialogue about difficulty saving leads into a digital-piggy-bank demonstration with scanning and visible amount choices. The concrete problem-to-interface demonstration is transferable, while its payment functions are unsupported."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_7b651f053b413cd621c5",
+      "proximity": "direct",
+      "useful": "uncertain",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Bookings, personalized travel recommendations, weather updates, chat and voting are not established capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The caption explicitly claims managing trip expenses with friends, but supplied interface text shows trip planning and budget fields rather than expense entries or who owes whom."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_7db4387cfa969d05670e",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Importing existing payment transactions, sending payment requests and transferring settlement money in-app are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "Repeated 'how much do I owe you' questions lead into naming a trip group and splitting a meal evenly. This directly demonstrates shared-expense clarity, alongside unsupported payment integration."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_97b5a85e93adacbe5de2",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The narrator checks an Ibiza Splitwise group and finds €4,000 owed to them, joking that reimbursement is profit. The explicit outstanding group balance directly matches the brief."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_a6373d8817aae7d6dd7c",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The source promotes sweepstakes entries earned through eligible card spending. A prize trip and spending threshold do not establish shared-expense tracking or a useful balances reference."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_a638912d755057a2aa29",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The text lists family-hotel amenities, location benefits and booking discounts. Group occupancy and affordability do not demonstrate allocating costs or tracking debts."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_abc38a5d3915f138936a",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The source describes three travel teams completing city-walk and food challenges. Their separation into teams concerns activities, with no shared-cost or debt-accounting evidence."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_af504954fa724475dd59",
+      "proximity": "adjacent",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The couple explains allocating purchases to whoever wants them and explicitly avoids calculating who owes whom. This is neighboring cost-allocation advice, but supplies no useful tracking demonstration."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_ba2ebd3e7de4b3941d8f",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "On-screen text describes a lost bet and an embarrassing follower encounter while wearing towels. It contains no expense entries, balances or useful shared-cost mechanism."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_bef072f225f3964ec8d1",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption and on-screen text promote discounted European hotel bookings. They do not demonstrate shared expenses or offer a concrete financial-clarity reference."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_cbb2629b98c362f3d421",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The conversation compares recording every vacation expense with ignoring tiny coffee-versus-muffin differences, explicitly discussing fair accommodation splits and forgotten entries. This directly addresses group cost tracking."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_d241964cbd12f08ef092",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript enumerates dishes at a Shanghai restaurant. It provides no costs allocated between people, debt balances or useful expense-tracking demonstration."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_e081eb337e5b9c5b837d",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption separates park and travel expenses, assigns amounts to each and gives a $653.99 grand total. This personal trip ledger is a concrete neighboring accounting reference."
+    },
+    {
+      "briefId": "b_b87649b5818a92a37827",
+      "sourceId": "s_f5c786e88c430b38ba1f",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "On-screen spending amounts move from −25,800 to −175,800 won as a group meal unfolds and the payer is questioned. The spending-counter and payer reveal are concrete observable devices."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_00be04ba07e688ccb1da",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "AI-writing detection, cliché highlighting and rewriting or humanizing text are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript explains pasting text, scanning it and inspecting specific highlighted patterns; on-screen text also offers URL loading. This is a concrete text-input-to-result walkthrough, not document narration."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_1153ce0121818e333b1b",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption identifies an iPhone unboxing, and on-screen text lists setup languages. No evidence connects that selector to narration voices, imported documents or reading text aloud."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_15030494cc3e6f8a5aa2",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [
+        "Availability of the named Siri, TikTok, Alexa or other branded voices is not established."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript pairs recognizable voice samples with actor identities and explicitly demonstrates typing 'yeah' for TikTok text-to-speech pronunciation. Short-text voicing concretely neighbors document narration."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_2f520239089de2125e19",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript is a satirical privacy monologue about leaked messages. Mentioning a diary being read aloud does not demonstrate text-to-speech or a useful document-listening reference."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_3f9db2323724cea6fd23",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript explains prompting ChatGPT to depict its imagined appearance. The supplied prompt-entry steps concern image generation, with no useful document-audio reference."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_453a261b8ad2bda2b5df",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption identifies a music video and the transcript supplies song lyrics. Neither establishes narration of imported text or a concrete useful reader demonstration."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_591fea018935e1107ec3",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript teaches blue-eyeshadow application and blending. Its correction of a makeup choice does not provide a concrete document-listening or voice-selection reference."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_6ca634534863d5798f99",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript recounts a bar controversy using article details and comments. It provides commentary rather than an existing document being read through text-to-speech."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_6d7f2fa67c2cf0075143",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The source reports on organ sales and personal hardship. Supplied text contains no document import, text-to-speech interaction or concrete useful listening mechanism."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_726ff821b129d291d716",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [
+        "Automated article interpretation or summarization is unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript contrasts a headline with the article's explanation in political commentary. A person reading a headline does not establish document text-to-speech or a useful listening demonstration."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_7ebad5beb0cfe2623209",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Physical printing, live message monitoring and autonomous coding are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The narrator wants less phone use, builds a printer and demonstrates real messages becoming paper output. This is a concrete alternative-output demonstration, although its output is print rather than speech."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_873d7319c01556e23624",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption credits TTS, but the transcript is humorous sports commentary. It shows no existing-document workflow, pronunciation selection or other concrete useful reader reference."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_89497c223fb7099815dc",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The text promotes headphone models and call clarity. Listening hardware and general mobility alone do not establish a document-narration task or useful presentation reference."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_991b0b84e1839b10485b",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript narrates a solo shopping day and clothing choices. It contains no document listening, text-to-speech or concrete useful voice demonstration."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_9c3156905c984a30df0e",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [
+        "Availability of the named commercial, assistant and TikTok voices is not established."
+      ],
+      "constraints": "fits",
+      "evidence": "The text alternates recognizable voice clips with named actors and includes the instruction to type 'yeah' and invoke text-to-speech. This concretely references short-text narration and pronunciation."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_b18f0a3ca2dd9f94022e",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Speech-to-text transcription is unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The prank uses voice-message exchanges; on-screen text includes transcriptions and asks whether transcription was useful. This is speech-to-text evidence, not reading existing documents aloud."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_b429ae07d7cf4fc21ed6",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Generating videos from photos and prompts is unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript previews a prank result, explains the photo-and-prompt generation steps, then returns to the reaction. That result-first walkthrough is an observable transferable device, despite unrelated functionality."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_b78d6019175f92cd1aad",
+      "proximity": "unknown",
+      "useful": "uncertain",
+      "mechanism": "unknown",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The sports caption states that TTS was used, but transcript, on-screen text and frame text are empty. There is insufficient evidence of a useful narration device or document workflow."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_bb8cd79ced769357ee68",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Generating story summaries or explanations is unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript recounts fictional hospital events, and on-screen text calls it a story explanation. There is no evidence of importing or faithfully narrating an existing document."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_bdd28ae2be8d8b692933",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [
+        "Availability of the named branded voices is not established."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript presents familiar voice samples, identifies their performers and explains typing 'yeah' for TikTok text-to-speech. This supplies a concrete neighboring voice-and-pronunciation reference."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_c15a0307adeadd4a171d",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Autonomous computer control, content creation, coding and 3D generation are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The source enumerates claimed autonomous AI tasks and generated 3D examples. It supplies no document listening or concrete useful narration demonstration."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_c3be6b01d5e71d157780",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [
+        "Automated article interpretation or summarization is unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript compares an article headline with its explanation while making a political argument. It does not demonstrate text-to-speech, imported text or listening while doing another task."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_cd519dcb95371f2bb793",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Translating narration or documents into another language is unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript explains house-cleaning steps, while on-screen text includes Chinese and Spanish captions. Chores and bilingual captions alone do not establish document listening or supported language-selector behavior."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_d2a4437c36c9aba1ed76",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption and transcript document an elderly newspaper deliverer's physical route. Delivering newspapers is not consuming document text through narration, and no useful reader mechanism is supplied."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_d4aa02c8d02723cb4c77",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [
+        "Availability of the named Siri, TikTok, Alexa or other branded voices is not established."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript pairs familiar voices with named performers and gives a typed-word text-to-speech example for 'yeah.' That is concrete neighboring evidence for narration voice and pronunciation."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_d8e99256b2dec4561ea8",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Translation, bilingual text generation and language learning are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The source profiles a bookstore offering Arabic and bilingual books to reconnect readers with languages and heritage. It supplies no audio-reading workflow; its translation and learning uses exceed the brief."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_ef22604f890f6001f6fb",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript compares foldable-phone batteries, cameras, processors and availability. It contains no document narration or concrete useful voice-selection reference."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_f08e4eecd2f58acb2506",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The source unboxes a Mac Studio, compares its size with a Mac Mini and discusses a frozen computer. No document-listening functionality or useful narration mechanism is evidenced."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_fd9d94828dd91625e3dc",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Speech coaching and articulation training are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript gives three articulation habits, including personally reading aloud with a pencil in one's mouth. This trains the speaker rather than providing text-to-speech access to documents."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_34ad96e6d7db5135fe7c",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Cloning a voice from an uploaded sample is unsupported.",
+        "Prompt-controlled tone, emotion, and speaking style are unsupported.",
+        "Claude Code/MCP voice integration is unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript provides a generated-speech example and numbered instructions for producing speech, a concrete neighboring task to document narration. This supplies a voice-output demonstration reference, although document import and listening while multitasking are not shown. Supplied text is truncated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_3dab6a8a03d444f6b4b1",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption mentions consuming written material through audio, but the interview concerns competitive strategy, a founder's mistake, and leadership advice. It supplies neither a document-listening workflow nor a concrete presentation reference for that task."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_40d75801ba3c03c7d5f0",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Celebrity voice availability is not established for this reader.",
+        "Vocabulary expansion and language-learning benefits are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "An animal-name list leads into an explicit pitch to listen to 'books, files and PDFs' read aloud, with document chapters and existing text in the on-screen evidence. That provides a concrete document-narration reference. Multitasking is not established, and supplied text is truncated."
+    },
+    {
+      "briefId": "b_ef9c9c98545a5b65d405",
+      "sourceId": "s_93542040b45a78c0f349",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Celebrity voice availability is not established for this reader.",
+        "Vocabulary expansion and language-learning benefits are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "An animal-name list leads into an explicit pitch to listen to 'books, files and PDFs' read aloud, with document chapters and existing text in the on-screen evidence. That provides a concrete document-narration reference. Multitasking is not established, and supplied text is truncated."
+    }
+  ],
+  "inheritance": {
+    "directory": "research/retrieval-eval/review/topical-screen-v1/screen",
+    "reusedLabels": 89,
+    "newLabels": 4
+  }
+}

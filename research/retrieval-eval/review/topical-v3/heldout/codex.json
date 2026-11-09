@@ -1,0 +1,513 @@
+{
+  "judge": "codex",
+  "config": {
+    "provider": "codex",
+    "model": "gpt-6.1-sol",
+    "effort": "high",
+    "timeoutMs": 480000
+  },
+  "unionHash": "b3cdd1b243b044082ad90a9a1321869c60ece9007ce965f34023ee1eca03f037",
+  "labels": [
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_05a46cbafdb54cb00146",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Generated shadows, harmonization, gradients and compositing exceed the supported solid background and brightness edits."
+      ],
+      "constraints": "unknown",
+      "evidence": "The tutorial isolates a product with a layer mask and places it on a colored background, directly illustrating product-photo cleanup. Its additional shadow generation is unsupported. People visibility is not established."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_20f3734968b7ab9a73c4",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The caption advertises a two-person ceramics date at a cafe and booking by direct message. No photo-editing task or useful editing presentation is evidenced; people visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_23ba2f0ee390d9d0a981",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Camera capture settings, video codecs, Apple Log and LUTs are not supported editor capabilities."
+      ],
+      "constraints": "unknown",
+      "evidence": "“CINEMATIC in 5 easy steps,” a numbered app-install step and explicit camera settings establish a concrete settings tutorial reference. The task is video capture rather than cleaning an existing listing photo; visibility constraints remain unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_354f56542bd3508c8e3b",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [
+        "Creating a crushed-can mockup or transforming packaging appearance would misrepresent the editor's preservation of the product."
+      ],
+      "constraints": "unknown",
+      "evidence": "The caption describes a crushed aluminum-can mockup, while on-screen “DON'T,” “DO” and “Ctrl+T Free Transform” establish an editing comparison. Product mockup creation neighbors listing-image editing, but the product transformation is unsupported. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_3ff8bcf82a02c3d84a4e",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Beat detection, layered animation, transforms and video effects are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "The transcript explicitly demonstrates adding an image over solid black and selecting “Remove BG” then “Auto Removal.” That cutout walkthrough is transferable, although the actual task is head-bop animation. People visibility is not established."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_571a5e5c3cfffeab878f",
+      "proximity": "unknown",
+      "useful": "uncertain",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Music-carousel and scrapbook creation are not supported capabilities."
+      ],
+      "constraints": "unknown",
+      "evidence": "“How I created this music carousel” and custom canvas-size controls establish a tutorial, but the truncated text does not establish background cleanup or a sufficiently specific transferable editing sequence. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_594cbe4d93069f89738f",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The transcript lists retail arrivals, including a vacuum, mirrors, mugs and candles with prices. It provides no photo-cleanup task or concrete useful editing reference. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_5b13d57daecf3fc994ad",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Physical staging, portrait capture, aperture settings and dramatic filters are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "The tutorial improves a drink-and-cake product shot through placement, camera settings and a small brightness increase. This is a concrete neighboring product-photography task, with an evidenced five-step presentation. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_6dab88d9b3b8c8d65535",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "Splitting images into editable layers, moving objects and changing subject details are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "The caption demonstrates editing an existing stock image to remove an unwanted object or make space for a headline. Removing visual clutter bridges to listing-photo cleanup, but its object and subject transformations exceed this editor. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_75f6fcf2d5f0a1143ea2",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The supplied text concerns seasonal iPhone wallpaper and interactive music widgets. It establishes neither product-photo cleanup nor a concrete useful reference beyond unrelated customization. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_7b011243cebc5690290d",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Prompt-generated product staging is unsupported; only a solid background color is available."
+      ],
+      "constraints": "unknown",
+      "evidence": "A coworker delays a vacation with urgent shoe photos, followed by uploading a photo and describing a generated background. The story concretely addresses product-image preparation, but its demonstrated staging action is unsupported. Dialogue does not establish whether people are visible."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_8a7b4200b0895b21c752",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The transcript explains lidar mosquito detection and laser targeting. It provides no matching editing task or useful concrete reference for listing-photo cleanup. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_8b73d8cd8e7bd12667ac",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Prompt-generated branded visuals and image animation are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "The caption supplies an explicit numbered upload, review results, select and download walkthrough. That observable software tutorial is transferable, although logo generation and animation are different tasks. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_92026226c0a770b42cf0",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Layered screenshots, perspective transforms, shadows, manual partial cutouts and spatial animation are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "The transcript gives concrete PhotoRoom cutout and export steps within a music-player composite tutorial. Those steps provide a transferable editing demonstration, but the composite effect exceeds the product. Photographing oneself does not establish visible faces or full people."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_9cac61abed93bf71a418",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The transcript reviews a Huawei phone's camera, display, processor, battery and price. It contains no listing-photo editing workflow or useful concrete editing reference. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_a6e82ff09d1f5493d3aa",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "“Rip my brown rad ceramics mug, gone but not forgotten” establishes a personal mug memorial. No listing-photo improvement or useful editing mechanism is evidenced. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_c332899b1b5977da2706",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Turning a product still into an animated video is unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "The caption teaches turning a still product photo into a mobile video, and the text shows PhotoRoom's “Create a video” entry. This neighbors preparing existing product imagery, but the truncated evidence lacks the actual editing steps. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_c6ca4b8266c23129c53e",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The transcript follows dinner preparation, work calls, feeding cats and television. It provides no product-photo task or useful concrete editing reference. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_cbf94b35b21c713edca0",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "Generating new backgrounds and testing generated looks are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "“This is the product photo I took on my phone” versus the listing image, explicit background removal, and “Same product, same photo” directly match preserving a product while cleaning its photo. The generated background exceeds capabilities; people visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_cceba27f70edfac38600",
+      "proximity": "adjacent",
+      "useful": "uncertain",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "Product-photo animation, AI fashion models and ghost-mannequin editing are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "The caption describes converting a product still into a video, while on-screen text shows PhotoRoom's tool menu. This is a neighboring product-imagery task, but the truncated evidence does not establish a useful cleanup sequence. People visibility is unknown."
+    },
+    {
+      "briefId": "b_90d20de70751575aad0a",
+      "sourceId": "s_d37de8eb360e345cff34",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Physical laser engraving and product personalization cannot be presented as editor capabilities."
+      ],
+      "constraints": "unknown",
+      "evidence": "The transcript recommends a supplier that physically engraves thermoses, keychains and other goods. Seller context alone does not connect this to listing-photo cleanup, and no useful editing reference is supplied. People visibility is unknown."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_13332572f03c9d01cdc5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [
+        "Autonomous movement, environmental sensing, plant identification and sensor-based thirst detection are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "Sprout navigates toward light and detects thirst through a planter sensor. No damaged-leaf investigation or watering-date recording is demonstrated; shared plant-care context is insufficient. Logo and people visibility are not fully established."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_2321d1d9555931bae4c5",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The transcript contrasts gradual loss of older lower leaves with new-leaf or sudden widespread loss, then suggests checking cold exposure and overwatering. This concretely connects visible symptoms to possible causes and next checks. Logo and people absence are unproven."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_43d14b781858b35377e8",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [
+        "Definitive disease identifications from leaf appearance must not become guaranteed app diagnoses."
+      ],
+      "constraints": "unknown",
+      "evidence": "The transcript links observable leaf signs—velvety brown patches, yellow stippling, webs and concentric lesions—to named possible damage causes. This directly references symptom inspection, although the source's diagnostic certainty exceeds the brief. Logo and people visibility are unknown."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_892611f1db60b452a1d1",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Preparing and applying a treatment spray is outside the app's cause suggestions and watering records; no cure may be promised."
+      ],
+      "constraints": "unknown",
+      "evidence": "Black spots, dry tips and yellow areas are connected to possible fungal problems, humidity and ventilation; the transcript also recommends reviewing watering. These are concrete damage-investigation references, while the spray recipe is unsupported. Logo and people visibility are unknown."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_9b7628e8d8e3d7c1073f",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "before-after",
+      "unsupportedCapabilityIssues": [
+        "Leaf-cleaning recipes and pest-prevention effects are not app capabilities."
+      ],
+      "constraints": "unknown",
+      "evidence": "“How to go from this to this on your plants' leaves” explicitly establishes a leaf-condition comparison. That presentation is transferable, but the demonstrated task is cleaning dusty leaves rather than investigating damage. Brand text is present; actual logos and people visibility remain unestablished."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_ad1085689ae6da1782c5",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The transcript showcases decorative plant varieties, textures and colors. A passing mention of a sick begonia provides no symptom investigation or possible causes, and the showcase supplies no specific useful diagnostic reference. Logo and people visibility are unknown."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_c254063d15e9588cb455",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "unknown",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The caption says a home is for living in, and on-screen text says their house often looks this way. No plant-damage task or useful presentation mechanism is established. Logo and people visibility are unknown."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_dca0cd8495530507c2f5",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Voice-message input, planting-time advice and broad farm-management assistance are unsupported."
+      ],
+      "constraints": "unknown",
+      "evidence": "The transcript explicitly describes photographing a crop so an app can help identify a disease. This supports the photo-to-possible-cause interaction, despite the agricultural setting and additional unsupported advice. Logo and people visibility are unknown."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_ddab48614523bd5cf7a7",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The supplied text reviews a POCO phone's battery, charging, screen and processor. It contains no leaf-damage investigation or concrete useful reference for it. Brand names are visible in text, but actual logo and people visibility are not established."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_e4baa6825bb93f02cb62",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "comparison",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "unknown",
+      "evidence": "The text compares Xiaomi and Samsung camera results, including blur and megapixel settings. No damaged-leaf interpretation or specific useful plant-investigation reference is supplied. Logo and people visibility are unknown."
+    },
+    {
+      "briefId": "b_e1fd08de37c7215e1cc3",
+      "sourceId": "s_e9cf91e18dac57be83f2",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "The categorical claim that dampness is the cause must not be presented as a guaranteed app diagnosis."
+      ],
+      "constraints": "unknown",
+      "evidence": "The transcript connects yellow leaves with persistently wet, poorly ventilated soil and recommends checking dryness before watering. It directly supplies a visible symptom, possible cause and next check. Logo and people absence are unproven."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_3237da8dc475583ebcdb",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Automatic categorization, usage tracking, yearly-cost views and savings toggles are not established product capabilities."
+      ],
+      "constraints": "fits",
+      "evidence": "The narrator supplies subscription names and costs to a tracker to decide which are worth keeping. This directly references manual subscription tracking and decisions, though renewal reminders are not shown and several extra dashboard features are unsupported."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_5c7638d45425762bf08c",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption and interface concern attendance, wake-up challenges and earning reward jelly. They show no subscription prices, renewal dates or useful renewal-tracking reference."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_6b09ecf38ef4b49403b5",
+      "proximity": "unknown",
+      "useful": "uncertain",
+      "mechanism": "unknown",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The disconnected dialogue and on-screen words such as “Phone” do not establish a coherent task or observable creative mechanism. There is insufficient evidence to judge a subscription-tracking connection."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_76d6c6e22baa3e8a0104",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript reports erroneous PlayStation regional game prices and store maintenance. Mentioning subscription prices does not establish tracking renewals or a concrete useful reminder reference."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_835aceb887e21dbba016",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "demonstration",
+      "unsupportedCapabilityIssues": [
+        "The tracker cannot perform provider cancellation or negotiate subscriptions; the reported savings cannot be promised to users."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript follows manual provider cancellation through multiple clicks, retention offers and confirmation. This concretely bridges a decision about unwanted subscriptions to cancellation status, while cancellation itself must occur outside the tracker."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_84fe81d9cfb521d46554",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The source recounts a child's delayed surgery and subsequent preparation for intubation. It supplies no subscription task or concrete useful renewal-reminder reference."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_98ac7ad6a801a1a38ea9",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "list",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The transcript lists concert seating categories and ticket prices. A price list alone does not establish recurring subscriptions, renewal decisions or a useful tracking mechanism."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_9a326490a5aacf6bc6d6",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Bank linking, automatic recurring-charge discovery and cancellation performed by connected services are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The tutorial explicitly addresses forgotten subscriptions and cancelling before a free trial ends, then walks through finding recurring charges and collecting them into a list. Its manual audit is useful; the connected-account and cancellation-service claims exceed this tracker."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_9e63cc9eb1090c124b00",
+      "proximity": "direct",
+      "useful": "yes",
+      "mechanism": "problem-solution",
+      "unsupportedCapabilityIssues": [
+        "Yearly-cost calculations and building a custom app are not capabilities of the specified tracker."
+      ],
+      "constraints": "fits",
+      "evidence": "The transcript says users can add subscriptions and receive a reminder two days before a trial becomes paid, enabling cancellation beforehand. This directly matches recording subscriptions and deciding before a renewal."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_b14604a3070342eb0a2e",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The story concerns postcards mailed to arrive ten years later and reflections on the future. A future delivery date alone provides no subscription-renewal task or sufficiently specific useful reminder reference."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_b73f97a0f3f9c71c00da",
+      "proximity": "adjacent",
+      "useful": "yes",
+      "mechanism": "tutorial",
+      "unsupportedCapabilityIssues": [
+        "Bank and credit-card linking, transaction imports, automatic subscription classification and historical spending analytics are unsupported."
+      ],
+      "constraints": "fits",
+      "evidence": "The tutorial imports transactions, identifies subscriptions and reviews recurring costs to decide what to cancel. Reviewing subscriptions bridges to the brief, but its core acquisition flow is automatic financial-data analysis rather than manual renewal tracking."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_dd84d6253b93d3005126",
+      "proximity": "mechanism",
+      "useful": "yes",
+      "mechanism": "story",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "Repeated timestamped messages—“in 20 minutes,” “Where are you?” and an urgent school request—interrupt an organized agenda. This is a concrete notification-cascade device for portraying missed obligations, although the task is unrelated to subscriptions."
+    },
+    {
+      "briefId": "b_e76802221cc9c6096cb9",
+      "sourceId": "s_df72d2cd4596657bdfc1",
+      "proximity": "irrelevant",
+      "useful": "no",
+      "mechanism": "other",
+      "unsupportedCapabilityIssues": [],
+      "constraints": "fits",
+      "evidence": "The caption and text concern marathon bib pickup, transportation selection and a personal milestone. They establish no subscription tracking or useful concrete renewal-reminder reference."
+    }
+  ],
+  "inheritance": null
+}

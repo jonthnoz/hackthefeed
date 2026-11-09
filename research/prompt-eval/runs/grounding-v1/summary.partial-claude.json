@@ -1,0 +1,296 @@
+[
+  {
+    "judge": "claude",
+    "split": "screen",
+    "variant": "A",
+    "outputs": 8,
+    "fabricatedFeatures": 1,
+    "cleanOutputs": 7,
+    "faithfulness": [
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      2,
+      3
+    ],
+    "specificity": [
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3
+    ],
+    "uncertainty": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      1
+    ],
+    "explicitCapabilities": [
+      3,
+      3,
+      3,
+      4,
+      4,
+      3,
+      2,
+      3
+    ],
+    "constraintViolations": []
+  },
+  {
+    "judge": "claude",
+    "split": "screen",
+    "variant": "B",
+    "outputs": 8,
+    "fabricatedFeatures": 0,
+    "cleanOutputs": 8,
+    "faithfulness": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "specificity": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "uncertainty": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "explicitCapabilities": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "constraintViolations": []
+  },
+  {
+    "judge": "claude",
+    "split": "heldout",
+    "variant": "A",
+    "outputs": 4,
+    "fabricatedFeatures": 3,
+    "cleanOutputs": 2,
+    "faithfulness": [
+      2,
+      0,
+      3,
+      4
+    ],
+    "specificity": [
+      3,
+      2,
+      3,
+      3
+    ],
+    "uncertainty": [
+      1,
+      1,
+      2,
+      3
+    ],
+    "explicitCapabilities": [
+      1,
+      1,
+      3,
+      3
+    ],
+    "constraintViolations": []
+  },
+  {
+    "judge": "claude",
+    "split": "heldout",
+    "variant": "B",
+    "outputs": 4,
+    "fabricatedFeatures": 0,
+    "cleanOutputs": 4,
+    "faithfulness": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "specificity": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "uncertainty": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "explicitCapabilities": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "constraintViolations": []
+  },
+  {
+    "judge": "claude",
+    "split": "all",
+    "variant": "A",
+    "outputs": 12,
+    "fabricatedFeatures": 4,
+    "cleanOutputs": 9,
+    "faithfulness": [
+      2,
+      0,
+      3,
+      4,
+      4,
+      4,
+      3,
+      3,
+      3,
+      4,
+      2,
+      3
+    ],
+    "specificity": [
+      3,
+      2,
+      3,
+      3,
+      3,
+      3,
+      3,
+      4,
+      3,
+      3,
+      3,
+      3
+    ],
+    "uncertainty": [
+      1,
+      1,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      1
+    ],
+    "explicitCapabilities": [
+      1,
+      1,
+      3,
+      3,
+      3,
+      4,
+      3,
+      4,
+      3,
+      3,
+      2,
+      3
+    ],
+    "constraintViolations": []
+  },
+  {
+    "judge": "claude",
+    "split": "all",
+    "variant": "B",
+    "outputs": 12,
+    "fabricatedFeatures": 0,
+    "cleanOutputs": 12,
+    "faithfulness": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "specificity": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "uncertainty": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "explicitCapabilities": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "constraintViolations": []
+  }
+]

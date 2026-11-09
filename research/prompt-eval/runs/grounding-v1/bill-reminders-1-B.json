@@ -1,0 +1,28 @@
+{
+  "id": "bill-reminders-1-B",
+  "scenario": "bill-reminders",
+  "split": "screen",
+  "variant": "B",
+  "strategy": 1,
+  "requestedModel": "gpt-6-astra",
+  "effectiveModel": "gpt-6-astra",
+  "effort": "high",
+  "frozenHash": "ebdbf1c2c2ed9d5d7ab5cadf52735065fccc594aec6fdf73dca1ac3ecf319759",
+  "promptHash": "6d90fe79537f3e3a716184ce4040d61ffddcf204815e3c511e542a4bfe30af8d",
+  "output": {
+    "product": "Bill due date reminders",
+    "tagline": "Remember the due date. Mark it paid.",
+    "promise": "Add a bill’s due date, receive a notification, and mark the bill paid.",
+    "question": "Research whether losing track of bill due dates is the clearest user problem. This is a plausible situation, not a validated finding. When are notifications sent relative to the due date? Timing and reduced late payments remain unconfirmed.",
+    "visualQuery": "Person checks the due date on a paper bill, enters the date on a phone, receives a bill reminder notification, then marks the bill paid; close-ups of the date, reminder and paid status.",
+    "terms": [
+      "forgetting bill due dates",
+      "bill due date reminder notification",
+      "entering a bill payment due date",
+      "marking a bill as paid",
+      "remembering whether a bill was paid"
+    ],
+    "alternativeVisualQuery": "Stylized animation with plain typography: a paper bill’s due date is highlighted, the date appears in a phone screen field, a bill reminder notification appears, and the bill’s status changes to Paid."
+  },
+  "flags": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "f273689419b6919606cb92f76acbd2eb1ed920c8af296d9b9b26d03c3e872640",
+  "scope": "splitly-expenses/old",
+  "kind": "asset",
+  "request": {
+    "text": "Friends gather trip receipts beside a phone; one enters an expense, another checks who owes whom; cut from an outstanding debt to someone manually marking it settled."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:16:23.019Z",
+  "elapsedMs": 433,
+  "response": "ast_X6TD3DKpTpY8UYhIl77ZYQ9hrLzF"
+}

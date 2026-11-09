@@ -1,0 +1,59 @@
+{
+  "id": "f55381ae18c39661d113eb2f4cc6e465fd7f1aa3e1643dae50bab541c99ea02c",
+  "scope": "splitly-expenses/old",
+  "kind": "search",
+  "request": {
+    "body": {
+      "operator": "and",
+      "filters": {
+        "format": {
+          "includes": [
+            "video"
+          ]
+        },
+        "viewsCount": {
+          "min": 5000
+        },
+        "interactionsCount": {
+          "min": 100
+        }
+      },
+      "queries": [
+        {
+          "operator": "or",
+          "filters": {
+            "caption": {
+              "includesExactly": {
+                "values": [
+                  "understanding shared trip expense records",
+                  "reading who owes whom in a travel group",
+                  "confusion between total trip costs and outstanding debts",
+                  "tracking manually settled trip debts",
+                  "group trip receipt reconciliation"
+                ]
+              }
+            },
+            "transcript": {
+              "includesExactly": {
+                "values": [
+                  "understanding shared trip expense records",
+                  "reading who owes whom in a travel group",
+                  "confusion between total trip costs and outstanding debts",
+                  "tracking manually settled trip debts",
+                  "group trip receipt reconciliation"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "sort": "interactionsCount:desc",
+    "limit": 6,
+    "projection": "default"
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:16:23.454Z",
+  "elapsedMs": 344,
+  "response": []
+}

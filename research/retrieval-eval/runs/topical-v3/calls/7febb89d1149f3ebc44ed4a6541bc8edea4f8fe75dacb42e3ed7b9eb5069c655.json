@@ -1,0 +1,12 @@
+{
+  "id": "7febb89d1149f3ebc44ed4a6541bc8edea4f8fe75dacb42e3ed7b9eb5069c655",
+  "scope": "product-photo/old",
+  "kind": "asset",
+  "request": {
+    "text": "Seller photographs a ceramic mug on a cluttered desk; photo editor isolates the mug, replaces the background with a solid color, adjusts brightness, and exports the finished listing image; original and edited photos side by side."
+  },
+  "status": "success",
+  "startedAt": "2026-11-09T03:36:35.905Z",
+  "response": "ast_IDAQqwOPAsQuxodPEI1eR0YVlnGh",
+  "elapsedMs": 256
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "sokka-places", "split": "screen",
+    "input": { "brief": "Sokka saves places I discover in social posts or add manually into named collections, so I can find them when deciding where to go. I can open a saved place on a map.", "focus": "Stop losing places saved across social posts.", "constraints": { "noRealPeople": false, "exclude": "" }, "resources": [] },
+    "capabilities": ["save discovered places", "organize named collections", "find saved places", "open a saved place on a map"],
+    "unsupported": ["booking", "automatic itinerary generation", "live navigation", "guaranteed destination availability"],
+    "need": "Recover and organize places worth visiting, rather than generic travel scenery."
+  },
+  {
+    "id": "reader-voice", "split": "screen",
+    "input": { "brief": "A document reader that imports documents and reads their existing text aloud. The language selector chooses a text-to-speech voice and pronunciation. It does not translate the text.", "focus": "Listen to a document while doing something else.", "constraints": { "noRealPeople": false, "exclude": "" }, "resources": [] },
+    "capabilities": ["import documents", "read existing text aloud", "choose narration voice and pronunciation"],
+    "unsupported": ["translation", "language learning", "summarization", "understanding an unfamiliar language"],
+    "need": "Listen to existing document content through text-to-speech."
+  },
+  {
+    "id": "splitly-expenses", "split": "screen",
+    "input": { "brief": "Splitly lets a group enter shared trip expenses, see who owes whom, and mark debts settled manually.", "focus": "Make shared costs and outstanding balances understandable.", "constraints": { "noRealPeople": false, "exclude": "" }, "resources": [] },
+    "capabilities": ["enter shared expenses", "calculate balances between group members", "mark settlement manually"],
+    "unsupported": ["money transfers", "bank linking", "automatic payment", "receipt scanning"],
+    "need": "Track shared costs and balances, rather than personal investing or payment processing."
+  },
+  {
+    "id": "plant-diagnosis", "split": "heldout",
+    "input": { "brief": "A houseplant app lets users photograph a leaf, receive possible causes of visible damage, and record watering dates. It gives possible causes, not a guaranteed diagnosis or cure.", "focus": "Understand a damaged leaf before deciding what to check next.", "constraints": { "noRealPeople": true, "exclude": "No brand logos. Hands-only demonstrations are allowed." }, "resources": [] },
+    "capabilities": ["photograph a leaf", "suggest possible causes of visible damage", "record watering dates"],
+    "unsupported": ["guaranteed diagnosis", "guaranteed cure", "automatic watering", "professional medical or veterinary advice"],
+    "need": "Investigate visible plant damage with appropriately uncertain suggestions. Sparse and challenging domain; do not fill with unrelated diagnosis footage."
+  },
+  {
+    "id": "subscription-reminders", "split": "heldout",
+    "input": { "brief": "A subscription tracker lets users enter prices and renewal dates manually, receive renewal reminders, and mark a subscription cancelled after cancelling it with the provider. It cannot link banks or cancel subscriptions.", "focus": "See upcoming renewals before forgetting about them.", "constraints": { "noRealPeople": false, "exclude": "" }, "resources": [] },
+    "capabilities": ["manually enter subscription prices and renewal dates", "renewal reminders", "record cancellation status"],
+    "unsupported": ["automatic cancellation", "bank linking", "guaranteed savings", "negotiating bills"],
+    "need": "Track renewal dates and make a decision before a renewal."
+  },
+  {
+    "id": "product-photo", "split": "heldout",
+    "input": { "brief": "A product photo editor removes a photo background, lets the seller choose a solid color, and adjusts brightness before exporting the image. It does not change the physical product or generate new product details.", "focus": "Turn a cluttered listing photo into a clear product image.", "constraints": { "noRealPeople": true, "exclude": "No visible faces or full people. Hands-only demonstrations are allowed." }, "resources": [] },
+    "capabilities": ["remove photo background", "choose a solid background color", "adjust brightness", "export edited photo"],
+    "unsupported": ["physical product changes", "invented product details", "automatic listing publication", "guaranteed sales"],
+    "need": "Improve an existing product listing photo with the explicitly supported edits."
+  }
+]
