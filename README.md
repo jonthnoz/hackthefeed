@@ -90,7 +90,7 @@ Before sharing a Git branch, check `git status --short` and include all intended
 
 The following commands document the original submission workflow. They do not regenerate as part of local setup or release verification.
 
-This historical workflow requires macOS with Google Chrome at `/Applications/Google Chrome.app`, plus `uv` and Python 3.14. The Python scripts declare their dependencies for `uv`. Narration uses Edge TTS online. Generated captures, audio, decks and videos are not included in a fresh source copy.
+This historical workflow requires macOS with Google Chrome at `/Applications/Google Chrome.app`, plus `uv` and Python 3.14. The Python scripts declare their dependencies for `uv`. Narration uses Edge TTS online. Intermediate captures, audio and generated submission files are excluded; the final demo and subtitles are included under `docs/demo/`.
 
 ```sh
 bun run scripts/capture-journey.ts brief                       # app must run on :3000
