@@ -1,5 +1,9 @@
 import { z } from 'zod';
 
+export const constraintsSchema = z.object({ noRealPeople: z.boolean().default(false), exclude: z.string().max(1000).default('') });
+export const constraintAssessmentSchema = z.object({ status: z.enum(['fits', 'excluded', 'uncertain']), reason: z.string() });
+export const projectSourceSchema = z.object({ url: z.string(), status: z.enum(['loaded', 'failed']), title: z.string(), excerpt: z.string(), reason: z.string() });
+
 export const frameSchema = z.object({ url: z.string(), seconds: z.number(), text: z.string() });
 export const referenceSchema = z.object({
   id: z.string(), title: z.string(), creator: z.string(), platform: z.string(),
@@ -15,6 +19,7 @@ export const angleSchema = z.object({
   id: z.string(), title: z.string(), label: z.string(), description: z.string(),
   whyItFits: z.string(), evidence: z.string(), referenceIds: z.array(z.string()),
   suggestedHook: z.string(), visualDirection: z.string(),
+  proximity: z.enum(['direct', 'adjacent', 'mechanism']).optional(),
 });
 export const storyboardSchema = z.object({
   title: z.string(), premise: z.string(), hook: z.string(),
@@ -28,8 +33,24 @@ export const studySchema = z.object({
   overview: z.string(), searchNotes: z.array(z.string()),
   references: z.array(referenceSchema), angles: z.array(angleSchema),
   storyboard: storyboardSchema,
+  constraints: constraintsSchema.default({ noRealPeople: false, exclude: '' }),
+  excludedReferences: z.array(referenceSchema).default([]),
+  uncertainReferences: z.array(referenceSchema).default([]),
+  constraintAssessments: z.record(z.string(), constraintAssessmentSchema).default({}),
+  resources: z.array(z.url()).max(5).default([]),
+  projectSources: z.array(projectSourceSchema).default([]),
+  retrievalTrace: z.object({
+    strategy: z.enum(['topical-v1', 'topical-v2', 'topical-v3']),
+    plan: z.object({ visualQuery: z.string(), terms: z.array(z.string()), adjacentTerms: z.array(z.string()), contextTerms: z.array(z.string()).default([]), alternativeVisualQuery: z.string().optional() }),
+    queries: z.array(z.object({ lane: z.string(), body: z.unknown(), sort: z.string(), limit: z.number(), resultIds: z.array(z.string()), assetText: z.string().optional() })),
+    decisions: z.array(z.object({ id: z.string(), relevance: z.enum(['direct', 'adjacent', 'mechanism', 'irrelevant']), reason: z.string(), duplicateOf: z.string().nullable() })),
+    selectedIds: z.array(z.string()), expanded: z.boolean(), refined: z.boolean().default(false), candidateCount: z.number(), qualificationCalls: z.number(),
+  }).optional(),
 });
-export const researchInputSchema = z.object({ brief: z.string().min(12).max(5000), focus: z.string().max(1000).default(''), refresh: z.boolean().default(false) });
+export const researchInputSchema = z.object({ brief: z.string().min(12).max(5000), focus: z.string().max(1000).default(''), constraints: constraintsSchema.default({ noRealPeople: false, exclude: '' }), resources: z.array(z.url().refine(value => ['http:', 'https:'].includes(new URL(value).protocol), 'Use HTTP or HTTPS links.')).max(5).default([]) });
+export const historyEntrySchema = studySchema.pick({ id: true, product: true, tagline: true, brief: true, createdAt: true, constraints: true }).extend({ referenceCount: z.number(), angleCount: z.number() });
+export type Constraints = z.infer<typeof constraintsSchema>;
+export type HistoryEntry = z.infer<typeof historyEntrySchema>;
 export const planSchema = z.object({
   product: z.string(), tagline: z.string(), promise: z.string(), question: z.string(),
   visualQuery: z.string().max(300), terms: z.array(z.string()).min(2).max(8),
@@ -42,9 +63,10 @@ export const analysisSchema = z.object({
   })),
   angles: z.array(angleSchema), storyboard: storyboardSchema,
 });
+export const creativeAnalysisSchema = analysisSchema.extend({ angles: z.array(angleSchema.extend({ proximity: z.enum(['direct', 'adjacent', 'mechanism']) })) });
 export const jobSchema = z.discriminatedUnion('status', [
   z.object({ id: z.string(), status: z.literal('running'), stage: z.string(), detail: z.string() }),
-  z.object({ id: z.string(), status: z.literal('complete'), studyId: z.string(), cached: z.boolean() }),
+  z.object({ id: z.string(), status: z.literal('complete'), studyId: z.string() }),
   z.object({ id: z.string(), status: z.literal('error'), message: z.string() }),
 ]);
 export type Reference = z.infer<typeof referenceSchema>;

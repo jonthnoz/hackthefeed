@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { jobSchema, studySchema } from '../shared/schema';
+import { historyEntrySchema, jobSchema, studySchema, type Constraints } from '../shared/schema';
 
 async function request<T>(path: string, schema: z.ZodType<T>, options?: RequestInit): Promise<T> {
   const response = await fetch(path, options);
@@ -16,9 +16,10 @@ async function request<T>(path: string, schema: z.ZodType<T>, options?: RequestI
 export const api = {
   examples: () => request('/api/examples', z.array(studySchema)),
   study: (id: string) => request(`/api/studies/${encodeURIComponent(id)}`, studySchema),
-  research: (brief: string) => request('/api/research', jobSchema, {
+  history: () => request('/api/history', z.array(historyEntrySchema), { cache: 'no-store' }),
+  research: (brief: string, constraints: Constraints, resources: string[] = []) => request('/api/research', jobSchema, {
     method: 'POST', headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ brief, focus: '', refresh: false }),
+    body: JSON.stringify({ brief, focus: '', constraints, resources }),
   }),
   job: (id: string) => request(`/api/jobs/${encodeURIComponent(id)}`, jobSchema),
 };

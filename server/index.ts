@@ -1,8 +1,10 @@
 import { createServer } from 'node:http';
 import { readFile } from 'node:fs/promises';
 import { createServer as createViteServer } from 'vite';
+import { z } from 'zod';
 import { researchInputSchema } from '../shared/schema';
-import { jobs, readStudy, startResearch } from './research';
+import { jobs, listHistory, readExamples, readStudy, startResearch } from './research';
+import { aiLabel, readAIConfig } from './ai/config';
 
 const vite = await createViteServer({ server: { middlewareMode: true }, appType: 'spa' });
 const server = createServer(async (request, response) => {
@@ -11,7 +13,10 @@ const server = createServer(async (request, response) => {
   response.setHeader('Content-Type','application/json');
   try {
     if (request.method === 'GET' && url.pathname === '/api/examples') {
-      response.end(JSON.stringify(await Promise.all(['demo-places','demo-identify','demo-study'].map(readStudy)))); return;
+      response.end(JSON.stringify(await readExamples())); return;
+    }
+    if (request.method === 'GET' && url.pathname === '/api/history') {
+      response.end(JSON.stringify(await listHistory())); return;
     }
     if (request.method === 'GET' && url.pathname.startsWith('/api/studies/')) {
       response.end(JSON.stringify(await readStudy(url.pathname.split('/').at(-1) ?? ''))); return;
@@ -28,7 +33,7 @@ const server = createServer(async (request, response) => {
       response.end(JSON.stringify(await startResearch(input))); return;
     }
     if (request.method === 'GET' && url.pathname === '/api/health') {
-      response.end(JSON.stringify({ status: 'ok', oriane: Boolean(process.env.ORIANE_API_KEY), engine: 'Codex CLI' })); return;
+      response.end(JSON.stringify({ status: 'ok', oriane: Boolean(process.env.ORIANE_API_KEY), engine: aiLabel(readAIConfig()) })); return;
     }
     if (request.method === 'GET' && url.pathname === '/api/trailer') {
       try { await readFile('output/angle-trailer.mp4'); response.end(JSON.stringify({ available: true, url: '/trailer/angle-trailer.mp4' })); }
@@ -45,4 +50,6 @@ const server = createServer(async (request, response) => {
     response.end(JSON.stringify({ error: error instanceof Error ? error.message : 'Request could not be completed.' }));
   }
 });
-server.listen(3000, '0.0.0.0', () => { process.stdout.write('Angle is running at http://localhost:3000 (also reachable on your local network)\n'); });
+const host = process.env.HOST?.trim() || '127.0.0.1';
+const port = z.coerce.number().int().min(1).max(65535).parse(process.env.PORT || 3000);
+server.listen(port, host, () => { process.stdout.write(`Angle is running at http://${host}:${port}\n`); });

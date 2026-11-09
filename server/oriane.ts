@@ -1,5 +1,3 @@
-import { createHash } from 'node:crypto';
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { z } from 'zod';
 import type { Reference } from '../shared/schema';
 
@@ -16,19 +14,8 @@ export const contentSchema = z.object({
   media: z.array(mediaSchema),
 });
 const searchSchema = z.object({ data: z.object({ results: z.array(contentSchema) }) });
-type Content = z.infer<typeof contentSchema>;
-const cacheDirectory = '.cache/oriane';
-
-export function cacheKey(value: unknown): string {
-  return createHash('sha256').update(JSON.stringify(value)).digest('hex');
-}
-
-export async function orianeRequest(path: string, body: unknown, params = '', refresh = false): Promise<unknown> {
-  await mkdir(cacheDirectory, { recursive: true });
-  const cachePath = `${cacheDirectory}/${cacheKey({ path, body, params })}.json`;
-  if (!refresh) {
-    try { return JSON.parse(await readFile(cachePath, 'utf8')); } catch (error) { if (!(error instanceof Error) || !('code' in error) || error.code !== 'ENOENT') throw error; }
-  }
+export type Content = z.infer<typeof contentSchema>;
+export async function orianeRequest(path: string, body: unknown, params = ''): Promise<unknown> {
   const key = process.env.ORIANE_API_KEY?.replace(/^Bearer\s+/i, '');
   if (!key) throw new Error('Oriane is not connected. Add ORIANE_API_KEY to .env and restart.');
   const response = await fetch(`https://connect.oriane.xyz/rest/${path}${params}`, {
@@ -37,12 +24,11 @@ export async function orianeRequest(path: string, body: unknown, params = '', re
   });
   const result: unknown = await response.json();
   if (!response.ok || (typeof result === 'object' && result !== null && 'error' in result)) throw new Error(`Oriane could not complete the search (${response.status}). Try a broader brief.`);
-  await writeFile(cachePath, JSON.stringify(result));
   return result;
 }
 
-export async function searchContents(body: unknown, sort: string, limit: number, projection: string, refresh = false): Promise<Content[]> {
-  const result = await orianeRequest('contents/search', body, `?sort=${encodeURIComponent(sort)}&limit=${limit}&projection=${projection}`, refresh);
+export async function searchContents(body: unknown, sort: string, limit: number, projection: string): Promise<Content[]> {
+  const result = await orianeRequest('contents/search', body, `?sort=${encodeURIComponent(sort)}&limit=${limit}&projection=${projection}`);
   return searchSchema.parse(result).data.results;
 }
 

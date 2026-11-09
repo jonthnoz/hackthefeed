@@ -69,48 +69,22 @@ test('study adapter rejects invalid IDs before file access', async () => {
   await expect(readStudy('../data/demo-study')).rejects.toThrow('Unknown study.');
 });
 
-test('input adapter rejects short briefs and applies safe refresh defaults', () => {
+test('input adapter rejects short briefs and defaults focus and creative constraints', () => {
   expect(researchInputSchema.safeParse({ brief: 'short' }).success).toBe(false);
-  expect(researchInputSchema.parse({ brief: 'A useful product brief' })).toEqual({ brief: 'A useful product brief', focus: '', refresh: false });
+  expect(researchInputSchema.parse({ brief: 'A useful product brief' })).toEqual({ brief: 'A useful product brief', focus: '', constraints: { noRealPeople: false, exclude: '' }, resources: [] });
 });
 
-test('live smoke and cache proof identify the same persisted study and valid sources', async () => {
-  const smoke = z.object({ input: researchInputSchema, job: jobSchema, study: studySchema }).parse(await Bun.file('research/production/live-smoke-result.json').json());
-  const cached = jobSchema.parse(await Bun.file('research/production/cache-smoke-result.json').json());
-  expect(smoke.job.status).toBe('complete');
-  expect(cached.status).toBe('complete');
-  if (smoke.job.status !== 'complete' || cached.status !== 'complete') throw new Error('Smoke must complete');
-  expect(smoke.job.cached).toBe(false);
-  expect(cached.cached).toBe(true);
-  expect(cached.studyId).toBe(smoke.study.id);
-  const loaded = await readStudy(cached.studyId);
-  expect({ ...loaded, references: [] }).toEqual({ ...smoke.study, references: [] });
-  for (const [index, reference] of loaded.references.entries()) {
-    expect(reference.format.trim().length).toBeGreaterThan(0);
-    expect({ ...reference, format: '' }).toEqual({ ...smoke.study.references[index], format: '' });
-  }
+test('completed jobs identify a study without reuse metadata', () => {
+  expect(jobSchema.parse({ id: 'job', status: 'complete', studyId: 'study' })).toEqual({ id: 'job', status: 'complete', studyId: 'study' });
+});
+
+test('golden live study keeps valid links to its source evidence', async () => {
+  const smoke = z.object({ study: studySchema }).parse(await Bun.file('research/production/live-smoke-result.json').json());
+  expect(smoke.study.origin).toBe('live');
+  expect(smoke.study.references.length).toBeGreaterThan(0);
   const ids = smoke.study.references.map(reference => reference.id);
   for (const links of [...smoke.study.angles.map(angle => angle.referenceIds), smoke.study.storyboard.sourceIds]) {
     expect(links.length).toBeGreaterThan(0);
     for (const id of links) expect(ids).toContain(id);
-  }
-});
-
-test('live references preserve actual cached Oriane endpoint payloads through the adapter', async () => {
-  const records: z.infer<typeof contentSchema>[] = [];
-  for await (const file of new Bun.Glob('*.json').scan('.cache/oriane')) {
-    const raw: unknown = await Bun.file(`.cache/oriane/${file}`).json();
-    const parsed = z.object({ data: z.object({ results: z.array(contentSchema) }) }).safeParse(raw);
-    if (parsed.success) records.push(...parsed.data.data.results);
-  }
-  const smoke = z.object({ study: studySchema }).parse(await Bun.file('research/production/live-smoke-result.json').json());
-  expect(smoke.study.references.length).toBeGreaterThan(0);
-  for (const reference of smoke.study.references) {
-    expect(records.some(record => {
-      const adapted = toReference(record);
-      return adapted.id === reference.id && adapted.url === reference.url &&
-        adapted.views === reference.views && adapted.transcript === reference.transcript &&
-        JSON.stringify(adapted.frames) === JSON.stringify(reference.frames);
-    }), reference.id).toBe(true);
   }
 });
