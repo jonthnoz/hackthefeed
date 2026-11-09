@@ -4,6 +4,12 @@ Angle helps mobile app builders find a marketing direction using video evidence.
 
 This is a local beta for testing and feedback. No software license has been added. The interface and generated research are in English.
 
+## Demo
+
+[Watch the demo on GitHub](https://github.com/jonthnoz/hackthefeed/blob/main/docs/demo/angle-demo.mp4) · [English subtitles](docs/demo/angle-demo.srt)
+
+The English hackathon demo shows the original research journey. The current beta adds providers, creative constraints, history and improved research. The MP4 is stored in this repository; no external video hosting is used.
+
 ## Try the examples
 
 Install Bun first. The beta is verified with Bun 1.3.3 on macOS; other operating systems have not been verified. You also need a browser. From the project directory, run:
