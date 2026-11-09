@@ -1,0 +1,588 @@
+[
+  {
+    "studyId": "demo-product-photos",
+    "referenceId": "cnt_49e0c2f41f86380d21e95aaac4e3",
+    "rawFile": "research/examples/E01-finalists.json",
+    "sourceUrl": "https://www.instagram.com/reel/Dehmt0eR6FS/",
+    "publishedAt": "2026-10-15T18:30:40.000Z",
+    "thumbnail": {
+      "localUrl": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/thumbnail.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/Dehmt0eR6FS/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 443713,
+      "likes": 10855,
+      "shares": 2444,
+      "comments": 104,
+      "interactions": 13403,
+      "engagementRate": 3.0206462285306044
+    },
+    "frames": [
+      {
+        "seconds": 0.6,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dehmt0eR6FS/1_0.60.webp",
+        "localUrl": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f000.webp",
+        "sha256": "e7c57855de30b39cb63e6d98ddc9945796689341ae9ea869f0c24cb0e163f68e"
+      },
+      {
+        "seconds": 3.2,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dehmt0eR6FS/2_3.20.webp",
+        "localUrl": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f001.webp",
+        "sha256": "35828a73ad8a41e584cc6ecfeb708b094bffd3a62bc672657447055a783da20e"
+      },
+      {
+        "seconds": 12.6,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dehmt0eR6FS/9_12.60.webp",
+        "localUrl": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f008.webp",
+        "sha256": "3b6c1eb1e6ac81888f539ce56a6bcbdcd3adcf5cfdb4be2beb544aee1e2b7494"
+      },
+      {
+        "seconds": 13.8,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dehmt0eR6FS/10_13.80.webp",
+        "localUrl": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f009.webp",
+        "sha256": "cd90529e60209c8a2b7b2eeea1b89a3a439e57b11cd0f4f024448e95fbba9e77"
+      },
+      {
+        "seconds": 14.8,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dehmt0eR6FS/11_14.80.webp",
+        "localUrl": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f010.webp",
+        "sha256": "063d952d8ae780ce7966ebcdf3ae5d5dca088445f35f0bca57d9c36e24ddfe0b"
+      },
+      {
+        "seconds": 19,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dehmt0eR6FS/12_19.00.webp",
+        "localUrl": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f011.webp",
+        "sha256": "318090e96185d86e4c5c42023a04d876d624a6485ec97c1d55fead59df00d209"
+      },
+      {
+        "seconds": 21.8,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dehmt0eR6FS/14_21.80.webp",
+        "localUrl": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f013.webp",
+        "sha256": "b9c6b690e8427fc4ced084f38a791d7a23b0499c7b771075bba05dbfd3a409bb"
+      },
+      {
+        "seconds": 27,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dehmt0eR6FS/20_27.00.webp",
+        "localUrl": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f019.webp",
+        "sha256": "a70edb2728abb7637d4c2da4bbfe9cf2722fb1e8e74efdfc4dc71e65a89dbd94"
+      }
+    ]
+  },
+  {
+    "studyId": "demo-product-photos",
+    "referenceId": "cnt_6d038cc84f6689ac9cc949df9f7e",
+    "rawFile": "research/examples/E01-finalists.json",
+    "sourceUrl": "https://www.instagram.com/reel/DdeohZCuhsQ/",
+    "publishedAt": "2026-09-19T18:17:20.000Z",
+    "thumbnail": {
+      "localUrl": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/thumbnail.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/DdeohZCuhsQ/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 464703,
+      "likes": 724,
+      "shares": 131,
+      "comments": 23,
+      "interactions": 878,
+      "engagementRate": 0.1889378807539439
+    },
+    "frames": [
+      {
+        "seconds": 0.8,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdeohZCuhsQ/1_0.80.webp",
+        "localUrl": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f000.webp",
+        "sha256": "11aa61388677aba61b1ea273395e6e36d43fc5852ed47e28a9ee29e4b26e1a42"
+      },
+      {
+        "seconds": 2.8,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdeohZCuhsQ/5_2.80.webp",
+        "localUrl": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f004.webp",
+        "sha256": "cd8a09dd62ca9cdcd46e24eb1028f9d9e16eca9efe0ed3db4ee30f43088a242f"
+      },
+      {
+        "seconds": 7.1,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdeohZCuhsQ/12_7.10.webp",
+        "localUrl": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f011.webp",
+        "sha256": "14cbcd7570fd9a1e90492c68fa7a76cac4f3f65831cb1bda49177446a8e3e9e6"
+      },
+      {
+        "seconds": 12.63,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdeohZCuhsQ/15_12.63.webp",
+        "localUrl": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f014.webp",
+        "sha256": "069e1c495b237933da70fd439871a266e3a1d5bfe7375922718ac986705167b9"
+      },
+      {
+        "seconds": 15.37,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdeohZCuhsQ/22_15.37.webp",
+        "localUrl": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f021.webp",
+        "sha256": "58bba5b00a8d39bbab8ab5a59bd53a3c133f3779da9661b7defe574a56df211f"
+      },
+      {
+        "seconds": 15.97,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdeohZCuhsQ/23_15.97.webp",
+        "localUrl": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f022.webp",
+        "sha256": "8f012bb1df4e47a5b7b74dca6ac8b52824c41f512bc94ee72e0326f306870e4e"
+      },
+      {
+        "seconds": 24.43,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdeohZCuhsQ/28_24.43.webp",
+        "localUrl": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f027.webp",
+        "sha256": "fa867efb6162ceb973ca2ed2ce8fd0fc101482570ed2b2fb7a7dd804d80283dc"
+      },
+      {
+        "seconds": 27.93,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdeohZCuhsQ/30_27.93.webp",
+        "localUrl": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f029.webp",
+        "sha256": "a3fd039418cea6e98d1a38fba34c50b2fb57fcac880f55d734d6598387838e25"
+      },
+      {
+        "seconds": 32.13,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdeohZCuhsQ/32_32.13.webp",
+        "localUrl": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f031.webp",
+        "sha256": "6193d4b43cf007740c05090cedd20da16d778c2bd628bc005e1fd3718b9d0bc2"
+      }
+    ]
+  },
+  {
+    "studyId": "demo-product-photos",
+    "referenceId": "cnt_af15ee332daf2908242f016a5ea2",
+    "rawFile": "research/examples/E01-finalists.json",
+    "sourceUrl": "https://www.instagram.com/reel/DdV8KvXzb6R/",
+    "publishedAt": "2026-09-16T09:15:46.000Z",
+    "thumbnail": {
+      "localUrl": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/thumbnail.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/DdV8KvXzb6R/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 1299738,
+      "likes": 28975,
+      "shares": 18392,
+      "comments": 68,
+      "interactions": 47435,
+      "engagementRate": 3.649581684924193
+    },
+    "frames": [
+      {
+        "seconds": 1.83,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdV8KvXzb6R/1_1.83.webp",
+        "localUrl": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f000.webp",
+        "sha256": "2135e958e389c0a6cd94937f98a906dc8f53d199269aa0f68e5942111d8b51fe"
+      },
+      {
+        "seconds": 3.93,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdV8KvXzb6R/3_3.93.webp",
+        "localUrl": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f002.webp",
+        "sha256": "5a5627ac679748c9562d67c9e096b2f3b1a85cc325f0ec1c33142e04169c98f1"
+      },
+      {
+        "seconds": 5.73,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdV8KvXzb6R/5_5.73.webp",
+        "localUrl": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f004.webp",
+        "sha256": "eaa2d6abebf3d35f5de2c2cb3317ac52b154dfff8d3498c49625747d950a60ba"
+      },
+      {
+        "seconds": 7.97,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdV8KvXzb6R/10_7.97.webp",
+        "localUrl": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f009.webp",
+        "sha256": "a24f7bd334f3bc7590c2fe14967e391cf4c0b035dca50c676a46206fdc9d75d6"
+      },
+      {
+        "seconds": 12.87,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdV8KvXzb6R/18_12.87.webp",
+        "localUrl": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f017.webp",
+        "sha256": "45928c212decdca6bf0c944f6c4276664193834a09240bbf45c8afbf563c8777"
+      },
+      {
+        "seconds": 14.97,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdV8KvXzb6R/19_14.97.webp",
+        "localUrl": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f018.webp",
+        "sha256": "96241130580c7fe2d4465392b8ee6919aa63ef232613152a7cacf3944f84cb60"
+      },
+      {
+        "seconds": 21.13,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdV8KvXzb6R/28_21.13.webp",
+        "localUrl": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f027.webp",
+        "sha256": "d8c50a1c66fa9f5453f277dbf4747cd773a25412971e3c4702c21c918b3785e7"
+      },
+      {
+        "seconds": 22.6,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdV8KvXzb6R/29_22.60.webp",
+        "localUrl": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f028.webp",
+        "sha256": "6fdbeedc9b3e2dbeeff65b490c69049066a9b3759e8a6d4c63415c9da680e2f7"
+      },
+      {
+        "seconds": 29.53,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DdV8KvXzb6R/33_29.53.webp",
+        "localUrl": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f032.webp",
+        "sha256": "875190a1f4bc80006dea09836d990fba0753105845257aba5989ae9d1fd13262"
+      }
+    ]
+  },
+  {
+    "studyId": "demo-product-photos",
+    "referenceId": "cnt_8bd1cabb1b22125ef6a1fe1dfe63",
+    "rawFile": "research/examples/E03-photo-constraint.json",
+    "sourceUrl": "https://www.instagram.com/reel/DfFLUcjjppb/",
+    "publishedAt": "2026-10-29T14:03:32.000Z",
+    "thumbnail": {
+      "localUrl": "/media/examples/cnt_8bd1cabb1b22125ef6a1fe1dfe63/thumbnail.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/DfFLUcjjppb/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 286620,
+      "likes": 200,
+      "shares": 0,
+      "comments": 15,
+      "interactions": 215,
+      "engagementRate": 0.07501221129021003
+    },
+    "frames": []
+  },
+  {
+    "studyId": "demo-room-preview",
+    "referenceId": "cnt_0da7448291b4829ca45da3447d4a",
+    "rawFile": "research/examples/E04-final-mechanisms.json",
+    "sourceUrl": "https://www.tiktok.com/@planner5d/video/7691937072323579158",
+    "publishedAt": "2026-10-02T05:24:37.000Z",
+    "thumbnail": {
+      "localUrl": "/media/examples/cnt_0da7448291b4829ca45da3447d4a/thumbnail.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7691937072323579158/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 1700000,
+      "likes": 6718,
+      "shares": 433,
+      "comments": 287,
+      "interactions": 7438,
+      "engagementRate": 0.4375294117647059
+    },
+    "frames": [
+      {
+        "seconds": 2.2,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7691937072323579158/1_2.20.webp",
+        "localUrl": "/media/examples/cnt_0da7448291b4829ca45da3447d4a/m0-f000.webp",
+        "sha256": "bc9541afee485a6cb30a049b5ce7abbbe8b0fae49472fbd98100615d72138de0"
+      },
+      {
+        "seconds": 3.8,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7691937072323579158/2_3.80.webp",
+        "localUrl": "/media/examples/cnt_0da7448291b4829ca45da3447d4a/m0-f001.webp",
+        "sha256": "b70ec323538d8f17a7371453ab0008c831ed17d927f88737a411081e5e25cd4c"
+      },
+      {
+        "seconds": 7,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7691937072323579158/3_7.00.webp",
+        "localUrl": "/media/examples/cnt_0da7448291b4829ca45da3447d4a/m0-f002.webp",
+        "sha256": "61ee5a86202cf4b784f3c2e4223db0d3099085ec00903cbbca43e97fca46875b"
+      }
+    ]
+  },
+  {
+    "studyId": "demo-room-preview",
+    "referenceId": "cnt_a9bffa67181883299fec37fdf7e3",
+    "rawFile": "research/examples/E01-finalists.json",
+    "sourceUrl": "https://www.instagram.com/reel/DcvxNH9lK90/",
+    "publishedAt": "2026-09-01T13:28:26.000Z",
+    "thumbnail": {
+      "localUrl": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/thumbnail.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/DcvxNH9lK90/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 38438,
+      "likes": 59,
+      "shares": 2,
+      "comments": 1,
+      "interactions": 62,
+      "engagementRate": 0.16129871481346583
+    },
+    "frames": [
+      {
+        "seconds": 2.67,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DcvxNH9lK90/1_2.67.webp",
+        "localUrl": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f000.webp",
+        "sha256": "b058fd18f73b0c27758c55f6e352c546e95a5ebfd6d69edf273744a5904083b9"
+      },
+      {
+        "seconds": 2.73,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DcvxNH9lK90/2_2.73.webp",
+        "localUrl": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f001.webp",
+        "sha256": "1092bcf04e5c5b343869041e6b4927303fd84bf5cdf4fd3407d843c72262f559"
+      },
+      {
+        "seconds": 7.9,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DcvxNH9lK90/7_7.90.webp",
+        "localUrl": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f006.webp",
+        "sha256": "72d04d2ad3c5eade5e90db1541aeb9a8d4ab0c754c17628dca0d45416504f790"
+      },
+      {
+        "seconds": 8.4,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DcvxNH9lK90/8_8.40.webp",
+        "localUrl": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f007.webp",
+        "sha256": "2553a5c64e526171945c18fb74bdc68e6dcde953a08c040f8001770b408cc6d5"
+      },
+      {
+        "seconds": 8.47,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DcvxNH9lK90/9_8.47.webp",
+        "localUrl": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f008.webp",
+        "sha256": "ebded5bbf7d3f2f05e50d8a4e53d0d46f9f22b3daa4f3671afedde57e952f3d9"
+      },
+      {
+        "seconds": 11.6,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DcvxNH9lK90/10_11.60.webp",
+        "localUrl": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f009.webp",
+        "sha256": "8de4d736cdfafac96d80ed3264fef59aec9bf56eb7986112144704cc7937cf14"
+      }
+    ]
+  },
+  {
+    "studyId": "demo-room-preview",
+    "referenceId": "cnt_a32409ef927e07d0fda7f27f6070",
+    "rawFile": "research/examples/E02-constraint-replacements.json",
+    "sourceUrl": "https://www.tiktok.com/@planner5d/video/7673895940121464087",
+    "publishedAt": "2026-08-14T14:35:40.000Z",
+    "thumbnail": {
+      "localUrl": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/thumbnail.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7673895940121464087/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 632900,
+      "likes": 7715,
+      "shares": 682,
+      "comments": 45,
+      "interactions": 8442,
+      "engagementRate": 1.3338600094801707
+    },
+    "frames": [
+      {
+        "seconds": 0,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/1_0.00.webp",
+        "localUrl": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/m0-f000.webp",
+        "sha256": "4b699757e806fc534566fbc7d963e603773ec1c96ee1876e349d091d65c6fb6b"
+      },
+      {
+        "seconds": 0.01,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/2_0.01.webp",
+        "localUrl": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/m0-f001.webp",
+        "sha256": "121a5c3ec46a0e67a9beb67162bdb4483c8c6c6776f9a1d5bb5a693ae3a07a6f"
+      },
+      {
+        "seconds": 4.37,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/2_4.37.webp",
+        "localUrl": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/m0-f003.webp",
+        "sha256": "cb078eb31cb1b747db035fa307c65c4eeb145a0b5a45da10cacbb0c38ecc165a"
+      },
+      {
+        "seconds": 4.48,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/3_4.48.webp",
+        "localUrl": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/m0-f005.webp",
+        "sha256": "121a5c3ec46a0e67a9beb67162bdb4483c8c6c6776f9a1d5bb5a693ae3a07a6f"
+      },
+      {
+        "seconds": 8.96,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/4_8.96.webp",
+        "localUrl": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/m0-f006.webp",
+        "sha256": "0bd03d48b8b114b4926411d2972262e91fb32004db955e7b1ac1ae70eeef39b9"
+      }
+    ]
+  },
+  {
+    "studyId": "demo-room-preview",
+    "referenceId": "cnt_da5b76c368bd588b073f5dd4dd34",
+    "rawFile": "research/examples/E01-finalists.json",
+    "sourceUrl": "https://www.instagram.com/reel/DedcOHYK6FO/",
+    "publishedAt": "2026-10-14T03:42:50.000Z",
+    "thumbnail": {
+      "localUrl": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/thumbnail.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/DedcOHYK6FO/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 111539,
+      "likes": 2509,
+      "shares": 0,
+      "comments": 3588,
+      "interactions": 6097,
+      "engagementRate": 5.466249473278404
+    },
+    "frames": [
+      {
+        "seconds": 1.8,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DedcOHYK6FO/1_1.80.webp",
+        "localUrl": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f000.webp",
+        "sha256": "8c31d6b8da1c19c992de3d068ef01ebf32af20ac8c0fae808d2a7a85c77c9a3b"
+      },
+      {
+        "seconds": 4.6,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DedcOHYK6FO/3_4.60.webp",
+        "localUrl": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f002.webp",
+        "sha256": "97d374c02edeb1e3fc15a5d163020dcff9a586b5763920207d92348d51a73543"
+      },
+      {
+        "seconds": 12.2,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DedcOHYK6FO/7_12.20.webp",
+        "localUrl": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f006.webp",
+        "sha256": "f331c210931854e128cb4201f06467e0227a086070c36206f4737a7c35c9cdb7"
+      },
+      {
+        "seconds": 22,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DedcOHYK6FO/8_22.00.webp",
+        "localUrl": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f007.webp",
+        "sha256": "18285f374d1f6052ca95c64ed2df201b94d54dfd91f67d7234fc72ff5890e7c5"
+      },
+      {
+        "seconds": 25.4,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DedcOHYK6FO/9_25.40.webp",
+        "localUrl": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f008.webp",
+        "sha256": "dba36ae04851bc93a51ebf3ec80e89a937ba03756a7458ea92a6c5c6070929cf"
+      },
+      {
+        "seconds": 27,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DedcOHYK6FO/10_27.00.webp",
+        "localUrl": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f009.webp",
+        "sha256": "8f7a2aabffa16f4b86993182d87f40b8ae0656b9867e20354f7a4da73d02ff3a"
+      }
+    ]
+  },
+  {
+    "studyId": "demo-room-preview",
+    "referenceId": "cnt_73d2f0f28e1d86ba1fd321b8bf65",
+    "rawFile": "research/examples/E02-constraint-replacements.json",
+    "sourceUrl": "https://www.tiktok.com/@planner5d/video/7701819997923888406",
+    "publishedAt": "2026-10-28T20:35:13.000Z",
+    "thumbnail": {
+      "localUrl": "/media/examples/cnt_73d2f0f28e1d86ba1fd321b8bf65/thumbnail.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7701819997923888406/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 1100000,
+      "likes": 7086,
+      "shares": 852,
+      "comments": 25,
+      "interactions": 7963,
+      "engagementRate": 0.723909090909091
+    },
+    "frames": []
+  },
+  {
+    "studyId": "demo-study",
+    "referenceId": "cnt_3458461413635e9923e187a5fc14",
+    "rawFile": "research/oriane/final-full-evidence.json",
+    "sourceUrl": "https://www.tiktok.com/@ccx.study/video/7691163513296866580",
+    "publishedAt": "2026-09-30T03:22:37.000Z",
+    "thumbnail": {
+      "localUrl": "/media/cnt_3458461413635e9923e187a5fc14-thumb.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7691163513296866580/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 1500000,
+      "likes": 175300,
+      "shares": 6025,
+      "comments": 28,
+      "interactions": 181353,
+      "engagementRate": 12.0902
+    },
+    "frames": [
+      {
+        "seconds": 0,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7691163513296866580/1_0.00.webp",
+        "localUrl": "/media/cnt_3458461413635e9923e187a5fc14-0.webp",
+        "sha256": "b6ede0750ca3c2d4f5ff11b4059bc681e0ee35e422c3c2b81f2117bdf7d712c5"
+      },
+      {
+        "seconds": 34.2,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7691163513296866580/19_34.20.webp",
+        "localUrl": "/media/cnt_3458461413635e9923e187a5fc14-2.webp",
+        "sha256": "e5aed0169d46479bbd341efb0430fee143f843afde46212130b3de15b616c1f5"
+      },
+      {
+        "seconds": 48.8,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7691163513296866580/27_48.80.webp",
+        "localUrl": "/media/cnt_3458461413635e9923e187a5fc14-1.webp",
+        "sha256": "6c3c5d53872366456f1db4ba208381e2e666a6a1ad1cf95e816d166a509b8cd3"
+      },
+      {
+        "seconds": 70.23,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7691163513296866580/37_70.23.webp",
+        "localUrl": "/media/cnt_3458461413635e9923e187a5fc14-3.webp",
+        "sha256": "5cc9b3134ee76fa71d28920e1b1b2dd997e2add73a4b549282814bac15b4da53"
+      }
+    ]
+  },
+  {
+    "studyId": "demo-study",
+    "referenceId": "cnt_d8ca2e7ba98b29edaa48aa2ba2ef",
+    "rawFile": "research/oriane/final-full-evidence.json",
+    "sourceUrl": "https://www.tiktok.com/@degrasya77/video/7676403440951545109",
+    "publishedAt": "2026-09-15T10:00:40.000Z",
+    "thumbnail": {
+      "localUrl": "/media/cnt_d8ca2e7ba98b29edaa48aa2ba2ef-thumb.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7676403440951545109/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 127700,
+      "likes": 880,
+      "shares": 31,
+      "comments": 31,
+      "interactions": 942,
+      "engagementRate": 0.7376664056382145
+    },
+    "frames": [
+      {
+        "seconds": 1.23,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7676403440951545109/1_1.23.webp",
+        "localUrl": "/media/cnt_d8ca2e7ba98b29edaa48aa2ba2ef-0.webp",
+        "sha256": "8ae3bb2b8ac513731561263e4c8cc6ef0de9066c08d3c4a083deb5d0ac8af356"
+      },
+      {
+        "seconds": 21.47,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7676403440951545109/40_21.47.webp",
+        "localUrl": "/media/cnt_d8ca2e7ba98b29edaa48aa2ba2ef-1.webp",
+        "sha256": "7e38f8bdd089d919a9485f774507b7c73db8cab5deab458b161b1d1ae45fa70b"
+      },
+      {
+        "seconds": 56.97,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7676403440951545109/79_56.97.webp",
+        "localUrl": "/media/cnt_d8ca2e7ba98b29edaa48aa2ba2ef-2.webp",
+        "sha256": "89f72b547726f03dc917e3116519eb68a23ff73282b3303cffb7658d42847709"
+      }
+    ]
+  },
+  {
+    "studyId": "demo-study",
+    "referenceId": "cnt_ecbeb808a918249ae95062e251e1",
+    "rawFile": "research/oriane/final-full-evidence.json",
+    "sourceUrl": "https://www.tiktok.com/@googlegemini/video/7676162365683027213",
+    "publishedAt": "2026-08-20T17:10:33.000Z",
+    "thumbnail": {
+      "localUrl": "/media/cnt_ecbeb808a918249ae95062e251e1-thumb.webp",
+      "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7676162365683027213/thumbnail.webp"
+    },
+    "metrics": {
+      "views": 97800000,
+      "likes": 82800,
+      "shares": 2213,
+      "comments": 0,
+      "interactions": 85013,
+      "engagementRate": 0.08692535787321064
+    },
+    "frames": [
+      {
+        "seconds": 5.43,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7676162365683027213/1_5.43.webp",
+        "localUrl": "/media/cnt_ecbeb808a918249ae95062e251e1-0.webp",
+        "sha256": "9b0e0b64e4818a98384d192e785c8d2be0008905f73c0c2e4f2904e8472909ef"
+      },
+      {
+        "seconds": 24.97,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7676162365683027213/10_24.97.webp",
+        "localUrl": "/media/cnt_ecbeb808a918249ae95062e251e1-1.webp",
+        "sha256": "2116fdf9113a1cb54bb1e8c0e48cf05e347eb371416a8977cd6da0a59bae26a0"
+      },
+      {
+        "seconds": 54.1,
+        "sourceUrl": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7676162365683027213/18_54.10.webp",
+        "localUrl": "/media/cnt_ecbeb808a918249ae95062e251e1-2.webp",
+        "sha256": "4dbee92780619a32873f23d3a41011ce1ba22d97ac00a033c01d02c4db1c6dc7"
+      }
+    ]
+  }
+]

@@ -1,0 +1,538 @@
+{
+  "id": "D01-room",
+  "request": {
+    "operator": "and",
+    "filters": {
+      "format": {
+        "includes": [
+          "video"
+        ]
+      }
+    },
+    "queries": [
+      {
+        "operator": "or",
+        "filters": {
+          "caption": {
+            "includesExactly": {
+              "values": [
+                "roomgpt",
+                "room planner",
+                "interior ai",
+                "redesign your room"
+              ]
+            }
+          },
+          "transcript": {
+            "includesExactly": {
+              "values": [
+                "roomgpt",
+                "room planner",
+                "interior ai",
+                "redesign your room"
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "limit": 4,
+    "projection": "default",
+    "sort": [
+      {
+        "by": "viewsCount",
+        "direction": "desc"
+      }
+    ]
+  },
+  "response": {
+    "data": {
+      "aggregations": {
+        "totalViewsCount": 1075533,
+        "averageViewsCount": 97775.72727272728,
+        "totalLikesCount": 37151,
+        "averageLikesCount": 3377.3636363636365,
+        "totalInteractionsCount": 42541,
+        "averageInteractionsCount": 3867.3636363636365,
+        "averageEngagementRatePerViews": 5.898962217688124,
+        "averageEngagementRatePerFollowers": 2.52508395601128,
+        "averageViewsRatePerFollowers": 139.69759562421626
+      },
+      "results": [
+        {
+          "id": "cnt_df080a8fddd1bb41711b1c70a648",
+          "matchedQueries": [],
+          "platform": "instagram",
+          "profileHandle": "jade.sweeney_",
+          "profileDisplayName": "Jade Sweeney",
+          "format": "video",
+          "platformType": "reel",
+          "title": null,
+          "caption": "IKEA PAX TO BESPOKE BUILT IN’S\n\nI am so happy with how it’s looking!!! They really look built in!\n\nDetails of everything I’ve bought listed below! \n\nNext part adding coving, panelling the doors, painting, building an island and it will be finished!!! Can’t wait to show you the finished room!\n\nFOLLOW ALONG FOR PART 3 ❤️\n\nDetails - \nWardrobes are the IKEA PAX in natural oak. To create your design they have a free pax room planner on the Ikea website! \n\nFloor is called luiella natural oak from  @bandq_uk \n\n6x2 timber for the frame from b&q\n\nMDF sheets for the panels from b&q \n\nThe wooden drawers are from Ikea called RAST\n\nLove Jade xxx\n\n#builtinwardrobes #ikeapax #ikeapaxhack #paxhack #fittedwardrobes",
+          "thumbnailMediaId": "med_8714779a670d1fc0eb6988ce4fd9",
+          "publishedAt": "2026-10-25T09:14:18.000Z",
+          "profileId": "prf_34961ea49f0c889bc9a474df750d",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/De6WalyN_BU/thumbnail.webp",
+          "viewsCount": 355256,
+          "likesCount": 10300,
+          "sharesCount": 0,
+          "commentsCount": 592,
+          "interactionsCount": 10892,
+          "profileFollowersCount": 485747,
+          "mediaCount": 1,
+          "hashtags": [
+            "#builtinwardrobes",
+            "#ikeapax",
+            "#ikeapaxhack",
+            "#paxhack",
+            "#fittedwardrobes"
+          ],
+          "mentions": [
+            {
+              "id": "prf_14a304a74132380c68e6f22b985f",
+              "platformId": "563275575",
+              "profileHandle": "bandq_uk"
+            }
+          ],
+          "platformId": "De6WalyN_BU",
+          "profilePlatformId": "41803609777",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/instagram/jade.sweeney_/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 92,
+              "caption": null,
+              "onScreenText": [
+                "TURNING MY SPARE ROOM",
+                "INTO THE DRESSING",
+                "ROOM OF DREAMS",
+                "Part 2",
+                "TURNING MY SPARK ROOM\nINTO THE DRESSING\nROOM OF DREAMS\n\n1 2",
+                "KA",
+                "IKEA",
+                "PAX",
+                "WEHNEHO",
+                "1602-1-180",
+                "UK",
+                "L",
+                "If you require assistance please press the button to contact a member of staff",
+                "No acces",
+                "tor unauthor",
+                "persons",
+                "#",
+                "Follow along for part 3",
+                "to see if I achieve the",
+                "vision on a budget !"
+              ],
+              "transcript": "Part two of a delusional girl being quoted £30,000 for her dressing room of dreams and deciding that she can do it all by herself. If you missed part one, we did DIY flooring and now we're on to built-ins on a budget. These are the IKEA packed wardrobes and this was actually the easiest part because these literally, they just fold out. You don't actually need to put them together. You just lift them into place and this sums up how difficult my husband thought it was. Now we want that inbuilt bespoke look. So I am making a timber frame out of 6x2 timber and I'm making this to the exact dimensions of my wardrobe frames adding additional filler pieces where the wardrobes join secured it all together and then you can literally just lift your wardrobes on top and then to really give it that bespoke look I picked up some sheets of MDF in B&Q and they will actually cut this for you for 50p to the exact size you need you need some for your side panels you need some for underneath your wardrobes and then you need some on top so that it goes completely flush from the floor to the ceiling and then adding the skirting board this is going to go along the front of my wardrobes and on the walls too to really give it that inbuilt look and that is pretty much where i'm at for now i have just started to work on the doors i want to add moldings to make them look really intricate and i think i've decided to do a two panel design so a smaller one at the bottom that goes in line with the dressing table and then a bigger one at the top and i think it's going to look so good one door down about 20 to go i'm going to add some coving the whole way around the room which i think will look spectacular i need to find the perfect of worktop for my dressing table and then that pile of stuff in the middle will hopefully become an island so make sure you follow along for part three to see if I achieve my dressing room of dreams on a budget.",
+              "tags": [
+                {
+                  "id": "prf_4572dcdd83a18ebfb7daea1023cc",
+                  "platformId": "208394260",
+                  "profileHandle": "ikeauk",
+                  "positionX": 0,
+                  "positionY": 0
+                },
+                {
+                  "id": "prf_14a304a74132380c68e6f22b985f",
+                  "platformId": "563275575",
+                  "profileHandle": "bandq_uk",
+                  "positionX": 0,
+                  "positionY": 0
+                }
+              ]
+            }
+          ],
+          "engagementRatePerViews": 3.0659580696737,
+          "engagementRatePerFollowers": 2.242319561417775,
+          "viewsRatePerFollowers": 73.13601525073753,
+          "profileFollowingCount": 3532,
+          "profilePostsCount": 733,
+          "coAuthors": [],
+          "profileBio": "Making interiors & fashion affordable \nLondon, UK\nCollabs ✉️ Jade.s@86talent.com\nLinks to my LTK and Amazon storefront here",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": null,
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "29112417081688201",
+          "audioTitle": "Original audio",
+          "audioAuthor": "jade.sweeney_",
+          "audioType": "original",
+          "audioCopyrighted": false
+        },
+        {
+          "id": "cnt_1e7b1646e149fb5aa18d706ba49f",
+          "matchedQueries": [],
+          "platform": "instagram",
+          "profileHandle": "vinicordeiro",
+          "profileDisplayName": "Vini Cordeiro",
+          "format": "video",
+          "platformType": "reel",
+          "title": null,
+          "caption": "Cocada cremosa\n\n1 lata de leite condensado\n4 ovos\n200ml de leite de coco\n100g de coco ralado úmido\n\nSe quiser garantir seus produtos @chinezinhoalimentos só ir no link da minha bio e entrar na loja oficial deles.",
+          "thumbnailMediaId": "med_ae5cc09b7cd29a5a63db7c6139bd",
+          "publishedAt": "2026-10-12T14:10:06.000Z",
+          "profileId": "prf_4c8699fa2c4f22bb06cf702b2caf",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/DeZaqYHptnz/thumbnail.webp",
+          "viewsCount": 298959,
+          "likesCount": 10800,
+          "sharesCount": 4179,
+          "commentsCount": 231,
+          "interactionsCount": 15210,
+          "profileFollowersCount": 1093439,
+          "mediaCount": 1,
+          "hashtags": [],
+          "mentions": [
+            {
+              "id": "prf_8909a9aebe9c0b7e6d5c8dd3239a",
+              "platformId": "3197667366",
+              "profileHandle": "chinezinhoalimentos"
+            }
+          ],
+          "platformId": "DeZaqYHptnz",
+          "profilePlatformId": "16209549",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/instagram/vinicordeiro/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 82.218,
+              "caption": null,
+              "onScreenText": [
+                "Cocada",
+                "Cremosa",
+                "CHINEZINHO\nADOJAR\nMATERIAL\nDOCUMENTAR\nMATERIAL\nCOCO EM FLOCOS\nÚnido e Adoçado",
+                "Peso líg",
+                "100",
+                "Inditria Braasilira",
+                "100%",
+                "LEGE"
+              ],
+              "transcript": "Hoje você vai aprender a fazer uma cocada cremosa. Até porque hoje é das crianças, então nada melhor do que agradar a sua criança interna com um belíssimo docinho. E eu particularmente amo essa cocada. Tem restaurante que vende ela aí, é um preço muito caro, mas é fácil de fazer. Então, vamos lá. Primeira coisa que a gente vai usar aqui, coco. Eu tô usando aqui coco em floco chinesinho. Cara, eu gosto bastante dele. Ele não parece aquele coco super seco, sabe? Úmido. E a gente vai cobrir isso aqui com leite de coco. Ah, Vini, não acho esse coco pra comprar. Entra aí no link da minha bio que tem a loja do chinesinho lá. E aí você pode comprar na Amazon. Mish, tudo tudo bem, hein? E deixa isso aqui descansar uns 10 minutinhos. Aí entra aqui com leite condensado e ovo. Misturo, suba muito bem. E um truque, qualquer doce, uma pitada de sal. Não é pra deixar salgado isso aqui não, mas realça tudo. Coloca na forminha e coloca isso aqui no forno até dourar. Olha que coisa linda. Vamos provar agora. Pô, esquece. Tu serve isso aqui com sorvetinho? Nossa senhora. Não, sério, não consigo nem falar direito. Não, isso aqui é bom demais. Só faz isso em casa, de verdade. Faz pra você, faz pra tua criança, teu sobrinho, pra tua criança interior. Ai, cozinha é bom demais. Renata, nem gosta de coco, tá? Mas aqui... Não, tá muito bom. Tá absurdo isso aí. Eu vou comer só metade mesmo no final. Hum, o menho é mais gostoso ainda. É porque ele fica cremoso. Hum, hum, mas a pontinha é crocante. Viu? Toda criança gosta.",
+              "tags": [
+                {
+                  "id": "prf_8909a9aebe9c0b7e6d5c8dd3239a",
+                  "platformId": "3197667366",
+                  "profileHandle": "chinezinhoalimentos",
+                  "positionX": 0.5,
+                  "positionY": 0.5
+                }
+              ]
+            }
+          ],
+          "engagementRatePerViews": 5.087654159934974,
+          "engagementRatePerFollowers": 1.3910240991952911,
+          "viewsRatePerFollowers": 27.341168551697898,
+          "profileFollowingCount": 3039,
+          "profilePostsCount": 1622,
+          "coAuthors": [
+            {
+              "id": "prf_8909a9aebe9c0b7e6d5c8dd3239a",
+              "platformId": "3197667366",
+              "profileHandle": "chinezinhoalimentos"
+            }
+          ],
+          "profileBio": "🍳 | Cozinhar é bom demais!\n✉️ | publi@vinicordeiro.com.br",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": null,
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "28470957252573293",
+          "audioTitle": "Original audio",
+          "audioAuthor": "vinicordeiro",
+          "audioType": "original",
+          "audioCopyrighted": false
+        },
+        {
+          "id": "cnt_1ae63e349543d39c978c36d378bb",
+          "matchedQueries": [],
+          "platform": "instagram",
+          "profileHandle": "thegayagenda.co",
+          "profileDisplayName": "HAWAI’I LGBTQ EVENT PLANNER 🌈",
+          "format": "video",
+          "platformType": "reel",
+          "title": null,
+          "caption": "Actually so unwell over these details 🤎 The warm browns, soft white florals, and greenery in every corner. Neutral tones, but make them elevated and anything but basic. \n\nBut as obsessed as we are with how it all came together, nothing will ever compare to the people who filled the room!\n\nPlanner: @thegayagenda.co \nPhoto: @mckennakeaophoto \nFlorals: @yvonnedesignhawaii \nRentals: @alohaartisans \nVenue: @dillinghamranch \nBar: @honolulubartendingco \nCatering: @memoirshawaii \n\n.\n.\n.\n\n#hawaii #weddingplanner #weddingplanning #hawaiiweddings #weddinginspo",
+          "thumbnailMediaId": "med_1b33763cfd427dc2fc3f05183e32",
+          "publishedAt": "2026-09-13T04:58:33.000Z",
+          "profileId": "prf_8c4a6744cbe795f38eb4281b35b5",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/DdNwaJJC_lc/thumbnail.webp",
+          "viewsCount": 138868,
+          "likesCount": 981,
+          "sharesCount": 48,
+          "commentsCount": 5,
+          "interactionsCount": 1034,
+          "profileFollowersCount": 14869,
+          "mediaCount": 1,
+          "hashtags": [
+            "#hawaii",
+            "#weddingplanner",
+            "#weddingplanning",
+            "#hawaiiweddings",
+            "#weddinginspo"
+          ],
+          "mentions": [
+            {
+              "id": "prf_8c4a6744cbe795f38eb4281b35b5",
+              "platformId": "7221405521",
+              "profileHandle": "thegayagenda.co"
+            },
+            {
+              "id": "prf_425554af1939cfd91a37bc843d10",
+              "platformId": "23813297513",
+              "profileHandle": "mckennakeaophoto"
+            },
+            {
+              "id": null,
+              "platformId": null,
+              "profileHandle": "yvonnedesignhawaii"
+            },
+            {
+              "id": "prf_17012659cd818710565dd5d44474",
+              "platformId": "2874056137",
+              "profileHandle": "alohaartisans"
+            },
+            {
+              "id": null,
+              "platformId": null,
+              "profileHandle": "dillinghamranch"
+            },
+            {
+              "id": null,
+              "platformId": null,
+              "profileHandle": "honolulubartendingco"
+            },
+            {
+              "id": null,
+              "platformId": null,
+              "profileHandle": "memoirshawaii"
+            }
+          ],
+          "platformId": "DdNwaJJC_lc",
+          "profilePlatformId": "7221405521",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/instagram/thegayagenda.co/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 9.399,
+              "caption": null,
+              "onScreenText": [
+                "This vibe and all your fav",
+                "people in one place",
+                "This vibe and all your fav people in one place",
+                "This vibe and all your faw people in one place"
+              ],
+              "transcript": "Don't you love when I come around",
+              "tags": []
+            }
+          ],
+          "engagementRatePerViews": 0.7445919866347899,
+          "engagementRatePerFollowers": 6.954065505413949,
+          "viewsRatePerFollowers": 933.9431031004102,
+          "profileFollowingCount": 2542,
+          "profilePostsCount": 2532,
+          "coAuthors": [],
+          "profileBio": "Wedding & Event Planner\nNative Hawaiian Queer Women Run 🏳️‍🌈\n🥇 Company of the Year 2026 (NACE)\nCheck out our sibs\n @hausofpuas  🌸@wedcyclehawaii♻️",
+          "profileVerified": false,
+          "locationPlatformId": null,
+          "locationCompleteAddress": null,
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": "175696423070981",
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "18623295514021611",
+          "audioTitle": "Original audio",
+          "audioAuthor": "thegayagenda.co",
+          "audioType": "original",
+          "audioCopyrighted": false
+        },
+        {
+          "id": "cnt_ad8e10e807be765c722b236409aa",
+          "matchedQueries": [],
+          "platform": "instagram",
+          "profileHandle": "dark_room_official",
+          "profileDisplayName": "Dark Room",
+          "format": "video",
+          "platformType": "reel",
+          "title": null,
+          "caption": "Place your bets! 💙 vs 🩷\n\nHalf of them are convinced it’s a sweet little girl, and the other half is positive they will have a little boy on the way. Either way, their house is about to get a whole lot noisier and filled with endless love. Wishing their adorable family a loving future! So what’s your final guess? 🎀 👕\n\nThisara & Nishini 🤍\n\nPhotography & Videography | Dark Room\nPlanner | Zee events\nDecors | Concept by paradise\nFood | Paradise inn bolgoda \nHMUA | Makeup by Hisham\nDresses | Bridals by archer\nCake | Abhi cake art\nFlower bouquet | Bloom house\nNine wells hospital \n\n#darkroomphotographysrilanka #happiness #darkroom #photography #newcouple",
+          "thumbnailMediaId": "med_5f3ecc951b2f4b31006f4c7441e6",
+          "publishedAt": "2026-10-11T14:40:53.000Z",
+          "profileId": "prf_0aab947995e644b2eded7db706cf",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/DeW476is9z1/thumbnail.webp",
+          "viewsCount": 113367,
+          "likesCount": 3263,
+          "sharesCount": 0,
+          "commentsCount": 25,
+          "interactionsCount": 3288,
+          "profileFollowersCount": 51254,
+          "mediaCount": 1,
+          "hashtags": [
+            "#darkroomphotographysrilanka",
+            "#happiness",
+            "#darkroom",
+            "#photography",
+            "#newcouple"
+          ],
+          "mentions": [],
+          "platformId": "DeW476is9z1",
+          "profilePlatformId": "3508647068",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/instagram/dark_room_official/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 41.61,
+              "caption": null,
+              "onScreenText": [
+                "A R n",
+                "DARK ROOM PRESENTS",
+                "Baby",
+                "DARK ROOM PHOTOGRAPHY",
+                "he or she",
+                "WHAT WILL BABY THOMAS BE?",
+                "Pick your guess",
+                "Productions",
+                "DM Productions",
+                "Girl",
+                "Boy",
+                "DARK ROOM\nPHOTOGRAPHY",
+                "DAWK ROOM Productions",
+                "DARK ROOM actions",
+                "OM Productions",
+                "DARK ROOM Productions",
+                "PHO TOGR'À PH Y",
+                "he on she",
+                "DARK ROOM-Produc",
+                "he ou she",
+                "900",
+                "DARK ROOM",
+                "DARK ROOM\nPHOTOGRAPHY\nhe OR she",
+                "ARK",
+                "M",
+                "DARY ROOM Productions",
+                "ARK ROOM Production",
+                "ROOM Productions",
+                "DARK\nROOM"
+              ],
+              "transcript": "*music* I'm going to fall into my dark night. You're the only one that I want. And I'm addicted to your light. I swear I'll never fall again. But this don't even feel like falling. Gravity.",
+              "tags": [
+                {
+                  "id": "prf_e80cb2a262b690ba33b3999972ec",
+                  "platformId": "2370189552",
+                  "profileHandle": "makeupbyhisham",
+                  "positionX": 0,
+                  "positionY": 0
+                },
+                {
+                  "id": "prf_85c6cfa182e820f234dc0a4b2b51",
+                  "platformId": "3120840734",
+                  "profileHandle": "paradise_bolgoda",
+                  "positionX": 0,
+                  "positionY": 0
+                },
+                {
+                  "id": "prf_0aab947995e644b2eded7db706cf",
+                  "platformId": "3508647068",
+                  "profileHandle": "dark_room_official",
+                  "positionX": 0,
+                  "positionY": 0
+                },
+                {
+                  "id": "prf_fc7009db0d2f3fd9fe592d64f5d4",
+                  "platformId": "5802681321",
+                  "profileHandle": "ninewellshospital",
+                  "positionX": 0,
+                  "positionY": 0
+                },
+                {
+                  "id": "prf_b81bd7008c3bb653beec4c22f8f4",
+                  "platformId": "28971649767",
+                  "profileHandle": "the.bloomhouse",
+                  "positionX": 0,
+                  "positionY": 0
+                },
+                {
+                  "id": "prf_28a56d536dc12aca68baec856108",
+                  "platformId": "38582052228",
+                  "profileHandle": "bridalsbyarcher",
+                  "positionX": 0,
+                  "positionY": 0
+                },
+                {
+                  "id": "prf_b3f3a38922f136350aa9f8a8bc93",
+                  "platformId": "55582119487",
+                  "profileHandle": "abhi_cake_art",
+                  "positionX": 0,
+                  "positionY": 0
+                }
+              ]
+            }
+          ],
+          "engagementRatePerViews": 2.900314906454259,
+          "engagementRatePerFollowers": 6.415109064658369,
+          "viewsRatePerFollowers": 221.1866390915831,
+          "profileFollowingCount": 34,
+          "profilePostsCount": 1639,
+          "coAuthors": [
+            {
+              "id": "prf_ec7efc17720c288fee3928f3c644",
+              "platformId": "44559691829",
+              "profileHandle": "concept_by_paradise"
+            },
+            {
+              "id": null,
+              "platformId": null,
+              "profileHandle": "zeeevents_"
+            },
+            {
+              "id": null,
+              "platformId": null,
+              "profileHandle": "danukarocka"
+            },
+            {
+              "id": null,
+              "platformId": null,
+              "profileHandle": "thisara__perera__"
+            }
+          ],
+          "profileBio": "The leading Professional Wedding Photography Brand In 🇱🇰 \n☎️: 11 787 1002 (Colombo) | 11 787 1005 (Kandana)\nFounder: @danukarocka\nTikTok: _darkroom",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": null,
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": "417595484961316",
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": 0,
+          "profileLocationLongitude": 0,
+          "audioPlatformId": "28675700625373537",
+          "audioTitle": "Original audio",
+          "audioAuthor": "dark_room_official",
+          "audioType": "original",
+          "audioCopyrighted": false
+        }
+      ]
+    },
+    "metadata": {
+      "pagination": {
+        "offset": 0,
+        "limit": 4,
+        "totalCount": 11
+      },
+      "requestId": "req_g4JqY0ytXCZvMm4S5pQnIpEeenlG",
+      "executionTime": 505,
+      "timestamp": 1794189630082
+    }
+  }
+}

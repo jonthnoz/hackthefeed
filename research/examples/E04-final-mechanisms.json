@@ -1,0 +1,3927 @@
+{
+  "id": "E04-final-mechanisms",
+  "request": {
+    "operator": "and",
+    "filters": {
+      "id": {
+        "includes": [
+          "cnt_e4187482e35d3f40840ec91df00d",
+          "cnt_0da7448291b4829ca45da3447d4a"
+        ]
+      }
+    },
+    "limit": 2,
+    "projection": "full"
+  },
+  "response": {
+    "data": {
+      "aggregations": {
+        "totalViewsCount": 2104076,
+        "averageViewsCount": 1052038,
+        "totalLikesCount": 37339,
+        "averageLikesCount": 18669.5,
+        "totalInteractionsCount": 39552,
+        "averageInteractionsCount": 19776,
+        "averageEngagementRatePerViews": 4.192522117854358,
+        "averageEngagementRatePerFollowers": 21.317287134255327,
+        "averageViewsRatePerFollowers": 1323.6863994098344
+      },
+      "results": [
+        {
+          "id": "cnt_0da7448291b4829ca45da3447d4a",
+          "matchedQueries": [],
+          "platform": "tiktok",
+          "profileHandle": "planner5d",
+          "profileDisplayName": "Planner 5D",
+          "format": "video",
+          "platformType": "video",
+          "title": null,
+          "caption": "DO or DON’T—which interior details would you choose for a real home? ✅❌ Test your design eye across different rooms and see how lighting, color, texture, and decor can completely change the atmosphere. Follow for more quick design challenges and interior inspiration!",
+          "thumbnailMediaId": "med_fe7ca0b0998441b1edde7b1d47ea",
+          "publishedAt": "2026-10-02T05:24:37.000Z",
+          "profileId": "prf_369584788bf3b6972e33aeb7516a",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7691937072323579158/thumbnail.webp",
+          "viewsCount": 1700000,
+          "likesCount": 6718,
+          "sharesCount": 433,
+          "commentsCount": 287,
+          "interactionsCount": 7438,
+          "profileFollowersCount": 76100,
+          "mediaCount": 1,
+          "hashtags": [],
+          "mentions": [],
+          "platformId": "7691937072323579158",
+          "profilePlatformId": "6815856296408155141",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/tiktok/planner5d/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 8,
+              "caption": null,
+              "onScreenText": [
+                "Tips for your",
+                "home",
+                "Do",
+                "Don't"
+              ],
+              "transcript": "",
+              "tags": [],
+              "transcriptLanguage": "en",
+              "transcriptChunks": null,
+              "frames": [
+                {
+                  "id": "med_17f35056b9d239d9addd6a1729c2",
+                  "position": 1,
+                  "timestampSeconds": 2.2,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Tips for your",
+                      "polygon": [
+                        {
+                          "x": 0.2326389,
+                          "y": 0.068359375
+                        },
+                        {
+                          "x": 0.7447917,
+                          "y": 0.068359375
+                        },
+                        {
+                          "x": 0.7447917,
+                          "y": 0.123046875
+                        },
+                        {
+                          "x": 0.2326389,
+                          "y": 0.123046875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "home",
+                      "polygon": [
+                        {
+                          "x": 0.3298611,
+                          "y": 0.1171875
+                        },
+                        {
+                          "x": 0.5677083,
+                          "y": 0.1171875
+                        },
+                        {
+                          "x": 0.5677083,
+                          "y": 0.16210938
+                        },
+                        {
+                          "x": 0.3298611,
+                          "y": 0.16210938
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Do",
+                      "polygon": [
+                        {
+                          "x": 0.112847224,
+                          "y": 0.2626953
+                        },
+                        {
+                          "x": 0.2621528,
+                          "y": 0.2626953
+                        },
+                        {
+                          "x": 0.2621528,
+                          "y": 0.3125
+                        },
+                        {
+                          "x": 0.112847224,
+                          "y": 0.3125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Don't",
+                      "polygon": [
+                        {
+                          "x": 0.081597224,
+                          "y": 0.5986328
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.5986328
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.65625
+                        },
+                        {
+                          "x": 0.081597224,
+                          "y": 0.65625
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7691937072323579158/1_2.20.webp"
+                },
+                {
+                  "id": "med_1b115844bf8ab8b468b1cd33fe6a",
+                  "position": 2,
+                  "timestampSeconds": 3.8,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Tips for your",
+                      "polygon": [
+                        {
+                          "x": 0.2326389,
+                          "y": 0.06738281
+                        },
+                        {
+                          "x": 0.7447917,
+                          "y": 0.06738281
+                        },
+                        {
+                          "x": 0.7447917,
+                          "y": 0.12207031
+                        },
+                        {
+                          "x": 0.2326389,
+                          "y": 0.12207031
+                        }
+                      ]
+                    },
+                    {
+                      "text": "home",
+                      "polygon": [
+                        {
+                          "x": 0.328125,
+                          "y": 0.11230469
+                        },
+                        {
+                          "x": 0.5694444,
+                          "y": 0.11621094
+                        },
+                        {
+                          "x": 0.5659722,
+                          "y": 0.16308594
+                        },
+                        {
+                          "x": 0.3263889,
+                          "y": 0.15917969
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Do",
+                      "polygon": [
+                        {
+                          "x": 0.11631945,
+                          "y": 0.26171875
+                        },
+                        {
+                          "x": 0.26041666,
+                          "y": 0.26660156
+                        },
+                        {
+                          "x": 0.25520834,
+                          "y": 0.31152344
+                        },
+                        {
+                          "x": 0.112847224,
+                          "y": 0.3076172
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Don't",
+                      "polygon": [
+                        {
+                          "x": 0.081597224,
+                          "y": 0.5986328
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.5986328
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.65625
+                        },
+                        {
+                          "x": 0.081597224,
+                          "y": 0.65625
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7691937072323579158/2_3.80.webp"
+                },
+                {
+                  "id": "med_52c786125ab47c851b3229c03d24",
+                  "position": 3,
+                  "timestampSeconds": 7,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Tips for your",
+                      "polygon": [
+                        {
+                          "x": 0.2361111,
+                          "y": 0.0703125
+                        },
+                        {
+                          "x": 0.7413194,
+                          "y": 0.0703125
+                        },
+                        {
+                          "x": 0.7413194,
+                          "y": 0.12011719
+                        },
+                        {
+                          "x": 0.2361111,
+                          "y": 0.12011719
+                        }
+                      ]
+                    },
+                    {
+                      "text": "home",
+                      "polygon": [
+                        {
+                          "x": 0.328125,
+                          "y": 0.11328125
+                        },
+                        {
+                          "x": 0.5694444,
+                          "y": 0.1171875
+                        },
+                        {
+                          "x": 0.5659722,
+                          "y": 0.16308594
+                        },
+                        {
+                          "x": 0.3263889,
+                          "y": 0.15917969
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Don't",
+                      "polygon": [
+                        {
+                          "x": 0.081597224,
+                          "y": 0.5986328
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.5986328
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.65625
+                        },
+                        {
+                          "x": 0.081597224,
+                          "y": 0.65625
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7691937072323579158/3_7.00.webp"
+                }
+              ]
+            }
+          ],
+          "engagementRatePerViews": 0.4375294117647059,
+          "engagementRatePerFollowers": 9.773981603153745,
+          "viewsRatePerFollowers": 2233.902759526938,
+          "profileFollowingCount": 102,
+          "profilePostsCount": 936,
+          "coAuthors": [],
+          "profileBio": "🖤BLACK FRIDAY 🖤 Mega Deal. Save 40% on Pro 👇",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": "United States",
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "7691937087418878742",
+          "audioTitle": "original sound",
+          "audioAuthor": "Planner 5D",
+          "audioType": "original",
+          "audioCopyrighted": false,
+          "captionLanguage": "en",
+          "popularComments": [
+            {
+              "platformId": "7691997084626961174",
+              "profilePlatformId": "6812694250943153158",
+              "profileHandle": "maurodotti2",
+              "content": "❓",
+              "likesCount": 86,
+              "repliesCount": 9,
+              "publishedAt": "2026-10-02T09:18:02.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7692101369964397364",
+              "profilePlatformId": "7327986629712102406",
+              "profileHandle": "anousormrly",
+              "content": "its like we are all playing \"search the difference\"😂",
+              "likesCount": 16,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-02T16:02:01.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7692414631922451201",
+              "profilePlatformId": "6890953675222418438",
+              "profileHandle": "morrisnuuwa",
+              "content": "where's the difference",
+              "likesCount": 8,
+              "repliesCount": 4,
+              "publishedAt": "2026-10-03T12:17:35.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7692067079197524758",
+              "profilePlatformId": "6943750947802842118",
+              "profileHandle": "janettabreathet",
+              "content": "Do ✅ what ever you want Don’t ❌ listen to others opinions..",
+              "likesCount": 6,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-02T13:49:25.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7692014945530168086",
+              "profilePlatformId": "6814224661585855494",
+              "profileHandle": "treesrgreen",
+              "content": "Actually, do what you want…..",
+              "likesCount": 2,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-02T10:27:25.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7692718462837785352",
+              "profilePlatformId": "7496419820142363655",
+              "profileHandle": "klc72310",
+              "content": "we all have different tastes we all can do what we won't incur homed they way we like it right",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-04T07:56:46.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7692169870893499158",
+              "profilePlatformId": "7554895342571914273",
+              "profileHandle": "marlen.fonseca3",
+              "content": "😂😂😂",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-02T20:28:13.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7692127573989688066",
+              "profilePlatformId": "6811585529613796358",
+              "profileHandle": "redroselady67",
+              "content": "personal taste not do and dnt",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-02T17:44:07.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7692109632865452822",
+              "profilePlatformId": "6903962136680547334",
+              "profileHandle": "mallyhull7",
+              "content": "Don’t have tiny fucking pillows that serve absolutely no purpose.",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-02T16:34:31.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7692021541040046881",
+              "profilePlatformId": "7309931286646752288",
+              "profileHandle": "sophielagirafe778",
+              "content": "😁😁😁",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-02T10:52:53.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7691977964874908437",
+              "profilePlatformId": "7230593104168223749",
+              "profileHandle": "abhigwcg2qy",
+              "content": "[Tears of joy][Tears of joy][Tears of joy]",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-02T08:03:10.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7694044520669168406",
+              "profilePlatformId": "7189974063958508550",
+              "profileHandle": "andreakratochvil57",
+              "content": "😂😂😂",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-07T21:42:55.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7694037447097860896",
+              "profilePlatformId": "6811948893791257606",
+              "profileHandle": "littu80",
+              "content": "[Grande LOL][Grande LOL][Grande LOL]",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-07T21:15:22.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7693992438688924438",
+              "profilePlatformId": "6644140501845622789",
+              "profileHandle": "paulatpc",
+              "content": "[LOL mare][LOL mare][LOL mare]",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-07T18:20:47.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            },
+            {
+              "platformId": "7693972943487419169",
+              "profilePlatformId": "7347450025792504864",
+              "profileHandle": "user3391152052478",
+              "content": "[Unschuldig][Unschuldig][Unschuldig]",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-07T17:04:51.000Z",
+              "createdAt": "2026-10-13T23:28:59.976Z",
+              "updatedAt": "2026-10-13T23:28:59.976Z"
+            }
+          ],
+          "createdAt": "2026-10-12T19:06:47.887Z",
+          "updatedAt": "2026-10-31T04:21:13.629Z"
+        },
+        {
+          "id": "cnt_e4187482e35d3f40840ec91df00d",
+          "matchedQueries": [],
+          "platform": "instagram",
+          "profileHandle": "newslitproject",
+          "profileDisplayName": "News Literacy Project",
+          "format": "video",
+          "platformType": "reel",
+          "title": null,
+          "caption": "Is that painting real or AI-generated? This week's Two Truths and AI is a toughie. Steps you can take to assess each piece of art include examining proportions, looking closely at text and also doing a reverse image search. So ... how'd you do? Let us know in the comments! #2TruthsAndAI #AILiteracy #MediaLiteracy #PaintingsOfInstagram",
+          "thumbnailMediaId": "med_57b790c66ed14572312ed171edec",
+          "publishedAt": "2026-09-04T16:01:06.000Z",
+          "profileId": "prf_82eb3d96a8879c5ad51d1c267531",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/Dc3w-rnis8u/thumbnail.webp",
+          "viewsCount": 404076,
+          "likesCount": 30621,
+          "sharesCount": 1274,
+          "commentsCount": 219,
+          "interactionsCount": 32114,
+          "profileFollowersCount": 97728,
+          "mediaCount": 1,
+          "hashtags": [
+            "#2truthsandai",
+            "#ailiteracy",
+            "#medialiteracy",
+            "#paintingsofinstagram"
+          ],
+          "mentions": [],
+          "platformId": "Dc3w-rnis8u",
+          "profilePlatformId": "31797786220",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/instagram/newslitproject/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 155.014,
+              "caption": null,
+              "onScreenText": [
+                "News",
+                "Literacy",
+                "Project",
+                "No.1",
+                "This one was tough.",
+                "0u",
+                "O",
+                "✓",
+                "looks a little too",
+                "large for his body?",
+                "We also know that image generators News Literacy Project",
+                "The cat painting has",
+                "a signature on it",
+                "But while text can",
+                "Now let's zoom in on",
+                "the horse painting.",
+                "But notice how",
+                "New Litera Proje",
+                "News Litera Proje",
+                "are behind the",
+                "horse?",
+                "X",
+                "TinEye",
+                "Reverse Image Search",
+                "head to tineye.com,",
+                "and carefully look through the matches.",
+                "2 Truths and AI",
+                "It was titled",
+                "Visit Exhibitions",
+                "J. F. H. And from my search I learned that March 5, 1825 William Bonnell",
+                "American, 1804-1865",
+                "William Bonnell\nJ. Ellis Bonham\nUnited States (Artist's nationality:)\n1825",
+                "Artist",
+                "Title",
+                "Place",
+                "Date 1\n\nMedium\n\nInscriptions",
+                "Oil on panel",
+                "Inscribed on reverse: \"William Bonnell/Pinxt/March 5th 1825\" Also on",
+                "2 Truths and Al",
+                "REAL",
+                "Exhibitions",
+                "Visit",
+                "This piece is called",
+                "Winter: Cat on a Cushion",
+                "1909",
+                "Théophile-Alexandre Steinlen French, born Switzerland, 1859-1923",
+                "Théophile-Alexandre Pierre Steinlen",
+                "France (Object made in:)",
+                "Date",
+                "As for the horse",
+                "painting,",
+                "Upload an image",
+                "Upload or enter image URL",
+                "0 matches",
+                "TinEye searched over 85.6 billion images but didn't fir",
+                "probably because we have yet to crawl any pages whe",
+                "crawling, so try your search again soon.",
+                "Using TinEye is private. We do not save your search in",
+                "RELATED IMAGES • SPONSORED\nshutterstock",
+                "TinEye could not find",
+                "For a genuine piece",
+                "of art,",
+                "like the title,",
+                "And if you can't",
+                "But I can tell you",
+                "AI imoge generotor",
+                "Midjourney\nExplore\nCreate\nEdit",
+                "LA",
+                "Organize",
+                "Personalize",
+                "w 34 v 81 hd",
+                "B surve",
+                "③ Hep",
+                "Updates",
+                "Light Mod",
+                "for a fact that this",
+                "one is Al"
+              ],
+              "transcript": "Can you separate a real painting from a computer generated one? Let's find out. This is Two Truths and AI. Number one. Number two. Number three. Number three. This one was tough. So let's think it through. AI generated images can sometimes get the proportions wrong. Could that be why this boy's head looks a little too large for his body? Or was that the artist's choice? We also know that image generators can struggle with creating realistic text. They can sometimes mush together letters, mix different font styles, or even invent characters. The cat painting has a signature on it that looks authentic. But while text can be a useful clue, it's not a guarantee that something is or isn't AI. Now, let's zoom in on the horse painting. We can see lots of detail in the brush strokes, which makes me think that it's legit. But notice how both the man's legs are behind the horse? Is that an AI tool making a mistake? A great way to tell if an image is AI generated is by doing a reverse image search. There are several reverse image search tools out there. But today I'm going to use one called TinEye. What we'll do is save or screenshot the image, head to TinEye.com, upload it, and carefully look through the matches. Okay, now for the actual answer. The boy with the book? That's a real painting. It was titled J. Ellis Bonham and was painted in 1825 by William Bunnell. And from my search, I learned that it's currently held at the Art Institute of Chicago. The cat painting? Yeah, that's also real. This piece is called Winter Cat on a Cushion and was painted in 1909. As for the horse painting, TinEye could not find a horse painting. single matching results. Now if you do a reverse image search and you don't get any results, it doesn't automatically mean that it is AI generated. But in this case it's pretty telling. For a genuine piece of art you would expect it to be paired with basic details like the title, the artist, the year it was made. And if you can't seem to find any of that information be skeptical or at the very least file it away as unconfirmed. But I can tell you for a fact that this one is AI because we pulled it from Midjourney's Explorer page. Did you get it right this week? Let us know in the comments and stay tuned for the next episode of Two Truths in AI.",
+              "tags": [],
+              "transcriptLanguage": "en",
+              "transcriptChunks": [
+                {
+                  "startSeconds": 0.109,
+                  "endSeconds": 3.189,
+                  "text": "Can you separate a real painting from a computer generated one?"
+                },
+                {
+                  "startSeconds": 3.189,
+                  "endSeconds": 4.189,
+                  "text": "Let's find out."
+                },
+                {
+                  "startSeconds": 4.189,
+                  "endSeconds": 5.609,
+                  "text": "This is Two Truths and AI."
+                },
+                {
+                  "startSeconds": 5.609,
+                  "endSeconds": 6.609,
+                  "text": "Number one."
+                },
+                {
+                  "startSeconds": 15.609,
+                  "endSeconds": 16.609,
+                  "text": "Number two."
+                },
+                {
+                  "startSeconds": 25.709,
+                  "endSeconds": 26.709,
+                  "text": "Number three."
+                },
+                {
+                  "startSeconds": 30.109,
+                  "endSeconds": 31.109,
+                  "text": "Number three."
+                },
+                {
+                  "startSeconds": 35.109,
+                  "endSeconds": 37.109,
+                  "text": "This one was tough."
+                },
+                {
+                  "startSeconds": 37.109,
+                  "endSeconds": 38.109,
+                  "text": "So let's think it through."
+                },
+                {
+                  "startSeconds": 38.109,
+                  "endSeconds": 41.109,
+                  "text": "AI generated images can sometimes get the proportions wrong."
+                },
+                {
+                  "startSeconds": 41.109,
+                  "endSeconds": 45.109,
+                  "text": "Could that be why this boy's head looks a little too large for his body?"
+                },
+                {
+                  "startSeconds": 45.109,
+                  "endSeconds": 47.109,
+                  "text": "Or was that the artist's choice?"
+                },
+                {
+                  "startSeconds": 47.109,
+                  "endSeconds": 52.109,
+                  "text": "We also know that image generators can struggle with creating realistic text."
+                },
+                {
+                  "startSeconds": 52.109,
+                  "endSeconds": 57.109,
+                  "text": "They can sometimes mush together letters, mix different font styles, or even invent characters."
+                },
+                {
+                  "startSeconds": 57.109,
+                  "endSeconds": 60.109,
+                  "text": "The cat painting has a signature on it that looks authentic."
+                },
+                {
+                  "startSeconds": 60.109,
+                  "endSeconds": 66.109,
+                  "text": "But while text can be a useful clue, it's not a guarantee that something is or isn't AI."
+                },
+                {
+                  "startSeconds": 66.109,
+                  "endSeconds": 69.109,
+                  "text": "Now, let's zoom in on the horse painting."
+                },
+                {
+                  "startSeconds": 69.109,
+                  "endSeconds": 73.109,
+                  "text": "We can see lots of detail in the brush strokes, which makes me think that it's legit."
+                },
+                {
+                  "startSeconds": 73.109,
+                  "endSeconds": 76.109,
+                  "text": "But notice how both the man's legs are behind the horse?"
+                },
+                {
+                  "startSeconds": 76.109,
+                  "endSeconds": 79.109,
+                  "text": "Is that an AI tool making a mistake?"
+                },
+                {
+                  "startSeconds": 79.109,
+                  "endSeconds": 83.109,
+                  "text": "A great way to tell if an image is AI generated is by doing a reverse image search."
+                },
+                {
+                  "startSeconds": 83.109,
+                  "endSeconds": 86.109,
+                  "text": "There are several reverse image search tools out there."
+                },
+                {
+                  "startSeconds": 86.109,
+                  "endSeconds": 89.109,
+                  "text": "But today I'm going to use one called TinEye."
+                },
+                {
+                  "startSeconds": 89.109,
+                  "endSeconds": 96.109,
+                  "text": "What we'll do is save or screenshot the image, head to TinEye.com, upload it, and carefully look through the matches."
+                },
+                {
+                  "startSeconds": 96.109,
+                  "endSeconds": 99.109,
+                  "text": "Okay, now for the actual answer."
+                },
+                {
+                  "startSeconds": 99.109,
+                  "endSeconds": 100.109,
+                  "text": "The boy with the book?"
+                },
+                {
+                  "startSeconds": 100.109,
+                  "endSeconds": 101.109,
+                  "text": "That's a real painting."
+                },
+                {
+                  "startSeconds": 101.109,
+                  "endSeconds": 106.109,
+                  "text": "It was titled J. Ellis Bonham and was painted in 1825 by William Bunnell."
+                },
+                {
+                  "startSeconds": 106.109,
+                  "endSeconds": 110.109,
+                  "text": "And from my search, I learned that it's currently held at the Art Institute of Chicago."
+                },
+                {
+                  "startSeconds": 110.109,
+                  "endSeconds": 111.109,
+                  "text": "The cat painting?"
+                },
+                {
+                  "startSeconds": 111.109,
+                  "endSeconds": 113.109,
+                  "text": "Yeah, that's also real."
+                },
+                {
+                  "startSeconds": 113.109,
+                  "endSeconds": 117.109,
+                  "text": "This piece is called Winter Cat on a Cushion and was painted in 1909."
+                },
+                {
+                  "startSeconds": 117.109,
+                  "endSeconds": 120.109,
+                  "text": "As for the horse painting, TinEye could not find a horse painting."
+                },
+                {
+                  "startSeconds": 120.109,
+                  "endSeconds": 124.069,
+                  "text": "single matching results. Now if you do a reverse image search and you don't get"
+                },
+                {
+                  "startSeconds": 124.069,
+                  "endSeconds": 129.409,
+                  "text": "any results, it doesn't automatically mean that it is AI generated. But in this"
+                },
+                {
+                  "startSeconds": 129.409,
+                  "endSeconds": 133.609,
+                  "text": "case it's pretty telling. For a genuine piece of art you would expect it to be"
+                },
+                {
+                  "startSeconds": 133.609,
+                  "endSeconds": 138.529,
+                  "text": "paired with basic details like the title, the artist, the year it was made. And if"
+                },
+                {
+                  "startSeconds": 138.529,
+                  "endSeconds": 142.309,
+                  "text": "you can't seem to find any of that information be skeptical or at the very"
+                },
+                {
+                  "startSeconds": 142.309,
+                  "endSeconds": 146.809,
+                  "text": "least file it away as unconfirmed. But I can tell you for a fact that this one is"
+                },
+                {
+                  "startSeconds": 146.809,
+                  "endSeconds": 150.469,
+                  "text": "AI because we pulled it from Midjourney's Explorer page. Did you get it right this"
+                },
+                {
+                  "startSeconds": 150.469,
+                  "endSeconds": 154.629,
+                  "text": "week? Let us know in the comments and stay tuned for the next episode of Two Truths in AI."
+                }
+              ],
+              "frames": [
+                {
+                  "id": "med_de1578a229f85475753668334272",
+                  "position": 1,
+                  "timestampSeconds": 2.9,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.5777778,
+                          "y": 0.7890625
+                        },
+                        {
+                          "x": 0.725,
+                          "y": 0.7835938
+                        },
+                        {
+                          "x": 0.7277778,
+                          "y": 0.8140625
+                        },
+                        {
+                          "x": 0.58194447,
+                          "y": 0.81953126
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.57916665,
+                          "y": 0.8140625
+                        },
+                        {
+                          "x": 0.775,
+                          "y": 0.8125
+                        },
+                        {
+                          "x": 0.7763889,
+                          "y": 0.8421875
+                        },
+                        {
+                          "x": 0.58055556,
+                          "y": 0.84375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.5777778,
+                          "y": 0.83984375
+                        },
+                        {
+                          "x": 0.76111114,
+                          "y": 0.8335937
+                        },
+                        {
+                          "x": 0.7652778,
+                          "y": 0.86796874
+                        },
+                        {
+                          "x": 0.58194447,
+                          "y": 0.87421876
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/1_2.90.webp"
+                },
+                {
+                  "id": "med_03790c3b6b9f4209b18e6187b1f2",
+                  "position": 2,
+                  "timestampSeconds": 5.3,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "No.1",
+                      "polygon": [
+                        {
+                          "x": 0.4027778,
+                          "y": 0.6875
+                        },
+                        {
+                          "x": 0.5875,
+                          "y": 0.6875
+                        },
+                        {
+                          "x": 0.5875,
+                          "y": 0.7359375
+                        },
+                        {
+                          "x": 0.4027778,
+                          "y": 0.7359375
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/2_5.30.webp"
+                },
+                {
+                  "id": "med_b51437c1a8f994044c2c6d0b4223",
+                  "position": 3,
+                  "timestampSeconds": 15.3,
+                  "onScreenTextRegions": [],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/3_15.30.webp"
+                },
+                {
+                  "id": "med_dbac6be8ed4ae51668b0bf006360",
+                  "position": 4,
+                  "timestampSeconds": 25.3,
+                  "onScreenTextRegions": [],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/4_25.30.webp"
+                },
+                {
+                  "id": "med_ebeacaa32139519c1a2c632c7f80",
+                  "position": 5,
+                  "timestampSeconds": 35.3,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "This one was tough.",
+                      "polygon": [
+                        {
+                          "x": 0.13055556,
+                          "y": 0.684375
+                        },
+                        {
+                          "x": 0.85833335,
+                          "y": 0.6875
+                        },
+                        {
+                          "x": 0.85694444,
+                          "y": 0.7375
+                        },
+                        {
+                          "x": 0.13055556,
+                          "y": 0.734375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.6722222,
+                          "y": 0.7765625
+                        },
+                        {
+                          "x": 0.8194444,
+                          "y": 0.77265626
+                        },
+                        {
+                          "x": 0.82222223,
+                          "y": 0.803125
+                        },
+                        {
+                          "x": 0.675,
+                          "y": 0.8070313
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.67638886,
+                          "y": 0.8015625
+                        },
+                        {
+                          "x": 0.87222224,
+                          "y": 0.8
+                        },
+                        {
+                          "x": 0.87222224,
+                          "y": 0.8296875
+                        },
+                        {
+                          "x": 0.67638886,
+                          "y": 0.83125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.67777777,
+                          "y": 0.828125
+                        },
+                        {
+                          "x": 0.85694444,
+                          "y": 0.825
+                        },
+                        {
+                          "x": 0.85833335,
+                          "y": 0.8546875
+                        },
+                        {
+                          "x": 0.6805556,
+                          "y": 0.8578125
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/5_35.30.webp"
+                },
+                {
+                  "id": "med_9474119df4007b70e858e43133c4",
+                  "position": 6,
+                  "timestampSeconds": 38.37,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "0u",
+                      "polygon": [
+                        {
+                          "x": 0.6722222,
+                          "y": 0.03515625
+                        },
+                        {
+                          "x": 0.91805553,
+                          "y": 0.03984375
+                        },
+                        {
+                          "x": 0.9152778,
+                          "y": 0.09921875
+                        },
+                        {
+                          "x": 0.66944444,
+                          "y": 0.09453125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "O",
+                      "polygon": [
+                        {
+                          "x": 0,
+                          "y": 0.7328125
+                        },
+                        {
+                          "x": 0.04027778,
+                          "y": 0.7328125
+                        },
+                        {
+                          "x": 0.04027778,
+                          "y": 0.7609375
+                        },
+                        {
+                          "x": 0,
+                          "y": 0.7609375
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/6_38.37.webp"
+                },
+                {
+                  "id": "med_38b9c35a35b1367cb5c151716040",
+                  "position": 7,
+                  "timestampSeconds": 41.5,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "✓",
+                      "polygon": [
+                        {
+                          "x": 0,
+                          "y": 0.01171875
+                        },
+                        {
+                          "x": 1,
+                          "y": 0.01171875
+                        },
+                        {
+                          "x": 1,
+                          "y": 0.95703125
+                        },
+                        {
+                          "x": 0,
+                          "y": 0.95703125
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/7_41.50.webp"
+                },
+                {
+                  "id": "med_956978a7511c9abc0048c26afb75",
+                  "position": 8,
+                  "timestampSeconds": 45.43,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "looks a little too",
+                      "polygon": [
+                        {
+                          "x": 0.19861111,
+                          "y": 0.665625
+                        },
+                        {
+                          "x": 0.78055555,
+                          "y": 0.665625
+                        },
+                        {
+                          "x": 0.78055555,
+                          "y": 0.709375
+                        },
+                        {
+                          "x": 0.19861111,
+                          "y": 0.709375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "large for his body?",
+                      "polygon": [
+                        {
+                          "x": 0.1625,
+                          "y": 0.7109375
+                        },
+                        {
+                          "x": 0.83194447,
+                          "y": 0.7109375
+                        },
+                        {
+                          "x": 0.83194447,
+                          "y": 0.759375
+                        },
+                        {
+                          "x": 0.1625,
+                          "y": 0.759375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.7236111,
+                          "y": 0.7703125
+                        },
+                        {
+                          "x": 0.8680556,
+                          "y": 0.76640624
+                        },
+                        {
+                          "x": 0.86944443,
+                          "y": 0.796875
+                        },
+                        {
+                          "x": 0.7263889,
+                          "y": 0.80078125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.7291667,
+                          "y": 0.7953125
+                        },
+                        {
+                          "x": 0.9166667,
+                          "y": 0.7921875
+                        },
+                        {
+                          "x": 0.91805553,
+                          "y": 0.821875
+                        },
+                        {
+                          "x": 0.73194444,
+                          "y": 0.825
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.7263889,
+                          "y": 0.82109374
+                        },
+                        {
+                          "x": 0.90694445,
+                          "y": 0.8148438
+                        },
+                        {
+                          "x": 0.9097222,
+                          "y": 0.8492187
+                        },
+                        {
+                          "x": 0.7291667,
+                          "y": 0.85546875
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/8_45.43.webp"
+                },
+                {
+                  "id": "med_3868042760349d8d6e04a662096a",
+                  "position": 9,
+                  "timestampSeconds": 47.5,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "We also know that image generators News Literacy Project",
+                      "polygon": [
+                        {
+                          "x": 0.1625,
+                          "y": 0.6671875
+                        },
+                        {
+                          "x": 0.86944443,
+                          "y": 0.6671875
+                        },
+                        {
+                          "x": 0.86944443,
+                          "y": 0.8171875
+                        },
+                        {
+                          "x": 0.1625,
+                          "y": 0.8171875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.675,
+                          "y": 0.8109375
+                        },
+                        {
+                          "x": 0.85694444,
+                          "y": 0.8070313
+                        },
+                        {
+                          "x": 0.85833335,
+                          "y": 0.8421875
+                        },
+                        {
+                          "x": 0.67777777,
+                          "y": 0.8460938
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/9_47.50.webp"
+                },
+                {
+                  "id": "med_12faa7a747dd7e447642999b520b",
+                  "position": 10,
+                  "timestampSeconds": 52.13,
+                  "onScreenTextRegions": [],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/10_52.13.webp"
+                },
+                {
+                  "id": "med_2e7fc3fb06865670227540c29648",
+                  "position": 11,
+                  "timestampSeconds": 57.5,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "The cat painting has",
+                      "polygon": [
+                        {
+                          "x": 0.125,
+                          "y": 0.6671875
+                        },
+                        {
+                          "x": 0.85833335,
+                          "y": 0.6671875
+                        },
+                        {
+                          "x": 0.85833335,
+                          "y": 0.715625
+                        },
+                        {
+                          "x": 0.125,
+                          "y": 0.715625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "a signature on it",
+                      "polygon": [
+                        {
+                          "x": 0.2013889,
+                          "y": 0.7140625
+                        },
+                        {
+                          "x": 0.7972222,
+                          "y": 0.7109375
+                        },
+                        {
+                          "x": 0.7986111,
+                          "y": 0.75625
+                        },
+                        {
+                          "x": 0.20277777,
+                          "y": 0.759375
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/11_57.50.webp"
+                },
+                {
+                  "id": "med_fe03bd1d116d4ea9098148cce3ef",
+                  "position": 12,
+                  "timestampSeconds": 60.97,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "But while text can",
+                      "polygon": [
+                        {
+                          "x": 0.16805555,
+                          "y": 0.6859375
+                        },
+                        {
+                          "x": 0.8125,
+                          "y": 0.6890625
+                        },
+                        {
+                          "x": 0.8125,
+                          "y": 0.7328125
+                        },
+                        {
+                          "x": 0.16805555,
+                          "y": 0.7296875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.6527778,
+                          "y": 0.7828125
+                        },
+                        {
+                          "x": 0.8,
+                          "y": 0.7789062
+                        },
+                        {
+                          "x": 0.80138886,
+                          "y": 0.809375
+                        },
+                        {
+                          "x": 0.65555555,
+                          "y": 0.81328124
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.65555555,
+                          "y": 0.8078125
+                        },
+                        {
+                          "x": 0.8486111,
+                          "y": 0.80625
+                        },
+                        {
+                          "x": 0.85,
+                          "y": 0.8359375
+                        },
+                        {
+                          "x": 0.65694445,
+                          "y": 0.8375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.6527778,
+                          "y": 0.8328125
+                        },
+                        {
+                          "x": 0.8361111,
+                          "y": 0.8296875
+                        },
+                        {
+                          "x": 0.8388889,
+                          "y": 0.8625
+                        },
+                        {
+                          "x": 0.65555555,
+                          "y": 0.865625
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/12_60.97.webp"
+                },
+                {
+                  "id": "med_2017a8bb882020ca59ce16dd2594",
+                  "position": 13,
+                  "timestampSeconds": 66.83,
+                  "onScreenTextRegions": [],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/13_66.83.webp"
+                },
+                {
+                  "id": "med_8c4e8627d3cef0a414c80512380f",
+                  "position": 14,
+                  "timestampSeconds": 67.6,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Now let's zoom in on",
+                      "polygon": [
+                        {
+                          "x": 0.11666667,
+                          "y": 0.6640625
+                        },
+                        {
+                          "x": 0.8666667,
+                          "y": 0.6671875
+                        },
+                        {
+                          "x": 0.8666667,
+                          "y": 0.7109375
+                        },
+                        {
+                          "x": 0.11666667,
+                          "y": 0.7078125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "the horse painting.",
+                      "polygon": [
+                        {
+                          "x": 0.15694444,
+                          "y": 0.7078125
+                        },
+                        {
+                          "x": 0.8361111,
+                          "y": 0.7125
+                        },
+                        {
+                          "x": 0.8347222,
+                          "y": 0.7625
+                        },
+                        {
+                          "x": 0.15555556,
+                          "y": 0.7578125
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/14_67.60.webp"
+                },
+                {
+                  "id": "med_fb64b7e0ab572f1b656c7f2fe2cb",
+                  "position": 15,
+                  "timestampSeconds": 73.77,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "But notice how",
+                      "polygon": [
+                        {
+                          "x": 0.23333333,
+                          "y": 0.690625
+                        },
+                        {
+                          "x": 0.76944447,
+                          "y": 0.690625
+                        },
+                        {
+                          "x": 0.76944447,
+                          "y": 0.7296875
+                        },
+                        {
+                          "x": 0.23333333,
+                          "y": 0.7296875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "New Litera Proje",
+                      "polygon": [
+                        {
+                          "x": 0.89166665,
+                          "y": 0.7734375
+                        },
+                        {
+                          "x": 1,
+                          "y": 0.7734375
+                        },
+                        {
+                          "x": 1,
+                          "y": 0.85625
+                        },
+                        {
+                          "x": 0.89166665,
+                          "y": 0.85625
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/15_73.77.webp"
+                },
+                {
+                  "id": "med_8e4ba8a253659b259d403c32b73d",
+                  "position": 16,
+                  "timestampSeconds": 74.33,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "But notice how",
+                      "polygon": [
+                        {
+                          "x": 0.23333333,
+                          "y": 0.690625
+                        },
+                        {
+                          "x": 0.76666665,
+                          "y": 0.690625
+                        },
+                        {
+                          "x": 0.76666665,
+                          "y": 0.7296875
+                        },
+                        {
+                          "x": 0.23333333,
+                          "y": 0.7296875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "News Litera Proje",
+                      "polygon": [
+                        {
+                          "x": 0.87777776,
+                          "y": 0.7828125
+                        },
+                        {
+                          "x": 1,
+                          "y": 0.7828125
+                        },
+                        {
+                          "x": 1,
+                          "y": 0.865625
+                        },
+                        {
+                          "x": 0.87777776,
+                          "y": 0.865625
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/16_74.33.webp"
+                },
+                {
+                  "id": "med_52e0bca3150b7cfccf2003768583",
+                  "position": 17,
+                  "timestampSeconds": 77.47,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "are behind the",
+                      "polygon": [
+                        {
+                          "x": 0.23888889,
+                          "y": 0.665625
+                        },
+                        {
+                          "x": 0.76111114,
+                          "y": 0.665625
+                        },
+                        {
+                          "x": 0.76111114,
+                          "y": 0.709375
+                        },
+                        {
+                          "x": 0.23888889,
+                          "y": 0.709375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "horse?",
+                      "polygon": [
+                        {
+                          "x": 0.36944443,
+                          "y": 0.709375
+                        },
+                        {
+                          "x": 0.62777776,
+                          "y": 0.709375
+                        },
+                        {
+                          "x": 0.62777776,
+                          "y": 0.7546875
+                        },
+                        {
+                          "x": 0.36944443,
+                          "y": 0.7546875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.6125,
+                          "y": 0.7671875
+                        },
+                        {
+                          "x": 0.76111114,
+                          "y": 0.76171875
+                        },
+                        {
+                          "x": 0.7652778,
+                          "y": 0.7921875
+                        },
+                        {
+                          "x": 0.6166667,
+                          "y": 0.79765624
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.61527777,
+                          "y": 0.78984374
+                        },
+                        {
+                          "x": 0.81527776,
+                          "y": 0.7835938
+                        },
+                        {
+                          "x": 0.8194444,
+                          "y": 0.8179687
+                        },
+                        {
+                          "x": 0.6180556,
+                          "y": 0.82421875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.61527777,
+                          "y": 0.8179687
+                        },
+                        {
+                          "x": 0.8041667,
+                          "y": 0.8101562
+                        },
+                        {
+                          "x": 0.80833334,
+                          "y": 0.84453124
+                        },
+                        {
+                          "x": 0.61944443,
+                          "y": 0.85234374
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/17_77.47.webp"
+                },
+                {
+                  "id": "med_9b865f4c395817adb7c9129c4c46",
+                  "position": 18,
+                  "timestampSeconds": 79.67,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.63472223,
+                          "y": 0.771875
+                        },
+                        {
+                          "x": 0.7847222,
+                          "y": 0.76640624
+                        },
+                        {
+                          "x": 0.7875,
+                          "y": 0.796875
+                        },
+                        {
+                          "x": 0.6388889,
+                          "y": 0.8023437
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.6388889,
+                          "y": 0.79375
+                        },
+                        {
+                          "x": 0.8402778,
+                          "y": 0.79375
+                        },
+                        {
+                          "x": 0.8402778,
+                          "y": 0.828125
+                        },
+                        {
+                          "x": 0.6388889,
+                          "y": 0.828125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.63472223,
+                          "y": 0.821875
+                        },
+                        {
+                          "x": 0.82361114,
+                          "y": 0.81640625
+                        },
+                        {
+                          "x": 0.8277778,
+                          "y": 0.853125
+                        },
+                        {
+                          "x": 0.6388889,
+                          "y": 0.85859376
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/18_79.67.webp"
+                },
+                {
+                  "id": "med_4894e7c5a455093de91021abfe83",
+                  "position": 19,
+                  "timestampSeconds": 83.97,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.70416665,
+                          "y": 0.76875
+                        },
+                        {
+                          "x": 0.8527778,
+                          "y": 0.765625
+                        },
+                        {
+                          "x": 0.85555553,
+                          "y": 0.7953125
+                        },
+                        {
+                          "x": 0.70694447,
+                          "y": 0.7984375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.7097222,
+                          "y": 0.79375
+                        },
+                        {
+                          "x": 0.9027778,
+                          "y": 0.79375
+                        },
+                        {
+                          "x": 0.9027778,
+                          "y": 0.8234375
+                        },
+                        {
+                          "x": 0.7097222,
+                          "y": 0.8234375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.70416665,
+                          "y": 0.81953126
+                        },
+                        {
+                          "x": 0.8888889,
+                          "y": 0.81328124
+                        },
+                        {
+                          "x": 0.89305556,
+                          "y": 0.84765625
+                        },
+                        {
+                          "x": 0.70694447,
+                          "y": 0.8539063
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/19_83.97.webp"
+                },
+                {
+                  "id": "med_4269b7579c6d296ecf06df0ce208",
+                  "position": 20,
+                  "timestampSeconds": 89.7,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.11666667,
+                          "y": 0.146875
+                        },
+                        {
+                          "x": 0.15972222,
+                          "y": 0.146875
+                        },
+                        {
+                          "x": 0.15972222,
+                          "y": 0.1703125
+                        },
+                        {
+                          "x": 0.11666667,
+                          "y": 0.1703125
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/20_89.70.webp"
+                },
+                {
+                  "id": "med_f7b160f5345ee171dacf88a265b7",
+                  "position": 21,
+                  "timestampSeconds": 92.97,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "TinEye",
+                      "polygon": [
+                        {
+                          "x": 0.3125,
+                          "y": 0.4
+                        },
+                        {
+                          "x": 0.375,
+                          "y": 0.4
+                        },
+                        {
+                          "x": 0.375,
+                          "y": 0.4125
+                        },
+                        {
+                          "x": 0.3125,
+                          "y": 0.4125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Reverse Image Search",
+                      "polygon": [
+                        {
+                          "x": 0.4,
+                          "y": 0.4296875
+                        },
+                        {
+                          "x": 0.6472222,
+                          "y": 0.4296875
+                        },
+                        {
+                          "x": 0.6472222,
+                          "y": 0.4453125
+                        },
+                        {
+                          "x": 0.4,
+                          "y": 0.4453125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "head to tineye.com,",
+                      "polygon": [
+                        {
+                          "x": 0.14583333,
+                          "y": 0.690625
+                        },
+                        {
+                          "x": 0.85,
+                          "y": 0.69375
+                        },
+                        {
+                          "x": 0.8486111,
+                          "y": 0.7375
+                        },
+                        {
+                          "x": 0.14444445,
+                          "y": 0.734375
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/21_92.97.webp"
+                },
+                {
+                  "id": "med_7a66e846cc481850dede026edc25",
+                  "position": 22,
+                  "timestampSeconds": 95.1,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "and carefully look through the matches.",
+                      "polygon": [
+                        {
+                          "x": 0.11388889,
+                          "y": 0.665625
+                        },
+                        {
+                          "x": 0.87777776,
+                          "y": 0.665625
+                        },
+                        {
+                          "x": 0.87777776,
+                          "y": 0.7609375
+                        },
+                        {
+                          "x": 0.11388889,
+                          "y": 0.7609375
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/22_95.10.webp"
+                },
+                {
+                  "id": "med_83749078e31cb3c3f6f5a69df7bf",
+                  "position": 23,
+                  "timestampSeconds": 96.93,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.11111111,
+                          "y": 0.14375
+                        },
+                        {
+                          "x": 0.1625,
+                          "y": 0.14375
+                        },
+                        {
+                          "x": 0.1625,
+                          "y": 0.1734375
+                        },
+                        {
+                          "x": 0.11111111,
+                          "y": 0.1734375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "2 Truths and AI",
+                      "polygon": [
+                        {
+                          "x": 0.25,
+                          "y": 0.2046875
+                        },
+                        {
+                          "x": 0.5972222,
+                          "y": 0.2046875
+                        },
+                        {
+                          "x": 0.5972222,
+                          "y": 0.2875
+                        },
+                        {
+                          "x": 0.25,
+                          "y": 0.2875
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/23_96.93.webp"
+                },
+                {
+                  "id": "med_dba43af6ac0ae2f2cda36e98fe83",
+                  "position": 24,
+                  "timestampSeconds": 101.77,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "It was titled",
+                      "polygon": [
+                        {
+                          "x": 0.28055555,
+                          "y": 0.690625
+                        },
+                        {
+                          "x": 0.7013889,
+                          "y": 0.690625
+                        },
+                        {
+                          "x": 0.7013889,
+                          "y": 0.7296875
+                        },
+                        {
+                          "x": 0.28055555,
+                          "y": 0.7296875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.60694444,
+                          "y": 0.7671875
+                        },
+                        {
+                          "x": 0.75416666,
+                          "y": 0.7632812
+                        },
+                        {
+                          "x": 0.7569444,
+                          "y": 0.79375
+                        },
+                        {
+                          "x": 0.6097222,
+                          "y": 0.79765624
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.61388886,
+                          "y": 0.7921875
+                        },
+                        {
+                          "x": 0.80277777,
+                          "y": 0.790625
+                        },
+                        {
+                          "x": 0.8041667,
+                          "y": 0.8203125
+                        },
+                        {
+                          "x": 0.61388886,
+                          "y": 0.821875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.6097222,
+                          "y": 0.815625
+                        },
+                        {
+                          "x": 0.7902778,
+                          "y": 0.81171876
+                        },
+                        {
+                          "x": 0.79305553,
+                          "y": 0.846875
+                        },
+                        {
+                          "x": 0.6125,
+                          "y": 0.85078126
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/24_101.77.webp"
+                },
+                {
+                  "id": "med_10e96a82e441bcfdaddd1a859639",
+                  "position": 25,
+                  "timestampSeconds": 106.57,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Visit Exhibitions",
+                      "polygon": [
+                        {
+                          "x": 0.76666665,
+                          "y": 0.059375
+                        },
+                        {
+                          "x": 1,
+                          "y": 0.059375
+                        },
+                        {
+                          "x": 1,
+                          "y": 0.0765625
+                        },
+                        {
+                          "x": 0.76666665,
+                          "y": 0.0765625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "J. F. H. And from my search I learned that March 5, 1825 William Bonnell",
+                      "polygon": [
+                        {
+                          "x": 0.0625,
+                          "y": 0.6625
+                        },
+                        {
+                          "x": 0.88611114,
+                          "y": 0.6625
+                        },
+                        {
+                          "x": 0.88611114,
+                          "y": 0.775
+                        },
+                        {
+                          "x": 0.0625,
+                          "y": 0.775
+                        }
+                      ]
+                    },
+                    {
+                      "text": "American, 1804-1865",
+                      "polygon": [
+                        {
+                          "x": 0.07083333,
+                          "y": 0.778125
+                        },
+                        {
+                          "x": 0.26944444,
+                          "y": 0.778125
+                        },
+                        {
+                          "x": 0.26944444,
+                          "y": 0.79375
+                        },
+                        {
+                          "x": 0.07083333,
+                          "y": 0.79375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "William Bonnell\nJ. Ellis Bonham\nUnited States (Artist's nationality:)\n1825",
+                      "polygon": [
+                        {
+                          "x": 0.30972221,
+                          "y": 0.8109375
+                        },
+                        {
+                          "x": 0.61944443,
+                          "y": 0.8109375
+                        },
+                        {
+                          "x": 0.61944443,
+                          "y": 0.9328125
+                        },
+                        {
+                          "x": 0.30972221,
+                          "y": 0.9328125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Artist",
+                      "polygon": [
+                        {
+                          "x": 0.06527778,
+                          "y": 0.8125
+                        },
+                        {
+                          "x": 0.1388889,
+                          "y": 0.8125
+                        },
+                        {
+                          "x": 0.1388889,
+                          "y": 0.8359375
+                        },
+                        {
+                          "x": 0.06527778,
+                          "y": 0.8359375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Title",
+                      "polygon": [
+                        {
+                          "x": 0.068055555,
+                          "y": 0.8453125
+                        },
+                        {
+                          "x": 0.12777779,
+                          "y": 0.8453125
+                        },
+                        {
+                          "x": 0.12777779,
+                          "y": 0.865625
+                        },
+                        {
+                          "x": 0.068055555,
+                          "y": 0.865625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Place",
+                      "polygon": [
+                        {
+                          "x": 0.068055555,
+                          "y": 0.87421876
+                        },
+                        {
+                          "x": 0.13194445,
+                          "y": 0.87890625
+                        },
+                        {
+                          "x": 0.12638889,
+                          "y": 0.89921874
+                        },
+                        {
+                          "x": 0.06388889,
+                          "y": 0.89453125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Date 1\n\nMedium\n\nInscriptions",
+                      "polygon": [
+                        {
+                          "x": 0.07083333,
+                          "y": 0.909375
+                        },
+                        {
+                          "x": 0.1875,
+                          "y": 0.909375
+                        },
+                        {
+                          "x": 0.1875,
+                          "y": 0.9921875
+                        },
+                        {
+                          "x": 0.07083333,
+                          "y": 0.9921875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Oil on panel",
+                      "polygon": [
+                        {
+                          "x": 0.31805557,
+                          "y": 0.9421875
+                        },
+                        {
+                          "x": 0.43194443,
+                          "y": 0.9421875
+                        },
+                        {
+                          "x": 0.43194443,
+                          "y": 0.959375
+                        },
+                        {
+                          "x": 0.31805557,
+                          "y": 0.959375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Inscribed on reverse: \"William Bonnell/Pinxt/March 5th 1825\" Also on",
+                      "polygon": [
+                        {
+                          "x": 0.31805557,
+                          "y": 0.975
+                        },
+                        {
+                          "x": 0.91805553,
+                          "y": 0.975
+                        },
+                        {
+                          "x": 0.91805553,
+                          "y": 0.990625
+                        },
+                        {
+                          "x": 0.31805557,
+                          "y": 0.990625
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/25_106.57.webp"
+                },
+                {
+                  "id": "med_5e47c37e8ca08d05babe6f9f9f13",
+                  "position": 26,
+                  "timestampSeconds": 110.63,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "2 Truths and Al",
+                      "polygon": [
+                        {
+                          "x": 0.23888889,
+                          "y": 0.2109375
+                        },
+                        {
+                          "x": 0.5402778,
+                          "y": 0.2109375
+                        },
+                        {
+                          "x": 0.5402778,
+                          "y": 0.284375
+                        },
+                        {
+                          "x": 0.23888889,
+                          "y": 0.284375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "REAL",
+                      "polygon": [
+                        {
+                          "x": 0.07638889,
+                          "y": 0.609375
+                        },
+                        {
+                          "x": 0.23333333,
+                          "y": 0.609375
+                        },
+                        {
+                          "x": 0.23333333,
+                          "y": 0.6390625
+                        },
+                        {
+                          "x": 0.07638889,
+                          "y": 0.6390625
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/26_110.63.webp"
+                },
+                {
+                  "id": "med_16bc82c1c085671bb46098efa0f0",
+                  "position": 27,
+                  "timestampSeconds": 113.07,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Exhibitions",
+                      "polygon": [
+                        {
+                          "x": 0.86944443,
+                          "y": 0.0609375
+                        },
+                        {
+                          "x": 1,
+                          "y": 0.0609375
+                        },
+                        {
+                          "x": 1,
+                          "y": 0.0765625
+                        },
+                        {
+                          "x": 0.86944443,
+                          "y": 0.0765625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Visit",
+                      "polygon": [
+                        {
+                          "x": 0.76944447,
+                          "y": 0.0625
+                        },
+                        {
+                          "x": 0.8402778,
+                          "y": 0.0625
+                        },
+                        {
+                          "x": 0.8402778,
+                          "y": 0.075
+                        },
+                        {
+                          "x": 0.76944447,
+                          "y": 0.075
+                        }
+                      ]
+                    },
+                    {
+                      "text": "This piece is called",
+                      "polygon": [
+                        {
+                          "x": 0.14444445,
+                          "y": 0.6890625
+                        },
+                        {
+                          "x": 0.83194447,
+                          "y": 0.6890625
+                        },
+                        {
+                          "x": 0.83194447,
+                          "y": 0.7328125
+                        },
+                        {
+                          "x": 0.14444445,
+                          "y": 0.7328125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Winter: Cat on a Cushion",
+                      "polygon": [
+                        {
+                          "x": 0.07361111,
+                          "y": 0.728125
+                        },
+                        {
+                          "x": 0.55138886,
+                          "y": 0.7296875
+                        },
+                        {
+                          "x": 0.55138886,
+                          "y": 0.753125
+                        },
+                        {
+                          "x": 0.07361111,
+                          "y": 0.7515625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "1909",
+                      "polygon": [
+                        {
+                          "x": 0.068055555,
+                          "y": 0.7734375
+                        },
+                        {
+                          "x": 0.125,
+                          "y": 0.7734375
+                        },
+                        {
+                          "x": 0.125,
+                          "y": 0.7921875
+                        },
+                        {
+                          "x": 0.068055555,
+                          "y": 0.7921875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Théophile-Alexandre Steinlen French, born Switzerland, 1859-1923",
+                      "polygon": [
+                        {
+                          "x": 0.07083333,
+                          "y": 0.8109375
+                        },
+                        {
+                          "x": 0.39166668,
+                          "y": 0.8109375
+                        },
+                        {
+                          "x": 0.39166668,
+                          "y": 0.8453125
+                        },
+                        {
+                          "x": 0.07083333,
+                          "y": 0.8453125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Artist",
+                      "polygon": [
+                        {
+                          "x": 0.068055555,
+                          "y": 0.865625
+                        },
+                        {
+                          "x": 0.13333334,
+                          "y": 0.865625
+                        },
+                        {
+                          "x": 0.13333334,
+                          "y": 0.884375
+                        },
+                        {
+                          "x": 0.068055555,
+                          "y": 0.884375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Théophile-Alexandre Pierre Steinlen",
+                      "polygon": [
+                        {
+                          "x": 0.31527779,
+                          "y": 0.8671875
+                        },
+                        {
+                          "x": 0.63611114,
+                          "y": 0.8671875
+                        },
+                        {
+                          "x": 0.63611114,
+                          "y": 0.8828125
+                        },
+                        {
+                          "x": 0.31527779,
+                          "y": 0.8828125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Title",
+                      "polygon": [
+                        {
+                          "x": 0.06944445,
+                          "y": 0.8929688
+                        },
+                        {
+                          "x": 0.12638889,
+                          "y": 0.89765626
+                        },
+                        {
+                          "x": 0.12083333,
+                          "y": 0.91796875
+                        },
+                        {
+                          "x": 0.06388889,
+                          "y": 0.91328126
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Winter: Cat on a Cushion",
+                      "polygon": [
+                        {
+                          "x": 0.31527779,
+                          "y": 0.8984375
+                        },
+                        {
+                          "x": 0.54305553,
+                          "y": 0.8984375
+                        },
+                        {
+                          "x": 0.54305553,
+                          "y": 0.9140625
+                        },
+                        {
+                          "x": 0.31527779,
+                          "y": 0.9140625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Place",
+                      "polygon": [
+                        {
+                          "x": 0.068055555,
+                          "y": 0.9296875
+                        },
+                        {
+                          "x": 0.13055556,
+                          "y": 0.9296875
+                        },
+                        {
+                          "x": 0.13055556,
+                          "y": 0.946875
+                        },
+                        {
+                          "x": 0.068055555,
+                          "y": 0.946875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "France (Object made in:)",
+                      "polygon": [
+                        {
+                          "x": 0.3125,
+                          "y": 0.928125
+                        },
+                        {
+                          "x": 0.5402778,
+                          "y": 0.9296875
+                        },
+                        {
+                          "x": 0.5388889,
+                          "y": 0.946875
+                        },
+                        {
+                          "x": 0.3125,
+                          "y": 0.9453125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Date",
+                      "polygon": [
+                        {
+                          "x": 0.07083333,
+                          "y": 0.9609375
+                        },
+                        {
+                          "x": 0.15,
+                          "y": 0.9609375
+                        },
+                        {
+                          "x": 0.15,
+                          "y": 0.9796875
+                        },
+                        {
+                          "x": 0.07083333,
+                          "y": 0.9796875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "1909",
+                      "polygon": [
+                        {
+                          "x": 0.3125,
+                          "y": 0.9609375
+                        },
+                        {
+                          "x": 0.36944443,
+                          "y": 0.9609375
+                        },
+                        {
+                          "x": 0.36944443,
+                          "y": 0.98125
+                        },
+                        {
+                          "x": 0.3125,
+                          "y": 0.98125
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/27_113.07.webp"
+                },
+                {
+                  "id": "med_be13bcf669ce7c852f9ad311d941",
+                  "position": 28,
+                  "timestampSeconds": 117.53,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.11111111,
+                          "y": 0.14375
+                        },
+                        {
+                          "x": 0.1625,
+                          "y": 0.14375
+                        },
+                        {
+                          "x": 0.1625,
+                          "y": 0.1734375
+                        },
+                        {
+                          "x": 0.11111111,
+                          "y": 0.1734375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "2 Truths and AI",
+                      "polygon": [
+                        {
+                          "x": 0.19027779,
+                          "y": 0.171875
+                        },
+                        {
+                          "x": 0.54583335,
+                          "y": 0.171875
+                        },
+                        {
+                          "x": 0.54583335,
+                          "y": 0.25625
+                        },
+                        {
+                          "x": 0.19027779,
+                          "y": 0.25625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.8041667,
+                          "y": 0.2140625
+                        },
+                        {
+                          "x": 0.86944443,
+                          "y": 0.2140625
+                        },
+                        {
+                          "x": 0.86944443,
+                          "y": 0.25
+                        },
+                        {
+                          "x": 0.8041667,
+                          "y": 0.25
+                        }
+                      ]
+                    },
+                    {
+                      "text": "REAL",
+                      "polygon": [
+                        {
+                          "x": 0.059722222,
+                          "y": 0.6265625
+                        },
+                        {
+                          "x": 0.225,
+                          "y": 0.6265625
+                        },
+                        {
+                          "x": 0.225,
+                          "y": 0.6609375
+                        },
+                        {
+                          "x": 0.059722222,
+                          "y": 0.6609375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "REAL",
+                      "polygon": [
+                        {
+                          "x": 0.4125,
+                          "y": 0.628125
+                        },
+                        {
+                          "x": 0.5708333,
+                          "y": 0.628125
+                        },
+                        {
+                          "x": 0.5708333,
+                          "y": 0.6578125
+                        },
+                        {
+                          "x": 0.4125,
+                          "y": 0.6578125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "As for the horse",
+                      "polygon": [
+                        {
+                          "x": 0.2013889,
+                          "y": 0.66875
+                        },
+                        {
+                          "x": 0.7777778,
+                          "y": 0.66875
+                        },
+                        {
+                          "x": 0.7777778,
+                          "y": 0.7078125
+                        },
+                        {
+                          "x": 0.2013889,
+                          "y": 0.7078125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "painting,",
+                      "polygon": [
+                        {
+                          "x": 0.3361111,
+                          "y": 0.709375
+                        },
+                        {
+                          "x": 0.6625,
+                          "y": 0.7125
+                        },
+                        {
+                          "x": 0.6611111,
+                          "y": 0.765625
+                        },
+                        {
+                          "x": 0.33472222,
+                          "y": 0.7625
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/28_117.53.webp"
+                },
+                {
+                  "id": "med_235951a5cd1e3dc71ac86d242838",
+                  "position": 29,
+                  "timestampSeconds": 120.17,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "TinEye",
+                      "polygon": [
+                        {
+                          "x": 0.1,
+                          "y": 0.0171875
+                        },
+                        {
+                          "x": 0.26666668,
+                          "y": 0.0171875
+                        },
+                        {
+                          "x": 0.26666668,
+                          "y": 0.046875
+                        },
+                        {
+                          "x": 0.1,
+                          "y": 0.046875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Upload an image",
+                      "polygon": [
+                        {
+                          "x": 0.51111114,
+                          "y": 0.025
+                        },
+                        {
+                          "x": 0.69305557,
+                          "y": 0.025
+                        },
+                        {
+                          "x": 0.69305557,
+                          "y": 0.0421875
+                        },
+                        {
+                          "x": 0.51111114,
+                          "y": 0.0421875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Upload or enter image URL",
+                      "polygon": [
+                        {
+                          "x": 0.76111114,
+                          "y": 0.025
+                        },
+                        {
+                          "x": 0.99722224,
+                          "y": 0.025
+                        },
+                        {
+                          "x": 0.99722224,
+                          "y": 0.040625
+                        },
+                        {
+                          "x": 0.76111114,
+                          "y": 0.040625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "0 matches",
+                      "polygon": [
+                        {
+                          "x": 0.35,
+                          "y": 0.13125
+                        },
+                        {
+                          "x": 0.5763889,
+                          "y": 0.13125
+                        },
+                        {
+                          "x": 0.5763889,
+                          "y": 0.1546875
+                        },
+                        {
+                          "x": 0.35,
+                          "y": 0.1546875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "TinEye searched over 85.6 billion images but didn't fir",
+                      "polygon": [
+                        {
+                          "x": 0.35,
+                          "y": 0.1734375
+                        },
+                        {
+                          "x": 0.99722224,
+                          "y": 0.1734375
+                        },
+                        {
+                          "x": 0.99722224,
+                          "y": 0.190625
+                        },
+                        {
+                          "x": 0.35,
+                          "y": 0.190625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "probably because we have yet to crawl any pages whe",
+                      "polygon": [
+                        {
+                          "x": 0.35,
+                          "y": 0.1984375
+                        },
+                        {
+                          "x": 0.99722224,
+                          "y": 0.1984375
+                        },
+                        {
+                          "x": 0.99722224,
+                          "y": 0.215625
+                        },
+                        {
+                          "x": 0.35,
+                          "y": 0.215625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "crawling, so try your search again soon.",
+                      "polygon": [
+                        {
+                          "x": 0.35,
+                          "y": 0.221875
+                        },
+                        {
+                          "x": 0.82916665,
+                          "y": 0.221875
+                        },
+                        {
+                          "x": 0.82916665,
+                          "y": 0.2390625
+                        },
+                        {
+                          "x": 0.35,
+                          "y": 0.2390625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Using TinEye is private. We do not save your search in",
+                      "polygon": [
+                        {
+                          "x": 0.35,
+                          "y": 0.25625
+                        },
+                        {
+                          "x": 0.99444443,
+                          "y": 0.25625
+                        },
+                        {
+                          "x": 0.99444443,
+                          "y": 0.2734375
+                        },
+                        {
+                          "x": 0.35,
+                          "y": 0.2734375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "RELATED IMAGES • SPONSORED\nshutterstock",
+                      "polygon": [
+                        {
+                          "x": 0.13055556,
+                          "y": 0.346875
+                        },
+                        {
+                          "x": 0.37777779,
+                          "y": 0.346875
+                        },
+                        {
+                          "x": 0.37777779,
+                          "y": 0.38125
+                        },
+                        {
+                          "x": 0.13055556,
+                          "y": 0.38125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "TinEye could not find",
+                      "polygon": [
+                        {
+                          "x": 0.125,
+                          "y": 0.66875
+                        },
+                        {
+                          "x": 0.875,
+                          "y": 0.66875
+                        },
+                        {
+                          "x": 0.875,
+                          "y": 0.7125
+                        },
+                        {
+                          "x": 0.125,
+                          "y": 0.7125
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/29_120.17.webp"
+                },
+                {
+                  "id": "med_7e050d8dad172bd63eeea6a01279",
+                  "position": 30,
+                  "timestampSeconds": 121.6,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.61527777,
+                          "y": 0.775
+                        },
+                        {
+                          "x": 0.7625,
+                          "y": 0.7710937
+                        },
+                        {
+                          "x": 0.7652778,
+                          "y": 0.8015625
+                        },
+                        {
+                          "x": 0.6180556,
+                          "y": 0.80546874
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.6180556,
+                          "y": 0.7953125
+                        },
+                        {
+                          "x": 0.82222223,
+                          "y": 0.7984375
+                        },
+                        {
+                          "x": 0.8194444,
+                          "y": 0.8328125
+                        },
+                        {
+                          "x": 0.61527777,
+                          "y": 0.8296875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.61527777,
+                          "y": 0.8257812
+                        },
+                        {
+                          "x": 0.80277777,
+                          "y": 0.8179687
+                        },
+                        {
+                          "x": 0.80833334,
+                          "y": 0.8539063
+                        },
+                        {
+                          "x": 0.61944443,
+                          "y": 0.8617188
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/30_121.60.webp"
+                },
+                {
+                  "id": "med_64d016a4441f99348ab65b5eb922",
+                  "position": 31,
+                  "timestampSeconds": 131.13,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "For a genuine piece",
+                      "polygon": [
+                        {
+                          "x": 0.13611111,
+                          "y": 0.6671875
+                        },
+                        {
+                          "x": 0.84444445,
+                          "y": 0.6671875
+                        },
+                        {
+                          "x": 0.84444445,
+                          "y": 0.715625
+                        },
+                        {
+                          "x": 0.13611111,
+                          "y": 0.715625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "of art,",
+                      "polygon": [
+                        {
+                          "x": 0.38055557,
+                          "y": 0.7078125
+                        },
+                        {
+                          "x": 0.6166667,
+                          "y": 0.7078125
+                        },
+                        {
+                          "x": 0.6166667,
+                          "y": 0.7625
+                        },
+                        {
+                          "x": 0.38055557,
+                          "y": 0.7625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.6611111,
+                          "y": 0.7765625
+                        },
+                        {
+                          "x": 0.8111111,
+                          "y": 0.7734375
+                        },
+                        {
+                          "x": 0.8138889,
+                          "y": 0.803125
+                        },
+                        {
+                          "x": 0.6638889,
+                          "y": 0.80625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.66944444,
+                          "y": 0.7984375
+                        },
+                        {
+                          "x": 0.86388886,
+                          "y": 0.8015625
+                        },
+                        {
+                          "x": 0.8625,
+                          "y": 0.83125
+                        },
+                        {
+                          "x": 0.6666667,
+                          "y": 0.828125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.6638889,
+                          "y": 0.8265625
+                        },
+                        {
+                          "x": 0.85,
+                          "y": 0.8234375
+                        },
+                        {
+                          "x": 0.8527778,
+                          "y": 0.8578125
+                        },
+                        {
+                          "x": 0.6666667,
+                          "y": 0.8609375
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/31_131.13.webp"
+                },
+                {
+                  "id": "med_3c7e05abc8b63b582c0d20f5a2b1",
+                  "position": 32,
+                  "timestampSeconds": 135.43,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "like the title,",
+                      "polygon": [
+                        {
+                          "x": 0.2611111,
+                          "y": 0.6875
+                        },
+                        {
+                          "x": 0.7152778,
+                          "y": 0.6875
+                        },
+                        {
+                          "x": 0.7152778,
+                          "y": 0.7390625
+                        },
+                        {
+                          "x": 0.2611111,
+                          "y": 0.7390625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.63055557,
+                          "y": 0.79375
+                        },
+                        {
+                          "x": 0.7763889,
+                          "y": 0.78984374
+                        },
+                        {
+                          "x": 0.77916664,
+                          "y": 0.8203125
+                        },
+                        {
+                          "x": 0.6319444,
+                          "y": 0.82421875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.63611114,
+                          "y": 0.81875
+                        },
+                        {
+                          "x": 0.8263889,
+                          "y": 0.8171875
+                        },
+                        {
+                          "x": 0.8263889,
+                          "y": 0.846875
+                        },
+                        {
+                          "x": 0.6375,
+                          "y": 0.8484375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.6319444,
+                          "y": 0.84296876
+                        },
+                        {
+                          "x": 0.8125,
+                          "y": 0.83671874
+                        },
+                        {
+                          "x": 0.81666666,
+                          "y": 0.87109375
+                        },
+                        {
+                          "x": 0.63611114,
+                          "y": 0.8773438
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/32_135.43.webp"
+                },
+                {
+                  "id": "med_f2b0a00bab090965c56d56e74a59",
+                  "position": 33,
+                  "timestampSeconds": 138.3,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "And if you can't",
+                      "polygon": [
+                        {
+                          "x": 0.2125,
+                          "y": 0.6875
+                        },
+                        {
+                          "x": 0.775,
+                          "y": 0.6875
+                        },
+                        {
+                          "x": 0.775,
+                          "y": 0.7375
+                        },
+                        {
+                          "x": 0.2125,
+                          "y": 0.7375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.64166665,
+                          "y": 0.79375
+                        },
+                        {
+                          "x": 0.7875,
+                          "y": 0.78984374
+                        },
+                        {
+                          "x": 0.7902778,
+                          "y": 0.81953126
+                        },
+                        {
+                          "x": 0.64444447,
+                          "y": 0.82421875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.6472222,
+                          "y": 0.81875
+                        },
+                        {
+                          "x": 0.8402778,
+                          "y": 0.81875
+                        },
+                        {
+                          "x": 0.8402778,
+                          "y": 0.8484375
+                        },
+                        {
+                          "x": 0.6472222,
+                          "y": 0.8484375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.64166665,
+                          "y": 0.84375
+                        },
+                        {
+                          "x": 0.8277778,
+                          "y": 0.840625
+                        },
+                        {
+                          "x": 0.83055556,
+                          "y": 0.875
+                        },
+                        {
+                          "x": 0.64305556,
+                          "y": 0.878125
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/33_138.30.webp"
+                },
+                {
+                  "id": "med_6cd575a59848f75aaf7353d48384",
+                  "position": 34,
+                  "timestampSeconds": 144.8,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "But I can tell you",
+                      "polygon": [
+                        {
+                          "x": 0.1875,
+                          "y": 0.6890625
+                        },
+                        {
+                          "x": 0.79305553,
+                          "y": 0.6890625
+                        },
+                        {
+                          "x": 0.79305553,
+                          "y": 0.7375
+                        },
+                        {
+                          "x": 0.1875,
+                          "y": 0.7375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.6263889,
+                          "y": 0.7640625
+                        },
+                        {
+                          "x": 0.7736111,
+                          "y": 0.7601563
+                        },
+                        {
+                          "x": 0.7763889,
+                          "y": 0.790625
+                        },
+                        {
+                          "x": 0.62916666,
+                          "y": 0.7945312
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.63611114,
+                          "y": 0.7890625
+                        },
+                        {
+                          "x": 0.8208333,
+                          "y": 0.7890625
+                        },
+                        {
+                          "x": 0.8208333,
+                          "y": 0.8171875
+                        },
+                        {
+                          "x": 0.63611114,
+                          "y": 0.8171875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.6319444,
+                          "y": 0.81328124
+                        },
+                        {
+                          "x": 0.8125,
+                          "y": 0.8070313
+                        },
+                        {
+                          "x": 0.81666666,
+                          "y": 0.8414062
+                        },
+                        {
+                          "x": 0.63611114,
+                          "y": 0.84765625
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/34_144.80.webp"
+                },
+                {
+                  "id": "med_89b3f708165383990420579febce",
+                  "position": 35,
+                  "timestampSeconds": 146.3,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "AI imoge generotor",
+                      "polygon": [
+                        {
+                          "x": 0.25555557,
+                          "y": 0.3171875
+                        },
+                        {
+                          "x": 0.725,
+                          "y": 0.3171875
+                        },
+                        {
+                          "x": 0.725,
+                          "y": 0.3390625
+                        },
+                        {
+                          "x": 0.25555557,
+                          "y": 0.3390625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Midjourney\nExplore\nCreate\nEdit",
+                      "polygon": [
+                        {
+                          "x": 0.019444445,
+                          "y": 0.3703125
+                        },
+                        {
+                          "x": 0.0875,
+                          "y": 0.3703125
+                        },
+                        {
+                          "x": 0.0875,
+                          "y": 0.4390625
+                        },
+                        {
+                          "x": 0.019444445,
+                          "y": 0.4390625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "LA",
+                      "polygon": [
+                        {
+                          "x": 0.9513889,
+                          "y": 0.415625
+                        },
+                        {
+                          "x": 0.98333335,
+                          "y": 0.415625
+                        },
+                        {
+                          "x": 0.98333335,
+                          "y": 0.471875
+                        },
+                        {
+                          "x": 0.9513889,
+                          "y": 0.471875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Organize",
+                      "polygon": [
+                        {
+                          "x": 0.019444445,
+                          "y": 0.44375
+                        },
+                        {
+                          "x": 0.08194444,
+                          "y": 0.44375
+                        },
+                        {
+                          "x": 0.08194444,
+                          "y": 0.45625
+                        },
+                        {
+                          "x": 0.019444445,
+                          "y": 0.45625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Personalize",
+                      "polygon": [
+                        {
+                          "x": 0.019444445,
+                          "y": 0.475
+                        },
+                        {
+                          "x": 0.094444446,
+                          "y": 0.475
+                        },
+                        {
+                          "x": 0.094444446,
+                          "y": 0.4859375
+                        },
+                        {
+                          "x": 0.019444445,
+                          "y": 0.4859375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "w 34 v 81 hd",
+                      "polygon": [
+                        {
+                          "x": 0.76111114,
+                          "y": 0.509375
+                        },
+                        {
+                          "x": 0.8472222,
+                          "y": 0.509375
+                        },
+                        {
+                          "x": 0.8472222,
+                          "y": 0.521875
+                        },
+                        {
+                          "x": 0.76111114,
+                          "y": 0.521875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "B surve",
+                      "polygon": [
+                        {
+                          "x": 0.019444445,
+                          "y": 0.521875
+                        },
+                        {
+                          "x": 0.07638889,
+                          "y": 0.521875
+                        },
+                        {
+                          "x": 0.07638889,
+                          "y": 0.534375
+                        },
+                        {
+                          "x": 0.019444445,
+                          "y": 0.534375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "③ Hep",
+                      "polygon": [
+                        {
+                          "x": 0.019444445,
+                          "y": 0.55625
+                        },
+                        {
+                          "x": 0.068055555,
+                          "y": 0.55625
+                        },
+                        {
+                          "x": 0.068055555,
+                          "y": 0.56875
+                        },
+                        {
+                          "x": 0.019444445,
+                          "y": 0.56875
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Updates",
+                      "polygon": [
+                        {
+                          "x": 0.019444445,
+                          "y": 0.5703125
+                        },
+                        {
+                          "x": 0.08194444,
+                          "y": 0.5703125
+                        },
+                        {
+                          "x": 0.08194444,
+                          "y": 0.58125
+                        },
+                        {
+                          "x": 0.019444445,
+                          "y": 0.58125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Light Mod",
+                      "polygon": [
+                        {
+                          "x": 0.019444445,
+                          "y": 0.5828125
+                        },
+                        {
+                          "x": 0.0875,
+                          "y": 0.5828125
+                        },
+                        {
+                          "x": 0.0875,
+                          "y": 0.59375
+                        },
+                        {
+                          "x": 0.019444445,
+                          "y": 0.59375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "for a fact that this",
+                      "polygon": [
+                        {
+                          "x": 0.16805555,
+                          "y": 0.665625
+                        },
+                        {
+                          "x": 0.8125,
+                          "y": 0.665625
+                        },
+                        {
+                          "x": 0.8125,
+                          "y": 0.709375
+                        },
+                        {
+                          "x": 0.16805555,
+                          "y": 0.709375
+                        }
+                      ]
+                    },
+                    {
+                      "text": "one is Al",
+                      "polygon": [
+                        {
+                          "x": 0.33472222,
+                          "y": 0.7125
+                        },
+                        {
+                          "x": 0.6611111,
+                          "y": 0.709375
+                        },
+                        {
+                          "x": 0.6625,
+                          "y": 0.7546875
+                        },
+                        {
+                          "x": 0.3361111,
+                          "y": 0.7578125
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/35_146.30.webp"
+                },
+                {
+                  "id": "med_9aa29a6501ccb55d30652ed4141a",
+                  "position": 36,
+                  "timestampSeconds": 149.57,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "News",
+                      "polygon": [
+                        {
+                          "x": 0.6333333,
+                          "y": 0.75
+                        },
+                        {
+                          "x": 0.775,
+                          "y": 0.75
+                        },
+                        {
+                          "x": 0.775,
+                          "y": 0.778125
+                        },
+                        {
+                          "x": 0.6333333,
+                          "y": 0.778125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Literacy",
+                      "polygon": [
+                        {
+                          "x": 0.6333333,
+                          "y": 0.7734375
+                        },
+                        {
+                          "x": 0.82361114,
+                          "y": 0.7734375
+                        },
+                        {
+                          "x": 0.82361114,
+                          "y": 0.803125
+                        },
+                        {
+                          "x": 0.6333333,
+                          "y": 0.803125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "Project",
+                      "polygon": [
+                        {
+                          "x": 0.63055557,
+                          "y": 0.796875
+                        },
+                        {
+                          "x": 0.8111111,
+                          "y": 0.79296875
+                        },
+                        {
+                          "x": 0.8138889,
+                          "y": 0.828125
+                        },
+                        {
+                          "x": 0.6319444,
+                          "y": 0.83203125
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/Dc3w-rnis8u/36_149.57.webp"
+                }
+              ]
+            }
+          ],
+          "engagementRatePerViews": 7.94751482394401,
+          "engagementRatePerFollowers": 32.86059266535691,
+          "viewsRatePerFollowers": 413.4700392927308,
+          "profileFollowingCount": 385,
+          "profilePostsCount": 1074,
+          "coAuthors": [],
+          "profileBio": "We advance the development and teaching of news literacy in K-12 education. Home of Checkology, The Sift and RumorGuard.",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": null,
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "18491982763098364",
+          "audioTitle": "Original audio",
+          "audioAuthor": "newslitproject",
+          "audioType": "original",
+          "audioCopyrighted": false,
+          "captionLanguage": "en",
+          "popularComments": [
+            {
+              "platformId": "18115098934943433",
+              "profilePlatformId": "28653901412",
+              "profileHandle": "leading.last",
+              "content": "Whether you guessed right or not doesn't matter. What matters is that you had to ask yourself in the first place",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-09-04T16:01:06.000Z",
+              "createdAt": "2026-09-21T05:57:36.159Z",
+              "updatedAt": "2026-09-21T05:57:36.159Z"
+            },
+            {
+              "platformId": "18127775851762546",
+              "profilePlatformId": "79630197894",
+              "profileHandle": "fairyring27",
+              "content": "I got it right #unbeatable",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-09-04T16:01:06.000Z",
+              "createdAt": "2026-09-21T05:57:36.159Z",
+              "updatedAt": "2026-09-21T05:57:36.159Z"
+            }
+          ],
+          "createdAt": "2026-09-20T16:21:34.568Z",
+          "updatedAt": "2026-11-02T04:02:49.673Z"
+        }
+      ]
+    },
+    "metadata": {
+      "pagination": {
+        "offset": 0,
+        "limit": 2,
+        "totalCount": 2
+      },
+      "requestId": "req_70Wx8QgOXCc0hk4qaWyeUwVUqGMk",
+      "executionTime": 137,
+      "timestamp": 1794189943541
+    }
+  }
+}

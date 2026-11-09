@@ -1,0 +1,318 @@
+{
+  "id": "demo-product-photos",
+  "product": "Product photos",
+  "tagline": "A phone snap becomes a product image you can use.",
+  "brief": "Product concept: a photo editor for small online sellers. Turn an ordinary phone photo into a clean product image, compare backgrounds, and export a version for a listing or social post.",
+  "promise": "Turn a phone photo into a cleaner product image",
+  "question": "How can the same product prove the improvement before the feature explanation?",
+  "createdAt": "2026-11-09T02:06:17.000Z",
+  "origin": "curated",
+  "language": "English",
+  "overview": "Three source demonstrations show a visible input, editing steps, and a finished product image. Lead with the before and after, keep the object recognizable, then show enough of the workflow to make the change understandable. Product photos is an illustrative product concept, not a claim about a released app. Source views and interactions describe the indexed posts; they do not establish sales, conversion, organic reach, or editing accuracy.",
+  "searchNotes": [
+    "Reuse-first research followed by compact caption and transcript searches. Full detail was reserved for finalists.",
+    "All 24 gokceercan, 32 photoshop._blog, and 33 spk3241_ indexed frames were visually inspected. These references show real people or hands and are not people-free examples.",
+    "spk3241_ has a Thai caption and unrelated song transcript. Its relevance comes from the inspected interface and product frames, not a translated testimonial.",
+    "Promotional captions and discount codes are retained as source evidence. The suggested storyboard makes no time-saving or sales guarantee."
+  ],
+  "references": [
+    {
+      "id": "cnt_49e0c2f41f86380d21e95aaac4e3",
+      "title": "Same handbag, cluttered photo and clean listing image.",
+      "creator": "gokceercan",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reel/Dehmt0eR6FS/",
+      "thumbnail": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/thumbnail.webp",
+      "publishedAt": "2026-10-15T18:30:40.000Z",
+      "views": 443713,
+      "likes": 10855,
+      "comments": 104,
+      "shares": 2444,
+      "interactions": 13403,
+      "engagementRate": 3.0206462285306044,
+      "duration": 39.819,
+      "caption": "✨Product photos don’t need a whole studio setup. 📸 @photoroom \n\nI took this photo on my phone, dropped it into Photoroom, removed the background, generated a new one, and turned it into a clean image I’d actually use for a product listing.\n\nSame product. Same photo. Much cleaner result — and way less time spent setting up a shoot.\n\nIf product photography is slowing you down, try Photoroom.\n\n✅Use the code LETSGOPHOTOROOM for 10% off on Max. Redeem here: https://www.photoroom.com/ ✨\n\n#Photoroom",
+      "transcript": "This is the product photo I took on my phone and this is the one I actually use for a listing. If you sell products online, getting a clean product photo can easily become the most annoying part. So, instead of setting up a whole photo shoot, I drop my photo into Photoroop. It removes the background and I can generate a new one that actually fits the product. I can test different looks right here. Choose the one that works and get the photo ready without leaving the app. Same product, same photo. Just a much cleaner image that's ready to use. Now, I can drop it straight into my listing, shop or social post. If product photos are slowing you down, try PhotoRoom. Use the code to get 10% of your first max subscriptions. Just make sure to read down your promo code on the PhotoRoom website, not in the app.",
+      "frames": [
+        {
+          "url": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f000.webp",
+          "seconds": 0.6,
+          "text": "This is the · PRODUCT · PHOTO"
+        },
+        {
+          "url": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f001.webp",
+          "seconds": 3.2,
+          "text": "AFTER · I'd actually · BEFORE"
+        },
+        {
+          "url": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f008.webp",
+          "seconds": 12.6,
+          "text": "X · Choose an image · ☆ · Gallery\nLatest from gam · my photo · Generate · Shopify products · Dismiss · Import product images from your Shopify store. · Connect to Shopify · Uploads >"
+        },
+        {
+          "url": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f009.webp",
+          "seconds": 13.8,
+          "text": "Cancel · it removes · Skip background removal"
+        },
+        {
+          "url": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f010.webp",
+          "seconds": 14.8,
+          "text": "← · Edit with Al · the background · This may take a few seconds · Use my exact bag without ..."
+        },
+        {
+          "url": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f011.webp",
+          "seconds": 19,
+          "text": "Studio Shot · Suggested colors · different looks · Size · C · Shadow · Backdrop"
+        },
+        {
+          "url": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f013.webp",
+          "seconds": 21.8,
+          "text": "X · Ready to share · without leaving · Settings · 8 · C · Save to gallery · Share image · Share link · Close design"
+        },
+        {
+          "url": "/media/examples/cnt_49e0c2f41f86380d21e95aaac4e3/m0-f019.webp",
+          "seconds": 27,
+          "text": "Listing essentials · a · Amazon · Shopify square · 2048×2048 · 2000×2000 · straight into · Etsy · eBay · 1600×1600 · 2048×2048 · WhatsApp Catalog · 1200×1200"
+        }
+      ],
+      "relevance": "direct",
+      "relevanceReason": "The same bag appears in a phone snap and a polished output. At 3.2s the before and after share the screen; 12.6–21.8s shows import, background removal, variants, and export. This is a direct workflow reference, not evidence that the pictured listing sold.",
+      "format": "Creator demonstration + before and after",
+      "hook": "This is the product photo I took on my phone and this is the one I actually use for a listing."
+    },
+    {
+      "id": "cnt_6d038cc84f6689ac9cc949df9f7e",
+      "title": "A messy prop shoot becomes an on-screen product scene.",
+      "creator": "photoshop._blog",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reel/DdeohZCuhsQ/",
+      "thumbnail": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/thumbnail.webp",
+      "publishedAt": "2026-09-19T18:17:20.000Z",
+      "views": 464703,
+      "likes": 724,
+      "comments": 23,
+      "shares": 131,
+      "interactions": 878,
+      "engagementRate": 0.1889378807539439,
+      "duration": 34.783,
+      "caption": "Let’s recreate this Instagram photo! they said. 😭\nMe: setting up a laptop screen, glass, lip gloss, milk, water… and trying to take the photo FAST. \n\nOr I can open @photoroom, use Product Beautifier, create the scene with Product Staging and animate it 😎\nAnd in a few minutes, I get tons of different variations to choose from. \nTry 10% off Max with FIXTHEPHOTO10 \n\n#photoroom #productphotography #aivideo #ecommercecontent #fixthephoto",
+      "transcript": "Oh Oh",
+      "frames": [
+        {
+          "url": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f000.webp",
+          "seconds": 0.8,
+          "text": "POV: you try photo life · hack from Instagram"
+        },
+        {
+          "url": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f004.webp",
+          "seconds": 2.8,
+          "text": "POV: you try photo life · hack from Instagram"
+        },
+        {
+          "url": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f011.webp",
+          "seconds": 7.1,
+          "text": "OH, HONEY!"
+        },
+        {
+          "url": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f014.webp",
+          "seconds": 12.63,
+          "text": "let's try another way..."
+        },
+        {
+          "url": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f021.webp",
+          "seconds": 15.37,
+          "text": "Product Staging · X · X · Describe anything · Paste · AutoFill · rtrait (9:16) · B · Premium Ultra\n4k+ resolution\nBest scene coherence · Photorealistic lighting & reflections\nHighest quality\nConsumes most credits · The · I'm · 2. create product images · S · D · F · G · H · J · K · L · Z · X · C · V · B · N · M · L · 123 · 0"
+        },
+        {
+          "url": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f022.webp",
+          "seconds": 15.97,
+          "text": "Product Staging · X · X · lighting, strong contrast, premium cosmetic advertising, ultra-detailed textures, realistic · reflections, no hands, no people, vertical composition · 1K · Standard · Portrait (9:16) · B · Premium Ultra\n4k+ resolution\nBest scene coherence · Photorealistic lighting & reflections · \"compositio\" · composition · compositions · q · 2. create product images · p · a · S · d · f · g · h · k · Z X C · V · b · n · m · X · L · 123 · 0"
+        },
+        {
+          "url": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f027.webp",
+          "seconds": 24.43,
+          "text": "Video Generator · Y · 3. animate them · with templates · This can take up to 3 minutes · 2 secs · Let the milk splash every..."
+        },
+        {
+          "url": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f029.webp",
+          "seconds": 27.93,
+          "text": "SDE"
+        },
+        {
+          "url": "/media/examples/cnt_6d038cc84f6689ac9cc949df9f7e/m0-f031.webp",
+          "seconds": 32.13,
+          "text": "NNEY"
+        }
+      ],
+      "relevance": "direct",
+      "relevanceReason": "The indexed frames contrast a practical lip-gloss shoot with an app workflow. Product Staging appears at 15.37–15.97s and generated outputs at 25.87–32.13s. Transfer the setup-to-output contrast; do not promise physically accurate generated imagery.",
+      "format": "Practical shoot + screen recording + generated output",
+      "hook": "POV: you try photo life hack from Instagram"
+    },
+    {
+      "id": "cnt_af15ee332daf2908242f016a5ea2",
+      "title": "A toothbrush on a countertop becomes a studio-style close-up.",
+      "creator": "spk3241_",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reel/DdV8KvXzb6R/",
+      "thumbnail": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/thumbnail.webp",
+      "publishedAt": "2026-09-16T09:15:46.000Z",
+      "views": 1299738,
+      "likes": 28975,
+      "comments": 68,
+      "shares": 18392,
+      "interactions": 47435,
+      "engagementRate": 3.649581684924193,
+      "duration": 30.799,
+      "caption": "เปลี่ยนภาพนิ่งสินค้าให้กลายเป็นวิดีโอสวยๆแบบง่ายๆใครก็ทำได้ด้วยมือถือ🥰 #spk #photoroom #ถ่ายไงได้งี้ #สอนถ่ายภาพ #ถ่ายรูปสวยด้วยมือถือ",
+      "transcript": "Roja, no pares, que el tiempo no salve En tus labios mandan señales Al polvo pueden tener la roja Y me haces bien tocarme Sin prometer bailando Solo rivales Pero al final hay que marchar Eh, eh, eh, eh Eh, eh, eh No al final hay que marchar Eh, eh, eh, eh Eh, eh, eh, eh No al final hay que marchar",
+      "frames": [
+        {
+          "url": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f000.webp",
+          "seconds": 1.83,
+          "text": ""
+        },
+        {
+          "url": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f002.webp",
+          "seconds": 3.93,
+          "text": "100%"
+        },
+        {
+          "url": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f004.webp",
+          "seconds": 5.73,
+          "text": "4KRES 60FPS · ✓ ✓ ✓ · 0.5x · VIDEO · PHOTO"
+        },
+        {
+          "url": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f009.webp",
+          "seconds": 7.97,
+          "text": "20:32\nS SPK's Space\nSearch templates, tools, designs\nAll Listing Editing · Max · Listing · Editing · Marketing · X · AI Fashion Models: Now available in Advanced quality for more realistic results\nTry it · Start with a tool >\nAl\nBackgrounds · Al Fashion · Models · Ghost · Mannequin · Start from a photo · AI Tools · I · Hame · Batch · Content · Products"
+        },
+        {
+          "url": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f017.webp",
+          "seconds": 12.87,
+          "text": "20:32 · 37 · Flash Off"
+        },
+        {
+          "url": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f018.webp",
+          "seconds": 14.97,
+          "text": "20:33 · 37 · Scanning · Skip background removal"
+        },
+        {
+          "url": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f027.webp",
+          "seconds": 21.13,
+          "text": ""
+        },
+        {
+          "url": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f028.webp",
+          "seconds": 22.6,
+          "text": ""
+        },
+        {
+          "url": "/media/examples/cnt_af15ee332daf2908242f016a5ea2/m0-f032.webp",
+          "seconds": 29.53,
+          "text": "+ DENTISTE"
+        }
+      ],
+      "relevance": "direct",
+      "relevanceReason": "The toothbrush photographed on a grey surface at 3.93s reappears as a white-background result at 21.13s and close-ups at 22.6–29.53s. Real hands and faces in interface thumbnails prevent a strict people-free classification.",
+      "format": "Hands-on capture + app walkthrough + product reveal",
+      "hook": "An ordinary toothbrush on a grey surface, then a generated product shot."
+    }
+  ],
+  "angles": [
+    {
+      "id": "same-object-proof",
+      "title": "Let the same object prove the change.",
+      "label": "BEFORE AND AFTER",
+      "description": "Open with the original snap beside the edited result. Keep the crop and object recognizable so the viewer can judge the improvement.",
+      "whyItFits": "A seller can see what the editor changes before hearing a feature list.",
+      "evidence": "gokceercan compares the same bag at 3.2s. spk3241_ shows a grey-surface toothbrush at 3.93s and the white-background output at 21.13s. No sales outcome is measured.",
+      "referenceIds": [
+        "cnt_49e0c2f41f86380d21e95aaac4e3",
+        "cnt_af15ee332daf2908242f016a5ea2"
+      ],
+      "suggestedHook": "Same product. Which photo would you put in your listing?",
+      "visualDirection": "Start with a labeled original and edited image. Keep product details visible and use actual app output."
+    },
+    {
+      "id": "setup-to-result",
+      "title": "Replace the setup montage with a visible workflow.",
+      "label": "SHOW THE STEPS",
+      "description": "Show the inconvenient starting photo, then import, edit, compare, and export. Finish on the usable image.",
+      "whyItFits": "The workflow explains the proposed product through an observable task.",
+      "evidence": "photoshop._blog shows props before Product Staging at 15.37s. gokceercan shows import at 12.6s, background editing at 14.8s, and a share view at 21.8s.",
+      "referenceIds": [
+        "cnt_6d038cc84f6689ac9cc949df9f7e",
+        "cnt_49e0c2f41f86380d21e95aaac4e3"
+      ],
+      "suggestedHook": "Start with the photo you already have.",
+      "visualDirection": "One original photo stays in view while the actual editing steps produce a new background. Avoid invented processing-time counters."
+    }
+  ],
+  "storyboard": {
+    "title": "Same product. A clearer photo.",
+    "premise": "Proposed creative for the Product photos concept. Use an actual original and actual editor output; no performance promise.",
+    "hook": "Same product. Which photo would you put in your listing?",
+    "scenes": [
+      {
+        "time": "00–04s",
+        "visual": "Label an ordinary product snap Original. Place its edited version beside it at the same scale.",
+        "voiceover": "This is the photo you have. This is another way to show the same product."
+      },
+      {
+        "time": "04–10s",
+        "visual": "Import that original photo. Show the actual background removal step.",
+        "voiceover": "Start with your photo. Remove the background."
+      },
+      {
+        "time": "10–18s",
+        "visual": "Compare two generated backgrounds. Zoom in to check product details before choosing.",
+        "voiceover": "Compare the looks. Check the details."
+      },
+      {
+        "time": "18–24s",
+        "visual": "Export the chosen image and show it in a clearly labeled listing mock-up.",
+        "voiceover": "Choose the image you want to use."
+      }
+    ],
+    "callToAction": "Try it with one product photo.",
+    "sourceIds": [
+      "cnt_49e0c2f41f86380d21e95aaac4e3",
+      "cnt_6d038cc84f6689ac9cc949df9f7e",
+      "cnt_af15ee332daf2908242f016a5ea2"
+    ]
+  },
+  "constraints": {
+    "noRealPeople": false,
+    "exclude": ""
+  },
+  "excludedReferences": [],
+  "uncertainReferences": [
+    {
+      "id": "cnt_8bd1cabb1b22125ef6a1fe1dfe63",
+      "title": "An AI character is described, but the video is not inspectable.",
+      "creator": "photoroom",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reel/DfFLUcjjppb/",
+      "thumbnail": "/media/examples/cnt_8bd1cabb1b22125ef6a1fe1dfe63/thumbnail.webp",
+      "publishedAt": "2026-10-29T14:03:32.000Z",
+      "views": 286620,
+      "likes": 200,
+      "comments": 15,
+      "shares": 0,
+      "interactions": 215,
+      "engagementRate": 0.07501221129021003,
+      "duration": 56.333,
+      "caption": "Every e-commerce seller knows this feeling: the holiday rush is here and you've got nothing to post.\nㅤ\nDoña Rosa found a way with Video Ad Maker. Watch till the end 📦\nㅤ\nPhotoroom is now the full AI photo and video solution for e-commerce: turn your product photos into video ads that sell, in minutes 🎬\nㅤ\nThis is chapter one. Doña Rosa, our AI-created character, has bigger plans for the holidays. Stay tuned, the story's just getting started.\nㅤ\nComment VIDEO and we'll send you the link.\nㅤ\n#ECommerce #AIVideo",
+      "transcript": "",
+      "frames": [],
+      "relevance": "adjacent",
+      "relevanceReason": "The caption describes an AI character and product-video generation. Full retrieval returned zero indexed frames, so neither the complete creative nor its product payoff can be verified from this evidence.",
+      "format": "Unverified AI character promotion",
+      "hook": "A caption about the holiday content rush; no verified opening transcript."
+    }
+  ],
+  "constraintAssessments": {},
+  "resources": [],
+  "projectSources": []
+}

@@ -1,0 +1,338 @@
+[
+  {
+    "createdAt": "2026-11-09T02:06:17.000Z",
+    "origin": "curated",
+    "language": "English",
+    "id": "demo-product-photos",
+    "product": "Product photos",
+    "tagline": "A phone snap becomes a product image you can use.",
+    "brief": "Product concept: a photo editor for small online sellers. Turn an ordinary phone photo into a clean product image, compare backgrounds, and export a version for a listing or social post.",
+    "promise": "Turn a phone photo into a cleaner product image",
+    "question": "How can the same product prove the improvement before the feature explanation?",
+    "overview": "Three source demonstrations show a visible input, editing steps, and a finished product image. Lead with the before and after, keep the object recognizable, then show enough of the workflow to make the change understandable. Product photos is an illustrative product concept, not a claim about a released app. Source views and interactions describe the indexed posts; they do not establish sales, conversion, organic reach, or editing accuracy.",
+    "searchNotes": [
+      "Reuse-first research followed by compact caption and transcript searches. Full detail was reserved for finalists.",
+      "All 24 gokceercan, 32 photoshop._blog, and 33 spk3241_ indexed frames were visually inspected. These references show real people or hands and are not people-free examples.",
+      "spk3241_ has a Thai caption and unrelated song transcript. Its relevance comes from the inspected interface and product frames, not a translated testimonial.",
+      "Promotional captions and discount codes are retained as source evidence. The suggested storyboard makes no time-saving or sales guarantee."
+    ],
+    "constraints": {
+      "noRealPeople": false,
+      "exclude": ""
+    },
+    "excludedReferences": [],
+    "uncertainReferences": [
+      {
+        "id": "cnt_8bd1cabb1b22125ef6a1fe1dfe63",
+        "title": "An AI character is described, but the video is not inspectable.",
+        "relevance": "adjacent",
+        "relevanceReason": "The caption describes an AI character and product-video generation. Full retrieval returned zero indexed frames, so neither the complete creative nor its product payoff can be verified from this evidence.",
+        "format": "Unverified AI character promotion",
+        "hook": "A caption about the holiday content rush; no verified opening transcript.",
+        "frameIndices": []
+      }
+    ],
+    "constraintAssessments": {},
+    "references": [
+      {
+        "id": "cnt_49e0c2f41f86380d21e95aaac4e3",
+        "title": "Same handbag, cluttered photo and clean listing image.",
+        "relevance": "direct",
+        "relevanceReason": "The same bag appears in a phone snap and a polished output. At 3.2s the before and after share the screen; 12.6–21.8s shows import, background removal, variants, and export. This is a direct workflow reference, not evidence that the pictured listing sold.",
+        "format": "Creator demonstration + before and after",
+        "hook": "This is the product photo I took on my phone and this is the one I actually use for a listing.",
+        "frameIndices": [
+          0,
+          1,
+          8,
+          9,
+          10,
+          11,
+          13,
+          19
+        ]
+      },
+      {
+        "id": "cnt_6d038cc84f6689ac9cc949df9f7e",
+        "title": "A messy prop shoot becomes an on-screen product scene.",
+        "relevance": "direct",
+        "relevanceReason": "The indexed frames contrast a practical lip-gloss shoot with an app workflow. Product Staging appears at 15.37–15.97s and generated outputs at 25.87–32.13s. Transfer the setup-to-output contrast; do not promise physically accurate generated imagery.",
+        "format": "Practical shoot + screen recording + generated output",
+        "hook": "POV: you try photo life hack from Instagram",
+        "frameIndices": [
+          0,
+          4,
+          11,
+          14,
+          21,
+          22,
+          27,
+          29,
+          31
+        ]
+      },
+      {
+        "id": "cnt_af15ee332daf2908242f016a5ea2",
+        "title": "A toothbrush on a countertop becomes a studio-style close-up.",
+        "relevance": "direct",
+        "relevanceReason": "The toothbrush photographed on a grey surface at 3.93s reappears as a white-background result at 21.13s and close-ups at 22.6–29.53s. Real hands and faces in interface thumbnails prevent a strict people-free classification.",
+        "format": "Hands-on capture + app walkthrough + product reveal",
+        "hook": "An ordinary toothbrush on a grey surface, then a generated product shot.",
+        "frameIndices": [
+          0,
+          2,
+          4,
+          9,
+          17,
+          18,
+          27,
+          28,
+          32
+        ]
+      }
+    ],
+    "angles": [
+      {
+        "id": "same-object-proof",
+        "title": "Let the same object prove the change.",
+        "label": "BEFORE AND AFTER",
+        "description": "Open with the original snap beside the edited result. Keep the crop and object recognizable so the viewer can judge the improvement.",
+        "whyItFits": "A seller can see what the editor changes before hearing a feature list.",
+        "evidence": "gokceercan compares the same bag at 3.2s. spk3241_ shows a grey-surface toothbrush at 3.93s and the white-background output at 21.13s. No sales outcome is measured.",
+        "referenceIds": [
+          "cnt_49e0c2f41f86380d21e95aaac4e3",
+          "cnt_af15ee332daf2908242f016a5ea2"
+        ],
+        "suggestedHook": "Same product. Which photo would you put in your listing?",
+        "visualDirection": "Start with a labeled original and edited image. Keep product details visible and use actual app output."
+      },
+      {
+        "id": "setup-to-result",
+        "title": "Replace the setup montage with a visible workflow.",
+        "label": "SHOW THE STEPS",
+        "description": "Show the inconvenient starting photo, then import, edit, compare, and export. Finish on the usable image.",
+        "whyItFits": "The workflow explains the proposed product through an observable task.",
+        "evidence": "photoshop._blog shows props before Product Staging at 15.37s. gokceercan shows import at 12.6s, background editing at 14.8s, and a share view at 21.8s.",
+        "referenceIds": [
+          "cnt_6d038cc84f6689ac9cc949df9f7e",
+          "cnt_49e0c2f41f86380d21e95aaac4e3"
+        ],
+        "suggestedHook": "Start with the photo you already have.",
+        "visualDirection": "One original photo stays in view while the actual editing steps produce a new background. Avoid invented processing-time counters."
+      }
+    ],
+    "storyboard": {
+      "title": "Same product. A clearer photo.",
+      "premise": "Proposed creative for the Product photos concept. Use an actual original and actual editor output; no performance promise.",
+      "hook": "Same product. Which photo would you put in your listing?",
+      "scenes": [
+        {
+          "time": "00–04s",
+          "visual": "Label an ordinary product snap Original. Place its edited version beside it at the same scale.",
+          "voiceover": "This is the photo you have. This is another way to show the same product."
+        },
+        {
+          "time": "04–10s",
+          "visual": "Import that original photo. Show the actual background removal step.",
+          "voiceover": "Start with your photo. Remove the background."
+        },
+        {
+          "time": "10–18s",
+          "visual": "Compare two generated backgrounds. Zoom in to check product details before choosing.",
+          "voiceover": "Compare the looks. Check the details."
+        },
+        {
+          "time": "18–24s",
+          "visual": "Export the chosen image and show it in a clearly labeled listing mock-up.",
+          "voiceover": "Choose the image you want to use."
+        }
+      ],
+      "callToAction": "Try it with one product photo.",
+      "sourceIds": [
+        "cnt_49e0c2f41f86380d21e95aaac4e3",
+        "cnt_6d038cc84f6689ac9cc949df9f7e",
+        "cnt_af15ee332daf2908242f016a5ea2"
+      ]
+    }
+  },
+  {
+    "createdAt": "2026-11-09T02:06:17.000Z",
+    "origin": "curated",
+    "language": "English",
+    "id": "demo-room-preview",
+    "product": "Room preview",
+    "tagline": "Compare the change before you change the room.",
+    "brief": "Product concept: an interior preview tool that compares furniture and decor choices in a room. Show the difference with diagrams, rendered rooms, or screen recordings. Creative constraint: no people or faces on screen; hands and fingers are allowed.",
+    "promise": "Compare decor choices before committing to one",
+    "question": "How can a furniture comparison make the benefit visible without filming a person?",
+    "overview": "Three references fit the sampled evidence when hands and fingers are allowed. An empty-to-furnished room reveal provides direct product-style proof; furniture and floor-plan comparisons provide adjacent creative mechanisms. A presenter-led reference remains excluded, and a thumbnail-only source remains uncertain. These are indexed samples, not a guarantee about every moment of each video. Room preview is an illustrative product concept.",
+    "searchNotes": [
+      "The no-person rule allows hands and fingers, as clarified by the user. Three references fit the inspected sample, one is excluded and one remains uncertain.",
+      "Kit & Kaboodle has ten inspected indexed frames; its empty room at 7.9s becomes furnished at 11.6s.",
+      "Planner5D supplies furniture comparisons (three indexed frames) and floor-plan comparisons (seven indexed frames). These mechanisms are not proof of an app workflow.",
+      "mavgpt remains excluded because a presenter is visible. The bedroom source has no indexed frames and remains uncertain rather than being accepted from its thumbnail.",
+      "Only sampled evidence was inspected, not continuous video. Views and interactions do not establish causal performance or conversions."
+    ],
+    "constraints": {
+      "noRealPeople": true,
+      "exclude": ""
+    },
+    "references": [
+      {
+        "id": "cnt_0da7448291b4829ca45da3447d4a",
+        "title": "Same furniture, different proportions.",
+        "relevance": "adjacent",
+        "relevanceReason": "All three indexed frames show paired furniture arrangements: lighting at 2.2s, bedside furniture at 3.8s, and a TV console at 7.0s. This is a close interior-design comparison reference; no app interaction is shown.",
+        "format": "Furniture-only comparison graphics",
+        "hook": "Tips for your home: Do / Don't",
+        "frameIndices": [
+          0,
+          1,
+          2
+        ]
+      },
+      {
+        "id": "cnt_a9bffa67181883299fec37fdf7e3",
+        "title": "An empty room becomes a furnished preview, held in real hands.",
+        "relevance": "direct",
+        "relevanceReason": "The empty room appears on a phone at 7.9s and a furnished version at 11.6s. All ten indexed frames show a hands-only phone demonstration or interior images, with no presenter or face. Hands are allowed under the clarified rule.",
+        "format": "Phone transition + furnished-room reveal",
+        "hook": "What if you could see it in your room before you buy it?",
+        "frameIndices": [
+          0,
+          1,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "id": "cnt_a32409ef927e07d0fda7f27f6070",
+        "title": "Compare floor plans with a pointing finger.",
+        "relevance": "adjacent",
+        "relevanceReason": "The seven indexed frames show red and green schematic floor-plan comparisons, with fingers pointing at differences. Hands and fingers are allowed; the small overhead figures are stylized plan illustrations, not filmed people.",
+        "format": "Floor-plan comparison with hand gestures",
+        "hook": "Correct layout for a living room with TV",
+        "frameIndices": [
+          0,
+          1,
+          3,
+          5,
+          6
+        ]
+      }
+    ],
+    "excludedReferences": [
+      {
+        "id": "cnt_da5b76c368bd588b073f5dd4dd34",
+        "title": "A room photo becomes a generated redesign, with a presenter.",
+        "relevance": "direct",
+        "relevanceReason": "Upload and result are visible at 12.2s and 22.0–25.4s. Strong room-preview payoff, but the presenter at 1.8s and 27.0s violates the creative constraint. The source's budget and shopping-link claims are unverified.",
+        "format": "Presenter + screen recording",
+        "hook": "What happens when you ask ChatGPT to redesign a room in your house like a professional designer?",
+        "frameIndices": [
+          0,
+          2,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ],
+    "uncertainReferences": [
+      {
+        "id": "cnt_73d2f0f28e1d86ba1fd321b8bf65",
+        "title": "A bedroom-layout comparison with a hand in the thumbnail.",
+        "relevance": "adjacent",
+        "relevanceReason": "No indexed frames were returned. A hand in the thumbnail is allowed, but cannot establish the rest of the video contains no faces or presenters.",
+        "format": "Thumbnail-only layout comparison",
+        "hook": "Bedroom layout: YES / NO",
+        "frameIndices": []
+      }
+    ],
+    "constraintAssessments": {
+      "cnt_0da7448291b4829ca45da3447d4a": {
+        "status": "fits",
+        "reason": "Fits within the inspected sample only. All 3 indexed frames at 2.2s, 3.8s, and 7.0s plus the thumbnail show furniture-only comparisons, with no visible people, hands, or body parts. Only 3 samples exist for this 8s video; unindexed moments are not verified."
+      },
+      "cnt_da5b76c368bd588b073f5dd4dd34": {
+        "status": "excluded",
+        "reason": "All 15 indexed frames inspected. A real presenter is visible at 1.8s, 4.4s, 4.6s, and 27.0s. Screen-only excerpts do not make the complete reference people-free."
+      },
+      "cnt_a9bffa67181883299fec37fdf7e3": {
+        "status": "fits",
+        "reason": "All ten indexed frames were inspected. Hands hold the phone while the room transitions from empty to furnished; no presenter or face appears in these samples. Hands are allowed. Review unindexed moments in the original."
+      },
+      "cnt_a32409ef927e07d0fda7f27f6070": {
+        "status": "fits",
+        "reason": "All seven indexed frames were inspected. Fingers point at schematic floor plans with stylized overhead figures; no filmed face or presenter is visible. Hands are allowed. Review the original for gaps."
+      },
+      "cnt_73d2f0f28e1d86ba1fd321b8bf65": {
+        "status": "uncertain",
+        "reason": "Zero indexed frames. The thumbnail hand is allowed, but the unseen video cannot be verified."
+      }
+    },
+    "angles": [
+      {
+        "id": "empty-to-furnished",
+        "title": "Make the preview the reveal.",
+        "label": "VISIBLE TRANSFORMATION",
+        "description": "Show the current room, then the decor preview from the same viewpoint. Hands can hold the phone; let the changed room carry the reveal.",
+        "whyItFits": "The viewer sees what comparing decor choices changes before hearing a feature explanation.",
+        "evidence": "Kit & Kaboodle shows an empty room at 7.9s and a furnished room at 11.6s. The phone is held in hands, which are allowed.",
+        "referenceIds": [
+          "cnt_a9bffa67181883299fec37fdf7e3"
+        ],
+        "suggestedHook": "Before you move anything, see what changes.",
+        "visualDirection": "Use an actual room image and a supported preview of the same room. Keep faces and presenters out of frame; hands operating the interface are allowed."
+      },
+      {
+        "id": "one-detail-comparison",
+        "title": "Change one detail. Let the viewer compare.",
+        "label": "PEOPLE-FREE COMPARISON",
+        "description": "Place two versions of the same furnishing arrangement together. Change the lighting or furniture scale while keeping the rest recognizable.",
+        "whyItFits": "A room-preview concept can explain its benefit through the images alone.",
+        "evidence": "The furniture comparison source contrasts lighting at 2.2s, bedside furniture at 3.8s and TV-console scale at 7.0s. The floor-plan source adds a schematic side-by-side mechanism with pointing fingers.",
+        "referenceIds": [
+          "cnt_0da7448291b4829ca45da3447d4a",
+          "cnt_a32409ef927e07d0fda7f27f6070"
+        ],
+        "suggestedHook": "Same room. Which version would you choose?",
+        "visualDirection": "Use actual screen recordings or rendered comparisons. Hands may point at choices. Keep faces and presenters out of frame, and label options A and B without claiming universal correctness."
+      }
+    ],
+    "storyboard": {
+      "title": "See the difference first.",
+      "premise": "Proposed no-presenter creative for Room preview. Furniture and preview comparisons make a decision visible. Hands and fingers are allowed.",
+      "hook": "Same room. Which version would you choose?",
+      "scenes": [
+        {
+          "time": "00–04s",
+          "visual": "Show two renderings of the same dining arrangement. Only the light fitting changes. Label A and B.",
+          "voiceover": "Same room. Which would you choose?"
+        },
+        {
+          "time": "04–09s",
+          "visual": "Highlight the one changed detail with a graphic outline. Keep both views visible.",
+          "voiceover": "One detail changes how the room looks."
+        },
+        {
+          "time": "09–17s",
+          "visual": "Use an actual product screen recording to compare those choices in a room preview. Hide any avatar or image containing a person.",
+          "voiceover": "Compare the options in your space."
+        },
+        {
+          "time": "17–23s",
+          "visual": "Hold the chosen preview beside the original. Hands may operate the interface; keep faces and presenters out of view.",
+          "voiceover": "See the change before you decide."
+        }
+      ],
+      "callToAction": "Preview one change in your room.",
+      "sourceIds": [
+        "cnt_0da7448291b4829ca45da3447d4a"
+      ]
+    }
+  }
+]

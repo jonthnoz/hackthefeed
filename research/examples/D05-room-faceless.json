@@ -1,0 +1,341 @@
+{
+  "id": "D05-room-faceless",
+  "request": {
+    "operator": "and",
+    "filters": {
+      "format": {
+        "includes": [
+          "video"
+        ]
+      }
+    },
+    "queries": [
+      {
+        "operator": "or",
+        "filters": {
+          "caption": {
+            "includesExactly": {
+              "values": [
+                "aiinteriordesign",
+                "aidecor",
+                "interiorai",
+                "roomgpt",
+                "reimaginehome",
+                "homedesignsai"
+              ]
+            }
+          },
+          "profileHandle": {
+            "includesExactly": {
+              "values": [
+                "planner5d",
+                "homestyler",
+                "interiorai",
+                "roomgpt",
+                "reimaginehome"
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "limit": 4,
+    "projection": "default",
+    "sort": [
+      {
+        "by": "viewsCount",
+        "direction": "desc"
+      }
+    ]
+  },
+  "response": {
+    "data": {
+      "aggregations": {
+        "totalViewsCount": 10242492,
+        "averageViewsCount": 68741.55704697987,
+        "totalLikesCount": 78159,
+        "averageLikesCount": 524.5570469798657,
+        "totalInteractionsCount": 85010,
+        "averageInteractionsCount": 570.5369127516778,
+        "averageEngagementRatePerViews": 1.2325375995574603,
+        "averageEngagementRatePerFollowers": 0.7468052772459163,
+        "averageViewsRatePerFollowers": 90.00283222976338
+      },
+      "results": [
+        {
+          "id": "cnt_0da7448291b4829ca45da3447d4a",
+          "matchedQueries": [],
+          "platform": "tiktok",
+          "profileHandle": "planner5d",
+          "profileDisplayName": "Planner 5D",
+          "format": "video",
+          "platformType": "video",
+          "title": null,
+          "caption": "DO or DON’T—which interior details would you choose for a real home? ✅❌ Test your design eye across different rooms and see how lighting, color, texture, and decor can completely change the atmosphere. Follow for more quick design challenges and interior inspiration!",
+          "thumbnailMediaId": "med_fe7ca0b0998441b1edde7b1d47ea",
+          "publishedAt": "2026-10-02T05:24:37.000Z",
+          "profileId": "prf_369584788bf3b6972e33aeb7516a",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7691937072323579158/thumbnail.webp",
+          "viewsCount": 1700000,
+          "likesCount": 6718,
+          "sharesCount": 433,
+          "commentsCount": 287,
+          "interactionsCount": 7438,
+          "profileFollowersCount": 76100,
+          "mediaCount": 1,
+          "hashtags": [],
+          "mentions": [],
+          "platformId": "7691937072323579158",
+          "profilePlatformId": "6815856296408155141",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/tiktok/planner5d/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 8,
+              "caption": null,
+              "onScreenText": [
+                "Tips for your",
+                "home",
+                "Do",
+                "Don't"
+              ],
+              "transcript": "",
+              "tags": []
+            }
+          ],
+          "engagementRatePerViews": 0.4375294117647059,
+          "engagementRatePerFollowers": 9.773981603153745,
+          "viewsRatePerFollowers": 2233.902759526938,
+          "profileFollowingCount": 102,
+          "profilePostsCount": 936,
+          "coAuthors": [],
+          "profileBio": "🖤BLACK FRIDAY 🖤 Mega Deal. Save 40% on Pro 👇",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": "United States",
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "7691937087418878742",
+          "audioTitle": "original sound",
+          "audioAuthor": "Planner 5D",
+          "audioType": "original",
+          "audioCopyrighted": false
+        },
+        {
+          "id": "cnt_73d2f0f28e1d86ba1fd321b8bf65",
+          "matchedQueries": [],
+          "platform": "tiktok",
+          "profileHandle": "planner5d",
+          "profileDisplayName": "Planner 5D",
+          "format": "video",
+          "platformType": "video",
+          "title": null,
+          "caption": "A bedroom should not force you to choose between comfortable TV viewing and accessible storage 🛏️📺 The better layout aligns the screen with the bed, keeps the wardrobe easy to use, and leaves the room open to move through. #bedroom #bedroomdesign #bedroomideas #bedroomlayout #bedroominspiration",
+          "thumbnailMediaId": "med_0974a13f9aed2c7bfb5128d87fcf",
+          "publishedAt": "2026-10-28T20:35:13.000Z",
+          "profileId": "prf_369584788bf3b6972e33aeb7516a",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7701819997923888406/thumbnail.webp",
+          "viewsCount": 1100000,
+          "likesCount": 7086,
+          "sharesCount": 852,
+          "commentsCount": 25,
+          "interactionsCount": 7963,
+          "profileFollowersCount": 76100,
+          "mediaCount": 1,
+          "hashtags": [
+            "#bedroom",
+            "#bedroomdesign",
+            "#bedroomideas",
+            "#bedroomlayout",
+            "#bedroominspiration"
+          ],
+          "mentions": [],
+          "platformId": "7701819997923888406",
+          "profilePlatformId": "6815856296408155141",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/tiktok/planner5d/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 9,
+              "caption": null,
+              "onScreenText": null,
+              "transcript": null,
+              "tags": []
+            }
+          ],
+          "engagementRatePerViews": 0.723909090909091,
+          "engagementRatePerFollowers": 10.463863337713535,
+          "viewsRatePerFollowers": 1445.466491458607,
+          "profileFollowingCount": 102,
+          "profilePostsCount": 936,
+          "coAuthors": [],
+          "profileBio": "🖤BLACK FRIDAY 🖤 Mega Deal. Save 40% on Pro 👇",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": "United States",
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "7701820012599839510",
+          "audioTitle": "original sound",
+          "audioAuthor": "Planner 5D",
+          "audioType": "original",
+          "audioCopyrighted": false
+        },
+        {
+          "id": "cnt_a32409ef927e07d0fda7f27f6070",
+          "matchedQueries": [],
+          "platform": "tiktok",
+          "profileHandle": "planner5d",
+          "profileDisplayName": "Planner 5D",
+          "format": "video",
+          "platformType": "video",
+          "title": null,
+          "caption": "Nobody should have to dodge furniture or another person to see the screen 🚶‍♂️📺 A smarter living room layout protects the sightline, keeps the route clear, and makes the TV zone feel intentional instead of improvised. #livingroom #livingroomideas #interior #interiordesign #floorplan ",
+          "thumbnailMediaId": "med_323b76dc032146cd68c5fa1553d1",
+          "publishedAt": "2026-08-14T14:35:40.000Z",
+          "profileId": "prf_369584788bf3b6972e33aeb7516a",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7673895940121464087/thumbnail.webp",
+          "viewsCount": 632900,
+          "likesCount": 7715,
+          "sharesCount": 682,
+          "commentsCount": 45,
+          "interactionsCount": 8442,
+          "profileFollowersCount": 76100,
+          "mediaCount": 1,
+          "hashtags": [
+            "#livingroom",
+            "#livingroomideas",
+            "#interior",
+            "#interiordesign",
+            "#floorplan"
+          ],
+          "mentions": [],
+          "platformId": "7673895940121464087",
+          "profilePlatformId": "6815856296408155141",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/tiktok/planner5d/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 9,
+              "caption": null,
+              "onScreenText": [
+                "Correct layout for a living",
+                "room with TV",
+                "X"
+              ],
+              "transcript": "I'm going to go to the next video.",
+              "tags": []
+            }
+          ],
+          "engagementRatePerViews": 1.3338600094801707,
+          "engagementRatePerFollowers": 11.09329829172142,
+          "viewsRatePerFollowers": 831.6688567674113,
+          "profileFollowingCount": 102,
+          "profilePostsCount": 936,
+          "coAuthors": [],
+          "profileBio": "🖤BLACK FRIDAY 🖤 Mega Deal. Save 40% on Pro 👇",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": "United States",
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "7673895966243867395",
+          "audioTitle": "original sound",
+          "audioAuthor": "Planner 5D",
+          "audioType": "original",
+          "audioCopyrighted": false
+        },
+        {
+          "id": "cnt_dd127e46e5b5b48100199abf0691",
+          "matchedQueries": [],
+          "platform": "tiktok",
+          "profileHandle": "planner5d",
+          "profileDisplayName": "Planner 5D",
+          "format": "video",
+          "platformType": "video",
+          "title": null,
+          "caption": "More garage space doesn’t always mean more cars – the circulation plan does 🚗🧩 Placing every vehicle with entry, exit, and door clearance in mind can turn wasted floor area into usable parking. #garage #garagedesign #garagelayout #homegarage #spaceplanning",
+          "thumbnailMediaId": "med_ac0c75dc2bad0370529bd7571661",
+          "publishedAt": "2026-09-18T22:46:30.000Z",
+          "profileId": "prf_369584788bf3b6972e33aeb7516a",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7687010381637668118/thumbnail.webp",
+          "viewsCount": 557600,
+          "likesCount": 1936,
+          "sharesCount": 35,
+          "commentsCount": 2,
+          "interactionsCount": 1973,
+          "profileFollowersCount": 76100,
+          "mediaCount": 1,
+          "hashtags": [
+            "#garage",
+            "#garagedesign",
+            "#garagelayout",
+            "#homegarage",
+            "#spaceplanning"
+          ],
+          "mentions": [],
+          "platformId": "7687010381637668118",
+          "profilePlatformId": "6815856296408155141",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/tiktok/planner5d/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 18,
+              "caption": null,
+              "onScreenText": [
+                "Garage plan:\nYES / NO ✕ ✔",
+                "X",
+                "Garage plan:\nYES / NO X ✔"
+              ],
+              "transcript": "Thank you.",
+              "tags": []
+            }
+          ],
+          "engagementRatePerViews": 0.3538378766140603,
+          "engagementRatePerFollowers": 2.592641261498029,
+          "viewsRatePerFollowers": 732.7201051248358,
+          "profileFollowingCount": 102,
+          "profilePostsCount": 936,
+          "coAuthors": [],
+          "profileBio": "🖤BLACK FRIDAY 🖤 Mega Deal. Save 40% on Pro 👇",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": "United States",
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "7687010444367629078",
+          "audioTitle": "original sound",
+          "audioAuthor": "Planner 5D",
+          "audioType": "original",
+          "audioCopyrighted": false
+        }
+      ]
+    },
+    "metadata": {
+      "pagination": {
+        "offset": 0,
+        "limit": 4,
+        "totalCount": 149
+      },
+      "requestId": "req_nue0dJCItix2lXxjZs5QWgTCrez8",
+      "executionTime": 125,
+      "timestamp": 1794189793977
+    }
+  }
+}

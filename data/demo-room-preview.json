@@ -1,0 +1,332 @@
+{
+  "id": "demo-room-preview",
+  "product": "Room preview",
+  "tagline": "Compare the change before you change the room.",
+  "brief": "Product concept: an interior preview tool that compares furniture and decor choices in a room. Show the difference with diagrams, rendered rooms, or screen recordings. Creative constraint: no people or faces on screen; hands and fingers are allowed.",
+  "promise": "Compare decor choices before committing to one",
+  "question": "How can a furniture comparison make the benefit visible without filming a person?",
+  "createdAt": "2026-11-09T02:06:17.000Z",
+  "origin": "curated",
+  "language": "English",
+  "overview": "Three references fit the sampled evidence when hands and fingers are allowed. An empty-to-furnished room reveal provides direct product-style proof; furniture and floor-plan comparisons provide adjacent creative mechanisms. A presenter-led reference remains excluded, and a thumbnail-only source remains uncertain. These are indexed samples, not a guarantee about every moment of each video. Room preview is an illustrative product concept.",
+  "searchNotes": [
+    "The no-person rule allows hands and fingers, as clarified by the user. Three references fit the inspected sample, one is excluded and one remains uncertain.",
+    "Kit & Kaboodle has ten inspected indexed frames; its empty room at 7.9s becomes furnished at 11.6s.",
+    "Planner5D supplies furniture comparisons (three indexed frames) and floor-plan comparisons (seven indexed frames). These mechanisms are not proof of an app workflow.",
+    "mavgpt remains excluded because a presenter is visible. The bedroom source has no indexed frames and remains uncertain rather than being accepted from its thumbnail.",
+    "Only sampled evidence was inspected, not continuous video. Views and interactions do not establish causal performance or conversions."
+  ],
+  "references": [
+    {
+      "id": "cnt_0da7448291b4829ca45da3447d4a",
+      "title": "Same furniture, different proportions.",
+      "creator": "planner5d",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@planner5d/video/7691937072323579158",
+      "thumbnail": "/media/examples/cnt_0da7448291b4829ca45da3447d4a/thumbnail.webp",
+      "publishedAt": "2026-10-02T05:24:37.000Z",
+      "views": 1700000,
+      "likes": 6718,
+      "comments": 287,
+      "shares": 433,
+      "interactions": 7438,
+      "engagementRate": 0.4375294117647059,
+      "duration": 8,
+      "caption": "DO or DON’T—which interior details would you choose for a real home? ✅❌ Test your design eye across different rooms and see how lighting, color, texture, and decor can completely change the atmosphere. Follow for more quick design challenges and interior inspiration!",
+      "transcript": "",
+      "frames": [
+        {
+          "url": "/media/examples/cnt_0da7448291b4829ca45da3447d4a/m0-f000.webp",
+          "seconds": 2.2,
+          "text": "Tips for your · home · Do · Don't"
+        },
+        {
+          "url": "/media/examples/cnt_0da7448291b4829ca45da3447d4a/m0-f001.webp",
+          "seconds": 3.8,
+          "text": "Tips for your · home · Do · Don't"
+        },
+        {
+          "url": "/media/examples/cnt_0da7448291b4829ca45da3447d4a/m0-f002.webp",
+          "seconds": 7,
+          "text": "Tips for your · home · Don't"
+        }
+      ],
+      "relevance": "adjacent",
+      "relevanceReason": "All three indexed frames show paired furniture arrangements: lighting at 2.2s, bedside furniture at 3.8s, and a TV console at 7.0s. This is a close interior-design comparison reference; no app interaction is shown.",
+      "format": "Furniture-only comparison graphics",
+      "hook": "Tips for your home: Do / Don't"
+    },
+    {
+      "id": "cnt_a9bffa67181883299fec37fdf7e3",
+      "title": "An empty room becomes a furnished preview, held in real hands.",
+      "creator": "kitandkaboodleinterior",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reel/DcvxNH9lK90/",
+      "thumbnail": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/thumbnail.webp",
+      "publishedAt": "2026-09-01T13:28:26.000Z",
+      "views": 38438,
+      "likes": 59,
+      "comments": 1,
+      "shares": 2,
+      "interactions": 62,
+      "engagementRate": 0.16129871481346583,
+      "duration": 15.616,
+      "caption": "What if you could see it in your room before you buy it? 👀\nKit & Kaboodle is offering AI Room Preview to help you visualise before you make your decision of buying. Bring us a photo of your space, choose your piece at our showroom, and we’ll show you how it could look.\n\nVisit Kit & Kaboodle, MM Alam Road.\nDM us “PREVIEW” to know more.",
+      "transcript": "Thank you.",
+      "frames": [
+        {
+          "url": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f000.webp",
+          "seconds": 2.67,
+          "text": "shikaboote"
+        },
+        {
+          "url": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f001.webp",
+          "seconds": 2.73,
+          "text": ""
+        },
+        {
+          "url": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f006.webp",
+          "seconds": 7.9,
+          "text": ""
+        },
+        {
+          "url": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f007.webp",
+          "seconds": 8.4,
+          "text": ""
+        },
+        {
+          "url": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f008.webp",
+          "seconds": 8.47,
+          "text": "RACE"
+        },
+        {
+          "url": "/media/examples/cnt_a9bffa67181883299fec37fdf7e3/m0-f009.webp",
+          "seconds": 11.6,
+          "text": ""
+        }
+      ],
+      "relevance": "direct",
+      "relevanceReason": "The empty room appears on a phone at 7.9s and a furnished version at 11.6s. All ten indexed frames show a hands-only phone demonstration or interior images, with no presenter or face. Hands are allowed under the clarified rule.",
+      "format": "Phone transition + furnished-room reveal",
+      "hook": "What if you could see it in your room before you buy it?"
+    },
+    {
+      "id": "cnt_a32409ef927e07d0fda7f27f6070",
+      "title": "Compare floor plans with a pointing finger.",
+      "creator": "planner5d",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@planner5d/video/7673895940121464087",
+      "thumbnail": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/thumbnail.webp",
+      "publishedAt": "2026-08-14T14:35:40.000Z",
+      "views": 632900,
+      "likes": 7715,
+      "comments": 45,
+      "shares": 682,
+      "interactions": 8442,
+      "engagementRate": 1.3338600094801707,
+      "duration": 9,
+      "caption": "Nobody should have to dodge furniture or another person to see the screen 🚶‍♂️📺 A smarter living room layout protects the sightline, keeps the route clear, and makes the TV zone feel intentional instead of improvised. #livingroom #livingroomideas #interior #interiordesign #floorplan ",
+      "transcript": "I'm going to go to the next video.",
+      "frames": [
+        {
+          "url": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/m0-f000.webp",
+          "seconds": 0,
+          "text": "Correct layout for a living · room with TV · X"
+        },
+        {
+          "url": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/m0-f001.webp",
+          "seconds": 0.01,
+          "text": "Correct layout for a living · room with TV · X"
+        },
+        {
+          "url": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/m0-f003.webp",
+          "seconds": 4.37,
+          "text": "Correct layout for a living · room with TV · X"
+        },
+        {
+          "url": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/m0-f005.webp",
+          "seconds": 4.48,
+          "text": "Correct layout for a living · room with TV · X"
+        },
+        {
+          "url": "/media/examples/cnt_a32409ef927e07d0fda7f27f6070/m0-f006.webp",
+          "seconds": 8.96,
+          "text": "Correct layout for a living · room with TV · X"
+        }
+      ],
+      "relevance": "adjacent",
+      "relevanceReason": "The seven indexed frames show red and green schematic floor-plan comparisons, with fingers pointing at differences. Hands and fingers are allowed; the small overhead figures are stylized plan illustrations, not filmed people.",
+      "format": "Floor-plan comparison with hand gestures",
+      "hook": "Correct layout for a living room with TV"
+    }
+  ],
+  "angles": [
+    {
+      "id": "empty-to-furnished",
+      "title": "Make the preview the reveal.",
+      "label": "VISIBLE TRANSFORMATION",
+      "description": "Show the current room, then the decor preview from the same viewpoint. Hands can hold the phone; let the changed room carry the reveal.",
+      "whyItFits": "The viewer sees what comparing decor choices changes before hearing a feature explanation.",
+      "evidence": "Kit & Kaboodle shows an empty room at 7.9s and a furnished room at 11.6s. The phone is held in hands, which are allowed.",
+      "referenceIds": [
+        "cnt_a9bffa67181883299fec37fdf7e3"
+      ],
+      "suggestedHook": "Before you move anything, see what changes.",
+      "visualDirection": "Use an actual room image and a supported preview of the same room. Keep faces and presenters out of frame; hands operating the interface are allowed."
+    },
+    {
+      "id": "one-detail-comparison",
+      "title": "Change one detail. Let the viewer compare.",
+      "label": "PEOPLE-FREE COMPARISON",
+      "description": "Place two versions of the same furnishing arrangement together. Change the lighting or furniture scale while keeping the rest recognizable.",
+      "whyItFits": "A room-preview concept can explain its benefit through the images alone.",
+      "evidence": "The furniture comparison source contrasts lighting at 2.2s, bedside furniture at 3.8s and TV-console scale at 7.0s. The floor-plan source adds a schematic side-by-side mechanism with pointing fingers.",
+      "referenceIds": [
+        "cnt_0da7448291b4829ca45da3447d4a",
+        "cnt_a32409ef927e07d0fda7f27f6070"
+      ],
+      "suggestedHook": "Same room. Which version would you choose?",
+      "visualDirection": "Use actual screen recordings or rendered comparisons. Hands may point at choices. Keep faces and presenters out of frame, and label options A and B without claiming universal correctness."
+    }
+  ],
+  "storyboard": {
+    "title": "See the difference first.",
+    "premise": "Proposed no-presenter creative for Room preview. Furniture and preview comparisons make a decision visible. Hands and fingers are allowed.",
+    "hook": "Same room. Which version would you choose?",
+    "scenes": [
+      {
+        "time": "00–04s",
+        "visual": "Show two renderings of the same dining arrangement. Only the light fitting changes. Label A and B.",
+        "voiceover": "Same room. Which would you choose?"
+      },
+      {
+        "time": "04–09s",
+        "visual": "Highlight the one changed detail with a graphic outline. Keep both views visible.",
+        "voiceover": "One detail changes how the room looks."
+      },
+      {
+        "time": "09–17s",
+        "visual": "Use an actual product screen recording to compare those choices in a room preview. Hide any avatar or image containing a person.",
+        "voiceover": "Compare the options in your space."
+      },
+      {
+        "time": "17–23s",
+        "visual": "Hold the chosen preview beside the original. Hands may operate the interface; keep faces and presenters out of view.",
+        "voiceover": "See the change before you decide."
+      }
+    ],
+    "callToAction": "Preview one change in your room.",
+    "sourceIds": [
+      "cnt_0da7448291b4829ca45da3447d4a"
+    ]
+  },
+  "constraints": {
+    "noRealPeople": true,
+    "exclude": ""
+  },
+  "excludedReferences": [
+    {
+      "id": "cnt_da5b76c368bd588b073f5dd4dd34",
+      "title": "A room photo becomes a generated redesign, with a presenter.",
+      "creator": "mavgpt",
+      "platform": "instagram",
+      "url": "https://www.instagram.com/reel/DedcOHYK6FO/",
+      "thumbnail": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/thumbnail.webp",
+      "publishedAt": "2026-10-14T03:42:50.000Z",
+      "views": 111539,
+      "likes": 2509,
+      "comments": 3588,
+      "shares": 0,
+      "interactions": 6097,
+      "engagementRate": 5.466249473278404,
+      "duration": 46.799,
+      "caption": "Comment “Room” and I’ll send you the full prompt 👇\n\nWhat happens when you ask ChatGPT to redesign a room in your house like a professional designer?\n\nI tried this and the results actually blew me away.\n\nPrompt 1:\nUpload a photo of your living room or bedroom and say: “Here’s a photo of my room. Redesign it like a professional interior designer would. Keep the same basic furniture, but show me how it could look way better with different furniture, a different layout, colors, lighting, and decor. Make it warm, modern, and realistic.”\n\nChatGPT generates multiple images and hands you back a full professional redesign of that exact room.\n\nBonus prompt (this is what makes it actually useful):\nStay in the same chat and say: “Now give me everything in this new design on a budget of under $500 and include the exact Amazon links to each piece of furniture and decor you added.”\n\nChatGPT hands you a full shopping list with real links so you can actually build the room instead of just dreaming about it.\n\n#chatgpt #ai #chatgptprompts #interiordesign #realestate",
+      "transcript": "What happens when you ask ChatGPT to redesign a room in your house like a professional designer? I tried this and the results actually blew me away. So first you're going to want to come over to ChatGPT and upload a photo of either your living room or bedroom. And then say, here's a photo of my room. Redesign it like a professional interior designer would. Keep the same basic furniture, but show me how it could look way better with different furniture, a different layout, colors, lighting, and decor. Make it warm, modern, and realistic. ChatGPT is then going to generate multiple images and hand you back a full professional redesign of that exact room. And here's the bonus prompt that actually makes this useful. You're going to want to stay in the same chat and then say, now give me everything in this new design on a budget of under $500 and include the exact Amazon links to each piece of furniture and decor you added. ChatGPT is then going to hand you a full shopping list with real links so you can build the entire room instead of just dreaming about it. So if you want the full prompt along with more cool use cases for ChatGPT, just follow me and comment room and I'll shoot it over to you.",
+      "frames": [
+        {
+          "url": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f000.webp",
+          "seconds": 1.8,
+          "text": "ChatGPT redesigns any · room in your house · RE-DESIGN"
+        },
+        {
+          "url": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f002.webp",
+          "seconds": 4.6,
+          "text": "efore · After · RESULTS"
+        },
+        {
+          "url": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f006.webp",
+          "seconds": 12.2,
+          "text": "What should we · here's a photo of my room or redesign it · Choose project · Plugins · 31 · Get started with ChatGPT Work · Summarize my to-dos PROFESSIONAL"
+        },
+        {
+          "url": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f007.webp",
+          "seconds": 22,
+          "text": "The original living room has a beautiful vaulted ceiling, large arched window, hardwood flooring, fireplace · built-in shelving, and classic brown leather furniture. However, the dark seating, faded rug, glass coffee tal · empty walls, limited lighting, and basic furniture arrangement make the space feel slightly cold, heavy, and unfinished. · Before · After The redesigned living room feels warm, modern, bright, and professionally styled. The cream sectional, · wooden coffee table, woven rug, linen curtains, indoor plants, neutral cushions, artwork, mirror, and layere · warm lighting create a softer and more comfortable atmosphere while highlighting the fireplace and arche window. · GENERATE · Work on anything · 5.6 Sol Light · 0"
+        },
+        {
+          "url": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f008.webp",
+          "seconds": 25.4,
+          "text": "Before · After The redesigned living room feels warm, modern, bright, and wooden coffee table, woven rug, linen curtains, indoor plants · warm lighting create a softer and more comfortable atmosph window. · EXACT · After · ChatGPT can make mistakes. Che"
+        },
+        {
+          "url": "/media/examples/cnt_da5b76c368bd588b073f5dd4dd34/m0-f009.webp",
+          "seconds": 27,
+          "text": "Bonus prompt · ACTUALLY"
+        }
+      ],
+      "relevance": "direct",
+      "relevanceReason": "Upload and result are visible at 12.2s and 22.0–25.4s. Strong room-preview payoff, but the presenter at 1.8s and 27.0s violates the creative constraint. The source's budget and shopping-link claims are unverified.",
+      "format": "Presenter + screen recording",
+      "hook": "What happens when you ask ChatGPT to redesign a room in your house like a professional designer?"
+    }
+  ],
+  "uncertainReferences": [
+    {
+      "id": "cnt_73d2f0f28e1d86ba1fd321b8bf65",
+      "title": "A bedroom-layout comparison with a hand in the thumbnail.",
+      "creator": "planner5d",
+      "platform": "tiktok",
+      "url": "https://www.tiktok.com/@planner5d/video/7701819997923888406",
+      "thumbnail": "/media/examples/cnt_73d2f0f28e1d86ba1fd321b8bf65/thumbnail.webp",
+      "publishedAt": "2026-10-28T20:35:13.000Z",
+      "views": 1100000,
+      "likes": 7086,
+      "comments": 25,
+      "shares": 852,
+      "interactions": 7963,
+      "engagementRate": 0.723909090909091,
+      "duration": 9,
+      "caption": "A bedroom should not force you to choose between comfortable TV viewing and accessible storage 🛏️📺 The better layout aligns the screen with the bed, keeps the wardrobe easy to use, and leaves the room open to move through. #bedroom #bedroomdesign #bedroomideas #bedroomlayout #bedroominspiration",
+      "transcript": "",
+      "frames": [],
+      "relevance": "adjacent",
+      "relevanceReason": "No indexed frames were returned. A hand in the thumbnail is allowed, but cannot establish the rest of the video contains no faces or presenters.",
+      "format": "Thumbnail-only layout comparison",
+      "hook": "Bedroom layout: YES / NO"
+    }
+  ],
+  "constraintAssessments": {
+    "cnt_0da7448291b4829ca45da3447d4a": {
+      "status": "fits",
+      "reason": "Fits within the inspected sample only. All 3 indexed frames at 2.2s, 3.8s, and 7.0s plus the thumbnail show furniture-only comparisons, with no visible people, hands, or body parts. Only 3 samples exist for this 8s video; unindexed moments are not verified."
+    },
+    "cnt_da5b76c368bd588b073f5dd4dd34": {
+      "status": "excluded",
+      "reason": "All 15 indexed frames inspected. A real presenter is visible at 1.8s, 4.4s, 4.6s, and 27.0s. Screen-only excerpts do not make the complete reference people-free."
+    },
+    "cnt_a9bffa67181883299fec37fdf7e3": {
+      "status": "fits",
+      "reason": "All ten indexed frames were inspected. Hands hold the phone while the room transitions from empty to furnished; no presenter or face appears in these samples. Hands are allowed. Review unindexed moments in the original."
+    },
+    "cnt_a32409ef927e07d0fda7f27f6070": {
+      "status": "fits",
+      "reason": "All seven indexed frames were inspected. Fingers point at schematic floor plans with stylized overhead figures; no filmed face or presenter is visible. Hands are allowed. Review the original for gaps."
+    },
+    "cnt_73d2f0f28e1d86ba1fd321b8bf65": {
+      "status": "uncertain",
+      "reason": "Zero indexed frames. The thumbnail hand is allowed, but the unseen video cannot be verified."
+    }
+  },
+  "resources": [],
+  "projectSources": []
+}

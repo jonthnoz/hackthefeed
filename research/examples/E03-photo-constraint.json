@@ -1,0 +1,606 @@
+{
+  "id": "E03-photo-constraint",
+  "request": {
+    "operator": "and",
+    "filters": {
+      "id": {
+        "includes": [
+          "cnt_d2bd79fe85ef21394b8382900508",
+          "cnt_8bd1cabb1b22125ef6a1fe1dfe63"
+        ]
+      }
+    },
+    "limit": 2,
+    "projection": "full"
+  },
+  "response": {
+    "data": {
+      "aggregations": {
+        "totalViewsCount": 327000,
+        "averageViewsCount": 163500,
+        "totalLikesCount": 248,
+        "averageLikesCount": 124,
+        "totalInteractionsCount": 282,
+        "averageInteractionsCount": 141,
+        "averageEngagementRatePerViews": 0.12046796795317831,
+        "averageEngagementRatePerFollowers": 0.007156764614519401,
+        "averageViewsRatePerFollowers": 8.298801521091645
+      },
+      "results": [
+        {
+          "id": "cnt_8bd1cabb1b22125ef6a1fe1dfe63",
+          "matchedQueries": [],
+          "platform": "instagram",
+          "profileHandle": "photoroom",
+          "profileDisplayName": "Photoroom",
+          "format": "video",
+          "platformType": "reel",
+          "title": null,
+          "caption": "Every e-commerce seller knows this feeling: the holiday rush is here and you've got nothing to post.\nㅤ\nDoña Rosa found a way with Video Ad Maker. Watch till the end 📦\nㅤ\nPhotoroom is now the full AI photo and video solution for e-commerce: turn your product photos into video ads that sell, in minutes 🎬\nㅤ\nThis is chapter one. Doña Rosa, our AI-created character, has bigger plans for the holidays. Stay tuned, the story's just getting started.\nㅤ\nComment VIDEO and we'll send you the link.\nㅤ\n#ECommerce #AIVideo",
+          "thumbnailMediaId": "med_f7c6ed14ae36690b7a9a646f111b",
+          "publishedAt": "2026-10-29T14:03:32.000Z",
+          "profileId": "prf_d971220a1e11410841f648b5c8a8",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/DfFLUcjjppb/thumbnail.webp",
+          "viewsCount": 286620,
+          "likesCount": 200,
+          "sharesCount": 0,
+          "commentsCount": 15,
+          "interactionsCount": 215,
+          "profileFollowersCount": 1970164,
+          "mediaCount": 1,
+          "hashtags": [
+            "#ecommerce",
+            "#aivideo"
+          ],
+          "mentions": [],
+          "platformId": "DfFLUcjjppb",
+          "profilePlatformId": "23922841622",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/instagram/photoroom/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 56.333,
+              "caption": null,
+              "onScreenText": null,
+              "transcript": null,
+              "tags": [],
+              "transcriptLanguage": null,
+              "transcriptChunks": null,
+              "frames": []
+            }
+          ],
+          "engagementRatePerViews": 0.07501221129021003,
+          "engagementRatePerFollowers": 0.010912797107245895,
+          "viewsRatePerFollowers": 14.548027473854969,
+          "profileFollowingCount": 1491,
+          "profilePostsCount": 1095,
+          "coAuthors": [
+            {
+              "id": "prf_ec1624a20c329fede3b37aaabc5f",
+              "platformId": "60186970972",
+              "profileHandle": "illustrator.blog_artist"
+            },
+            {
+              "id": "prf_9b617b9f9ee7b78e158338efb1c3",
+              "platformId": "8438816032",
+              "profileHandle": "photoshop._blog"
+            }
+          ],
+          "profileBio": "The leading AI visual solution for e-commerce 🛍️\nFor help with the app, email help@photoroom.com\nDownload for FREE👇",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": null,
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "29458340223759104",
+          "audioTitle": "Original audio",
+          "audioAuthor": "photoroom",
+          "audioType": "original",
+          "audioCopyrighted": false,
+          "captionLanguage": "en",
+          "popularComments": [
+            {
+              "platformId": "17897831076674807",
+              "profilePlatformId": "32089519",
+              "profileHandle": "brandieraasch",
+              "content": "Omg I love her! 🔥 This looks so cool! VIDEO",
+              "likesCount": 2,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T14:38:57.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "18441268900181069",
+              "profilePlatformId": "10697575",
+              "profileHandle": "larissamrmt",
+              "content": "Videoooo 🙌🙌",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T15:40:24.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "17944741062361646",
+              "profilePlatformId": "23617682281",
+              "profileHandle": "marciameelker_manager",
+              "content": "Doña Rosa ! 😍",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T15:30:22.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "18154014907532813",
+              "profilePlatformId": "60539750090",
+              "profileHandle": "photoroom.brasil",
+              "content": "Calmateee",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T15:22:58.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "18066055433786977",
+              "profilePlatformId": "60539750090",
+              "profileHandle": "photoroom.brasil",
+              "content": "😍😍😍😍",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T15:22:50.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "17995459031847751",
+              "profilePlatformId": "11779692",
+              "profileHandle": "liannehunter_",
+              "content": "Doña Rosa 🔥",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T15:21:26.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "18108293393275397",
+              "profilePlatformId": "2967483761",
+              "profileHandle": "takurokayamoto",
+              "content": "Doña Rosa!!",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T14:47:49.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "17907661494667700",
+              "profilePlatformId": "54390319930",
+              "profileHandle": "designm0bina",
+              "content": "😍😍😍😮",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-11-01T09:46:11.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "18153667363555101",
+              "profilePlatformId": "62304256101",
+              "profileHandle": "phovio.ai",
+              "content": "Good work 👏",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-31T15:16:53.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "18171502000475531",
+              "profilePlatformId": "51077570042",
+              "profileHandle": "make_your_day_your_day",
+              "content": "cool stuff!",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-30T19:24:43.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "18128432707870800",
+              "profilePlatformId": "4276074377",
+              "profileHandle": "bsci.patricia",
+              "content": "Doña Rosa !",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T21:43:59.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            },
+            {
+              "platformId": "17872823187641871",
+              "profilePlatformId": "747862",
+              "profileHandle": "matthieurouif",
+              "content": "Video!!!",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T20:34:03.000Z",
+              "createdAt": "2026-11-02T14:55:43.846Z",
+              "updatedAt": "2026-11-02T14:55:43.846Z"
+            }
+          ],
+          "createdAt": "2026-11-02T14:55:36.372Z",
+          "updatedAt": "2026-11-02T15:09:04.752Z"
+        },
+        {
+          "id": "cnt_d2bd79fe85ef21394b8382900508",
+          "matchedQueries": [],
+          "platform": "instagram",
+          "profileHandle": "photoroom",
+          "profileDisplayName": "Photoroom",
+          "format": "video",
+          "platformType": "reel",
+          "title": null,
+          "caption": "Think fast, 1 or 2? ⏱️\nㅤ\nSame product, two photos. One's a real-life snap, the other is clean and ready for a listing.\nㅤ\nDrop your answer in the comments before you scroll, then tell us why. 👇\nㅤ\nWant the clean version of your own pieces? Try it in Photoroom, link in bio.\nㅤ\n🎥 @nicoletakesphotoss_",
+          "thumbnailMediaId": "med_3b9ca14efa4a0d00da16b052620b",
+          "publishedAt": "2026-10-19T15:20:26.000Z",
+          "profileId": "prf_d971220a1e11410841f648b5c8a8",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/instagram/DerkK3MCUQY/thumbnail.webp",
+          "viewsCount": 40380,
+          "likesCount": 48,
+          "sharesCount": 17,
+          "commentsCount": 2,
+          "interactionsCount": 67,
+          "profileFollowersCount": 1970164,
+          "mediaCount": 1,
+          "hashtags": [],
+          "mentions": [
+            {
+              "id": null,
+              "platformId": null,
+              "profileHandle": "nicoletakesphotoss_"
+            }
+          ],
+          "platformId": "DerkK3MCUQY",
+          "profilePlatformId": "23922841622",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/instagram/photoroom/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 7.87,
+              "caption": null,
+              "onScreenText": [
+                "1",
+                "2",
+                "QUICKLY pick which is best for selling clothes",
+                "QUICKLY pick which",
+                "is best for selling clothes"
+              ],
+              "transcript": "I tell her baby baby baby I'm a fireball.",
+              "tags": [],
+              "transcriptLanguage": "en",
+              "transcriptChunks": [
+                {
+                  "startSeconds": 0,
+                  "endSeconds": 4.24,
+                  "text": "I tell her baby baby baby I'm a fireball."
+                }
+              ],
+              "frames": [
+                {
+                  "id": "med_6edb49839c6fd00429ce3acb6e73",
+                  "position": 1,
+                  "timestampSeconds": 1.6,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "1",
+                      "polygon": [
+                        {
+                          "x": 0.1625,
+                          "y": 0.3796875
+                        },
+                        {
+                          "x": 0.19861111,
+                          "y": 0.3796875
+                        },
+                        {
+                          "x": 0.19861111,
+                          "y": 0.4125
+                        },
+                        {
+                          "x": 0.1625,
+                          "y": 0.4125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "2",
+                      "polygon": [
+                        {
+                          "x": 0.78333336,
+                          "y": 0.37734374
+                        },
+                        {
+                          "x": 0.84583336,
+                          "y": 0.37421876
+                        },
+                        {
+                          "x": 0.8513889,
+                          "y": 0.41328126
+                        },
+                        {
+                          "x": 0.7888889,
+                          "y": 0.41640624
+                        }
+                      ]
+                    },
+                    {
+                      "text": "QUICKLY pick which is best for selling clothes",
+                      "polygon": [
+                        {
+                          "x": 0.17083333,
+                          "y": 0.6484375
+                        },
+                        {
+                          "x": 0.73055553,
+                          "y": 0.6484375
+                        },
+                        {
+                          "x": 0.73055553,
+                          "y": 0.7125
+                        },
+                        {
+                          "x": 0.17083333,
+                          "y": 0.7125
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DerkK3MCUQY/1_1.60.webp"
+                },
+                {
+                  "id": "med_9f7538717a6b5e29fea75bd26ab1",
+                  "position": 2,
+                  "timestampSeconds": 3.8,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "1",
+                      "polygon": [
+                        {
+                          "x": 0.1625,
+                          "y": 0.3796875
+                        },
+                        {
+                          "x": 0.19861111,
+                          "y": 0.3796875
+                        },
+                        {
+                          "x": 0.19861111,
+                          "y": 0.4140625
+                        },
+                        {
+                          "x": 0.1625,
+                          "y": 0.4140625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "2",
+                      "polygon": [
+                        {
+                          "x": 0.7875,
+                          "y": 0.3765625
+                        },
+                        {
+                          "x": 0.85,
+                          "y": 0.3765625
+                        },
+                        {
+                          "x": 0.85,
+                          "y": 0.415625
+                        },
+                        {
+                          "x": 0.7875,
+                          "y": 0.415625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "QUICKLY pick which",
+                      "polygon": [
+                        {
+                          "x": 0.2638889,
+                          "y": 0.6484375
+                        },
+                        {
+                          "x": 0.73055553,
+                          "y": 0.6484375
+                        },
+                        {
+                          "x": 0.73055553,
+                          "y": 0.6765625
+                        },
+                        {
+                          "x": 0.2638889,
+                          "y": 0.6765625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "is best for selling clothes",
+                      "polygon": [
+                        {
+                          "x": 0.17638889,
+                          "y": 0.68125
+                        },
+                        {
+                          "x": 0.7222222,
+                          "y": 0.68125
+                        },
+                        {
+                          "x": 0.7222222,
+                          "y": 0.709375
+                        },
+                        {
+                          "x": 0.17638889,
+                          "y": 0.709375
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DerkK3MCUQY/2_3.80.webp"
+                },
+                {
+                  "id": "med_14c9209e2a47ca21cda85f4bc851",
+                  "position": 3,
+                  "timestampSeconds": 7.8,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "2",
+                      "polygon": [
+                        {
+                          "x": 0.7847222,
+                          "y": 0.3765625
+                        },
+                        {
+                          "x": 0.85,
+                          "y": 0.3765625
+                        },
+                        {
+                          "x": 0.85,
+                          "y": 0.415625
+                        },
+                        {
+                          "x": 0.7847222,
+                          "y": 0.415625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "1",
+                      "polygon": [
+                        {
+                          "x": 0.16527778,
+                          "y": 0.38125
+                        },
+                        {
+                          "x": 0.19861111,
+                          "y": 0.38125
+                        },
+                        {
+                          "x": 0.19861111,
+                          "y": 0.4125
+                        },
+                        {
+                          "x": 0.16527778,
+                          "y": 0.4125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "QUICKLY pick which",
+                      "polygon": [
+                        {
+                          "x": 0.2638889,
+                          "y": 0.6484375
+                        },
+                        {
+                          "x": 0.73055553,
+                          "y": 0.6484375
+                        },
+                        {
+                          "x": 0.73055553,
+                          "y": 0.6765625
+                        },
+                        {
+                          "x": 0.2638889,
+                          "y": 0.6765625
+                        }
+                      ]
+                    },
+                    {
+                      "text": "is best for selling clothes",
+                      "polygon": [
+                        {
+                          "x": 0.17083333,
+                          "y": 0.678125
+                        },
+                        {
+                          "x": 0.7277778,
+                          "y": 0.6796875
+                        },
+                        {
+                          "x": 0.7263889,
+                          "y": 0.7125
+                        },
+                        {
+                          "x": 0.17083333,
+                          "y": 0.7109375
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/instagram/DerkK3MCUQY/3_7.80.webp"
+                }
+              ]
+            }
+          ],
+          "engagementRatePerViews": 0.1659237246161466,
+          "engagementRatePerFollowers": 0.003400732121792907,
+          "viewsRatePerFollowers": 2.049575568328322,
+          "profileFollowingCount": 1491,
+          "profilePostsCount": 1095,
+          "coAuthors": [],
+          "profileBio": "The leading AI visual solution for e-commerce 🛍️\nFor help with the app, email help@photoroom.com\nDownload for FREE👇",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": null,
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "18644766541005602",
+          "audioTitle": "Original audio",
+          "audioAuthor": "photoroom",
+          "audioType": "original",
+          "audioCopyrighted": false,
+          "captionLanguage": "en",
+          "popularComments": [
+            {
+              "platformId": "18107280623205808",
+              "profilePlatformId": "40686580726",
+              "profileHandle": "cyphrexio",
+              "content": "Clean shot every time for a listing. The real life snap only wins when the buyer is shopping for the mood instead of the product.",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-19T23:40:31.000Z",
+              "createdAt": "2026-10-20T21:29:25.327Z",
+              "updatedAt": "2026-10-20T21:29:25.327Z"
+            }
+          ],
+          "createdAt": "2026-10-20T15:29:16.323Z",
+          "updatedAt": "2026-11-02T15:13:34.571Z"
+        }
+      ]
+    },
+    "metadata": {
+      "pagination": {
+        "offset": 0,
+        "limit": 2,
+        "totalCount": 2
+      },
+      "requestId": "req_USmPqUUp40gCy4zBwh1ykhdpyZKL",
+      "executionTime": 120,
+      "timestamp": 1794189885677
+    }
+  }
+}

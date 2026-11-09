@@ -1,0 +1,1025 @@
+{
+  "id": "E02-constraint-replacements",
+  "request": {
+    "operator": "and",
+    "filters": {
+      "id": {
+        "includes": [
+          "cnt_73d2f0f28e1d86ba1fd321b8bf65",
+          "cnt_a32409ef927e07d0fda7f27f6070"
+        ]
+      }
+    },
+    "limit": 2,
+    "projection": "full"
+  },
+  "response": {
+    "data": {
+      "aggregations": {
+        "totalViewsCount": 1732900,
+        "averageViewsCount": 866450,
+        "totalLikesCount": 14801,
+        "averageLikesCount": 7400.5,
+        "totalInteractionsCount": 16405,
+        "averageInteractionsCount": 8202.5,
+        "averageEngagementRatePerViews": 1.0288845501946309,
+        "averageEngagementRatePerFollowers": 10.778580814717477,
+        "averageViewsRatePerFollowers": 1138.5676741130092
+      },
+      "results": [
+        {
+          "id": "cnt_73d2f0f28e1d86ba1fd321b8bf65",
+          "matchedQueries": [],
+          "platform": "tiktok",
+          "profileHandle": "planner5d",
+          "profileDisplayName": "Planner 5D",
+          "format": "video",
+          "platformType": "video",
+          "title": null,
+          "caption": "A bedroom should not force you to choose between comfortable TV viewing and accessible storage 🛏️📺 The better layout aligns the screen with the bed, keeps the wardrobe easy to use, and leaves the room open to move through. #bedroom #bedroomdesign #bedroomideas #bedroomlayout #bedroominspiration",
+          "thumbnailMediaId": "med_0974a13f9aed2c7bfb5128d87fcf",
+          "publishedAt": "2026-10-28T20:35:13.000Z",
+          "profileId": "prf_369584788bf3b6972e33aeb7516a",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7701819997923888406/thumbnail.webp",
+          "viewsCount": 1100000,
+          "likesCount": 7086,
+          "sharesCount": 852,
+          "commentsCount": 25,
+          "interactionsCount": 7963,
+          "profileFollowersCount": 76100,
+          "mediaCount": 1,
+          "hashtags": [
+            "#bedroom",
+            "#bedroomdesign",
+            "#bedroomideas",
+            "#bedroomlayout",
+            "#bedroominspiration"
+          ],
+          "mentions": [],
+          "platformId": "7701819997923888406",
+          "profilePlatformId": "6815856296408155141",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/tiktok/planner5d/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 9,
+              "caption": null,
+              "onScreenText": null,
+              "transcript": null,
+              "tags": [],
+              "transcriptLanguage": null,
+              "transcriptChunks": null,
+              "frames": []
+            }
+          ],
+          "engagementRatePerViews": 0.723909090909091,
+          "engagementRatePerFollowers": 10.463863337713535,
+          "viewsRatePerFollowers": 1445.466491458607,
+          "profileFollowingCount": 102,
+          "profilePostsCount": 936,
+          "coAuthors": [],
+          "profileBio": "🖤BLACK FRIDAY 🖤 Mega Deal. Save 40% on Pro 👇",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": "United States",
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "7701820012599839510",
+          "audioTitle": "original sound",
+          "audioAuthor": "Planner 5D",
+          "audioType": "original",
+          "audioCopyrighted": false,
+          "captionLanguage": "en",
+          "popularComments": [
+            {
+              "platformId": "7701961954622210838",
+              "profilePlatformId": "7141597913461523461",
+              "profileHandle": "userwnqqwukeei",
+              "content": "А если три окна тогда как ?😂",
+              "likesCount": 5,
+              "repliesCount": 1,
+              "publishedAt": "2026-10-29T05:47:43.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7702270548700562198",
+              "profilePlatformId": "7316937416698250273",
+              "profileHandle": "berny174",
+              "content": "Une chambre sans fenêtre",
+              "likesCount": 2,
+              "repliesCount": 1,
+              "publishedAt": "2026-10-30T01:45:20.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7702122621474898708",
+              "profilePlatformId": "7281387071352144901",
+              "profileHandle": "wilmary.rujano.sa",
+              "content": "y si hay baño como quedaria",
+              "likesCount": 2,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T16:09:42.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7702248538197066516",
+              "profilePlatformId": "6922494310681592837",
+              "profileHandle": "josebarrera0202",
+              "content": "tengo la puerta de la entrada frente tambien la puerta del baño",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-30T00:18:27.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7702092539700724532",
+              "profilePlatformId": "6832325416231388165",
+              "profileHandle": "emr.3009",
+              "content": "Cuando la puerta se abre NUNCA DEBE VERSE LA CAMA DIRECTAMENTE. La opción 1 es correcta, con la 2, apenas abren un poco la puerta ven q estás haciendo en la cama",
+              "likesCount": 1,
+              "repliesCount": 1,
+              "publishedAt": "2026-10-29T14:13:08.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7702072678891668246",
+              "profilePlatformId": "6645320149937356806",
+              "profileHandle": "ciclistapercaso",
+              "content": "mi domando quale menomato metterebbe l'armadio davanti la finestra ?",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T12:56:31.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7701972659315180310",
+              "profilePlatformId": "7180795880765113350",
+              "profileHandle": "polan49",
+              "content": "Właśnie dobrze się śpi w stronę okna ! A w stronę drzwi 🥺",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T06:28:18.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7701870933761901343",
+              "profilePlatformId": "7642342613399454733",
+              "profileHandle": "j.jw15",
+              "content": "can you help my bedroom is designed like this",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-28T23:53:43.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7703241377081164566",
+              "profilePlatformId": "7043167861673804806",
+              "profileHandle": "s.cp62",
+              "content": "😂😂😂",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-11-01T16:31:08.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7703179891219612434",
+              "profilePlatformId": "7106708037650088966",
+              "profileHandle": "user3836247830765",
+              "content": "😂😂😂",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-11-01T12:32:25.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7703037704808203030",
+              "profilePlatformId": "7051165113696633861",
+              "profileHandle": "dihyakabyle07",
+              "content": "😁😁😁",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-11-01T03:23:24.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7702756739062399776",
+              "profilePlatformId": "6922188391238288390",
+              "profileHandle": "halfpint690",
+              "content": "who says it's wrong or right, put your furniture where ever you want 🤣",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-31T09:10:43.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7702437411636413206",
+              "profilePlatformId": "6983973460582155269",
+              "profileHandle": "paolikkio",
+              "content": "dov'è il nord?",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-30T12:31:32.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7702364698948633345",
+              "profilePlatformId": "6811461565906568194",
+              "profileHandle": "sawaddee888",
+              "content": "ถ้าหน้าต่างอยู่ทางด้านบนหละคะ",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-30T07:49:30.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            },
+            {
+              "platformId": "7702055499454595872",
+              "profilePlatformId": "6763182752840156165",
+              "profileHandle": "luis_a_pt",
+              "content": "what can I do in this bedroom?",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-10-29T11:49:41.000Z",
+              "createdAt": "2026-11-02T06:43:58.154Z",
+              "updatedAt": "2026-11-02T06:43:58.154Z"
+            }
+          ],
+          "createdAt": "2026-11-02T04:06:06.212Z",
+          "updatedAt": "2026-11-03T07:08:12.318Z"
+        },
+        {
+          "id": "cnt_a32409ef927e07d0fda7f27f6070",
+          "matchedQueries": [],
+          "platform": "tiktok",
+          "profileHandle": "planner5d",
+          "profileDisplayName": "Planner 5D",
+          "format": "video",
+          "platformType": "video",
+          "title": null,
+          "caption": "Nobody should have to dodge furniture or another person to see the screen 🚶‍♂️📺 A smarter living room layout protects the sightline, keeps the route clear, and makes the TV zone feel intentional instead of improvised. #livingroom #livingroomideas #interior #interiordesign #floorplan ",
+          "thumbnailMediaId": "med_323b76dc032146cd68c5fa1553d1",
+          "publishedAt": "2026-08-14T14:35:40.000Z",
+          "profileId": "prf_369584788bf3b6972e33aeb7516a",
+          "thumbnailMediaUrl": "https://social-catalog-static.oriane.xyz/oriane-contents/tiktok/7673895940121464087/thumbnail.webp",
+          "viewsCount": 632900,
+          "likesCount": 7715,
+          "sharesCount": 682,
+          "commentsCount": 45,
+          "interactionsCount": 8442,
+          "profileFollowersCount": 76100,
+          "mediaCount": 1,
+          "hashtags": [
+            "#livingroom",
+            "#livingroomideas",
+            "#interior",
+            "#interiordesign",
+            "#floorplan"
+          ],
+          "mentions": [],
+          "platformId": "7673895940121464087",
+          "profilePlatformId": "6815856296408155141",
+          "profilePictureUrl": "https://social-catalog-static.oriane.xyz/oriane-handles/tiktok/planner5d/pfp.webp",
+          "media": [
+            {
+              "type": "video",
+              "duration": 9,
+              "caption": null,
+              "onScreenText": [
+                "Correct layout for a living",
+                "room with TV",
+                "X"
+              ],
+              "transcript": "I'm going to go to the next video.",
+              "tags": [],
+              "transcriptLanguage": "en",
+              "transcriptChunks": [
+                {
+                  "startSeconds": 0.023,
+                  "endSeconds": 7.023,
+                  "text": "I'm going to go to the next video."
+                }
+              ],
+              "frames": [
+                {
+                  "id": "med_0b20daf2024ba148c0cc30efdbbd",
+                  "position": 1,
+                  "timestampSeconds": 0,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Correct layout for a living",
+                      "polygon": [
+                        {
+                          "x": 0.098958336,
+                          "y": 0.043945312
+                        },
+                        {
+                          "x": 0.8784722,
+                          "y": 0.043945312
+                        },
+                        {
+                          "x": 0.8784722,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.098958336,
+                          "y": 0.08105469
+                        }
+                      ]
+                    },
+                    {
+                      "text": "room with TV",
+                      "polygon": [
+                        {
+                          "x": 0.28645834,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.11425781
+                        },
+                        {
+                          "x": 0.28645834,
+                          "y": 0.11425781
+                        }
+                      ]
+                    },
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.090277776,
+                          "y": 0.23144531
+                        },
+                        {
+                          "x": 0.3420139,
+                          "y": 0.23730469
+                        },
+                        {
+                          "x": 0.33333334,
+                          "y": 0.375
+                        },
+                        {
+                          "x": 0.07986111,
+                          "y": 0.36914062
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/1_0.00.webp"
+                },
+                {
+                  "id": "med_e6ff9795afc9e6b20c2f0a3daff1",
+                  "position": 3,
+                  "timestampSeconds": 0.01,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Correct layout for a living",
+                      "polygon": [
+                        {
+                          "x": 0.098958336,
+                          "y": 0.041992188
+                        },
+                        {
+                          "x": 0.875,
+                          "y": 0.041992188
+                        },
+                        {
+                          "x": 0.875,
+                          "y": 0.080078125
+                        },
+                        {
+                          "x": 0.098958336,
+                          "y": 0.080078125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "room with TV",
+                      "polygon": [
+                        {
+                          "x": 0.2847222,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.11425781
+                        },
+                        {
+                          "x": 0.2847222,
+                          "y": 0.11425781
+                        }
+                      ]
+                    },
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.07638889,
+                          "y": 0.22851562
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.22851562
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.3779297
+                        },
+                        {
+                          "x": 0.07638889,
+                          "y": 0.3779297
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/2_0.01.webp"
+                },
+                {
+                  "id": "med_ac0fd32b9ec49f06ac55bb14fb45",
+                  "position": 5,
+                  "timestampSeconds": 0.02,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Correct layout for a living",
+                      "polygon": [
+                        {
+                          "x": 0.098958336,
+                          "y": 0.041992188
+                        },
+                        {
+                          "x": 0.875,
+                          "y": 0.041992188
+                        },
+                        {
+                          "x": 0.875,
+                          "y": 0.080078125
+                        },
+                        {
+                          "x": 0.098958336,
+                          "y": 0.080078125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "room with TV",
+                      "polygon": [
+                        {
+                          "x": 0.28645834,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.11425781
+                        },
+                        {
+                          "x": 0.28645834,
+                          "y": 0.11425781
+                        }
+                      ]
+                    },
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.081597224,
+                          "y": 0.23144531
+                        },
+                        {
+                          "x": 0.3472222,
+                          "y": 0.23144531
+                        },
+                        {
+                          "x": 0.3472222,
+                          "y": 0.37695312
+                        },
+                        {
+                          "x": 0.081597224,
+                          "y": 0.37695312
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/3_0.02.webp"
+                },
+                {
+                  "id": "med_d3806e414402c1a655f91c16feaa",
+                  "position": 2,
+                  "timestampSeconds": 4.37,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Correct layout for a living",
+                      "polygon": [
+                        {
+                          "x": 0.098958336,
+                          "y": 0.043945312
+                        },
+                        {
+                          "x": 0.8784722,
+                          "y": 0.043945312
+                        },
+                        {
+                          "x": 0.8784722,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.098958336,
+                          "y": 0.08105469
+                        }
+                      ]
+                    },
+                    {
+                      "text": "room with TV",
+                      "polygon": [
+                        {
+                          "x": 0.28645834,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.11425781
+                        },
+                        {
+                          "x": 0.28645834,
+                          "y": 0.11425781
+                        }
+                      ]
+                    },
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.07638889,
+                          "y": 0.22851562
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.22851562
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.3779297
+                        },
+                        {
+                          "x": 0.07638889,
+                          "y": 0.3779297
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/2_4.37.webp"
+                },
+                {
+                  "id": "med_a838d1162e908165364c7b9d917d",
+                  "position": 7,
+                  "timestampSeconds": 4.37,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Correct layout for a living",
+                      "polygon": [
+                        {
+                          "x": 0.098958336,
+                          "y": 0.043945312
+                        },
+                        {
+                          "x": 0.8784722,
+                          "y": 0.043945312
+                        },
+                        {
+                          "x": 0.8784722,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.098958336,
+                          "y": 0.08105469
+                        }
+                      ]
+                    },
+                    {
+                      "text": "room with TV",
+                      "polygon": [
+                        {
+                          "x": 0.28645834,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.11425781
+                        },
+                        {
+                          "x": 0.28645834,
+                          "y": 0.11425781
+                        }
+                      ]
+                    },
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.07638889,
+                          "y": 0.22851562
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.22851562
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.3779297
+                        },
+                        {
+                          "x": 0.07638889,
+                          "y": 0.3779297
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/4_4.37.webp"
+                },
+                {
+                  "id": "med_79dff7c4499547f80015678f265c",
+                  "position": 4,
+                  "timestampSeconds": 4.48,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Correct layout for a living",
+                      "polygon": [
+                        {
+                          "x": 0.098958336,
+                          "y": 0.041992188
+                        },
+                        {
+                          "x": 0.875,
+                          "y": 0.041992188
+                        },
+                        {
+                          "x": 0.875,
+                          "y": 0.080078125
+                        },
+                        {
+                          "x": 0.098958336,
+                          "y": 0.080078125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "room with TV",
+                      "polygon": [
+                        {
+                          "x": 0.2847222,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.11425781
+                        },
+                        {
+                          "x": 0.2847222,
+                          "y": 0.11425781
+                        }
+                      ]
+                    },
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.07638889,
+                          "y": 0.22851562
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.22851562
+                        },
+                        {
+                          "x": 0.35243055,
+                          "y": 0.3779297
+                        },
+                        {
+                          "x": 0.07638889,
+                          "y": 0.3779297
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/3_4.48.webp"
+                },
+                {
+                  "id": "med_9becb961bb281da84e4f79e59101",
+                  "position": 6,
+                  "timestampSeconds": 8.96,
+                  "onScreenTextRegions": [
+                    {
+                      "text": "Correct layout for a living",
+                      "polygon": [
+                        {
+                          "x": 0.098958336,
+                          "y": 0.041992188
+                        },
+                        {
+                          "x": 0.875,
+                          "y": 0.041992188
+                        },
+                        {
+                          "x": 0.875,
+                          "y": 0.080078125
+                        },
+                        {
+                          "x": 0.098958336,
+                          "y": 0.080078125
+                        }
+                      ]
+                    },
+                    {
+                      "text": "room with TV",
+                      "polygon": [
+                        {
+                          "x": 0.28645834,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.08105469
+                        },
+                        {
+                          "x": 0.7065972,
+                          "y": 0.11425781
+                        },
+                        {
+                          "x": 0.28645834,
+                          "y": 0.11425781
+                        }
+                      ]
+                    },
+                    {
+                      "text": "X",
+                      "polygon": [
+                        {
+                          "x": 0.081597224,
+                          "y": 0.23144531
+                        },
+                        {
+                          "x": 0.3472222,
+                          "y": 0.23144531
+                        },
+                        {
+                          "x": 0.3472222,
+                          "y": 0.37695312
+                        },
+                        {
+                          "x": 0.081597224,
+                          "y": 0.37695312
+                        }
+                      ]
+                    }
+                  ],
+                  "url": "https://social-catalog-static.oriane.xyz/oriane-frames/tiktok/7673895940121464087/4_8.96.webp"
+                }
+              ]
+            }
+          ],
+          "engagementRatePerViews": 1.3338600094801707,
+          "engagementRatePerFollowers": 11.09329829172142,
+          "viewsRatePerFollowers": 831.6688567674113,
+          "profileFollowingCount": 102,
+          "profilePostsCount": 936,
+          "coAuthors": [],
+          "profileBio": "🖤BLACK FRIDAY 🖤 Mega Deal. Save 40% on Pro 👇",
+          "profileVerified": true,
+          "locationPlatformId": null,
+          "locationCompleteAddress": "United States",
+          "locationLatitude": null,
+          "locationLongitude": null,
+          "profileLocationPlatformId": null,
+          "profileLocationCompleteAddress": null,
+          "profileLocationLatitude": null,
+          "profileLocationLongitude": null,
+          "audioPlatformId": "7673895966243867395",
+          "audioTitle": "original sound",
+          "audioAuthor": "Planner 5D",
+          "audioType": "original",
+          "audioCopyrighted": false,
+          "captionLanguage": "en",
+          "popularComments": [
+            {
+              "platformId": "7673926641496392470",
+              "profilePlatformId": "7083144495584609285",
+              "profileHandle": "penpopalot",
+              "content": "oh yes cuz I can definitely move the door frame",
+              "likesCount": 6,
+              "repliesCount": 2,
+              "publishedAt": "2026-08-14T16:35:05.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7675320293044552480",
+              "profilePlatformId": "7535165692720858134",
+              "profileHandle": "xhantybpemn",
+              "content": "Klar, Tür versetzen…kein Ding",
+              "likesCount": 4,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-18T10:43:06.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7674933076263191318",
+              "profilePlatformId": "6817511691774673925",
+              "profileHandle": "gidan987",
+              "content": "devi cambiare divano",
+              "likesCount": 2,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-17T09:40:46.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7675358924904104727",
+              "profilePlatformId": "6941451326702846982",
+              "profileHandle": "osics255",
+              "content": "Mejor el primero",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-18T13:13:03.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7675290052414620438",
+              "profilePlatformId": "6929466037209891845",
+              "profileHandle": "inez_hrvt",
+              "content": "Well, it's more important where you have the windows so you can avoid reflections on the tv or in your eyes etc. And in many flats you have the M2 just for one option 😂",
+              "likesCount": 1,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-18T08:45:50.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7676995796181828374",
+              "profilePlatformId": "7132514022310003718",
+              "profileHandle": "francescomaula662",
+              "content": "Giusto.. Eliminiamo le finestre che disturbano la TV",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-22T23:05:15.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7676976575249842966",
+              "profilePlatformId": "6550636959713219599",
+              "profileHandle": "gio.mussic",
+              "content": "el es de 3 plazas en L, cuando lo cbias de sitio sobresale al pasillo. no mide lo mismo de una manera que de otra.",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-22T21:50:15.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7676960276021363478",
+              "profilePlatformId": "7447508539541423136",
+              "profileHandle": "casty2463",
+              "content": "no windows there. all that work in vain",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-22T20:47:06.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7676918618547274528",
+              "profilePlatformId": "6855890141048292357",
+              "profileHandle": "xaborx",
+              "content": "Ein Raum ohne Fenster 😂",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-22T18:05:36.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7676889116764177185",
+              "profilePlatformId": "6844801492957578246",
+              "profileHandle": "anaalvarez354",
+              "content": "y donde colocas mesa de comedor?",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-22T16:10:56.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7676877465021121302",
+              "profilePlatformId": "7210900842765403142",
+              "profileHandle": "iberocbfqcx",
+              "content": "que gilipolleces y la ventana donde esta?",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-22T15:25:43.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7676855359286936342",
+              "profilePlatformId": "7125828542365533210",
+              "profileHandle": "mariamaria38557",
+              "content": "Pues me gusta más el primero 🤷🏻‍♀️",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-22T14:00:06.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7676851356528198433",
+              "profilePlatformId": "6552211756704338959",
+              "profileHandle": "bcdraiven",
+              "content": "Und wenn jemand unten links sitzt und aufsteht, läuft diese Person genauso durchs Bild 😅😂",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-22T13:44:36.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7676412642089550612",
+              "profilePlatformId": "7291755562273375238",
+              "profileHandle": "kato.wamala",
+              "content": "🤝🤝🤝",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-21T09:21:53.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            },
+            {
+              "platformId": "7676122045013525280",
+              "profilePlatformId": "6995895225995035654",
+              "profileHandle": "xi_miitzi",
+              "content": "Planung ist schön und gut die Masse müssen passen",
+              "likesCount": 0,
+              "repliesCount": 0,
+              "publishedAt": "2026-08-20T14:34:22.000Z",
+              "createdAt": "2026-08-23T04:59:46.380Z",
+              "updatedAt": "2026-08-23T04:59:46.380Z"
+            }
+          ],
+          "createdAt": "2026-08-21T23:21:56.782Z",
+          "updatedAt": "2026-11-01T08:56:11.315Z"
+        }
+      ]
+    },
+    "metadata": {
+      "pagination": {
+        "offset": 0,
+        "limit": 2,
+        "totalCount": 2
+      },
+      "requestId": "req_BHz1dOj470A7oC7NuZHQRCLwoSiC",
+      "executionTime": 125,
+      "timestamp": 1794189809388
+    }
+  }
+}
