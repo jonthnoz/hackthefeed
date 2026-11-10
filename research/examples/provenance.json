@@ -2,7 +2,7 @@
   {
     "studyId": "demo-product-photos",
     "referenceId": "cnt_49e0c2f41f86380d21e95aaac4e3",
-    "rawFile": "research/examples/E01-finalists.json",
+    "rawFile": "research/examples/sources/E01-finalists.json",
     "sourceUrl": "https://www.instagram.com/reel/Dehmt0eR6FS/",
     "publishedAt": "2026-10-15T18:30:40.000Z",
     "thumbnail": {
@@ -71,7 +71,7 @@
   {
     "studyId": "demo-product-photos",
     "referenceId": "cnt_6d038cc84f6689ac9cc949df9f7e",
-    "rawFile": "research/examples/E01-finalists.json",
+    "rawFile": "research/examples/sources/E01-finalists.json",
     "sourceUrl": "https://www.instagram.com/reel/DdeohZCuhsQ/",
     "publishedAt": "2026-09-19T18:17:20.000Z",
     "thumbnail": {
@@ -146,7 +146,7 @@
   {
     "studyId": "demo-product-photos",
     "referenceId": "cnt_af15ee332daf2908242f016a5ea2",
-    "rawFile": "research/examples/E01-finalists.json",
+    "rawFile": "research/examples/sources/E01-finalists.json",
     "sourceUrl": "https://www.instagram.com/reel/DdV8KvXzb6R/",
     "publishedAt": "2026-09-16T09:15:46.000Z",
     "thumbnail": {
@@ -221,7 +221,7 @@
   {
     "studyId": "demo-product-photos",
     "referenceId": "cnt_8bd1cabb1b22125ef6a1fe1dfe63",
-    "rawFile": "research/examples/E03-photo-constraint.json",
+    "rawFile": "research/examples/sources/E03-photo-constraint.json",
     "sourceUrl": "https://www.instagram.com/reel/DfFLUcjjppb/",
     "publishedAt": "2026-10-29T14:03:32.000Z",
     "thumbnail": {
@@ -241,7 +241,7 @@
   {
     "studyId": "demo-room-preview",
     "referenceId": "cnt_0da7448291b4829ca45da3447d4a",
-    "rawFile": "research/examples/E04-final-mechanisms.json",
+    "rawFile": "research/examples/sources/E04-final-mechanisms.json",
     "sourceUrl": "https://www.tiktok.com/@planner5d/video/7691937072323579158",
     "publishedAt": "2026-10-02T05:24:37.000Z",
     "thumbnail": {
@@ -280,7 +280,7 @@
   {
     "studyId": "demo-room-preview",
     "referenceId": "cnt_a9bffa67181883299fec37fdf7e3",
-    "rawFile": "research/examples/E01-finalists.json",
+    "rawFile": "research/examples/sources/E01-finalists.json",
     "sourceUrl": "https://www.instagram.com/reel/DcvxNH9lK90/",
     "publishedAt": "2026-09-01T13:28:26.000Z",
     "thumbnail": {
@@ -337,7 +337,7 @@
   {
     "studyId": "demo-room-preview",
     "referenceId": "cnt_a32409ef927e07d0fda7f27f6070",
-    "rawFile": "research/examples/E02-constraint-replacements.json",
+    "rawFile": "research/examples/sources/E02-constraint-replacements.json",
     "sourceUrl": "https://www.tiktok.com/@planner5d/video/7673895940121464087",
     "publishedAt": "2026-08-14T14:35:40.000Z",
     "thumbnail": {
@@ -388,7 +388,7 @@
   {
     "studyId": "demo-room-preview",
     "referenceId": "cnt_da5b76c368bd588b073f5dd4dd34",
-    "rawFile": "research/examples/E01-finalists.json",
+    "rawFile": "research/examples/sources/E01-finalists.json",
     "sourceUrl": "https://www.instagram.com/reel/DedcOHYK6FO/",
     "publishedAt": "2026-10-14T03:42:50.000Z",
     "thumbnail": {
@@ -445,7 +445,7 @@
   {
     "studyId": "demo-room-preview",
     "referenceId": "cnt_73d2f0f28e1d86ba1fd321b8bf65",
-    "rawFile": "research/examples/E02-constraint-replacements.json",
+    "rawFile": "research/examples/sources/E02-constraint-replacements.json",
     "sourceUrl": "https://www.tiktok.com/@planner5d/video/7701819997923888406",
     "publishedAt": "2026-10-28T20:35:13.000Z",
     "thumbnail": {
@@ -465,7 +465,7 @@
   {
     "studyId": "demo-study",
     "referenceId": "cnt_3458461413635e9923e187a5fc14",
-    "rawFile": "research/oriane/final-full-evidence.json",
+    "rawFile": "research/examples/sources/final-full-evidence.json",
     "sourceUrl": "https://www.tiktok.com/@ccx.study/video/7691163513296866580",
     "publishedAt": "2026-09-30T03:22:37.000Z",
     "thumbnail": {
@@ -510,7 +510,7 @@
   {
     "studyId": "demo-study",
     "referenceId": "cnt_d8ca2e7ba98b29edaa48aa2ba2ef",
-    "rawFile": "research/oriane/final-full-evidence.json",
+    "rawFile": "research/examples/sources/final-full-evidence.json",
     "sourceUrl": "https://www.tiktok.com/@degrasya77/video/7676403440951545109",
     "publishedAt": "2026-09-15T10:00:40.000Z",
     "thumbnail": {
@@ -549,7 +549,7 @@
   {
     "studyId": "demo-study",
     "referenceId": "cnt_ecbeb808a918249ae95062e251e1",
-    "rawFile": "research/oriane/final-full-evidence.json",
+    "rawFile": "research/examples/sources/final-full-evidence.json",
     "sourceUrl": "https://www.tiktok.com/@googlegemini/video/7676162365683027213",
     "publishedAt": "2026-08-20T17:10:33.000Z",
     "thumbnail": {

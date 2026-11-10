@@ -1,4 +1,0 @@
-1
-00:00:00,100 --> 00:00:05,300
-Avec Oriane, transformez les vidéos qui engagent en idées pour votre application.
-

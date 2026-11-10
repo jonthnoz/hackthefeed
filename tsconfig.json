@@ -12,5 +12,5 @@
     "resolveJsonModule": true,
     "types": ["bun", "vite/client"]
   },
-  "include": ["src", "server", "shared", "scripts", "trailer", "demo", "vite.config.ts"]
+  "include": ["src", "server", "shared", "scripts", "vite.config.ts"]
 }

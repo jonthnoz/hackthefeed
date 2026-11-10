@@ -6,9 +6,11 @@ dist/
 .cache/
 data/studies/
 .audit/
+.local/
 output/
 public/trailer/
 research/production/pdf-context/
 public/journey/
 public/demo/
+public/media/live/
 .DS_Store

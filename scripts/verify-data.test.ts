@@ -7,7 +7,7 @@ import { jobSchema, researchInputSchema, studySchema } from '../shared/schema';
 const rawRun = z.object({ response: z.object({ data: z.object({ results: z.array(contentSchema) }) }) });
 const sources = new Map<string, z.infer<typeof contentSchema>[]>();
 for (const file of ['results', 'final-results', 'final-followups', 'final-full-evidence', 'final-recovered-full']) {
-  const raw: unknown = await Bun.file(`research/oriane/${file}.json`).json();
+  const raw: unknown = await Bun.file(`research/examples/sources/${file}.json`).json();
   for (const run of z.array(rawRun).parse(Array.isArray(raw) ? raw : [raw])) {
     for (const content of run.response.data.results) sources.set(content.id, [...(sources.get(content.id) ?? []), content]);
   }
@@ -79,7 +79,7 @@ test('completed jobs identify a study without reuse metadata', () => {
 });
 
 test('golden live study keeps valid links to its source evidence', async () => {
-  const smoke = z.object({ study: studySchema }).parse(await Bun.file('research/production/live-smoke-result.json').json());
+  const smoke = z.object({ study: studySchema }).parse(await Bun.file('scripts/fixtures/live-study.json').json());
   expect(smoke.study.origin).toBe('live');
   expect(smoke.study.references.length).toBeGreaterThan(0);
   const ids = smoke.study.references.map(reference => reference.id);

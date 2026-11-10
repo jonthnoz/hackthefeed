@@ -6,12 +6,9 @@ import { referenceSchema, studySchema, type Reference } from '../shared/schema';
 
 const rawRunSchema = z.object({ response: z.object({ data: z.object({ results: z.array(contentSchema) }) }) });
 const rawFiles = [
-  'research/oriane/results.json', 'research/oriane/final-results.json',
-  'research/oriane/final-followups.json', 'research/oriane/final-full-evidence.json',
-  'research/oriane/final-recovered-full.json',
-  'research/examples/E01-finalists.json', 'research/examples/E02-constraint-replacements.json',
-  'research/examples/E03-photo-constraint.json', 'research/examples/E04-final-mechanisms.json',
-];
+  'results', 'final-results', 'final-followups', 'final-full-evidence', 'final-recovered-full',
+  'E01-finalists', 'E02-constraint-replacements', 'E03-photo-constraint', 'E04-final-mechanisms',
+].map(name => `research/examples/sources/${name}.json`);
 const sources = new Map<string, { file: string; content: z.infer<typeof contentSchema> }>();
 for (const file of rawFiles) {
   const raw: unknown = JSON.parse(await readFile(file, 'utf8'));
@@ -59,6 +56,7 @@ if (process.argv.includes('--write')) {
   await writeFile('data/examples.json', `${JSON.stringify(ids, null, 2)}\n`);
 }
 assert.deepEqual(await Bun.file('data/examples.json').json(), ids, 'Selected-ID manifest');
+for (const study of newStudies) assert.deepEqual(studySchema.parse(await Bun.file(`data/${study.id}.json`).json()), study, `Stored example differs from its curation: ${study.id}`);
 const provenance = [];
 for (const id of ids) {
   const study = studySchema.parse(await Bun.file(`data/${id}.json`).json());
@@ -99,5 +97,6 @@ for (const id of ids) {
     provenance.push({ studyId: id, referenceId: item.id, rawFile: source.file, sourceUrl: item.url, publishedAt: item.publishedAt, thumbnail: { localUrl: item.thumbnail, sourceUrl: source.content.thumbnailMediaUrl }, metrics: { views: item.views, likes: item.likes, shares: item.shares, comments: item.comments, interactions: item.interactions, engagementRate: item.engagementRate }, frames });
   }
 }
-await writeFile('research/examples/provenance.json', `${JSON.stringify(provenance, null, 2)}\n`);
+if (process.argv.includes('--write')) await writeFile('research/examples/provenance.json', `${JSON.stringify(provenance, null, 2)}\n`);
+else assert.deepEqual(await Bun.file('research/examples/provenance.json').json(), provenance, 'Example provenance differs; regenerate with --write');
 process.stdout.write(`Validated ${ids.length} studies and ${provenance.length} source references against raw Oriane evidence and local media.\n`);

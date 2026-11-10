@@ -1,5 +1,4 @@
 import { createServer } from 'node:http';
-import { readFile } from 'node:fs/promises';
 import { createServer as createViteServer } from 'vite';
 import { z } from 'zod';
 import { researchInputSchema } from '../shared/schema';
@@ -34,11 +33,6 @@ const server = createServer(async (request, response) => {
     }
     if (request.method === 'GET' && url.pathname === '/api/health') {
       response.end(JSON.stringify({ status: 'ok', oriane: Boolean(process.env.ORIANE_API_KEY), engine: aiLabel(readAIConfig()) })); return;
-    }
-    if (request.method === 'GET' && url.pathname === '/api/trailer') {
-      try { await readFile('output/angle-trailer.mp4'); response.end(JSON.stringify({ available: true, url: '/trailer/angle-trailer.mp4' })); }
-      catch { response.end(JSON.stringify({ available: false })); }
-      return;
     }
     response.statusCode = 404; response.end(JSON.stringify({ error: 'Not found.' }));
   } catch (error) {

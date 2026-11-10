@@ -1,9 +1,0 @@
-{
-  "type": "object",
-  "properties": {
-    "visible_text": { "type": "string" },
-    "has_flashcard_interface": { "type": "boolean" }
-  },
-  "required": ["visible_text", "has_flashcard_interface"],
-  "additionalProperties": false
-}

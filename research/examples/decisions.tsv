@@ -1,8 +1,0 @@
-ts	phase	decision	why	evidence	result
-2026-11-09T00:00:00Z	ground	Reuse raw discovery and preserve old demos	Avoid repeating paid research and touching concurrent work	research/oriane/final-full-evidence.json	Recall remains a candidate
-2026-11-09T02:06:17Z	audit	Correct the initial row's placeholder time	The initial row used midnight rather than a measured timestamp; its action and evidence were real	research/examples/selection.md	Initial decision time is approximate; subsequent times are observed
-2026-11-09T02:06:17Z	select	Keep one furniture-only source for the constrained room case	Every direct transformation showed people or hands; keep the sample limitation explicit	research/examples/sheets/cnt_0da7448291b4829ca45da3447d4a-0.jpg	One fit within three indexed frames and thumbnail
-2026-11-09T02:06:17Z	budget	Stop Oriane research after eleven calls	Further search would delay the concrete selection; exact requests and one failed filter remain auditable	research/examples/D06-screen-only.json	No further calls
-2026-11-09T02:12:06Z	verify	Write two studies and the manifest; preserve Recall	The shared Study model already expresses the required constraint groups	scripts/select-examples.ts	Three studies and twelve references validated
-2026-11-09T02:12:06Z	verify	Run real example test and static checks	Prove the saved artifact and its source links instead of relying on curation claims	scripts/examples.test.ts	202 assertions pass; TypeScript and scoped lint pass
-2026-11-09T02:12:06Z	review	Correct the earlier independent-review blocker	The coordinator explicitly offered independent review; no new subagent is needed	research/examples/todo.md	Ready for coordinator review

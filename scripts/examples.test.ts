@@ -1,6 +1,17 @@
 import { expect, test } from 'bun:test';
+import { stat } from 'node:fs/promises';
 import { z } from 'zod';
 import { studySchema } from '../shared/schema';
+
+test('example verification validates stored curation and provenance without rewriting files', async () => {
+  const files = ['data/examples.json', 'data/demo-product-photos.json', 'data/demo-room-preview.json', 'research/examples/provenance.json'];
+  const before = await Promise.all(files.map(file => stat(file, { bigint: true })));
+  const child = Bun.spawn([process.execPath, 'run', 'scripts/select-examples.ts'], { stdout: 'pipe', stderr: 'pipe' });
+  const [output, error, code] = await Promise.all([new Response(child.stdout).text(), new Response(child.stderr).text(), child.exited]);
+  expect(code, error).toBe(0);
+  expect(output).toContain('Validated 3 studies');
+  for (const [index, file] of files.entries()) expect((await stat(file, { bigint: true })).mtimeNs).toBe(before[index].mtimeNs);
+});
 
 test('featured examples have real source links, usable local images and consistent constraint evidence', async () => {
   const ids = z.array(z.string().regex(/^demo-[a-z0-9-]+$/)).min(2).max(3).parse(await Bun.file('data/examples.json').json());
